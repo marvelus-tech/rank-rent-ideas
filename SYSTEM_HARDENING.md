@@ -54,10 +54,10 @@
 | # | Fix | Status | Notes |
 |---|-----|--------|-------|
 | 5.1 | **Snapshot before any config change** — No exceptions | ✅ DONE | scripts/snapshot.sh — copies all configs + git state to .snapshots/ |
-| 5.2 | **Advisory-only mode** — Test new rules in read-only before enforcing | 🟡 PARTIAL | Process documented; no automated advisory harness yet |
+| 5.2 | **Advisory-only mode** — Test new rules in read-only before enforcing | ✅ DONE | scripts/advisory-mode.sh — conflict detection, size impact, risk assessment |
 | 5.3 | **Sequential safety gates** — Numbered steps with pass/fail, harder to skip than do | ✅ DONE | Evidence gate template enforces sequential completion |
 | 5.4 | **Human checkpoint for irreversible actions** — Branch first, pause before merge | ✅ DONE | Already in SOUL.md safety rules + AGENTS.md red lines |
-| 5.5 | **Script-enforced rules** — If corrected twice, becomes a script not a doc line | 🟡 PARTIAL | Philosophy adopted; tracking in decisions.md; no auto-escalation script yet |
+| 5.5 | **Script-enforced rules** — If corrected twice, becomes a script not a doc line | ✅ DONE | scripts/auto-escalate.sh — scans decisions.md for repeated corrections, flags for scripting |
 | 5.6 | **One fix at a time for security** — Phased hardening with rollback plans | ✅ DONE | This entire plan follows phased approach with snapshots |
 | 5.7 | **Repo dedup audit** — One location per repo, check for duplicates | ✅ DONE | Checked in health-check.sh + inventory.sh — 0 duplicates found |
 | 5.8 | **Workspace on GitHub** — Version control the OpenClaw workspace | ✅ DONE | git init, initial commit 843bf9b |
@@ -68,14 +68,10 @@
 ## Completion Tracking
 
 - **Total items:** 28
-- **Completed:** 26
-- **Partial:** 2
+- **Completed:** 28
+- **Partial:** 0
 - **Remaining:** 0
 - **Last updated:** 2026-03-19
-
-## Partial Items (Need Future Work)
-- **5.2 Advisory-only mode** — Need automated harness that runs new rules in read-only before enforcement
-- **5.5 Auto-escalation** — Need script that detects repeated corrections in decisions.md and auto-generates enforcement scripts
 
 ## Weekly Review Questions (from article)
 1. What broke this week?
