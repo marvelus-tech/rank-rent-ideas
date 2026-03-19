@@ -1,0 +1,10 @@
+# Secrets and sensitive files
+*.key
+*.pem
+*.env
+health-report.json
+memory/heartbeat-state.json
+
+# OS files
+.DS_Store
+Thumbs.db
