@@ -5,6 +5,9 @@
 health-report.json
 memory/heartbeat-state.json
 
+# Snapshots (local recovery only)
+.snapshots/
+
 # OS files
 .DS_Store
 Thumbs.db
