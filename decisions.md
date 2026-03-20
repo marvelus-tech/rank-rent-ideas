@@ -5,6 +5,12 @@
 
 ## Active Decisions
 
+### 2026-03-20
+- **90-day focus:** Land 6 clients for NoLostSales/Marvelus + build passive crypto income
+- **Solana only:** All token research restricted to Solana ecosystem
+- **Scout hierarchy:** Daily automated scouting via sub-agent, main session filters, only high-confidence finds surfaced to Okeito
+- **Client work priority:** NoLostSales/Marvelus lead gen takes precedence over other tasks unless explicitly deprioritized
+
 ### 2026-03-19
 - System hardening plan adopted from @kloss_xyz article. Implement fixes systematically, one at a time, in priority order. Do NOT import external configs wholesale.
 - Evidence required for all "done" claims. No receipts = not done.
