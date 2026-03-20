@@ -11,6 +11,12 @@
 
 **Objective:** Find 3-5 Solana small-cap tokens (under $100M market cap) with hold-to-earn reward mechanics similar to solcard.cc.
 
+**CRITICAL: Duplicate Prevention**
+1. Read `memory/scout-findings/database.md` BEFORE searching
+2. Check each potential find against the Tracked Tokens table
+3. If already tracked → SKIP (do not report again)
+4. Only report NEW tokens not in the database
+
 **Search criteria:**
 - Market cap: Under $100M (small cap)
 - Chain: Solana only
@@ -23,7 +29,7 @@
 
 ## Evidence Requirements
 
-For each token found, include:
+For each NEW token found (not in database), include:
 - Token name and ticker
 - Market cap (if available)
 - What the project does (1 sentence)
@@ -36,12 +42,12 @@ For each token found, include:
 
 ## Rules
 
-1. **One scope only** — Don't research other chains or unrelated topics
-2. **Structured handoff** — Report back using the handoff template
-3. **Evidence gate** — No token is "found" without a link and confidence score
-4. **No speculative language** — "Interesting" is fine, "moon soon" is not
+1. **Check database first** — Never report duplicates
+2. **One scope only** — Don't research other chains or unrelated topics
+3. **Structured handoff** — Report back using the handoff template
+4. **Evidence gate** — No token is "found" without a link and confidence score
+5. **No speculative language** — "Interesting" is fine, "moon soon" is not
 
 ---
 
 **Dispatcher:** Penelopi (main session)
-**Spawn command:** See cron job configuration in SYSTEM_HARDENING.md
