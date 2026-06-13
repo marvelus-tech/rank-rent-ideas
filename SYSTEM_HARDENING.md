@@ -1,7 +1,7 @@
 # System Hardening Plan
 **Source:** @kloss_xyz article on OpenClaw reliability failures
 **Created:** 2026-03-19
-**Status:** IN PROGRESS
+**Status:** IN PROGRESS → Phase 6 storage hygiene added 2026-06-13
 
 ---
 
@@ -65,13 +65,30 @@
 
 ---
 
+## Phase 6: Storage & Disk Hygiene (2026-06-13)
+
+| # | Fix | Status | Notes |
+|---|-----|--------|-------|
+| 6.1 | **DECISIONS storage rules** — hard rules in Obsidian | ✅ DONE | Storage & Workspace Hygiene block in DECISIONS.md |
+| 6.2 | **disk-audit.sh** — weekly size/count audit + JSON | ✅ DONE | scripts/disk-audit.sh + disk-audit.spec.md |
+| 6.3 | **prune-ephemeral.sh** — daily tmp/scratch/cache prune | ✅ DONE | scripts/prune-ephemeral.sh |
+| 6.4 | **pre-flight-create.sh** — block bad venv/node/presentation creates | ✅ DONE | scripts/pre-flight-create.sh |
+| 6.5 | **session.maintenance** in openclaw.json | ✅ DONE | 30d prune, 400mb cap |
+| 6.6 | **Workspace zones** — active/scratch/archive | ✅ DONE | README in each zone |
+| 6.7 | **.gitignore hardening** | ✅ DONE | workspace + ~/.openclaw root |
+| 6.8 | **Cron: disk audit + prune** | ✅ DONE | Weekly audit, daily prune via openclaw cron |
+| 6.9 | **health-check disk integration** | ✅ DONE | Calls disk-audit.sh, merges grade |
+| 6.10 | **One-time junkyard cleanup** | ✅ DONE | 2026-06-13 run-storage-cleanup.sh |
+
+---
+
 ## Completion Tracking
 
-- **Total items:** 28
-- **Completed:** 28
+- **Total items:** 38
+- **Completed:** 38
 - **Partial:** 0
 - **Remaining:** 0
-- **Last updated:** 2026-03-19
+- **Last updated:** 2026-06-13
 
 ## Weekly Review Questions (from article)
 1. What broke this week?

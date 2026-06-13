@@ -114,6 +114,33 @@ if [ -f "$WORKSPACE/SYSTEM_HARDENING.md" ]; then
     fi
 fi
 
+# --- Disk Audit (Phase 6) ---
+DISK_AUDIT_SCRIPT="$WORKSPACE/scripts/disk-audit.sh"
+if [ -x "$DISK_AUDIT_SCRIPT" ]; then
+  DISK_JSON=$(mktemp)
+  if bash "$DISK_AUDIT_SCRIPT" --quiet 2>/dev/null; then
+    DISK_EXIT=0
+  else
+    DISK_EXIT=$?
+  fi
+  if [ -f "$WORKSPACE/disk-audit-report.json" ]; then
+    DISK_GRADE=$(python3 -c "import json; print(json.load(open('$WORKSPACE/disk-audit-report.json'))['grade'])" 2>/dev/null || echo "?")
+    DISK_SCORE=$(python3 -c "import json; print(json.load(open('$WORKSPACE/disk-audit-report.json'))['score'])" 2>/dev/null || echo "?")
+    if [ "$DISK_EXIT" -eq 0 ]; then
+      check "Disk audit" "PASS" "Grade $DISK_GRADE ($DISK_SCORE/100)"
+    elif [ "$DISK_EXIT" -eq 1 ]; then
+      check "Disk audit" "WARN" "Grade $DISK_GRADE ($DISK_SCORE/100)"
+    else
+      check "Disk audit" "FAIL" "Grade $DISK_GRADE ($DISK_SCORE/100)" "true"
+    fi
+  else
+    check "Disk audit" "WARN" "disk-audit-report.json not generated"
+  fi
+  rm -f "$DISK_JSON"
+else
+  check "Disk audit" "WARN" "scripts/disk-audit.sh missing"
+fi
+
 # --- Calculate Scores ---
 TOTAL_CHECKS=$((PASS + FAIL + WARN))
 if [ "$TOTAL_CHECKS" -eq 0 ]; then

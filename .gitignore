@@ -1,8 +1,11 @@
 # Secrets and sensitive files
+.env
+.env.local
 *.key
 *.pem
 *.env
 health-report.json
+disk-audit-report.json
 memory/heartbeat-state.json
 
 # Snapshots (local recovery only)
@@ -11,3 +14,28 @@ memory/heartbeat-state.json
 # OS files
 .DS_Store
 Thumbs.db
+
+# Dependencies & virtualenvs (reinstall on demand)
+node_modules/
+venv/
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
+
+# Build caches & outputs
+.cache/
+dist/
+output/
+*.mp4
+*.mp3
+*.aiff
+
+# Ephemeral pipeline data
+leadgen/data/debug/
+**/work/audio-*.aiff
+**/work/audio-*.mp3
+
+# Scratch is disposable
+scratch/*
+!scratch/README.md
