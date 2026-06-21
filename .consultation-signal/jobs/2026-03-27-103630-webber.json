@@ -1,0 +1,21 @@
+{
+  "type": "new-consultation",
+  "jobId": "92f43914-4af8-4bd2-adf6-1006958c21f1",
+  "timestamp": "2026-03-27-103630",
+  "clientName": "webber",
+  "duration": "00:39",
+  "audioFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-103630-webber.webm",
+  "noteFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-103630-webber.md",
+  "status": "done",
+  "receivedAt": "2026-03-27T10:37:31.760391",
+  "recordingFilename": "2026-03-27-103630-webber.webm",
+  "processingStarted": "2026-03-27T10:37:31.881983",
+  "completedAt": "2026-03-27T10:37:38.776803",
+  "results": {
+    "clientName": "webber",
+    "transcript": "2026-03-27 10:37:32 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-103630-webber.webm\n2026-03-27 10:37:32 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)\n2026-03-27 10:37:38 | INFO | Transcription complete (146 chars, 39.2s audio)\nSo your skin is dry and that's creating a rash, if you moisturize it, the rash will go away and the dryness will improve and eventually disappear.",
+    "email": "Subject: Thank you for our consultation - March 27, 2026\n\nHi webber,\n\nThank you for taking the time to speak with me today. I appreciate the opportunity to discuss your needs.\n\nKey points from our conversation:\n- We covered the main topics you wanted to discuss\n- Next steps were outlined during our call\n\nPlease let me know if you have any questions or need clarification on anything we discussed.\n\nBest regards,\n[Your name]",
+    "obsidianUpdated": true,
+    "processedAt": "2026-03-27T10:37:38.776635"
+  }
+}

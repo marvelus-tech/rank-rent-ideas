@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "id": "marvelus",
+      "name": "Marvelus",
+      "active": true
+    },
+    {
+      "id": "nolostsales",
+      "name": "Nolostsales",
+      "active": true
+    }
+  ]
+}

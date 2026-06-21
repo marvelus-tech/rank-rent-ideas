@@ -1,0 +1,134 @@
+{
+  "directories": [
+    {
+      "name": "Yelp",
+      "url": "https://www.yelp.com/signup",
+      "priority": 1,
+      "fields": {
+        "email": "input#email",
+        "password": "input#password",
+        "first_name": "input#first_name",
+        "last_name": "input#last_name",
+        "business_name": "input#business_name"
+      },
+      "captcha_selector": ".g-recaptcha",
+      "submit_selector": "button[type='submit']",
+      "success_url_contains": "confirm_email"
+    },
+    {
+      "name": "Angi",
+      "url": "https://www.angi.com/account/signup",
+      "priority": 2,
+      "fields": {
+        "email": "input[name='email']",
+        "password": "input[name='password']",
+        "first_name": "input[name='firstName']",
+        "last_name": "input[name='lastName']",
+        "business_name": "input[name='companyName']"
+      },
+      "captcha_selector": ".g-recaptcha",
+      "submit_selector": "button[type='submit']"
+    },
+    {
+      "name": "HomeAdvisor",
+      "url": "https://www.homeadvisor.com/account/signup",
+      "priority": 3,
+      "fields": {
+        "email": "input[name='email']",
+        "password": "input[name='password']",
+        "first_name": "input[name='firstName']",
+        "last_name": "input[name='lastName']",
+        "business_name": "input[name='companyName']",
+        "phone": "input[name='phone']"
+      },
+      "captcha_selector": ".g-recaptcha",
+      "submit_selector": "button[type='submit']"
+    },
+    {
+      "name": "Thumbtack",
+      "url": "https://www.thumbtack.com/signup",
+      "priority": 4,
+      "fields": {
+        "email": "input[name='email']",
+        "password": "input[name='password']",
+        "first_name": "input[name='firstName']",
+        "last_name": "input[name='lastName']",
+        "business_name": "input[name='businessName']"
+      },
+      "captcha_selector": ".g-recaptcha",
+      "submit_selector": "button[type='submit']"
+    },
+    {
+      "name": "BBB",
+      "url": "https://www.bbb.org/accreditation/business-signup",
+      "priority": 5,
+      "fields": {
+        "business_name": "input[name='businessName']",
+        "email": "input[name='email']",
+        "phone": "input[name='phone']",
+        "address": "input[name='address']",
+        "website": "input[name='website']"
+      },
+      "captcha_selector": ".g-recaptcha",
+      "submit_selector": "button[type='submit']"
+    },
+    {
+      "name": "Hotfrog",
+      "url": "https://www.hotfrog.com.au/add-business",
+      "priority": 6,
+      "fields": {
+        "business_name": "input[name='businessName']",
+        "email": "input[name='email']",
+        "phone": "input[name='phone']",
+        "address": "input[name='address']",
+        "website": "input[name='website']",
+        "category": "input[name='category']"
+      },
+      "captcha_selector": ".g-recaptcha",
+      "submit_selector": "button[type='submit']"
+    },
+    {
+      "name": "Nextdoor",
+      "url": "https://nextdoor.com/business/signup",
+      "priority": 7,
+      "fields": {
+        "email": "input[name='email']",
+        "password": "input[name='password']",
+        "business_name": "input[name='businessName']",
+        "phone": "input[name='phone']",
+        "address": "input[name='address']"
+      },
+      "captcha_selector": ".g-recaptcha",
+      "submit_selector": "button[type='submit']"
+    },
+    {
+      "name": "Apple Maps",
+      "url": "https://mapsconnect.apple.com/",
+      "priority": 8,
+      "fields": {
+        "business_name": "input[name='businessName']",
+        "email": "input[name='email']",
+        "phone": "input[name='phone']",
+        "address": "input[name='address']",
+        "website": "input[name='website']"
+      },
+      "captcha_selector": ".g-recaptcha",
+      "submit_selector": "button[type='submit']"
+    },
+    {
+      "name": "Bing Places",
+      "url": "https://www.bingplaces.com/",
+      "priority": 9,
+      "fields": {
+        "business_name": "input[name='businessName']",
+        "email": "input[name='email']",
+        "phone": "input[name='phone']",
+        "address": "input[name='address']",
+        "website": "input[name='website']",
+        "category": "input[name='category']"
+      },
+      "captcha_selector": ".g-recaptcha",
+      "submit_selector": "button[type='submit']"
+    }
+  ]
+}

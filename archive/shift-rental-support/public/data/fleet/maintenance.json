@@ -1,0 +1,45 @@
+{
+  "columns": [
+    {
+      "id": "due_soon",
+      "title": "Due Soon",
+      "items": [
+        {
+          "id": "wo-104",
+          "vehicleName": "Toyota Camry 2023",
+          "workType": "Brake inspection",
+          "dueLabel": "Apr 18"
+        },
+        {
+          "id": "wo-105",
+          "vehicleName": "Nissan Leaf 2021",
+          "workType": "Tire rotation",
+          "dueLabel": "Apr 20"
+        }
+      ]
+    },
+    {
+      "id": "in_progress",
+      "title": "In Progress",
+      "items": [
+        {
+          "id": "wo-101",
+          "vehicleName": "Ford Mustang Mach-E 2024",
+          "workType": "HV battery diagnostic",
+          "dueLabel": "Today"
+        },
+        {
+          "id": "wo-102",
+          "vehicleName": "Toyota RAV4 2022",
+          "workType": "Oil service",
+          "dueLabel": "Today"
+        }
+      ]
+    },
+    {
+      "id": "completed",
+      "title": "Completed",
+      "items": []
+    }
+  ]
+}

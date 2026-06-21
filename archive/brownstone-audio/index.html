@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Brownstone Audio</title>
+  <meta name="description" content="Brownstone Research audio dashboard with clean playback and transcripts." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f5f5f0;
+      --surface: #fcfcf8;
+      --line: #dddccf;
+      --text: #1a1a2e;
+      --muted: #5f6072;
+      --accent: #ffaa00;
+      --accent-soft: #ffefcc;
+      --radius: 20px;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      min-height: 100vh;
+    }
+
+    .wrap {
+      width: min(980px, 100% - 40px);
+      margin: 0 auto;
+      padding: 28px 0 40px;
+    }
+
+    .top {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      background: color-mix(in srgb, var(--bg) 92%, transparent);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid var(--line);
+      padding: 16px 0 20px;
+      margin-bottom: 20px;
+    }
+
+    .kicker {
+      margin: 0 0 8px;
+      color: var(--muted);
+      font: 500 11px 'JetBrains Mono', monospace;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      line-height: 1.06;
+      letter-spacing: -0.02em;
+      font-weight: 700;
+    }
+
+    .sub {
+      margin: 12px 0 0;
+      color: var(--muted);
+      max-width: 760px;
+      line-height: 1.6;
+    }
+
+    .list {
+      display: grid;
+      gap: 20px;
+      max-height: calc(100vh - 230px);
+      overflow-y: auto;
+      padding-right: 6px;
+      scrollbar-width: thin;
+      scrollbar-color: #cecdc0 transparent;
+    }
+
+    .list::-webkit-scrollbar { width: 8px; }
+    .list::-webkit-scrollbar-thumb {
+      background: #cecdc0;
+      border-radius: 999px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 26px;
+    }
+
+    .meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 10px;
+      color: var(--muted);
+      font: 500 12px 'JetBrains Mono', monospace;
+      letter-spacing: 0.01em;
+      margin-bottom: 14px;
+    }
+
+    .title {
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.35rem, 3vw, 2rem);
+      line-height: 1.2;
+      font-weight: 600;
+      max-width: 850px;
+    }
+
+    .player {
+      margin-top: 22px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .controls {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .play {
+      width: 48px;
+      height: 48px;
+      border: none;
+      border-radius: 50%;
+      background: var(--accent);
+      color: #302100;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      flex: 0 0 auto;
+      transition: transform 160ms ease, box-shadow 160ms ease;
+    }
+
+    .play:hover { transform: translateY(-1px); box-shadow: 0 6px 14px rgba(255, 170, 0, 0.28); }
+    .play:focus-visible,
+    .icon-btn:focus-visible,
+    .toggle:focus-visible,
+    .progress:focus-visible {
+      outline: 2px solid var(--accent);
+      outline-offset: 2px;
+    }
+
+    .progress-wrap { width: 100%; display: grid; gap: 8px; }
+
+    .times {
+      display: flex;
+      justify-content: space-between;
+      color: var(--muted);
+      font: 500 11px 'JetBrains Mono', monospace;
+    }
+
+    .progress {
+      --p: 0%;
+      width: 100%;
+      appearance: none;
+      height: 4px;
+      border-radius: 999px;
+      background: linear-gradient(to right, var(--accent) var(--p), #dfdece var(--p));
+      cursor: pointer;
+    }
+
+    .progress::-webkit-slider-thumb {
+      appearance: none;
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      border: 2px solid var(--surface);
+      background: var(--text);
+    }
+
+    .progress::-moz-range-thumb {
+      width: 13px;
+      height: 13px;
+      border-radius: 50%;
+      border: 2px solid var(--surface);
+      background: var(--text);
+    }
+
+    .actions {
+      display: flex;
+      justify-content: flex-end;
+      gap: 6px;
+      margin-top: 2px;
+    }
+
+    .icon-btn {
+      width: 30px;
+      height: 30px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      display: grid;
+      place-items: center;
+      transition: color 150ms ease, border-color 150ms ease, background-color 150ms ease;
+    }
+
+    .icon-btn:hover {
+      color: var(--text);
+      border-color: #c8c7ba;
+      background: #f9f8f2;
+    }
+
+    .icon-btn svg { width: 15px; height: 15px; }
+
+    .transcript {
+      margin-top: 18px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+    }
+
+    .toggle {
+      border: none;
+      background: none;
+      color: var(--muted);
+      font: 600 13px 'Plus Jakarta Sans', sans-serif;
+      padding: 0;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .chev {
+      width: 8px;
+      height: 8px;
+      border-right: 1.8px solid currentColor;
+      border-bottom: 1.8px solid currentColor;
+      transform: rotate(45deg);
+      transition: transform 160ms ease;
+      margin-top: -2px;
+    }
+
+    .toggle.open .chev { transform: rotate(225deg); margin-top: 2px; }
+
+    .text {
+      margin: 10px 0 0;
+      color: #333448;
+      line-height: 1.7;
+      display: none;
+      max-width: 74ch;
+    }
+
+    .text.open { display: block; }
+
+    @media (max-width: 760px) {
+      .wrap { width: min(980px, 100% - 24px); }
+      .top { margin-bottom: 14px; }
+      .list { max-height: none; overflow: visible; }
+      .card { padding: 20px; }
+      .meta { flex-direction: column; align-items: flex-start; gap: 6px; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .play, .icon-btn, .chev { transition: none !important; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="top">
+      <p class="kicker">Brownstone Research • Audio</p>
+      <h1>Daily Briefings</h1>
+      <p class="sub">Listen to every published article in one quiet, focused feed.</p>
+    </section>
+
+    <section class="list" id="cards">
+      <article class="card">
+        <div class="meta"><span>2026-06-08</span><span>12:31</span></div>
+        <h2 class="title">The Quiet Rotation: Why Capital is Sneaking Back Into Hard Assets</h2>
+
+        <div class="player">
+          <audio preload="metadata" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+          <div class="controls">
+            <button class="play" aria-label="Play article audio">▶</button>
+            <div class="progress-wrap">
+              <input class="progress" type="range" min="0" max="100" value="0" aria-label="Seek audio" />
+              <div class="times"><span class="current">00:00</span><span class="duration">--:--</span></div>
+            </div>
+          </div>
+          <div class="actions">
+            <a class="icon-btn" href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" download aria-label="Download audio" title="Download audio">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg>
+            </a>
+            <button class="icon-btn share" data-share="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" aria-label="Share link" title="Share link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5 15.4 17.5"/><path d="M15.4 6.5 8.6 10.5"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="transcript">
+          <button class="toggle"><span class="chev" aria-hidden="true"></span><span class="label">Show transcript</span></button>
+          <p class="text">Today’s note examines capital flow shifts toward energy infrastructure, transport rails, and industrial metals. The thesis: institutional money is re-pricing inflation persistence and liquidity fragility. Key takeaway: the trend is early, not crowded.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="meta"><span>2026-06-07</span><span>09:42</span></div>
+        <h2 class="title">AI Infrastructure Isn’t Done: The Next Compute Bottleneck is Physical</h2>
+
+        <div class="player">
+          <audio preload="metadata" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3"></audio>
+          <div class="controls">
+            <button class="play" aria-label="Play article audio">▶</button>
+            <div class="progress-wrap">
+              <input class="progress" type="range" min="0" max="100" value="0" aria-label="Seek audio" />
+              <div class="times"><span class="current">00:00</span><span class="duration">--:--</span></div>
+            </div>
+          </div>
+          <div class="actions">
+            <a class="icon-btn" href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" download aria-label="Download audio" title="Download audio">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg>
+            </a>
+            <button class="icon-btn share" data-share="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3" aria-label="Share link" title="Share link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5 15.4 17.5"/><path d="M15.4 6.5 8.6 10.5"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="transcript">
+          <button class="toggle"><span class="chev" aria-hidden="true"></span><span class="label">Show transcript</span></button>
+          <p class="text">Compute scaling now depends on power, cooling, and fabrication lead-times more than model architecture alone. The episode maps the public-equity names exposed to that constraint, including grid and thermal components.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="meta"><span>2026-06-06</span><span>14:18</span></div>
+        <h2 class="title">The Small-Cap Biotech Window is Reopening Before Headlines Notice</h2>
+
+        <div class="player">
+          <audio preload="metadata" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3"></audio>
+          <div class="controls">
+            <button class="play" aria-label="Play article audio">▶</button>
+            <div class="progress-wrap">
+              <input class="progress" type="range" min="0" max="100" value="0" aria-label="Seek audio" />
+              <div class="times"><span class="current">00:00</span><span class="duration">--:--</span></div>
+            </div>
+          </div>
+          <div class="actions">
+            <a class="icon-btn" href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" download aria-label="Download audio" title="Download audio">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg>
+            </a>
+            <button class="icon-btn share" data-share="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3" aria-label="Share link" title="Share link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5 15.4 17.5"/><path d="M15.4 6.5 8.6 10.5"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="transcript">
+          <button class="toggle"><span class="chev" aria-hidden="true"></span><span class="label">Show transcript</span></button>
+          <p class="text">This article tracks unusual financing terms and insider accumulation in select clinical-stage names. Brownstone frames this as a risk-on pocket inside a still-selective healthcare market.</p>
+        </div>
+      </article>
+
+      <article class="card">
+        <div class="meta"><span>2026-06-05</span><span>10:05</span></div>
+        <h2 class="title">The Nuclear Supply Chain Repricing is Entering Phase Two</h2>
+
+        <div class="player">
+          <audio preload="metadata" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3"></audio>
+          <div class="controls">
+            <button class="play" aria-label="Play article audio">▶</button>
+            <div class="progress-wrap">
+              <input class="progress" type="range" min="0" max="100" value="0" aria-label="Seek audio" />
+              <div class="times"><span class="current">00:00</span><span class="duration">--:--</span></div>
+            </div>
+          </div>
+          <div class="actions">
+            <a class="icon-btn" href="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" download aria-label="Download audio" title="Download audio">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 10 5 5 5-5"/><path d="M5 20h14"/></svg>
+            </a>
+            <button class="icon-btn share" data-share="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3" aria-label="Share link" title="Share link">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="M8.6 13.5 15.4 17.5"/><path d="M15.4 6.5 8.6 10.5"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="transcript">
+          <button class="toggle"><span class="chev" aria-hidden="true"></span><span class="label">Show transcript</span></button>
+          <p class="text">The briefing links reactor restart policy momentum to under-owned suppliers in conversion, enrichment, and specialty components. Duration risk remains high, but timing has improved materially.</p>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <script>
+    const players = Array.from(document.querySelectorAll('.player'));
+
+    function formatTime(seconds) {
+      if (!isFinite(seconds)) return '--:--';
+      const mins = Math.floor(seconds / 60);
+      const secs = Math.floor(seconds % 60).toString().padStart(2, '0');
+      return `${String(mins).padStart(2, '0')}:${secs}`;
+    }
+
+    function stopOthers(activePlayer) {
+      players.forEach((player) => {
+        if (player === activePlayer) return;
+        const audio = player.querySelector('audio');
+        const play = player.querySelector('.play');
+        audio.pause();
+        play.textContent = '▶';
+      });
+    }
+
+    players.forEach((player) => {
+      const audio = player.querySelector('audio');
+      const play = player.querySelector('.play');
+      const progress = player.querySelector('.progress');
+      const current = player.querySelector('.current');
+      const duration = player.querySelector('.duration');
+      const share = player.querySelector('.share');
+
+      audio.addEventListener('loadedmetadata', () => {
+        duration.textContent = formatTime(audio.duration);
+      });
+
+      audio.addEventListener('timeupdate', () => {
+        const pct = audio.duration ? (audio.currentTime / audio.duration) * 100 : 0;
+        progress.value = pct;
+        progress.style.setProperty('--p', `${pct}%`);
+        current.textContent = formatTime(audio.currentTime);
+      });
+
+      audio.addEventListener('ended', () => {
+        play.textContent = '▶';
+      });
+
+      play.addEventListener('click', async () => {
+        if (audio.paused) {
+          stopOthers(player);
+          try {
+            await audio.play();
+            play.textContent = '❚❚';
+          } catch (_) {}
+        } else {
+          audio.pause();
+          play.textContent = '▶';
+        }
+      });
+
+      progress.addEventListener('input', () => {
+        const pct = Number(progress.value) || 0;
+        progress.style.setProperty('--p', `${pct}%`);
+      });
+
+      progress.addEventListener('change', () => {
+        if (!audio.duration) return;
+        audio.currentTime = (Number(progress.value) / 100) * audio.duration;
+      });
+
+      share.addEventListener('click', async () => {
+        const url = share.dataset.share;
+        try {
+          if (navigator.share) {
+            await navigator.share({ title: 'Brownstone Audio', url });
+          } else {
+            await navigator.clipboard.writeText(url);
+          }
+        } catch (_) {}
+      });
+    });
+
+    document.querySelectorAll('.toggle').forEach((toggle) => {
+      toggle.addEventListener('click', () => {
+        const text = toggle.parentElement.querySelector('.text');
+        const label = toggle.querySelector('.label');
+        const open = text.classList.toggle('open');
+        toggle.classList.toggle('open', open);
+        label.textContent = open ? 'Hide transcript' : 'Show transcript';
+      });
+    });
+  </script>
+</body>
+</html>

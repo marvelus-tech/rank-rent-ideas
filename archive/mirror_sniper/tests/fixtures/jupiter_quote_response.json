@@ -1,0 +1,10 @@
+{
+  "inputMint": "TokenA",
+  "outputMint": "TokenC",
+  "inAmount": "10000",
+  "outAmount": "9400",
+  "routePlan": [
+    {"swapInfo": {"inputMint": "TokenA", "outputMint": "TokenB", "inAmount": "10000", "outAmount": "9700"}},
+    {"swapInfo": {"inputMint": "TokenB", "outputMint": "TokenC", "inAmount": "9700", "outAmount": "9400"}}
+  ]
+}

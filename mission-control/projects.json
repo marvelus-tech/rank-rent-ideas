@@ -1,0 +1,595 @@
+{
+  "generated": "2026-06-20T20:00:00.532Z",
+  "count": 49,
+  "projects": [
+    {
+      "name": "AXΔ-Agent-XChange",
+      "stage": "Building",
+      "progress": 50,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Russian-Learning-Agent",
+      "stage": "Validating",
+      "progress": 25,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "AI-Agent-Employee-Agency (Pnlopi_)",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "AI-Audit-Framework",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Agent-Audio-Speakers",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Agent-Content-Creation",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Agent-Security-Surveillance",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Agents-Geriatric-Companion",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Blink-as-a-Service-Solana",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Counselor-Emotional-Intelligence",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Credit-Card-Consulting-Business",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Crypto-for-Good-Nonprofits",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Digital-Legacy-Agent",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Geelong-Lifestyle-Directory",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "In-Need",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Inhouse-AI-Employee",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Language-Learning-Agent",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Liquidation-Hunter-Perp-Bot",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "NFA-Not-Financial-Advice",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Okeito.com-Portfolio",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Scout-Recruitment-Agent",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Trading-Agent-Crypto",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "UX-Agent-Research",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "WYD-Agent-Phone-Accountability",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Yield-Farming-Automator",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "ai-customer-service-bot-shopify",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "amazon-review-analyzer-dtc",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "api-arbitrage-framework",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "apify-actor-wrapper-business",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "app-store-review-scraper",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "bizbuysell-analyzer",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "crunchbase-funding-alerts",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "import-yeti-wrapper",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "micro-influencer-marketplace",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "niche-google-maps-scraper",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "niche-indeed-job-board",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "niche-zillow-real-estate",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "reddit-sentiment-scraper",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "shopify-store-scraper",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "tiktok-trend-scraper-newsletter",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "unbundle-clay-data-enrichment",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "unbundling-framework",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "upwork-scraper-nlp",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "vibe-coding-framework",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "yelp-scraper-local-business",
+      "stage": "Inbox",
+      "progress": 5,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    },
+    {
+      "name": "Bleeding-Edge-Audio",
+      "stage": "Launched",
+      "progress": 100,
+      "milestones": [
+        "[x] Brainstorm / Research",
+        "[x] Build / MVP",
+        "[x] Test with users",
+        "[x] Launch"
+      ],
+      "hasManualProgress": true
+    },
+    {
+      "name": "Hear-Me-Out",
+      "stage": "Launched",
+      "progress": 100,
+      "milestones": [
+        "[x] Brainstorm / Research",
+        "[x] Validate concept with target users",
+        "[x] Build MVP (QR + audio platform)",
+        "[x] Test in 1-2 physical locations",
+        "[x] Launch"
+      ],
+      "hasManualProgress": true
+    },
+    {
+      "name": "Hi-Mom-Postcard-Service",
+      "stage": "Launched",
+      "progress": 100,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": true
+    },
+    {
+      "name": "Mission-Control-Dashboard",
+      "stage": "Archived",
+      "progress": 100,
+      "milestones": [
+        "[ ] Brainstorm / Research",
+        "[ ] Build / MVP",
+        "[ ] Test with users",
+        "[ ] Launch"
+      ],
+      "hasManualProgress": false
+    }
+  ]
+}

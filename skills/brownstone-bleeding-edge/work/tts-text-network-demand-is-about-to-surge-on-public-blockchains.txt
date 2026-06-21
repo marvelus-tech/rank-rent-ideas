@@ -1,0 +1,157 @@
+Network Demand Is About to Surge on Public Blockchains
+
+Jun 3, 2026
+
+A wave of network demand coming for public blockchains...
+
+Managing Editor’s Note:What an exciting night…
+
+We hope everyone who joined us yesterday for Jeff’sCountdown to SpaceX IPOevent had a wonderful time hearing about SpaceX’s upcoming public market debut… and the sort of companies Jeff has his eye on to play the opportunity.
+
+It’s incredible to think of all SpaceX is going to accomplish… and it’s a great time to position ourselves to take advantage through the companies supporting it in its mission.
+
+For those who couldn’t make the event last night, we do havea replay available, but it’s only up for a short while longer. After all, the IPO itself is barely more than a week away.
+
+If you want to learn more, justgo here to access the replay.
+
+Then read on for today’s issue from senior crypto analyst Ben Lilly on a wave of network demand coming for public blockchains and the opportunity therein…
+
+Imagine whichever highway or interstate runs through your town. If you live on the American East Coast, it’s probably I-95. If you’re out west, it might be I-5. Whichever it is, just imagine it for a second.
+
+If you’re like most people, you travel on these roads daily. And like any highway, there are times when it’s congested and other times when traffic flows freely.
+
+Now, imagine what might happen if the number of cars traveling on this highway were to increase 100x.
+
+That, in a nutshell, is what’s coming for public blockchains.
+
+Networks like Ethereum process about 2 million transactions per day.
+
+Which might seem like a lot…
+
+Until we consider the fact it’s a public blockchain for the entire world. In that context, it’s small. Very small. A college football stadium full of people, all transacting at the same time, can easily clog the network.
+
+Now imagine every stadium in the country.
+
+It’s not a reality today. But soon…
+
+The infrastructure is being set up for autonomous AI agents to more easily function on public blockchains. In that world, a single deposit from one individual can produce one hourly transaction for life, autonomously. Which is how a stadium filled with around 85,000 depositors can produce more than 2 million transactions per day or 744 million transactions in a year.
+
+That’s significant. Because as history shows us… Price and network usage tend to move in unison.
+
+That’s why the Permissionless Agentic Economy is a trend we follow closely at Brownstone Research. This is where AI agents begin to establish themselves on public and permissionless blockchains.
+
+We’ve covered this topic before in essays likeThe Permissionless Agentic Economy,The Better Business Bureau of Agents Is Onchain, andA New Asset Class Is Coming. It will more than 100x the usage of the public blockchains and create one of the largest repricing events we will ever realize.
+
+This isn’t years away. Transaction volume onchain points to only one conclusion — agents have arrived.
+
+So, what is being done to prepare for this new future?
+
+Trading desks, professional brokers, and investors often run simulations.
+
+These are test runs that verify a transaction delivers the expected result.
+
+Imagine you want to trade $100 worth of ETH or SOL for USDC. The expected result is you end up with $100 worth of USDC. It seems simple. But pulling it off is anything but.
+
+These transactions can be incredibly complex with multiple components pieced together, which is why these simulations are both costly and time-intensive.
+
+When we hand this work to an agent, simulation quality doesn’t improve much.
+
+That’s why the research around CuEVM is so important.
+
+EVM stands for “Ethereum Virtual Machine.” We can think of it like Ethereum’s computer. It handles things like the accounting change of two wallets sending assets between each other.
+
+The “Cu” stands for a computing and programming model created by Nvidia called CUDA. It essentially unlocks the power for an Nvidia chip to run across thousands of GPU threads with the greatest efficiency.
+
+Source: Corsair
+
+It’s like supercharging a car engine.
+
+Which makes it a very powerful use case for simulations…
+
+On May 13, Singapore Blockchain Innovation Program (SBIP) researcher Minh Ho revealed that the newest version of CuEVM can simulate 8 million transactions per second for token transfers, and more than 1 million transactions per second for more complex interactions.
+
+This is next-level ability. It’s the type of solution that can truly unlock an agent to constantly run simulations to produce ideal results. The effects of this are constant arbitrage onchain, ideal liquidity states across pools, and better pricing for everybody.
+
+The best way to think of this from a high level: Imagine a market where there are tens of thousands of market makers competing for razor-thin margins… Not just a handful of Wall Street gatekeepers front-running retail.
+
+That’s what’s possible in a permissionless environment, not one full of regulatory and institutional bloat. In that world, an AI agent can run around the clock.
+
+But it doesn’t stop there.
+
+The New York Timescalled the SpaceX IPO “A generational moneymaking event.”  But buying shares of SpaceX when it goes public on June 12 is NOT the best way to cash in on this historic event.Click hereand Jeff will tell you about an early stage investment that’s directly tied to the growth of SpaceX… But that has the potential to return 10 times, 20 times, and even 50 times more money than the IPO itself.
+
+Larry Benedict generated $274 million in profits for his clients by knowing where money flows when the Federal Reserve shifts. He says Trump's Fed Takeover is triggering the most significant shift in U.S. markets in nearly 20 years. He's already identified the one ticker he expects billions to flood into… and he's giving away the name for free.Click here to get the full details before the window closes.
+
+Two other improvements are not about speed, but reliability.
+
+Those improvements are Clear Signing and signature-free authorization. Each improves the security around agent use cases.
+
+Clear Signing officially launched on May 12.
+
+It creates an open standard for transaction hexadecimal code. We can see the code in the image below on the left-hand side. It’s a very long string of numbers and letters.
+
+The standard acts as an encyclopedia of sorts for the code. Meaning the transaction result can be easily seen, which is what exists on the right-hand side.
+
+Source: Memeburn.com
+
+We can think of the clear signing standard as the creation of an open repository for verifiers and attestors to say what the code does clearly. It acts as a source of truth.
+
+Now blockchains are machine-readable. That’s because the entire network, consensus mechanism, and verification all happen on machines. This makes LLMs a natural operating interface for anybody to interact with blockchains.
+
+But sometimes, the code might have some malicious intent buried within. It’s code that no machine has seen before, nor understands the intent behind it. Clear signing acts as a safeguard for agents to ensure what they think is happening is in fact happening.
+
+It’s also a safeguard for AI to not simply make up an answer or hallucinate one. Clear signing gives straightforward responses. That’s important if we want to trust agents with financial transactions.
+
+Then there are signature-free transactions. It does what the name suggests. As anybody who has transacted onchain knows, every action requires a signature from the wallet. Otherwise, nothing happens.
+
+But in a research paper published back in March called “ZK-ACE: Identity-Centric Zero-Knowledge Authorization for Post-Quantum Blockchain Systems,” this might become a thing of the past.
+
+For many of us, the title of that paper might as well have been written in a foreign language. But what the research says is this: The paper proposes a solution to create a transaction without the normal signatures we use today. Which makes it a great use case for post-quantum systems.
+
+While it solves the quantum issue, the greater ramifications are for agentic systems today.
+
+That’s because the “ACE” in ZK-ACE stands for “Authorization for Cryptographic Entities.” It’s a way to give an agent an identity. More importantly, it gives the agent programmable authority. Think of this as limits or rules that the agent must abide by.
+
+A simple example would be an agent that can’t spend more than $20 in any single transaction nor more than $100 in a day. Or perhaps the agent can only interact with certain protocols, contracts, or wallets.
+
+It’s building guardrails, in other words.
+
+When we combine these three upgrades – the latest version of CuEVM, Clear Signing, and ZK-ACE – we get a picture of what’s coming.
+
+Agents can simulate transactions, act with clarity, and take actions with human-defined limitations.
+
+What’s truly incredible is that this is just some of the newest research and standards coming out for Ethereum.
+
+The reason we often discuss upgrades coming for Ethereum is that most blockchains also use the Ethereum Virtual Machine (EVM). That means any upgrades on Ethereum tend to apply to all EVM chains.
+
+That includes chains like Binance Smart Chain, Avalanche, Sonic (formerly Fantom), Polygon, Gnosis, all layer-two networks, and literally hundreds more. These upgrades apply to the digital assets ecosystem at large.
+
+As agents become a reality, don’t be surprised when congestion hits.
+
+But congestion means network demand. And network demand means demand for the native tokens to pay for these transactions.
+
+Record token demand means one thing – higher asset prices.
+
+The Permissionless Agentic Economy will take investors by surprise. In the years ahead, we will see trillions of dollars’ worth of real-world assets coming onchain.
+
+If you’re not excited by what’s coming to digital assets… you really should be.
+
+Your Pulse on Crypto,
+
+Ben LillyEditor,Chain of Thought
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+One of the world’s most interesting biotech companies is back in the headlines again…
+
+Starlink, Starshield, and now… Starfall? I recently ventured out to SpaceX headquarters in Starbase, Texas, to do some boots-on-the-ground...
+
+Google will continue to be a leader in AI and search because it has finally integrated the technology into...
+
+Read the latest insights from the world of high technology.
+
+One of the world’s most interesting biotech companies is back in the headlines again…
+
+Starlink, Starshield, and now… Starfall? I recently ventured out to SpaceX headquarters in Starbase, Texas, to do some boots-on-the-ground...
+
+Google will continue to be a leader in AI and search because it has finally integrated the technology into...

@@ -1,0 +1,58 @@
+{
+  "vehicles": [
+    {
+      "id": "veh-camry-01",
+      "name": "Toyota Camry 2023",
+      "state": "active",
+      "revenuePerSec": 0.013,
+      "revenueTodayUsd": 247.5,
+      "revenueHourlyUsd": 47,
+      "fuelPct": 87,
+      "energyLabel": "Fuel",
+      "lat": 40.758,
+      "lng": -73.9855,
+      "booking": { "renterInitials": "A.K.", "remainingMin": 142 },
+      "lastSeen": null
+    },
+    {
+      "id": "veh-mache-02",
+      "name": "Ford Mustang Mach-E 2024",
+      "state": "maintenance",
+      "revenuePerSec": 0,
+      "revenueHourlyUsd": 0,
+      "fuelPct": 62,
+      "energyLabel": "Battery",
+      "lat": 40.7282,
+      "lng": -73.9942,
+      "booking": null,
+      "lastSeen": null,
+      "maintenanceNote": "Brake inspection due"
+    },
+    {
+      "id": "veh-rav4-03",
+      "name": "Toyota RAV4 2022",
+      "state": "idle",
+      "revenuePerSec": 0,
+      "revenueHourlyUsd": 0,
+      "fuelPct": 91,
+      "energyLabel": "Fuel",
+      "lat": 40.7489,
+      "lng": -73.968,
+      "booking": null,
+      "lastSeen": null
+    },
+    {
+      "id": "veh-leaf-04",
+      "name": "Nissan Leaf 2021",
+      "state": "offline",
+      "revenuePerSec": 0,
+      "revenueHourlyUsd": 0,
+      "fuelPct": null,
+      "energyLabel": "Battery",
+      "lat": 40.6892,
+      "lng": -74.0445,
+      "booking": null,
+      "lastSeen": "2026-04-13T08:42:00Z"
+    }
+  ]
+}

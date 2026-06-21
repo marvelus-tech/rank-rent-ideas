@@ -1,0 +1,735 @@
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Nashville__TN_hvac_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Nashville__TN_hvac_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Nashville__TN_plumbing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Nashville__TN_plumbing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Nashville__TN_electrical_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Nashville__TN_electrical_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Nashville__TN_concrete_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Nashville__TN_concrete_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Nashville__TN_fencing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Nashville__TN_fencing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Nashville__TN_pool_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Nashville__TN_pool_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Nashville__TN_remodeling_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Nashville__TN_remodeling_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Nashville__TN_garage_door_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Nashville__TN_garage_door_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Nashville__TN_landscaping_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Nashville__TN_landscaping_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Nashville__TN_siding_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Nashville__TN_siding_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Nashville__TN_window_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Nashville__TN_window_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Nashville__TN_flooring_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Nashville__TN_flooring_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_general_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_general_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_home_builder.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_home_builder.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_roofing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_roofing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_hvac_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_hvac_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_plumbing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_plumbing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_electrical_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_electrical_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_concrete_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_concrete_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_fencing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_fencing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_pool_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_pool_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_remodeling_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_remodeling_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_garage_door_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_garage_door_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_landscaping_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_landscaping_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_siding_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_siding_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_window_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_window_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Memphis__TN_flooring_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Memphis__TN_flooring_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_general_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_general_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_home_builder.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_home_builder.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_roofing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_roofing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_hvac_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_hvac_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_plumbing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_plumbing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_electrical_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_electrical_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_concrete_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_concrete_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_fencing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_fencing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_pool_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_pool_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_remodeling_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_remodeling_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_garage_door_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_garage_door_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_landscaping_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_landscaping_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_siding_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_siding_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_window_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_window_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Knoxville__TN_flooring_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Knoxville__TN_flooring_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_general_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_general_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_home_builder.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_home_builder.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_roofing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_roofing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_hvac_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_hvac_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_plumbing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_plumbing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_electrical_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_electrical_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_concrete_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_concrete_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_fencing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_fencing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_pool_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_pool_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_remodeling_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_remodeling_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_garage_door_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_garage_door_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_landscaping_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_landscaping_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_siding_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_siding_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_window_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_window_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Chattanooga__TN_flooring_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Chattanooga__TN_flooring_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_general_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_general_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_home_builder.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_home_builder.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_roofing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_roofing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_hvac_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_hvac_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_plumbing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_plumbing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_electrical_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_electrical_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_concrete_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_concrete_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_fencing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_fencing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_pool_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_pool_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_remodeling_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_remodeling_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_garage_door_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_garage_door_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_landscaping_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_landscaping_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_siding_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_siding_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_window_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_window_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Clarksville__TN_flooring_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Clarksville__TN_flooring_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_general_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_general_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_home_builder.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_home_builder.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_roofing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_roofing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_hvac_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_hvac_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_plumbing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_plumbing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_electrical_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_electrical_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_concrete_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_concrete_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_fencing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_fencing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_pool_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_pool_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_remodeling_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_remodeling_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_garage_door_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_garage_door_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_landscaping_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_landscaping_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_siding_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_siding_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_window_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_window_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Murfreesboro__TN_flooring_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Murfreesboro__TN_flooring_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_general_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_general_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_home_builder.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_home_builder.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_roofing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_roofing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_hvac_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_hvac_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_plumbing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_plumbing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_electrical_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_electrical_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_concrete_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_concrete_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_fencing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_fencing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_pool_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_pool_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_remodeling_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_remodeling_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_garage_door_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_garage_door_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_landscaping_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_landscaping_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_siding_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_siding_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_window_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_window_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Franklin__TN_flooring_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Franklin__TN_flooring_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_general_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_general_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_home_builder.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_home_builder.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_roofing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_roofing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_hvac_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_hvac_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_plumbing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_plumbing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_electrical_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_electrical_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_concrete_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_concrete_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_fencing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_fencing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_pool_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_pool_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_remodeling_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_remodeling_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_garage_door_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_garage_door_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_landscaping_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_landscaping_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_siding_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_siding_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_window_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_window_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Jackson__TN_flooring_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Jackson__TN_flooring_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_general_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_general_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_home_builder.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_home_builder.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_roofing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_roofing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_hvac_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_hvac_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_plumbing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_plumbing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_electrical_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_electrical_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_concrete_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_concrete_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_fencing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_fencing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_pool_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_pool_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_remodeling_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_remodeling_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_garage_door_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_garage_door_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_landscaping_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_landscaping_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_siding_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_siding_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_window_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_window_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Johnson_City__TN_flooring_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Johnson_City__TN_flooring_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_general_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_general_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_home_builder.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_home_builder.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_roofing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_roofing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_hvac_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_hvac_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_plumbing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_plumbing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_electrical_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_electrical_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_concrete_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_concrete_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_fencing_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_fencing_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_pool_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_pool_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_remodeling_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_remodeling_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_garage_door_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_garage_door_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_landscaping_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_landscaping_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_siding_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_siding_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_window_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_window_contractor.json'
+Traceback (most recent call last):
+  File "<string>", line 9, in <module>
+    with open('data/processed/tn/Bartlett__TN_flooring_contractor.json', 'w') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data/processed/tn/Bartlett__TN_flooring_contractor.json'

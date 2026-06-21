@@ -1,0 +1,11 @@
+{
+  "signature": "JupMockSig111",
+  "slot": 321000030,
+  "timestamp": 1712000300,
+  "feePayer": "WalletC",
+  "instructions": [{"programId": "JUP6LkbZbjS1jKKwapdHNy74zcZ3tLUZoi5QNyVTaV4"}],
+  "tokenTransfers": [
+    {"fromUserAccount": "WalletC", "toUserAccount": "RouteVault", "mint": "TokenA", "tokenAmount": 10000},
+    {"fromUserAccount": "RouteVault", "toUserAccount": "WalletC", "mint": "TokenC", "tokenAmount": 9400}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "type": "new-consultation",
+  "jobId": "be4c2f51-eacf-47ad-be6b-fb0845d4d11a",
+  "timestamp": "2026-03-27-132457",
+  "clientName": "Beavis",
+  "therapistName": "Butthead",
+  "duration": "01:27",
+  "audioFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-132457-Beavis.webm",
+  "noteFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-132457-Beavis.md",
+  "status": "error",
+  "receivedAt": "2026-03-27T13:24:59.072271",
+  "recordingFilename": "2026-03-27-132457-Beavis.webm",
+  "processingStarted": "2026-03-27T13:24:59.357187",
+  "error": "Transcription subprocess failed: 2026-03-27 13:24:59 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-132457-Beavis.webm\n2026-03-27 13:25:16 | INFO | Using WhisperX (model=base device=cpu compute_type=int8)\nLightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.6.1. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint venv/lib/python3.12/site-packages/whisperx/assets/pytorch_model.bin`\n/usr/local/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown\n  warnings.warn('resource_tracker: There appear to be %d '",
+  "completedAt": "2026-03-27T13:25:24.541225"
+}

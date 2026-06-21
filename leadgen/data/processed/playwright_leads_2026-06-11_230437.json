@@ -1,0 +1,162 @@
+{
+  "category": "accountants",
+  "location": "Victoria, Australia",
+  "generated_at": "2026-06-11T23:04:37.517614+00:00",
+  "count": 10,
+  "leads": [
+    {
+      "name": "Victorian Accounting Services",
+      "category": "accountants",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "",
+      "rating": "5.0",
+      "is_open": true,
+      "score": 65,
+      "priority": "WARM",
+      "missing": [
+        "phone",
+        "address"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-11T23:04:37.455596+00:00"
+    },
+    {
+      "name": "Reliable Melbourne Accountants",
+      "category": "accountants",
+      "location": "Victoria, Australia",
+      "phone": "1300 049 534",
+      "address": "Accountant \u00b7 1/3 Westside Ave",
+      "rating": "5.0",
+      "is_open": true,
+      "score": 90,
+      "priority": "HOT",
+      "missing": [],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-11T23:04:37.455931+00:00"
+    },
+    {
+      "name": "AIMS AUSTRALIA Tax Accountants, Expat Tax Accountants, Overdue Tax Returns, Late Tax Returns",
+      "category": "accountants",
+      "location": "Victoria, Australia",
+      "phone": "1300 112 467",
+      "address": "Tax preparation service \u00b7 5/11 Queens Rd",
+      "rating": "4.9",
+      "is_open": true,
+      "score": 90,
+      "priority": "HOT",
+      "missing": [],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-11T23:04:37.455941+00:00"
+    },
+    {
+      "name": "VIC Tax and Accounting Services",
+      "category": "accountants",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Tax preparation service \u00b7 \ue934 \u00b7 421 Docklands Dr",
+      "rating": "5.0",
+      "is_open": true,
+      "score": 75,
+      "priority": "HOT",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-11T23:04:37.455952+00:00"
+    },
+    {
+      "name": "Grace Accountants Pty Ltd",
+      "category": "accountants",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Accountant \u00b7 60 St Andrews Dr",
+      "rating": "5.0",
+      "is_open": true,
+      "score": 75,
+      "priority": "HOT",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-11T23:04:37.455958+00:00"
+    },
+    {
+      "name": "G-TAX ACCOUNTANTS",
+      "category": "accountants",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Accountant \u00b7 21 May St",
+      "rating": "5.0",
+      "is_open": true,
+      "score": 75,
+      "priority": "HOT",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-11T23:04:37.455964+00:00"
+    },
+    {
+      "name": "Beyond Accountancy Services",
+      "category": "accountants",
+      "location": "Victoria, Australia",
+      "phone": "1300 823 011",
+      "address": "Accountant \u00b7 Level 2/696 Bourke St",
+      "rating": "4.8",
+      "is_open": true,
+      "score": 90,
+      "priority": "HOT",
+      "missing": [],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-11T23:04:37.455969+00:00"
+    },
+    {
+      "name": "Clear Tax Accountants Melbourne",
+      "category": "accountants",
+      "location": "Victoria, Australia",
+      "phone": "1300 417 399",
+      "address": "Tax preparation service \u00b7 Level 22, WeWork/120 Spencer St",
+      "rating": "4.8",
+      "is_open": false,
+      "score": 85,
+      "priority": "HOT",
+      "missing": [],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-11T23:04:37.455974+00:00"
+    },
+    {
+      "name": "Steven Wong Accountants",
+      "category": "accountants",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "",
+      "rating": "5.0",
+      "is_open": true,
+      "score": 65,
+      "priority": "WARM",
+      "missing": [
+        "phone",
+        "address"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-11T23:04:37.455979+00:00"
+    },
+    {
+      "name": "Camberwell Accountants",
+      "category": "accountants",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Accountant \u00b7 1428 Toorak Rd",
+      "rating": "4.9",
+      "is_open": false,
+      "score": 70,
+      "priority": "WARM",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-11T23:04:37.455984+00:00"
+    }
+  ]
+}

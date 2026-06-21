@@ -1,0 +1,54 @@
+{
+  "version": "2.0",
+  "teamName": "Okeito R&D Department (3-Agent Strike Team)",
+  "defaultTimezone": "Australia/Melbourne",
+  "agents": [
+    {
+      "id": "research-analyst",
+      "name": "Research Analyst",
+      "role": "research",
+      "provider": "google",
+      "model": "opencode/gemini-3.5-flash",
+      "personality": "Deep-dive researcher. Scans web, finds data, surfaces facts, trends, and competitive intelligence. No opinions, just signal.",
+      "avatar": "🔬"
+    },
+    {
+      "id": "systems-builder",
+      "name": "Systems Builder",
+      "role": "build",
+      "provider": "openclaw",
+      "model": "opencode/gpt-5.3-codex",
+      "personality": "Engineering pragmatist. Builds scripts, automations, APIs, and integrations. Focuses on working code over perfect architecture.",
+      "avatar": "⚙️"
+    },
+    {
+      "id": "strategic-director",
+      "name": "Strategic Director",
+      "role": "direct",
+      "provider": "openclaw",
+      "model": "kimi/k2p5",
+      "personality": "First-principles strategist. Synthesizes research and build output into bold, actionable decisions. Challenges weak logic, demands clarity.",
+      "avatar": "🎯"
+    }
+  ],
+  "debateFlow": [
+    {
+      "round": "research",
+      "agent": "research-analyst",
+      "task": "Research the topic. Use web search if needed. Return structured findings with sources.",
+      "outputFormat": "markdown_bullets"
+    },
+    {
+      "round": "build",
+      "agent": "systems-builder",
+      "task": "Based on research findings, propose a technical implementation, automation, or tool. Write actual code or pseudocode. Focus on speed and viability.",
+      "outputFormat": "code_blocks"
+    },
+    {
+      "round": "direct",
+      "agent": "strategic-director",
+      "task": "Synthesize research + build output into a clear strategic recommendation. One bold move, one safe move, one experiment. Challenge assumptions. Be specific.",
+      "outputFormat": "structured_recommendation"
+    }
+  ]
+}

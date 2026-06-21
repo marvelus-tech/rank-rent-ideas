@@ -1,0 +1,34 @@
+2026-03-26 15:53:45 | INFO | Consultation watcher started
+2026-03-26 15:53:45 | INFO | Watching signal file: /Users/oktos/.openclaw/workspace/.consultation-signal/new-recording.json
+2026-03-26 15:53:45 | WARNING | Startup detected status=processing; resetting to pending for recovery
+2026-03-26 15:53:45 | INFO | Starting processing for client: 69th recording
+2026-03-26 15:53:45 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-155038-69th-recording.webm
+2026-03-26 15:53:58 | INFO | Transcription complete (68 chars)
+2026-03-26 15:53:58 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-155038-69th-recording.md
+2026-03-26 15:53:58 | INFO | Processing complete for 69th recording
+2026-03-26 15:56:26 | INFO | Starting processing for client: codex
+2026-03-26 15:56:26 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-155626-codex.webm
+2026-03-26 15:56:34 | INFO | Transcription complete (59 chars)
+2026-03-26 15:56:34 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-155626-codex.md
+2026-03-26 15:56:34 | INFO | Processing complete for codex
+2026-03-26 16:10:56 | INFO | Starting processing for client: full-throttle
+2026-03-26 16:10:56 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-161056-full-throttle.webm
+2026-03-26 16:11:07 | INFO | Transcription complete (107 chars)
+2026-03-26 16:11:07 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-161056-full-throttle.md
+2026-03-26 16:11:07 | INFO | Processing complete for full-throttle
+2026-03-26 16:20:17 | INFO | Starting processing for client: uploaded
+2026-03-26 16:20:17 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-162017-uploaded.webm
+2026-03-26 16:20:27 | INFO | Transcription complete (58 chars)
+2026-03-26 16:20:27 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-162017-uploaded.md
+2026-03-26 16:20:27 | INFO | Processing complete for uploaded
+2026-03-26 16:40:36 | INFO | Starting processing for client: susan
+2026-03-26 16:40:36 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-164035-susan.webm
+2026-03-26 16:40:45 | INFO | Transcription complete (48 chars)
+2026-03-26 16:40:45 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-164035-susan.md
+2026-03-26 16:40:45 | INFO | Processing complete for susan
+2026-03-26 16:42:15 | INFO | Starting processing for client: NSFW
+2026-03-26 16:42:15 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-164215-NSFW.webm
+2026-03-26 16:42:23 | INFO | Transcription complete (49 chars)
+2026-03-26 16:42:23 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-164215-NSFW.md
+2026-03-26 16:42:23 | INFO | Processing complete for NSFW
+2026-03-26 16:59:04 | INFO | Received signal 15; shutting down watcher

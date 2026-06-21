@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "kind": "consultation-email-draft",
+  "jobFile": "/Users/oktos/.openclaw/workspace/.consultation-signal/jobs/2026-03-27-123709-SUGARBABY.json",
+  "clientName": "SUGARBABY",
+  "transcript": "{\"transcript\": \"Well, okay. Well, so here's the problem. I'm supposed to put together a CVT for the disaster\\nresponse communication form. And as you know, I'm new to this role. I've never done a CVT\\nbefore. I don't even know very much about the form, and there's a lot of people expecting\\nthings from this. It's going to be a pretty big deal, and I just don't know where to begin,\\nand so I really, I just feel like I can really use your help.\\nSure, and that does sound like a lot. It sounds like you've kind of been thrown into the\\ndeep end of the pool on the project, and you don't necessarily know the steps where to start,\\nand you don't know what you don't know, would you say that's exactly. Yes, exactly.\\nPlus, there's the whole technology piece of it. Today's new tools and new processes.\\nYes, I appreciate it.\", \"transcriptSegments\": null, \"transcriptionEngine\": \"faster-whisper\"}",
+  "requestedAt": "2026-03-27T12:40:01.844060"
+}

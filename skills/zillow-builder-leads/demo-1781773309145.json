@@ -1,0 +1,91 @@
+{
+  "search_params": {
+    "location": "Austin, TX",
+    "source": "zillow-firecrawl",
+    "total_listings": 9,
+    "scraped_at": "2026-06-18T09:01:51.396Z"
+  },
+  "listings": [
+    {
+      "price": 1000000,
+      "address": "12113 Cascade Caverns Trl, Austin, TX 78739",
+      "zpid": "64443019",
+      "beds": 5,
+      "baths": 4,
+      "sqft": 3935,
+      "agent": null
+    },
+    {
+      "price": 398000,
+      "address": "1806 Krizan Ave, Austin, TX 78727",
+      "zpid": "29443350",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1334,
+      "agent": null
+    },
+    {
+      "price": 625000,
+      "address": "8409 Nairn Dr, Austin, TX 78749",
+      "zpid": "29496220",
+      "beds": 4,
+      "baths": 3,
+      "sqft": 2238,
+      "agent": "KELLER WILLIAMS REALTY"
+    },
+    {
+      "price": 680000,
+      "address": "12712 Twisted Briar Ln, Austin, TX 78729",
+      "zpid": "29596334",
+      "beds": 5,
+      "baths": 4,
+      "sqft": 3154,
+      "agent": "KELLER WILLIAMS REALTY"
+    },
+    {
+      "price": 9950000,
+      "address": "4402 Aqua Verde Dr, Austin, TX 78746",
+      "zpid": "29348440",
+      "beds": 5,
+      "baths": 6,
+      "sqft": 6200,
+      "agent": null
+    },
+    {
+      "price": 325000,
+      "address": "12704 Bloomington Dr, Austin, TX 78748",
+      "zpid": "442199950",
+      "beds": 4,
+      "baths": 2,
+      "sqft": 1800,
+      "agent": "KELLER WILLIAMS REALTY"
+    },
+    {
+      "price": 239500,
+      "address": "4509 Magin Meadow Dr, Austin, TX 78744",
+      "zpid": "64465341",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1232,
+      "agent": "KELLER WILLIAMS REALTY"
+    },
+    {
+      "price": 725000,
+      "address": "6501 Willamette Dr, Austin, TX 78723",
+      "zpid": "29408382",
+      "beds": 3,
+      "baths": 2,
+      "sqft": 1904,
+      "agent": "KELLER WILLIAMS REALTY"
+    },
+    {
+      "price": 20000000,
+      "address": "15016 Flat Top Ranch Rd, Austin, TX 78732",
+      "zpid": "89551133",
+      "beds": 6,
+      "baths": 7,
+      "sqft": 9725,
+      "agent": null
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Okeito R&D Dashboard</title>
+  <style>
+    body { font-family: Inter, -apple-system, sans-serif; margin: 24px; background: #0b1020; color: #e6e8ef; }
+    h1, h2 { margin: 0 0 12px 0; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 12px; margin-bottom: 20px; }
+    .card { background: #141b34; border: 1px solid #283050; border-radius: 12px; padding: 14px; }
+    .tag { display:inline-block; padding:2px 8px; margin:2px 4px 2px 0; background:#202a4b; border-radius:999px; font-size:12px; }
+    a { color: #8ab4ff; text-decoration: none; }
+    .memo { margin-bottom: 10px; padding: 12px; border: 1px solid #2a345d; border-radius: 10px; background: #121833; }
+    .small { color: #aeb6d1; font-size: 13px; }
+  </style>
+</head>
+<body>
+  <h1>🔬 Okeito R&D Department</h1>
+  <p class="small">Chronological memo index + agent roster. Serve this directory with a local HTTP server.</p>
+
+  <h2>Agents</h2>
+  <div id="agents" class="grid"></div>
+
+  <h2>Memos</h2>
+  <div id="memos"></div>
+
+  <script>
+    async function fetchJSON(path) {
+      const r = await fetch(path);
+      if (!r.ok) throw new Error(`Failed to load ${path}`);
+      return r.json();
+    }
+
+    function renderAgents(agents) {
+      const el = document.getElementById('agents');
+      el.innerHTML = agents.map(a => `
+        <div class="card">
+          <div><strong>${a.avatar} ${a.name}</strong></div>
+          <div class="small">${a.model}</div>
+          <div class="small">${a.personality}</div>
+        </div>
+      `).join('');
+    }
+
+    function parseFrontMatter(md) {
+      const m = md.match(/^---\n([\s\S]*?)\n---/);
+      if (!m) return {};
+      const obj = {};
+      m[1].split('\n').forEach(line => {
+        const idx = line.indexOf(':');
+        if (idx > -1) {
+          const k = line.slice(0, idx).trim();
+          const v = line.slice(idx + 1).trim().replace(/^"|"$/g, '');
+          obj[k] = v;
+        }
+      });
+      return obj;
+    }
+
+    async function renderMemos() {
+      const indexResp = await fetch('./memos/index.json');
+      if (!indexResp.ok) {
+        document.getElementById('memos').innerHTML = '<div class="small">No memo index yet. Run: node rnd/debate.js</div>';
+        return;
+      }
+      const files = await indexResp.json();
+      const sorted = files.sort().reverse();
+      const memoHtml = [];
+
+      for (const file of sorted) {
+        const md = await fetch(`./memos/${file}`).then(r => r.text());
+        const fm = parseFrontMatter(md);
+        const tags = (fm.category_tags || '').split(',').map(t => t.trim()).filter(Boolean);
+
+        memoHtml.push(`
+          <div class="memo">
+            <div><strong>${fm.generated_at || file}</strong></div>
+            <div>${tags.map(t => `<span class="tag">${t}</span>`).join('')}</div>
+            <div class="small"><a href="./memos/${file}" target="_blank">Open memo</a></div>
+          </div>
+        `);
+      }
+
+      document.getElementById('memos').innerHTML = memoHtml.join('') || '<div class="small">No memos yet.</div>';
+    }
+
+    async function main() {
+      const cfg = await fetchJSON('./agents.json');
+      renderAgents(cfg.agents);
+      await renderMemos();
+    }
+
+    main().catch(err => {
+      document.body.insertAdjacentHTML('beforeend', `<pre>${err.message}</pre>`);
+    });
+  </script>
+</body>
+</html>

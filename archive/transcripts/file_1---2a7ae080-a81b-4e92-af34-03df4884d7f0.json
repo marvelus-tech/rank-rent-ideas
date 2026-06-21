@@ -1,0 +1,1 @@
+{"text": " So now you can hear me", "segments": [{"id": 0, "seek": 0, "start": 0.0, "end": 2.0, "text": " So now you can hear me", "tokens": [50364, 407, 586, 291, 393, 1568, 385, 50464], "temperature": 0.0, "avg_logprob": -0.10268661048677233, "compression_ratio": 0.7333333333333333, "no_speech_prob": 0.0506976917386055}], "language": "en"}

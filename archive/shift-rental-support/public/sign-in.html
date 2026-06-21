@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign In — SHIFT Fleet</title>
+  <style>
+    :root {
+      --bg-primary: #000000;
+      --bg-tertiary: #141414;
+      --accent-amber: #ff9f0a;
+      --accent-primary-hover: #ffb340;
+      --accent-cyan: #64d2ff;
+      --text-primary: rgba(255, 255, 255, 0.92);
+      --text-secondary: rgba(255, 255, 255, 0.55);
+      --text-tertiary: rgba(255, 255, 255, 0.3);
+      --glass-border: rgba(255, 255, 255, 0.08);
+      --ease: cubic-bezier(0.4, 0, 0.2, 1);
+      --font-stack: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui, sans-serif;
+      --mono: "SF Mono", ui-monospace, Menlo, Monaco, Consolas, monospace;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--font-stack);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Ambient depth — restrained, automotive-panel feel */
+    .sign-bg {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      background:
+        radial-gradient(ellipse 80% 50% at 50% -20%, rgba(255, 159, 10, 0.12), transparent 55%),
+        radial-gradient(ellipse 60% 40% at 100% 60%, rgba(100, 210, 255, 0.06), transparent 50%),
+        radial-gradient(ellipse 50% 50% at 0% 80%, rgba(255, 159, 10, 0.05), transparent 45%),
+        var(--bg-primary);
+    }
+    .sign-grain {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      opacity: 0.04;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--accent-amber);
+      outline-offset: 2px;
+    }
+    a { color: inherit; text-decoration: none; }
+
+    .top-bar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 clamp(20px, 5vw, 64px);
+      background: linear-gradient(to bottom, rgba(13, 13, 13, 0.85), transparent);
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+      border-bottom: 1px solid transparent;
+    }
+    .brand {
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      transition: opacity 200ms var(--ease);
+    }
+    .brand:hover { opacity: 0.85; }
+    .back-link {
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      transition: color 200ms var(--ease);
+    }
+    .back-link:hover { color: var(--text-primary); }
+
+    .sign-shell {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 96px clamp(20px, 4vw, 48px) 48px;
+    }
+
+    .sign-card {
+      width: 100%;
+      max-width: 420px;
+      padding: 44px 40px 40px;
+      border-radius: 24px;
+      background: rgba(20, 20, 20, 0.65);
+      border: 1px solid var(--glass-border);
+      box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.04) inset,
+        0 24px 80px rgba(0, 0, 0, 0.55);
+      backdrop-filter: blur(24px) saturate(160%);
+      -webkit-backdrop-filter: blur(24px) saturate(160%);
+      animation: cardIn 700ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    @keyframes cardIn {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .eyebrow {
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--accent-cyan);
+      margin: 0 0 12px;
+    }
+    .sign-card h1 {
+      margin: 0 0 10px;
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      line-height: 1.15;
+    }
+    .lede {
+      margin: 0 0 36px;
+      font-size: 16px;
+      line-height: 1.5;
+      color: var(--text-secondary);
+    }
+
+    .field {
+      margin-bottom: 20px;
+    }
+    .field label {
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+      letter-spacing: -0.01em;
+    }
+    .field input {
+      width: 100%;
+      height: 48px;
+      padding: 0 16px;
+      border-radius: 12px;
+      border: 1px solid var(--glass-border);
+      background: rgba(0, 0, 0, 0.35);
+      color: var(--text-primary);
+      font-size: 16px;
+      font-family: inherit;
+      transition: border-color 200ms var(--ease), background 200ms var(--ease);
+    }
+    .field input::placeholder {
+      color: var(--text-tertiary);
+    }
+    .field input:hover {
+      border-color: rgba(255, 255, 255, 0.12);
+    }
+    .field input:focus {
+      outline: none;
+      border-color: rgba(255, 159, 10, 0.45);
+      background: rgba(0, 0, 0, 0.5);
+    }
+
+    .btn-signin {
+      width: 100%;
+      height: 52px;
+      margin-top: 8px;
+      border: none;
+      border-radius: 14px;
+      background: var(--accent-amber);
+      color: #000;
+      font-size: 16px;
+      font-weight: 600;
+      font-family: inherit;
+      letter-spacing: -0.02em;
+      cursor: pointer;
+      transition: background 200ms var(--ease), transform 120ms var(--ease), box-shadow 250ms var(--ease);
+    }
+    .btn-signin:hover {
+      background: var(--accent-primary-hover);
+      box-shadow: 0 8px 32px rgba(255, 159, 10, 0.22);
+    }
+    .btn-signin:active {
+      transform: scale(0.99);
+    }
+
+    .demo-note {
+      margin: 24px 0 0;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-tertiary);
+      line-height: 1.45;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .sign-card { animation: none; opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sign-bg" aria-hidden="true"></div>
+  <div class="sign-grain" aria-hidden="true"></div>
+
+  <header class="top-bar">
+    <a href="index.html" class="brand">SHIFT</a>
+    <a href="index.html" class="back-link">Back to home</a>
+  </header>
+
+  <main class="sign-shell">
+    <div class="sign-card">
+      <p class="eyebrow">Fleet owner</p>
+      <h1 id="signin-title">Welcome back</h1>
+      <p class="lede" id="signin-desc">Sign in to your fleet command center.</p>
+
+      <form id="signin-form" action="fleet-dashboard.html" method="get" novalidate>
+        <div class="field">
+          <label for="email">Work email</label>
+          <input id="email" name="email" type="email" autocomplete="username" placeholder="you@fleet.com">
+        </div>
+        <div class="field">
+          <label for="password">Password</label>
+          <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Enter password">
+        </div>
+        <button type="submit" class="btn-signin">Sign In</button>
+      </form>
+      <p class="demo-note">Preview mode — credentials are not verified yet.</p>
+    </div>
+  </main>
+
+  <script>
+    // Stub auth: always continue to the fleet dashboard (real auth wired later).
+    document.getElementById('signin-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      window.location.href = 'fleet-dashboard.html';
+    });
+  </script>
+</body>
+</html>

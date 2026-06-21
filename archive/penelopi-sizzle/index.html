@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Penelopi Sizzle</title>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800;900&display=swap');
+    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body, html {
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: #0a0a1a;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    #stage {
+      width: 1080px;
+      height: 1920px;
+      position: relative;
+      background: #0a0a1a;
+    }
+    
+    .scene {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 80px 60px;
+      opacity: 0;
+      visibility: hidden;
+    }
+    
+    .scene-content {
+      text-align: center;
+      width: 100%;
+    }
+    
+    .headline {
+      font-size: 120px;
+      font-weight: 900;
+      line-height: 1.1;
+      color: #ffffff;
+      letter-spacing: -0.02em;
+      margin-bottom: 40px;
+    }
+    
+    .headline.pink { color: #ff006e; }
+    .headline.purple { color: #b5179e; }
+    .headline.cyan { color: #00d4ff; }
+    
+    .subhead {
+      font-size: 56px;
+      font-weight: 700;
+      color: #ffffff;
+      line-height: 1.3;
+      margin-bottom: 30px;
+    }
+    
+    .subhead.muted {
+      color: rgba(255,255,255,0.6);
+      font-size: 48px;
+    }
+    
+    .stat {
+      font-size: 180px;
+      font-weight: 900;
+      color: #ff006e;
+      line-height: 1;
+      margin-bottom: 20px;
+    }
+    
+    .stat-label {
+      font-size: 48px;
+      font-weight: 700;
+      color: #ffffff;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    
+    .logo {
+      font-size: 140px;
+      font-weight: 900;
+      color: #00d4ff;
+      letter-spacing: -0.03em;
+      margin-bottom: 30px;
+    }
+    
+    .tagline {
+      font-size: 52px;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 60px;
+    }
+    
+    .cta {
+      font-size: 64px;
+      font-weight: 800;
+      color: #ff006e;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    .url {
+      font-size: 44px;
+      font-weight: 700;
+      color: rgba(255,255,255,0.7);
+      margin-top: 20px;
+    }
+    
+    .feature-list {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      align-items: center;
+    }
+    
+    .feature-item {
+      font-size: 64px;
+      font-weight: 800;
+      color: #ffffff;
+      padding: 20px 40px;
+      border: 3px solid #00d4ff;
+      border-radius: 20px;
+      background: rgba(0,212,255,0.1);
+    }
+    
+    .glow {
+      text-shadow: 0 0 40px rgba(255,0,110,0.5), 0 0 80px rgba(255,0,110,0.3);
+    }
+    
+    .flash {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #ffffff;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <div id="stage" data-composition-id="root" data-width="1080" data-height="1920" data-duration="30">
+    <div class="flash" id="flash"></div>
+    
+    <!-- Scene 1: Pattern Interrupt (0-3s) -->
+    <div class="scene clip" id="scene1" data-start="0" data-duration="3" data-track-index="0">
+      <div class="scene-content">
+        <div class="subhead muted">Your salon loses</div>
+        <div class="stat">$4,200</div>
+        <div class="stat-label">Every Month</div>
+        <div class="subhead" style="margin-top: 40px; color: #ff006e;">To Missed Calls</div>
+      </div>
+    </div>
+    
+    <!-- Scene 2: Problem Agitation (3-7s) -->
+    <div class="scene clip" id="scene2" data-start="3" data-duration="4" data-track-index="0">
+      <div class="scene-content">
+        <div class="headline pink">Missed Calls</div>
+        <div class="headline purple">Voicemail</div>
+        <div class="headline cyan">Lost Clients</div>
+      </div>
+    </div>
+    
+    <!-- Scene 3: The Hook (7-12s) -->
+    <div class="scene clip" id="scene3" data-start="7" data-duration="5" data-track-index="0">
+      <div class="scene-content">
+        <div class="subhead muted">What if your</div>
+        <div class="headline">Front Desk</div>
+        <div class="headline cyan">Never Slept?</div>
+      </div>
+    </div>
+    
+    <!-- Scene 4: Solution Reveal (12-18s) -->
+    <div class="scene clip" id="scene4" data-start="12" data-duration="6" data-track-index="0">
+      <div class="scene-content">
+        <div class="logo glow">Penelopi</div>
+        <div class="tagline">AI Answers Every Call</div>
+        <div class="tagline" style="color: #00d4ff; font-size: 72px;">24/7</div>
+      </div>
+    </div>
+    
+    <!-- Scene 5: Feature Burst (18-23s) -->
+    <div class="scene clip" id="scene5" data-start="18" data-duration="5" data-track-index="0">
+      <div class="scene-content">
+        <div class="feature-list">
+          <div class="feature-item">Books Appointments</div>
+          <div class="feature-item">Answers Questions</div>
+          <div class="feature-item">Confirms</div>
+          <div class="feature-item">Follows Up</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Scene 6: Social Proof (23-26s) -->
+    <div class="scene clip" id="scene6" data-start="23" data-duration="3" data-track-index="0">
+      <div class="scene-content">
+        <div class="subhead muted">While you sleep</div>
+        <div class="headline cyan">Penelopi</div>
+        <div class="headline">Works</div>
+      </div>
+    </div>
+    
+    <!-- Scene 7: CTA with FOMO (26-30s) -->
+    <div class="scene clip" id="scene7" data-start="26" data-duration="4" data-track-index="0">
+      <div class="scene-content">
+        <div class="subhead muted">Your competitors are already using AI</div>
+        <div class="cta glow">Get Penelopi</div>
+        <div class="url">get-penelopi.com</div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    
+    // Scene 1: Pattern Interrupt - dramatic slam
+    tl.set("#scene1", { visibility: "visible" }, 0);
+    tl.from("#scene1", { opacity: 0, scale: 1.2, duration: 0.5, ease: "power4.out" }, 0);
+    tl.from("#scene1 .stat", { scale: 0, rotation: -10, duration: 0.6, ease: "back.out(1.7)" }, 0.2);
+    tl.to("#scene1", { opacity: 0, scale: 0.9, duration: 0.4, ease: "power2.in" }, 2.6);
+    tl.set("#scene1", { visibility: "hidden" }, 3.0);
+    
+    // Flash transition
+    tl.to("#flash", { opacity: 0.8, duration: 0.1 }, 2.9);
+    tl.to("#flash", { opacity: 0, duration: 0.2 }, 3.0);
+    
+    // Scene 2: Problem Agitation - rapid word slam
+    tl.set("#scene2", { visibility: "visible" }, 3);
+    tl.from("#scene2", { opacity: 0, duration: 0.1 }, 3);
+    tl.from("#scene2 .headline:nth-child(1)", { x: -200, opacity: 0, duration: 0.4, ease: "power4.out" }, 3.1);
+    tl.from("#scene2 .headline:nth-child(2)", { x: 200, opacity: 0, duration: 0.4, ease: "power4.out" }, 3.4);
+    tl.from("#scene2 .headline:nth-child(3)", { y: 100, opacity: 0, duration: 0.4, ease: "power4.out" }, 3.7);
+    tl.to("#scene2", { opacity: 0, duration: 0.3 }, 6.7);
+    tl.set("#scene2", { visibility: "hidden" }, 7.0);
+    
+    // Scene 3: The Hook - curiosity gap
+    tl.set("#scene3", { visibility: "visible" }, 7);
+    tl.from("#scene3", { opacity: 0, duration: 0.3 }, 7);
+    tl.from("#scene3 .headline", { y: 80, opacity: 0, duration: 0.5, ease: "power3.out", stagger: 0.2 }, 7.2);
+    tl.to("#scene3", { opacity: 0, scale: 1.1, duration: 0.4 }, 11.6);
+    tl.set("#scene3", { visibility: "hidden" }, 12.0);
+    
+    // Scene 4: Solution Reveal - product glow
+    tl.set("#scene4", { visibility: "visible" }, 12);
+    tl.from("#scene4", { opacity: 0, duration: 0.3 }, 12);
+    tl.from("#scene4 .logo", { scale: 0, opacity: 0, duration: 0.6, ease: "back.out(1.7)" }, 12.2);
+    tl.from("#scene4 .tagline:nth-child(2)", { y: 50, opacity: 0, duration: 0.4, ease: "power2.out" }, 12.8);
+    tl.from("#scene4 .tagline:nth-child(3)", { scale: 0.5, opacity: 0, duration: 0.5, ease: "elastic.out(1, 0.5)" }, 13.2);
+    tl.to("#scene4", { opacity: 0, duration: 0.4 }, 17.6);
+    tl.set("#scene4", { visibility: "hidden" }, 18.0);
+    
+    // Scene 5: Feature Burst - cards slam in
+    tl.set("#scene5", { visibility: "visible" }, 18);
+    tl.from("#scene5", { opacity: 0, duration: 0.2 }, 18);
+    tl.from("#scene5 .feature-item:nth-child(1)", { x: -300, opacity: 0, duration: 0.3, ease: "power4.out" }, 18.1);
+    tl.from("#scene5 .feature-item:nth-child(2)", { x: 300, opacity: 0, duration: 0.3, ease: "power4.out" }, 18.4);
+    tl.from("#scene5 .feature-item:nth-child(3)", { x: -300, opacity: 0, duration: 0.3, ease: "power4.out" }, 18.7);
+    tl.from("#scene5 .feature-item:nth-child(4)", { x: 300, opacity: 0, duration: 0.3, ease: "power4.out" }, 19.0);
+    tl.to("#scene5", { opacity: 0, y: -50, duration: 0.4 }, 22.6);
+    tl.set("#scene5", { visibility: "hidden" }, 23.0);
+    
+    // Scene 6: Social Proof - calm trust
+    tl.set("#scene6", { visibility: "visible" }, 23);
+    tl.from("#scene6", { opacity: 0, duration: 0.3 }, 23);
+    tl.from("#scene6 .headline", { y: 40, opacity: 0, duration: 0.5, ease: "power2.out", stagger: 0.2 }, 23.2);
+    tl.to("#scene6", { opacity: 0, duration: 0.3 }, 25.7);
+    tl.set("#scene6", { visibility: "hidden" }, 26.0);
+    
+    // Scene 7: CTA - urgency slam
+    tl.set("#scene7", { visibility: "visible" }, 26);
+    tl.from("#scene7", { opacity: 0, duration: 0.2 }, 26);
+    tl.from("#scene7 .cta", { scale: 0, opacity: 0, duration: 0.5, ease: "back.out(1.7)" }, 26.2);
+    tl.from("#scene7 .url", { y: 30, opacity: 0, duration: 0.4, ease: "power2.out" }, 26.8);
+    tl.to("#scene7", { opacity: 0, duration: 0.5 }, 29.5);
+    tl.set("#scene7", { visibility: "hidden" }, 30.0);
+    
+    window.__timelines = window.__timelines || {};
+    window.__timelines["root"] = tl;
+  </script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "type": "new-consultation",
+  "jobId": "0843af08-464a-4a6f-8c27-9aad29218fb1",
+  "timestamp": "2026-03-27-142045",
+  "clientName": "XXX",
+  "therapistName": "OOO",
+  "duration": "00:24",
+  "audioFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-142045-XXX.webm",
+  "noteFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-142045-XXX.md",
+  "status": "pending",
+  "receivedAt": "2026-03-27T14:20:45.605732",
+  "recordingFilename": "2026-03-27-142045-XXX.webm"
+}

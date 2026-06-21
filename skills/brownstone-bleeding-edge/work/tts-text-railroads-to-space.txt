@@ -1,0 +1,153 @@
+Railroads to Space
+
+Jun 1, 2026
+
+Starlink, Starshield, and now… Starfall? I recently ventured out to SpaceX headquarters in Starbase, Texas, to do some boots-on-the-ground research – much of which I’ll be discussing at tomorrow evening’s event and in the days ahead – leading up to the company’s historic IPO on June 12… Construction of the Gigabay is well underway. It’s […]
+
+Managing Editor’s Note:It’s almost time…
+
+Tomorrow at 8 p.m. ET, Jeff is sharing details on the upcoming SpaceX IPO… including what he learned during his recent visit to SpaceX headquarters and the strategy he’s eyeing for playing IPO day…
+
+Because there are better ways to take advantage of this historic IPO than buying SpaceX shares at the moment of its public market debut.
+
+You cango here to sign up with one click to joinJeff tomorrow, June 3, at 8 p.m. ET.
+
+Starlink, Starshield, and now… Starfall?
+
+I recently ventured out to SpaceX headquarters in Starbase, Texas, to do some boots-on-the-ground research – much of which I’ll be discussing attomorrow evening’s eventand in the days ahead – leading up to the company’s historic IPO on June 12…
+
+Construction of the Gigabay is well underway. It’s truly incredible to witness, in person, the progress being made at the headquarters of the company paving the way for the global space economy’s buildout…
+
+And amid all the recent activity, I learned of a stealth project housed within SpaceX.
+
+The company has never spoken of it in public before.
+
+Starlink is seen by most as SpaceX’s broadband internet service delivered from space.
+
+It now has more than 10.4 million subscribers and has become the profit and free cash flow generation engine for SpaceX.
+
+But looking at Starlink as just that completely misses the point.
+
+Starlink is literally a worldwide web that encompasses the Earth in orbit.
+
+It is the only space-based internet infrastructure, as Starlink satellites are interconnected using optical links – enabled by lasers – for transmission.
+
+This is the backbone for SpaceX to establish an entirely new industry of orbital web services (OWS), which will be manifested once SpaceX launches its AI data center satellites into a sun-synchronous orbit.
+
+Starshield, unveiled in December 2022, leverages Starlink. It provides services for the purpose of national security.
+
+Starshield provides both secure satellite communications and customized spacecraft for the U.S. government and any of its allies.
+
+Starfall, on the other hand, is something entirely different.
+
+It represents what will become a key technology for the emerging space economy.
+
+In the very simple graphic shown below, Starfall is a spacecraft measuring 0.75 meters in height and 3.1 meters in diameter.
+
+It is designed to transport payloads from space to potentially anywhere on Earth where it can land safely.
+
+Hence the name – Starfall…
+
+Falling from space.
+
+Image of Starfall |Source: FAA
+
+Each Starfall spacecraft will weigh about 2,100 kilograms and have a payload capacity of about 1,000 kilograms, making the spacecraft plus payload weigh as much as 3,100 kilograms (6,800 pounds).
+
+The details of the Starfall spacecraft and project were not learned of from SpaceX…
+
+However, they will most certainly become a topic of discussion in the days to follow – given SpaceX’s imminent IPO on June 12.
+
+This information became public from the Federal Aviation Administration (FAA), when it published an environmental assessment for a Starfall reentry vehicle days ago.
+
+The concept is for SpaceX to launch Starfall spacecraft from low Earth orbit (LEO) on a pre-planned trajectory to splash down in the Pacific Ocean 700 nautical miles off the West Coast of the U.S.
+
+Starfall Reentry Area |Source: FAA
+
+Each Starfall spacecraft is equipped only with cold-gas attitude thrusters – which use nitrogen –which pose no risk of chemical contamination.
+
+Each Starfall will be equipped with one pilot parachute, one drogue parachute, and one main parachute to enable the spacecraft to land on Earth or sea without damaging the spacecraft or payload.
+
+Starfall Drogue Parachute Mockup |Source: FAA
+
+The media largely assumed that the Starfall project is ultimately designed for space-based manufacturing.
+
+There is some truth to that, but not in the way you might think. And it’s not the whole story.
+
+Tomorrow, Wednesday, June 3, at 8 p.m. ET, Jeff Brown will be reporting directly from SpaceX’s headquarters in Starbase, Texas.So please click here to save your seat for his special SpaceX broadcast…And he will share details on THREE new official recommendations… Including an early-stage company that’s tied to the growth of SpaceX… And that could return up to 50 times more money than the IPO.
+
+Jeff Brown has been ahead of the crowd on Elon Musk, every step of the way. After the so-called experts said Tesla was going bankrupt, he doubled down. And the stock is up 1,510% since. He was one of the first to correctly predict the SpaceX IPO. And he has visited Musk’s facilities across the country. So he is uniquely qualified to give thislive demonstrationof Musk’s new 70x AI agent.Click here to watch for free.
+
+Elon Musk has recently suggested that SpaceX intends to manufacture semiconductors and AI data center satellites on the moon, taking advantage of the materials widely available on the lunar surface, as well as the low-gravity environment.
+
+But that plan is designed to fuel SpaceX’s own ambitions to build out its 1 million AI data center satellite constellation, not to manufacture semiconductors on the moon for other companies.
+
+Mass Driver on the Moon |Source: SpaceX
+
+As it pertains to space-based manufacturing, a far more likely scenario is that Starfall is designed as a spacecraft that other companies can use as a “shell” for space-based manufacturing and the return of manufactured goods to Earth.
+
+In other words, SpaceX would provide both the hardware (i.e., the spacecraft) and the launch services for other companies.
+
+SpaceX has already launched six test missions for orbital manufacturing forVarda Space Industries, which is currently the market leader, initially focused on manufacturing pharmaceutical compounds in the very low gravity environment in Earth’s orbit.
+
+And there’s more.
+
+What was missed by the media was a completely different business opportunity that SpaceX is interested in developing… and it was written in black and white in the FAA’s environmental assessment:
+
+The purpose of the Proposed Action is to (1) enable point-to-point delivery of critical cargo through space on rapid timelines and (2) create a self-sustaining commercial in-space manufacturing market by offering access to microgravity and vacuum, loiter on orbit, and safe return from orbit as a service at scale.
+
+The second point I’ve already addressed.
+
+It’s not that SpaceX will become a manufacturer of goods in space. It’s that it will enable others to do so by creating the hardware and launch services that others can use.
+
+The first point is equally, if not more interesting.
+
+Starship’s, and for that matter the Falcon 9’s, capabilities will enable 1,000 kilograms of goods to be launched into orbit on a Starfall…withthe ability to deliver those goods anywhere on Earth within 90 minutes.
+
+For high-value goods, or those in critical need, SpaceX just proposed services that would put it in direct competition with FedEx (FDX), DHL (DHLGY), and UPS (UPS), capable of doing within 90 minutes what it takes the others typically 12 hours or more to achieve.
+
+I know it might sound crazy, but if we consider government applications that require sending materiel to a forward-operating theater, this is an obvious application that wouldn’t be cost-sensitive.
+
+Industry could also find uses for this kind of service for critical supply chain needs to keep production online. And lifesaving medicines could potentially be justified as well.
+
+It may seem or feel that it is still too over the top. Too expensive? Too difficult to get things up to space and then send them back down to Earth?
+
+But that’s the old framework for thinking about point-to-point delivery.
+
+As a reminder, the Starship will soon enable more than a 95% drop in cost per kilogram to low Earth orbit compared to its own Falcon 9 rockets. And SpaceX, with its Gigabay facility in Starbase, will be capable of manufacturing 1,000 Starships a year.
+
+The Starship will enable $100 per kilogram within the next 24-30 months, and in time even lower than that.
+
+If we think back, the total weight, with a full payload, of a Starfall is 3,100 kilograms.
+
+At $100 per kilogram, the cost of launch is just $310,000. It’s an absurdly low price. Cheap enough for startups that may want to manufacture fiber-optic cables or pharmaceutical compounds in microgravity to afford.
+
+What are these markets worth?
+
+Most will say that they don’t know, as they don’t exist yet.
+
+But I can tell you that space-based manufacturing and point-to-point delivery anywhere on Earth in 90 minutes are industries that will be worth tens of billions within the next five years.
+
+What SpaceX (SPCX) is building is so much larger than just Starlink, orbital internet infrastructure, orbital web services, or lunar manufacturing.
+
+It’s building the “railroads” to space, the transportation infrastructure to underpin the global space economy…
+
+It’s building the future.
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+Google will continue to be a leader in AI and search because it has finally integrated the technology into...
+
+Last night, the skies over Cape Canaveral lit up as a Blue Origin New Glenn rocket exploded in a...
+
+Zero-human companies are businesses that operate entirely by AI. It’s fully autonomous. In theory, they can manage marketing, sales,...
+
+Read the latest insights from the world of high technology.
+
+Google will continue to be a leader in AI and search because it has finally integrated the technology into...
+
+Last night, the skies over Cape Canaveral lit up as a Blue Origin New Glenn rocket exploded in a...
+
+Zero-human companies are businesses that operate entirely by AI. It’s fully autonomous. In theory, they can manage marketing, sales,...

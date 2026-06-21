@@ -1,0 +1,651 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TERMINAL // MISSION CONTROL</title>
+  <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --terminal-green: #00ff41;
+      --terminal-green-dim: rgba(0, 255, 65, 0.6);
+      --terminal-green-glow: rgba(0, 255, 65, 0.3);
+      --terminal-bg: #0a0a0a;
+      --terminal-amber: #ffb000;
+      --border-subtle: rgba(0, 255, 65, 0.15);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html, body {
+      height: 100%;
+      background: var(--terminal-bg);
+      color: var(--terminal-green);
+      font-family: 'VT323', monospace;
+      font-size: 18px;
+      line-height: 1.4;
+      overflow-x: hidden;
+      text-shadow: 0 0 10px var(--terminal-green-glow);
+    }
+
+    /* CRT Effects */
+    body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: 
+        linear-gradient(rgba(0,0,0,0) 50%, rgba(0,0,0,0.25) 50%),
+        linear-gradient(90deg, rgba(0,255,0,0.03) 1px, transparent 1px),
+        linear-gradient(rgba(0,255,0,0.03) 1px, transparent 1px);
+      background-size: 100% 4px, 50px 100%, 100% 50px;
+      pointer-events: none;
+      z-index: 100;
+      opacity: 0.5;
+    }
+
+    body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.4) 100%);
+      pointer-events: none;
+      z-index: 101;
+    }
+
+    .crt-screen {
+      position: relative;
+      z-index: 2;
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .ascii-art {
+      font-family: 'VT323', monospace;
+      font-size: 0.7rem;
+      line-height: 1.05;
+      white-space: pre;
+      overflow-x: auto;
+      margin-bottom: 30px;
+      color: var(--terminal-green);
+      text-shadow: 0 0 15px var(--terminal-green-glow);
+      letter-spacing: 0;
+    }
+
+    .status-bar {
+      background: linear-gradient(180deg, rgba(0,255,65,0.08) 0%, rgba(0,0,0,0) 100%);
+      border: 1px solid var(--border-subtle);
+      border-left: 3px solid var(--terminal-green);
+      padding: 20px;
+      margin-bottom: 30px;
+      position: relative;
+    }
+
+    .status-bar::before {
+      content: "◆ SYSTEM ONLINE";
+      position: absolute;
+      top: -12px;
+      left: 20px;
+      background: var(--terminal-bg);
+      padding: 0 10px;
+      font-size: 0.9rem;
+      font-weight: bold;
+    }
+
+    .status-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 30px;
+      align-items: center;
+      margin-top: 10px;
+    }
+
+    .status-secondary {
+      margin-top: 15px;
+      padding-top: 15px;
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px 40px;
+      font-size: 0.9rem;
+    }
+
+    .status-item {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .status-label {
+      font-size: 0.85rem;
+      opacity: 0.6;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .status-value {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+
+    .live-indicator {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: bold;
+    }
+
+    .live-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--terminal-green);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--terminal-green);
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 0.3; transform: scale(0.8); }
+      50% { opacity: 1; transform: scale(1.2); }
+    }
+
+    .panel {
+      background: rgba(0, 255, 65, 0.02);
+      border: 1px solid var(--border-subtle);
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 25px;
+    }
+
+    .panel::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--terminal-green), transparent);
+      opacity: 0.5;
+    }
+
+    .panel-header {
+      background: rgba(0, 255, 65, 0.05);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.95rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    .panel-badge {
+      font-size: 0.8rem;
+      padding: 2px 8px;
+      border: 1px solid var(--terminal-green-dim);
+      background: rgba(0, 255, 65, 0.1);
+    }
+
+    .panel-content {
+      padding: 20px;
+    }
+
+    .fleet-scroll {
+      overflow: hidden;
+      white-space: nowrap;
+      position: relative;
+      mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+      -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+    }
+
+    .fleet-track {
+      display: inline-flex;
+      gap: 20px;
+      animation: scroll 25s linear infinite;
+    }
+
+    .fleet-track:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .agent-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: rgba(0, 0, 0, 0.4);
+      border: 1px solid var(--border-subtle);
+      padding: 8px 16px;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+      flex-shrink: 0;
+    }
+
+    .agent-pill:hover {
+      border-color: var(--terminal-green-dim);
+      background: rgba(0, 255, 65, 0.08);
+    }
+
+    .agent-pill::before {
+      content: "";
+      width: 6px;
+      height: 6px;
+      border-radius: 50%;
+      background: var(--terminal-green-dim);
+      flex-shrink: 0;
+    }
+
+    .agent-pill.online::before { background: var(--terminal-green); box-shadow: 0 0 6px var(--terminal-green); }
+    .agent-pill.busy::before { background: var(--terminal-amber); box-shadow: 0 0 6px var(--terminal-amber); }
+    .agent-pill.building::before { background: #00bfff; box-shadow: 0 0 6px #00bfff; }
+    .agent-pill.validating::before { background: #ff00ff; box-shadow: 0 0 6px #ff00ff; }
+
+    .agent-pill-name {
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .agent-pill-role {
+      opacity: 0.6;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
+
+    .agent-pill-model {
+      opacity: 0.4;
+      font-size: 0.75rem;
+    }
+
+    .ascii-progress {
+      font-family: 'VT323', monospace;
+      letter-spacing: 0;
+      white-space: pre;
+    }
+
+    .pipeline-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+    }
+
+    .pipeline-table th,
+    .pipeline-table td {
+      padding: 12px 15px;
+      text-align: left;
+      border: 1px solid var(--border-subtle);
+    }
+
+    .pipeline-table th {
+      background: rgba(0, 255, 65, 0.08);
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 0.9rem;
+    }
+
+    .pipeline-table td {
+      background: rgba(0, 0, 0, 0.2);
+    }
+
+    .pipeline-project {
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .stage-badge {
+      display: inline-block;
+      padding: 3px 10px;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border: 1px solid currentColor;
+    }
+
+    .stage-inbox { color: var(--terminal-green-dim); }
+    .stage-validating { color: var(--terminal-amber); }
+    .stage-building { color: var(--terminal-green); background: rgba(0,255,65,0.1); }
+    .stage-launched { color: #00ffff; }
+    .stage-archived { color: #666; }
+
+    .command-line {
+      margin-top: 40px;
+      padding: 20px;
+      border-top: 1px solid var(--border-subtle);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1.1rem;
+    }
+
+    .prompt {
+      font-weight: bold;
+    }
+
+    .cursor {
+      display: inline-block;
+      width: 12px;
+      height: 1.2em;
+      background: var(--terminal-green);
+      animation: blink 1s step-end infinite;
+      box-shadow: 0 0 10px var(--terminal-green);
+    }
+
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .footer-keys {
+      margin-top: 20px;
+      padding: 15px;
+      border: 1px solid var(--border-subtle);
+      text-align: center;
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+    .key {
+      display: inline-block;
+      padding: 2px 8px;
+      border: 1px solid var(--terminal-green-dim);
+      margin: 0 5px;
+      font-size: 0.8rem;
+      background: rgba(0, 255, 65, 0.05);
+    }
+
+    .amber-mode {
+      --terminal-green: #ffb000;
+      --terminal-green-dim: rgba(255, 176, 0, 0.6);
+      --terminal-green-glow: rgba(255, 176, 0, 0.3);
+      --border-subtle: rgba(255, 176, 0, 0.15);
+      color: var(--terminal-amber);
+    }
+
+    .last-updated {
+      font-size: 0.8rem;
+      opacity: 0.5;
+      text-align: right;
+      margin-top: 10px;
+    }
+
+    /* Mobile tightening (small screens) */
+    @media (max-width: 480px) {
+      html, body { font-size: 16px; }
+
+      .crt-screen { padding: 20px 12px; }
+
+      .ascii-art {
+        font-size: 0.55rem;
+        margin-bottom: 18px;
+      }
+
+      .status-bar { padding: 14px 12px; }
+      .status-bar::before { left: 12px; font-size: 0.85rem; }
+      .status-grid { gap: 14px; }
+
+      .status-label { letter-spacing: 1.5px; }
+      .status-value { font-size: 1.05rem; }
+
+      .status-secondary {
+        gap: 10px 16px;
+        font-size: 0.85rem;
+      }
+
+      .panel-header {
+        padding: 12px 12px;
+        flex-wrap: wrap;
+        gap: 10px;
+        letter-spacing: 1.5px;
+      }
+
+      .panel-content { padding: 14px 12px; }
+
+      .agent-pill { padding: 6px 12px; }
+      .fleet-track { animation-duration: 18s; }
+
+      .pipeline-table { font-size: 0.9rem; }
+      .pipeline-table th, .pipeline-table td { padding: 10px 10px; }
+      .pipeline-table th { letter-spacing: 1.5px; }
+
+      .command-line {
+        margin-top: 24px;
+        padding: 14px 12px;
+        flex-wrap: wrap;
+        row-gap: 6px;
+        font-size: 1rem;
+      }
+
+      .footer-keys { padding: 12px; }
+      .key { margin: 4px 5px; }
+      .last-updated { text-align: left; }
+    }
+  </style>
+</head>
+<body id="terminal-body">
+  <div class="crt-screen">
+    <div class="ascii-art">
+<pre>
+██████╗ ███████╗███╗   ██╗███████╗██╗      ██████╗ ██████╗ ██╗
+██╔══██╗██╔════╝████╗  ██║██╔════╝██║     ██╔═══██╗██╔══██╗██║
+██████╔╝█████╗  ██╔██╗ ██║█████╗  ██║     ██║   ██║██████╔╝██║
+██╔═══╝ ██╔══╝  ██║╚██╗██║██╔══╝  ██║     ██║   ██║██╔═══╝ ██║
+██║     ███████╗██║ ╚████║███████╗███████╗╚██████╔╝██║     ██║
+╚═╝     ╚══════╝╚═╝  ╚═══╝╚══════╝╚══════╝ ╚═════╝ ╚═╝     ╚═╝
+</pre>
+</div>
+
+    <div class="status-bar">
+      <div class="status-grid">
+        <div class="status-item">
+          <span class="status-label">Operator</span>
+          <span class="status-value">OKEITO</span>
+        </div>
+        <div class="status-item">
+          <span class="status-label">Auth Status</span>
+          <span class="status-value">[ONLINE]</span>
+        </div>
+        <div class="status-item">
+          <span class="status-label">Environment</span>
+          <span class="status-value">DARWIN 24.6.0</span>
+        </div>
+        <div class="status-item">
+          <span class="status-label">System Time</span>
+          <span class="status-value" id="clock">12:00:00</span>
+        </div>
+      </div>
+      <div class="status-secondary">
+        <span>FLEET: <strong id="fleetCount">6</strong> UNITS</span>
+        <span>OPS: <strong id="opsCount">—</strong> ACTIVE</span>
+        <span>UPTIME: <strong id="uptime">00:00:15</strong></span>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <span>◈ FLEET TELEMETRY</span>
+        <span class="live-indicator">
+          <span class="live-dot"></span>
+          LIVE
+        </span>
+      </div>
+      <div class="panel-content">
+        <div class="fleet-scroll">
+          <div class="fleet-track" id="fleetTrack"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-header">
+        <span>◈ PIPELINE FLOW</span>
+        <span class="panel-badge" id="projectCount">[ LOADING ]</span>
+      </div>
+      <div class="panel-content" style="overflow-x: auto;">
+        <table class="pipeline-table">
+          <thead>
+            <tr>
+              <th>PROJECT</th>
+              <th>STAGE</th>
+              <th>PROGRESS</th>
+            </tr>
+          </thead>
+          <tbody id="pipelineBody">
+            <tr><td colspan="3" style="text-align: center; opacity: 0.5;">◆ LOADING PROJECTS FROM VAULT...</td></tr>
+          </tbody>
+        </table>
+        <div class="last-updated" id="lastUpdated"></div>
+      </div>
+    </div>
+
+    <div class="command-line">
+      <span class="prompt">➜</span>
+      <span id="commandText">SYSTEM READY | AWAITING INPUT</span>
+      <span class="cursor"></span>
+    </div>
+
+    <div class="footer-keys">
+      <span class="key">[ 1 ]</span> TOGGLE AMBER MODE  
+      <span class="key">[ 2 ]</span> SCAN VAULT & REFRESH  
+      <span class="key">[ ESC ]</span> LOGOUT
+    </div>
+  </div>
+
+  <script>
+    // AGENT FLEET - Hardcoded
+    const agents = [
+      { name: 'Penelopi', role: 'Main Orchestrator', status: 'online', model: 'Kimi K2.5' },
+      { name: 'Hermes', role: 'Rapid Research', status: 'online', model: 'Gemini Flash' },
+      { name: 'Calliope', role: 'Narrative Architect', status: 'busy', model: 'Claude Sonnet' },
+      { name: 'Stark', role: 'Systems Engineer', status: 'building', model: 'GPT Codex' },
+      { name: 'Athena', role: 'Deep Reasoning', status: 'online', model: 'Claude Opus' },
+      { name: 'Night Owl', role: 'Sentinel', status: 'validating', model: 'GPT Codex' }
+    ];
+
+    // Load projects from JSON
+    async function loadProjects() {
+      try {
+        const response = await fetch('projects.json?t=' + Date.now());
+        const data = await response.json();
+        
+        document.getElementById('projectCount').textContent = `[ ${data.count} PROJECTS ]`;
+        document.getElementById('opsCount').textContent = data.count;
+        
+        if (data.generated) {
+          const date = new Date(data.generated);
+          document.getElementById('lastUpdated').textContent = 
+            `◆ SYNCED: ${date.toLocaleDateString()} ${date.toLocaleTimeString([], {hour: '2-digit', minute:'2-digit'})}`;
+        }
+        
+        renderPipeline(data.projects);
+      } catch (err) {
+        console.error('Failed to load projects:', err);
+        document.getElementById('pipelineBody').innerHTML = 
+          '<tr><td colspan="3" style="text-align: center; color: var(--terminal-amber);">⚠ SYNC ERROR</td></tr>';
+      }
+    }
+
+    // TRIGGER SCAN - calls the server endpoint that runs scan-ideas.js
+    async function triggerScan() {
+      const cmdText = document.getElementById('commandText');
+      
+      cmdText.textContent = 'SCANNING VAULT...';
+      
+      try {
+        const response = await fetch('/refresh');
+        const result = await response.json();
+        
+        if (result.success) {
+          cmdText.textContent = 'REFRESH COMPLETE | AWAITING INPUT';
+          
+          // Reload the data
+          await loadProjects();
+        } else {
+          throw new Error(result.error || 'Scan failed');
+        }
+      } catch (err) {
+        console.error('Scan failed:', err);
+        cmdText.textContent = 'SCAN FAILED | AWAITING INPUT';
+      }
+    }
+
+    function renderProgressBar(percent, width = 16) {
+      const filled = Math.floor((percent / 100) * width);
+      let bar = '[';
+      for (let i = 0; i < width; i++) {
+        if (i < filled) bar += '█';
+        else if (i === filled && (percent / 100) * width - filled > 0.5) bar += '▓';
+        else if (i === filled && (percent / 100) * width - filled > 0) bar += '▒';
+        else bar += '░';
+      }
+      bar += `] ${String(percent).padStart(3)}%`;
+      return `<span class="ascii-progress">${bar}</span>`;
+    }
+
+    function renderFleet() {
+      const track = document.getElementById('fleetTrack');
+      // Double the agents for seamless infinite scroll
+      const displayAgents = [...agents, ...agents];
+      
+      track.innerHTML = displayAgents.map(agent => {
+        const statusClass = agent.status.toLowerCase();
+        return `
+          <div class="agent-pill ${statusClass}">
+            <span class="agent-pill-name">${agent.name.toUpperCase()}</span>
+            <span class="agent-pill-role">${agent.role.toUpperCase()}</span>
+            <span class="agent-pill-model">◈ ${agent.model.toUpperCase()}</span>
+          </div>
+        `;
+      }).join('');
+    }
+
+    function renderPipeline(projects) {
+      const tbody = document.getElementById('pipelineBody');
+      
+      if (!projects || projects.length === 0) {
+        tbody.innerHTML = '<tr><td colspan="3" style="text-align: center; opacity: 0.5;">◆ NO PROJECTS FOUND</td></tr>';
+        return;
+      }
+      
+      tbody.innerHTML = projects.map(p => {
+        const stageClass = `stage-${p.stage.toLowerCase()}`;
+        return `
+          <tr>
+            <td class="pipeline-project">${p.name.toUpperCase().replace(/-/g, ' ')}</td>
+            <td><span class="stage-badge ${stageClass}">${p.stage.toUpperCase()}</span></td>
+            <td>${renderProgressBar(p.progress)}</td>
+          </tr>
+        `;
+      }).join('');
+    }
+
+    function tickClock() {
+      const now = new Date();
+      document.getElementById('clock').textContent = now.toLocaleTimeString([], { hour12: false });
+    }
+
+    function updateUptime() {
+      const el = document.getElementById('uptime');
+      let [h, m, s] = el.textContent.split(':').map(Number);
+      s++; if (s >= 60) { s = 0; m++; }
+      if (m >= 60) { m = 0; h++; }
+      el.textContent = `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === '1') {
+        document.getElementById('terminal-body').classList.toggle('amber-mode');
+      }
+      if (e.key === '2') {
+        triggerScan(); // Now runs the full scan
+      }
+    });
+
+    renderFleet();
+    loadProjects();
+    tickClock();
+    setInterval(tickClock, 1000);
+    setInterval(updateUptime, 1000);
+  </script>
+</body>
+</html>

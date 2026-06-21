@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlowState — AI Productivity That Adapts to You</title>
+  <meta name="description" content="FlowState uses AI to eliminate distractions, prioritize what matters, and help you enter deep work faster. Start free today.">
+  
+  <!-- OpenGraph -->
+  <meta property="og:title" content="FlowState — AI Productivity That Adapts to You">
+  <meta property="og:description" content="Eliminate distractions and enter deep work faster with AI-powered focus.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://flowstate.ai">
+  <meta property="og:image" content="https://flowstate.ai/og-image.jpg">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FlowState — AI Productivity That Adapts to You">
+  <meta name="twitter:description" content="Eliminate distractions and enter deep work faster.">
+  <meta name="twitter:image" content="https://flowstate.ai/og-image.jpg">
+  
+  <link rel="canonical" href="https://flowstate.ai">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <style>
+    /* === CSS VARIABLES === */
+    :root {
+      --bg-primary: #0a0e1a;
+      --bg-secondary: #111827;
+      --bg-tertiary: #1a2332;
+      --bg-elevated: #1f2937;
+      --text-primary: #f0f4f8;
+      --text-secondary: #94a3b8;
+      --text-muted: #64748b;
+      --accent: #06b6d4;
+      --accent-hover: #0891b2;
+      --accent-subtle: rgba(6, 182, 212, 0.1);
+      --accent-glow: rgba(6, 182, 212, 0.15);
+      --border: rgba(148, 163, 184, 0.1);
+      --border-strong: rgba(148, 163, 184, 0.2);
+      --shadow-glow: 0 0 40px rgba(6, 182, 212, 0.15);
+      --font-display: 'Playfair Display', Georgia, serif;
+      --font-body: 'Plus Jakarta Sans', 'Helvetica Neue', sans-serif;
+      --font-mono: 'JetBrains Mono', 'Courier New', monospace;
+      --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    
+    /* === RESET === */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    html {
+      scroll-behavior: smooth;
+    }
+    
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+    
+    /* === BACKGROUND === */
+    .bg-atmosphere {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background:
+        radial-gradient(ellipse at 20% 50%, rgba(6, 182, 212, 0.08) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 20%, rgba(139, 92, 246, 0.05) 0%, transparent 50%),
+        radial-gradient(ellipse at 50% 100%, rgba(6, 182, 212, 0.05) 0%, transparent 50%),
+        linear-gradient(180deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+    }
+    
+    .bg-noise {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      opacity: 0.03;
+      pointer-events: none;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    }
+    
+    /* === GRID LINES === */
+    .grid-lines {
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      pointer-events: none;
+      background-size: 60px 60px;
+      background-image:
+        linear-gradient(to right, rgba(148, 163, 184, 0.02) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(148, 163, 184, 0.02) 1px, transparent 1px);
+    }
+    
+    /* === ANIMATIONS === */
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    
+    .animate-fadeSlideUp {
+      animation: fadeSlideUp 0.6s var(--ease-out-expo) both;
+    }
+    
+    .animate-fadeIn {
+      animation: fadeIn 0.8s ease-out both;
+    }
+    
+    .delay-1 { animation-delay: 0.1s; }
+    .delay-2 { animation-delay: 0.25s; }
+    .delay-3 { animation-delay: 0.35s; }
+    .delay-4 { animation-delay: 0.45s; }
+    .delay-5 { animation-delay: 0.55s; }
+    .delay-6 { animation-delay: 0.65s; }
+    
+    /* === REDUCED MOTION === */
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+    }
+    
+    /* === SKIP LINK === */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      padding: 8px 16px;
+      z-index: 1000;
+      transition: top 0.2s;
+      text-decoration: none;
+      border-radius: 0 0 4px 0;
+    }
+    .skip-link:focus {
+      top: 0;
+    }
+    
+    /* === NAVIGATION === */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 16px 24px;
+      background: rgba(10, 14, 26, 0.8);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .nav-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--text-primary);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+    }
+    
+    .logo span {
+      color: var(--accent);
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 32px;
+      align-items: center;
+    }
+    
+    .nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+    
+    .nav-links a:hover {
+      color: var(--text-primary);
+    }
+    
+    .nav-cta {
+      background: var(--accent);
+      color: var(--bg-primary);
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 0.875rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.2s;
+      border: none;
+      cursor: pointer;
+    }
+    
+    .nav-cta:hover {
+      background: var(--accent-hover);
+      transform: translateY(-1px);
+    }
+    
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--text-primary);
+      cursor: pointer;
+    }
+    
+    /* === HERO === */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      padding: 120px 24px 80px;
+    }
+    
+    .hero-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 80px;
+      align-items: center;
+      width: 100%;
+    }
+    
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: var(--accent-subtle);
+      color: var(--accent);
+      padding: 8px 16px;
+      border-radius: 100px;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 24px;
+      border: 1px solid rgba(6, 182, 212, 0.2);
+    }
+    
+    .hero-badge .dot {
+      width: 8px;
+      height: 8px;
+      background: var(--accent);
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+    
+    .hero-title {
+      font-family: var(--font-display);
+      font-size: clamp(2.5rem, 5vw, 4.5rem);
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -0.02em;
+      margin-bottom: 24px;
+      color: var(--text-primary);
+    }
+    
+    .hero-title em {
+      color: var(--accent);
+      font-style: italic;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+      max-width: 520px;
+      margin-bottom: 32px;
+      line-height: 1.7;
+    }
+    
+    .hero-cta-group {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 48px;
+    }
+    
+    .btn-primary {
+      background: var(--accent);
+      color: var(--bg-primary);
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .btn-primary:hover {
+      background: var(--accent-hover);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-glow);
+    }
+    
+    .btn-secondary {
+      background: transparent;
+      color: var(--text-primary);
+      padding: 14px 32px;
+      border-radius: 8px;
+      font-size: 1rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      border: 1px solid var(--border-strong);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .btn-secondary:hover {
+      border-color: var(--accent);
+      background: var(--accent-subtle);
+    }
+    
+    .hero-stats {
+      display: flex;
+      gap: 32px;
+    }
+    
+    .stat {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+    
+    .stat-value {
+      font-family: var(--font-mono);
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: var(--accent);
+    }
+    
+    .stat-label {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+    
+    .hero-visual {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .hero-visual .glow {
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, var(--accent-glow) 0%, transparent 70%);
+      animation: float 6s ease-in-out infinite;
+    }
+    
+    .hero-visual .card-mockup {
+      position: relative;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 24px 48px rgba(0, 0, 0, 0.3);
+    }
+    
+    .card-mockup .card-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 20px;
+    }
+    
+    .card-mockup .avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--accent), #8b5cf6);
+    }
+    
+    .card-mockup .card-lines {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    
+    .card-mockup .line {
+      height: 8px;
+      border-radius: 4px;
+      background: var(--bg-tertiary);
+    }
+    
+    .card-mockup .line.short { width: 60%; }
+    .card-mockup .line.accent { 
+      width: 80%; 
+      background: linear-gradient(90deg, var(--accent), transparent);
+      height: 24px;
+      border-radius: 4px;
+    }
+    
+    /* === SOCIAL PROOF === */
+    .social-proof {
+      padding: 48px 24px;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .social-proof-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    .social-proof p {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-bottom: 24px;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+    
+    .logo-row {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 48px;
+      flex-wrap: wrap;
+    }
+    
+    .logo-row span {
+      font-family: var(--font-mono);
+      font-size: 1.125rem;
+      color: var(--text-muted);
+      opacity: 0.6;
+    }
+    
+    /* === FEATURES === */
+    .features {
+      padding: 120px 24px;
+    }
+    
+    .features-container {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+    
+    .section-header {
+      text-align: center;
+      margin-bottom: 80px;
+    }
+    
+    .section-header h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 700;
+      margin-bottom: 16px;
+      letter-spacing: -0.01em;
+    }
+    
+    .section-header p {
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto;
+      font-size: 1.125rem;
+    }
+    
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    
+    .feature-card {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 32px;
+      transition: all 0.3s ease;
+    }
+    
+    .feature-card:hover {
+      transform: translateY(-6px);
+      border-color: rgba(6, 182, 212, 0.3);
+      box-shadow: 0 24px 48px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(6, 182, 212, 0.1);
+    }
+    
+    .feature-card .icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: var(--accent-subtle);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+      font-size: 1.5rem;
+    }
+    
+    .feature-card h3 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: var(--text-primary);
+    }
+    
+    .feature-card p {
+      color: var(--text-secondary);
+      font-size: 0.9375rem;
+      line-height: 1.6;
+    }
+    
+    .feature-card.feature-main {
+      grid-row: span 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    /* === CTA SECTION === */
+    .cta-section {
+      padding: 120px 24px;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .cta-section::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 50%, rgba(6, 182, 212, 0.06) 0%, transparent 60%);
+    }
+    
+    .cta-container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+      position: relative;
+    }
+    
+    .cta-container h2 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+    
+    .cta-container p {
+      color: var(--text-secondary);
+      font-size: 1.125rem;
+      margin-bottom: 40px;
+      max-width: 560px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    .cta-note {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-top: 16px;
+    }
+    
+    /* === FOOTER === */
+    footer {
+      padding: 48px 24px;
+      border-top: 1px solid var(--border);
+    }
+    
+    .footer-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 24px;
+    }
+    
+    .footer-left {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+    
+    .footer-left span {
+      color: var(--accent);
+    }
+    
+    .footer-links {
+      display: flex;
+      gap: 32px;
+    }
+    
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.2s;
+    }
+    
+    .footer-links a:hover {
+      color: var(--text-primary);
+    }
+    
+    .footer-copy {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+    
+    /* === RESPONSIVE === */
+    @media (max-width: 1024px) {
+      .hero-container {
+        grid-template-columns: 1fr;
+        gap: 48px;
+        text-align: center;
+      }
+      
+      .hero-subtitle {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      
+      .hero-cta-group {
+        justify-content: center;
+      }
+      
+      .hero-stats {
+        justify-content: center;
+      }
+      
+      .hero-visual {
+        order: -1;
+      }
+      
+      .feature-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .feature-card.feature-main {
+        grid-row: span 1;
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+      
+      .mobile-menu-btn {
+        display: block;
+      }
+      
+      .hero {
+        padding: 100px 16px 60px;
+      }
+      
+      .hero-title {
+        font-size: 2.5rem;
+      }
+      
+      .hero-cta-group {
+        flex-direction: column;
+        align-items: center;
+      }
+      
+      .hero-cta-group .btn-primary,
+      .hero-cta-group .btn-secondary {
+        width: 100%;
+        max-width: 280px;
+        justify-content: center;
+      }
+      
+      .hero-stats {
+        flex-direction: column;
+        gap: 16px;
+        align-items: center;
+      }
+      
+      .features {
+        padding: 60px 16px;
+      }
+      
+      .feature-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .cta-section {
+        padding: 60px 16px;
+      }
+      
+      .footer-container {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      .footer-links {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .logo-row {
+        gap: 24px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .hero-title {
+        font-size: 2rem;
+      }
+      
+      .section-header h2,
+      .cta-container h2 {
+        font-size: 1.75rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  
+  <div class="bg-atmosphere" aria-hidden="true"></div>
+  <div class="bg-noise" aria-hidden="true"></div>
+  <div class="grid-lines" aria-hidden="true"></div>
+  
+  <nav role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#" class="logo">Flow<span>State</span></a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#" class="nav-cta">Get Started</a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="Open menu" onclick="alert('Mobile menu would open here')">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6" x2="21" y2="6"></line>
+          <line x1="3" y1="12" x2="21" y2="12"></line>
+          <line x1="3" y1="18" x2="21" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+  </nav>
+  
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-badge animate-fadeSlideUp delay-1">
+            <span class="dot"></span>
+            Now in public beta
+          </div>
+          <h1 id="hero-title" class="hero-title animate-fadeSlideUp delay-2">
+            Enter deep work<br>with <em>AI focus</em>
+          </h1>
+          <p class="hero-subtitle animate-fadeSlideUp delay-3">
+            FlowState eliminates distractions, prioritizes what matters, and helps you enter a state of flow faster than ever before. Your focus, supercharged.
+          </p>
+          <div class="hero-cta-group animate-fadeSlideUp delay-4">
+            <a href="#" class="btn-primary">
+              Start Free Trial
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </a>
+            <a href="#" class="btn-secondary">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="5 3 19 12 5 21 5 3"></polygon>
+              </svg>
+              Watch Demo
+            </a>
+          </div>
+          <div class="hero-stats animate-fadeSlideUp delay-5">
+            <div class="stat">
+              <span class="stat-value">50K+</span>
+              <span class="stat-label">Active users</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">4.9</span>
+              <span class="stat-label">App Store rating</span>
+            </div>
+            <div class="stat">
+              <span class="stat-value">2M+</span>
+              <span class="stat-label">Hours focused</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="hero-visual animate-fadeIn delay-6">
+          <div class="glow" aria-hidden="true"></div>
+          <div class="card-mockup">
+            <div class="card-header">
+              <div class="avatar"></div>
+              <div style="flex: 1;">
+                <div class="line" style="width: 120px; height: 12px; margin-bottom: 6px;"></div>
+                <div class="line" style="width: 80px; height: 8px;"></div>
+              </div>
+            </div>
+            <div class="card-lines">
+              <div class="line" style="width: 100%;"></div>
+              <div class="line" style="width: 85%;"></div>
+              <div class="line" style="width: 60%;"></div>
+              <div class="line accent"></div>
+              <div class="line" style="width: 90%;"></div>
+              <div class="line short"></div>
+            </div>
+            <div style="margin-top: 20px; display: flex; gap: 8px;">
+              <div style="flex: 1; height: 36px; background: var(--accent); border-radius: 6px; opacity: 0.8;"></div>
+              <div style="flex: 1; height: 36px; background: var(--bg-tertiary); border-radius: 6px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="social-proof" aria-label="Trusted by">
+      <div class="social-proof-container">
+        <p>Trusted by teams at</p>
+        <div class="logo-row">
+          <span>Vercel</span>
+          <span>Stripe</span>
+          <span>Notion</span>
+          <span>Linear</span>
+          <span>Figma</span>
+        </div>
+      </div>
+    </section>
+    
+    <section class="features" id="features" aria-labelledby="features-heading">
+      <div class="features-container">
+        <div class="section-header">
+          <h2 id="features-heading">Everything you need to focus</h2>
+          <p>Powerful features that adapt to your workflow. No more context switching. No more distractions.</p>
+        </div>
+        <div class="feature-grid">
+          <div class="feature-card feature-main">
+            <div class="icon">⚡</div>
+            <h3>Distraction Blocking</h3>
+            <p>Intelligent app and website blocking that learns your patterns. Blocks social media, news, and notifications when you need to focus most.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">🧠</div>
+            <h3>AI Prioritization</h3>
+            <p>Let AI sort your tasks by impact and urgency. Focus on what actually moves the needle.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">📊</div>
+            <h3>Focus Analytics</h3>
+            <p>Track your deep work hours, interruption patterns, and productivity trends. Data-driven improvement.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">🔔</div>
+            <h3>Smart Notifications</h3>
+            <p>Only urgent notifications break through. Everything else waits until your focus session ends.</p>
+          </div>
+          <div class="feature-card">
+            <div class="icon">🌙</div>
+            <h3>Dark Mode Native</h3>
+            <p>Easy on the eyes during late-night work sessions. Designed for the dark from day one.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <section class="cta-section" aria-label="Call to action">
+      <div class="cta-container">
+        <h2>Ready to enter flow?</h2>
+        <p>Join 50,000+ professionals who've transformed their focus. Start free, no credit card required.</p>
+        <a href="#" class="btn-primary" style="font-size: 1.125rem; padding: 16px 40px;">
+          Start Free Trial
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="9 18 15 12 9 6"></polyline>
+          </svg>
+        </a>
+        <p class="cta-note">No credit card required · Cancel anytime · 14-day free trial</p>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <div class="footer-container">
+      <div class="footer-left">Flow<span>State</span></div>
+      <div class="footer-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Security</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="footer-copy">© 2026 FlowState. All rights reserved.</div>
+    </div>
+  </footer>
+</body>
+</html>

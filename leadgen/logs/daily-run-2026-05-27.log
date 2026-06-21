@@ -1,0 +1,73 @@
+========================================
+Daily Lead Gen — 2026-05-27
+Category: hvac
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: hvac
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Melbourne HVAC Services: https://www.melbournehvacservices.com.au/
+  - Air Elite: https://www.airelite.com.au/
+  - Reliance Heating and Cooling: https://easyair.com.au/
+  - Gridless Heating and Cooling: http://gridless.com.au/
+  - Hamilton Heating and Cooling: https://hamiltonheatingandcooling.com.au/
+  - Airmax Melbourne: https://airmaxmelbourne.com.au/
+  - HomeFirst Services: https://www.homefirstservices.com.au/melbourne-hvac-heating-cooling-near-you?utm_source=google&utm_medium=organic&utm_campaign=gbp-melbourne-heating-cooling&utm_content=website
+  - XRCC: https://xrcc.com.au/
+  - Rise & Cool Group Aus: https://www.riseandcoolaus.group/
+  - MD Tradeworks - Air Conditioner Services Melbourne | HVAC Systems: https://mdtradeworks.com.au/?utm_source=Google&utm_medium=GMB&utm_campaign=GMB
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Melbourne HVAC Services...
+  [2/10] Enriching: Air Elite...
+  [3/10] Enriching: Reliance Heating and Cooling...
+  [4/10] Enriching: Gridless Heating and Cooling...
+  [5/10] Enriching: Hamilton Heating and Cooling...
+  [6/10] Enriching: Airmax Melbourne...
+  [7/10] Enriching: HomeFirst Services...
+  [8/10] Enriching: XRCC...
+  [9/10] Enriching: Rise & Cool Group Aus...
+  [10/10] Enriching: MD Tradeworks - Air Conditioner Services Melbourne | HVAC Systems...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Melbourne HVAC Services: score=100, opportunities=['seo_optimization', 'click_to_call', 'ai_chatbot', 'reputation_management', 'online_booking']
+  🔥 Air Elite: score=100, opportunities=['seo_optimization', 'click_to_call', 'ai_chatbot', 'reputation_management', 'online_booking']
+  🔥 Reliance Heating and Cooling: score=100, opportunities=['seo_optimization', 'click_to_call', 'ai_chatbot', 'reputation_management', 'online_booking']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 44 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_hvac_2026-05-27.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================

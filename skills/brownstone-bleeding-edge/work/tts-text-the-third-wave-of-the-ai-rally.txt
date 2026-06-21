@@ -1,0 +1,195 @@
+The Third Wave of the AI Rally
+
+Jun 15, 2026
+
+It with railroads. It happened with the internet. Now, it’s happening with AI…
+
+Editor’s Note:Today, we’re handing the reins to Nick Rokke, Senior Analyst with Brownstone Research. As Nick puts it, AI has had plenty of critics. The skeptics say it’s a bubble… it’s a novelty…that it costs too much. But the skeptics are dead wrong, Nick says. And here’s why…
+
+We’ve been making the point for years…
+
+Artificial Intelligence will change the world. And, yes, many fortunes will be made in the process.
+
+We’ve never wavered on that prediction, even in the face of overwhelming negative sentiment.
+
+The skeptics have called AI a bubble.
+
+They’ve called the large language models (LLMs) a novelty.
+
+AI won’t amount to much, they said. And the spending is reckless.
+
+This headline fromThe Washington Postin November is demonstrative:
+
+Source: Washington Post
+
+Here’s my personal favorite:
+
+Source: wheresyoured.at
+
+I can assure you noteverybodyis losing money on AI.
+
+Subscribers ofThe Near Future Reportjust closed out three AI-related trades for more than 100% gain.
+
+But here’s the part critics are missing…
+
+Yes, the AI buildout is expensive. Data centers, GPUs, networking equipment, power infrastructure and model training all require enormous amounts of capital.
+
+But the spending is only one side of the ledger.
+
+The other side is revenue… and now profits.
+
+That’s the next phase of this AI bull market. The infrastructure buildout was (and will continue to be) expensive. But we’re beginning to see downstream AI business models prove themselves.
+
+And that is what will help lead the next leg of this rally higher.
+
+Let’s start with the obvious.
+
+The companies supplying the physical components are making money hand over fist.
+
+NVIDIA’s (NVDA) EBITDA was $167 billion over the past 12 months and Taiwan Semiconductor’s (TSM) EBITDA came in at $93 billion.
+
+But the author of the “Everybody is Losing Money” article wasn’t talking about these companies. He was talking about the AI Labs, companies like OpenAI and Anthropic.
+
+These are the firms building frontier large language models. And yes, for much of this cycle, those businesses have burned enormous amounts of cash.
+
+That’s what happens during the early stage of a major technology platform.
+
+The same thing happened with railroads. It happened with telecom. It happened with the internet.
+
+The first phase requires massive capital investment. The second phase is when usage scales. And the third phase is when profits begin to emerge.
+
+We’re now entering the third phase. The clearest example is Anthropic.
+
+Anthropic is the company behind the Claude chatbot and large language model. And its revenue growth is staggering.
+
+The cleanest way to measure this growth is through annual recurring revenue, or ARR. ARR takes the latest monthly revenue and annualizes it to give investors a sense of the current run rate of the business.
+
+And we have seen estimates that Anthropic’s ARR will exceed $100 billion by the end of this year.
+
+If Anthropic achieves that, it would be the quickest any company has reached $100 billion in revenue.
+
+But revenue alone isn’t enough. A company can grow revenue quickly and still lose money. What matters is the margin structure.
+
+And this is where the story gets even more interesting.
+
+AI labs make money from inference.
+
+Inference is what happens when an AI model “thinks.” Every time we ask Claude, ChatGPT, Gemini, or Grok a question, the model processes the prompt, reasons through the task, and generates a response.
+
+That process uses tokens. Tokens are the basic unit of AI usage. A token can be a word, part of a word, punctuation, or a piece of code. As a rough guide, one million tokens equals about 750,000 words of text.
+
+In the early days, inference was relatively expensive. Every user query required costly GPU compute. And the labs subsidized the cost in order to gain users. That’s why all the AI labs have lost money so far.
+
+But AI processors are becoming more efficient. As a result, the price of inference is collapsing.
+
+Venture capital firm Andreessen Horowitz has called this phenomenon “LLMflation.” For a given level of AI model capability, the cost to run the model is falling by roughly 10x per year.
+
+The chart below shows that for two generations of models. The purple line shows ChatGPT-3 model and its equivalent competitors. The orange line shows GPT-4 and equivalent models.
+
+Source: a16z
+
+The price of compute is falling faster than the prices the AI labs charge customers. And that spread is where profits appear. We call this the “inference margin.”
+
+In 2024, Anthropic’s inference margin was -94%, meaning that it lost 94 cents on inference costs for every dollar of revenue.
+
+But that changed quickly.
+
+In 2025, their inference margin grew to 38%. But now, halfway through 2026, Anthropic’s inference margin is estimated to have reached 70%.
+
+And that’s leading Anthropic towards its first profitable quarter.The Wall Street Journalreported that Anthropic is projecting positive operating income for the second quarter.
+
+Some skeptics say this is temporary. And even Anthropic predicts it will have negative income in the second half of the year as new compute contracts ramp up.
+
+This may be true. But it misses the bigger picture.
+
+Anthropic has proven that its model works. And with this pace of revenue growth, Anthropic will be able to show profitability again. With time, it will show profitability predictably.
+
+But Anthropic isn’t the only company benefitting from AI…
+
+Tomorrow, Wednesday @ 8 p.m. ET: Former hedge fund manager Larry Benedict is set to release hisnext new trade alert to attendees of a private briefing– and he believes it may have spectacular profit potential… Over a recent two-week period, his team closed real money trades with gains of+194%in 1 day 16 hours,+53%in 1 day 15 hours,+49%in 1 hour 39 minutes,+98%in 5 hours 27 minutes,+113%in 12 hours 4 minutes, and more! But you must pre-register to receive Larry’s next trade for free. It will be delivered to event attendees after the event, as soon as it is available. – You may not have long to get in on this…This private briefing will go live on Wednesday, June 17, at 8 p.m. ET – register immediately to claim your spot, plus attend Wednesday at 8 p.m. for your chance to claim one of 2,000 $1,000 bonuses and your free trade... available one night only…Click Here to REGISTER So You Don’t Miss a Thing.
+
+It has nothing to do with SpaceX, Tesla, or anything you'd associate with Elon. Most investors have never heard of it. But when the “Final Phase” of Elon's “Master Plan” triggers, Larry Benedict says this is where the money goes. He has 40 years of finding trades everyone else walked past. He's giving away the name – and a full briefing – completely free.Click here to get the ticker before the “Final Phase” kicks in.
+
+Revenue and profits are growing across many companies in the software sector.
+
+Let’s start with Alphabet (GOOGL).
+
+Its Google Cloud revenue grew 63% from last year and reached $20 billion. The other major cloud services companies (Amazon Web Services, Microsoft Azure, Oracle, etc.) showed increasing growth numbers as well.
+
+But Google is interesting because they also have a strong AI offering through its Gemini large language model. This is one that I personally pay for. Its deep research capabilities are second to none.
+
+And I’m not alone paying for Gemini.
+
+Over the past three months, Gemini saw 40% growth in paid monthly active users. And revenue from products built on Google’s generative AI models grew nearly 800% year-over-year.
+
+That helped Alphabet deliver record operating profit of $39.7 billion and an operating margin of 36.1% last quarter.
+
+Then there’s Palantir (PLTR). It grew revenue 85% year-over-year, which was the company’s fastest growth rate as a public company. Management attributed that strength to its U.S. AI solutions business.
+
+Palantir is helping companies and government agencies integrate AI into operations. Not demos. Not experiments. Real workflows.
+
+And customers are paying for it.
+
+Snowflake (SNOW) is seeing the same effect.
+
+The company reported its fastest quarter-over-quarter product revenue growth as AI creates more demand for data storage, data processing and data management.
+
+Cybersecurity leader Palo Alto Networks (PANW) is another example. Its AI offerings are helping accelerate revenue growth, and the stock has doubled from its lows.
+
+Figma (FIG), the creative collaboration software company, grew revenue 46% from a year earlier as customers adopted its AI-powered design tools.
+
+Across cloud software, cybersecurity, data infrastructure, design software, advertising, coding and enterprise automation, AI is becoming a profit engine.
+
+The “everyone is losing money with AI” argument is wrong.
+
+Yes, some companies are still burning cash. Some AI projects will fail. And some businesses will spend money poorly.
+
+That always happens in a major technology cycle.
+
+But the leaders are proving the model works.
+
+And it will not stop.
+
+Critics ask if AI companies can generate revenue.
+
+They can, and they are.
+
+That’s not the important question.
+
+The more important question is why customers will keep paying for AI. The answer is simple: AI helps businesses grow faster and operate more efficiently.
+
+Ramp, the fintech payments platform, recently published a chart comparing revenue growth for companies using AI intensively versus those that are not.
+
+Source: Ramp
+
+The result is striking. Companies using AI intensively have seen revenue roughly double since 2023. Companies not using AI have tracked closer to the broader economy, with revenue growth of about 18%.
+
+That is a massive gap. And it’s why businesses are pushing employees to adopt AI tools.
+
+Companies across the entire value chain are making money in AI. From the hardware providers to the application developers to the businesses using it.
+
+The rally will continue.
+
+And for investors positioned correctly, the best is still ahead.
+
+Regards,
+
+Nick Rokke,Senior Analyst, Brownstone Research
+
+Editor’s Note:Tomorrow night at 8 p.m. ET, trading legend Larry Benedict is going live with what he says is the most interesting trading opportunity he’s seen in forty years. Larry calls it “America’s Last Unrigged Market,” and it’s an arena where everyday traders still have an edge. To see what Larry’s uncovered—and to learn what trades he’s recommending—be sure to save your spot for the event with one clickby going right here.
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+The trillionaire story is fascinating. The infrastructure story may be far more profitable.
+
+SpaceX has gone public, making Elon Musk the world’s first trillionaire. That should be celebrated…
+
+The SpaceX IPO is set to shatter records as the largest in history – here's what investors need to...
+
+Read the latest insights from the world of high technology.
+
+The trillionaire story is fascinating. The infrastructure story may be far more profitable.
+
+SpaceX has gone public, making Elon Musk the world’s first trillionaire. That should be celebrated…
+
+The SpaceX IPO is set to shatter records as the largest in history – here's what investors need to...

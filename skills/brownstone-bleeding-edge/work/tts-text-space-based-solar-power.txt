@@ -1,0 +1,159 @@
+Space-Based Solar Power
+
+Apr 28, 2026
+
+Many have argued that improved economics will make beaming solar energy down to Earth makes so much sense. But those arguments tend to ignore two pesky problems… The physics, and the safety of beaming energy to Earth.
+
+Managing Editor’s Note:We’re just a few hours from showtime now…
+
+Jeff is gearing up for his big event with industry legend Marc Chaikin to discuss the “Dark Chip” crisis… the AI paradigm shift about to be ushered in… and the private company at the epicenter of these trends that’s preparing to IPO.
+
+You still have a few hours to get ready… or togo here to automatically add your name to the guest listto join them.
+
+We’re kicking things off at 8 p.m., so be sure toadd your name with one click. We hope to see you there.
+
+One of the most frequent questions I’ve received from my subscribers over the years has been about beaming solar energy down to Earth.
+
+I get it.
+
+On the surface, it sounds like a great story…
+
+Clean energy. The limitless power of the sun.
+
+About 173,000 terawatts of solar energy hits Earth continuously from space. That’s enough energy to power all of Earth’s needsfor a yearin just about 90 minutes.
+
+This is, of course, why I’ve been writing thatorbital web services – provided by AI data centers in orbit– makes so much sense.
+
+With the employment of the SpaceX Starship, the economics of launching and operating orbital web services (OWS) make perfect sense with all the free energy and free cooling available in a sun-synchronous orbit.
+
+Source: CSIS Aerospace Security Project, PayloadResearch estimates | 2024
+
+Many have argued that the improved economics is the same reason that beaming solar energy down to Earth makes so much sense.
+
+But those arguments tend to ignore two pesky problems…
+
+The physics. And the safety of beaming energy to Earth.
+
+I’ve been tracking this technology for over a decade now, so I’m always interested in any recent developments or announcements.
+
+This week, Meta (META) caught my attention with an announcement with Overview Energy to bring up to 1 gigawatt (GW) of space-based solar power (SBSP) down to Earth to fuel Meta data centers.
+
+On the surface, it sounds exciting, of course.
+
+1 GW is roughly the output of a nuclear power plant – enough to fuel a massive hyperscale AI data center.
+
+But the details matter.
+
+The deal is only for a “capacity reservation agreement,” which basically gives Meta preferential access to Overview Energy’s space-based solar powerifOverview Energy is able to get its technology to work at utility scale.
+
+No investment or funding by Meta was announced as part of the deal.
+
+That’s an important detail, as Overview Energy has only been around for a few years.
+
+The Ashburne, Virginia-based startup has only raised $18.48 million to date. Its last round was in September 2024.
+
+The reality is that thousands of metric tons of solar power-generating satellites would have to be launched into orbit to scale to 1 GW of energy production, which would require billions of dollars to accomplish.
+
+That’s a tall order for a small company that has only raised $18.48 million.
+
+But let’s put the money aside and look at the technology and approach that Overview Energy is taking, which I do find interesting.
+
+Overview Energy plans to launch a large constellation of solar power-generating satellites into geostationary Earth orbit (GEO)… and beam the power generated back down to Earth, directly toexisting large-scale solar power projects.
+
+Source: Overview Energy
+
+So rather than creating new, custom power receivers on Earth to receive focused microwave beams of energy – or focused beams of sunlight from orbital mirrors…
+
+Overview Energy uses laser diode arrays to beam low-intensity near-infrared (near IR) light down to existing utility-scale solar power generation facilities.
+
+The solar panels on Earth basically treat the beamed near-IR light in a similar way that the panels deal with sunlight.
+
+The terrestrial solar panels are able to convert the near-IR beams into electricity.
+
+In theory, Overview Energy could leverage any of the utility-scale solar farms on Earth with a large enough space-based solar power satellite constellation.
+
+Utility-Scale Solar Power Farms on Earth |Source: Overview Energy
+
+But there’s one major issue with this approach.
+
+It has never been proven to work.
+
+Overview has tested their near-IR power transmission system in a laboratory at the level of thousands of watts.
+
+And last November, the company demonstrated its laser and optics system for beaming near-IR light on a Cessna Caravan plane.
+
+The Cessna flew at an altitude of 5 kilometers and beamed energy down to solar panels from that distance.
+
+The system successfully tracked the ground-based solar panels, locked onto them, and transmitted the energy, and the solar panels were capable of generating electricity.
+
+Source: Overview Energy
+
+Cool experiment.
+
+Unfortunately, there was no mention of the efficiency of the system or how much energy the solar panels generated.
+
+But given the scale of the laser and optics system in the Cessna, it seems clear that it wasn’t much at all.
+
+It was just a proof-of-concept demonstration. An experiment.
+
+To be very clear, no space-based energy beaming has even been attempted yet by Overview Energy.
+
+This is probably why Meta didn’t make a large equity investment in Overview as part of the deal.
+
+Big questions I would have would be around:
+
+All of these unanswered questions and unproven technology raise the question, though…
+
+Why would a $1.7 trillion company like Meta (META) bother with an absolutely tiny company with unproven technology like Overview Energy?
+
+Why bother putting in place acapacity reservation agreement– something that is even less meaningful than a more traditional power purchase agreement (PPA)?
+
+Well, it comes down to a combination of virtue signaling and hedging.
+
+For a company like Meta that devours energy of any kind to power social media and messaging applications for the purpose of data surveillance to sell advertising, this deal provides a greenwashing kind of public relations announcement.
+
+The other harsh reality is that Meta needs energy of any and all kinds.
+
+Energy is its single largest bottleneck to growth.
+
+And naturally, clean energy, wherever available, is preferable to the use of fossil fuels.
+
+Meta’s capacity reservation agreement will be used by Overview Energy to hopefully raise additional capital for more research and development.
+
+I sincerely hope that Overview is successful in developing its technology.
+
+I remain skeptical, however, that this approach will work at scale in an economically feasible way. But I’m happy to see that the team is attempting to see if it will work.
+
+The reality is that Meta has been making efforts to partner with just about any company that might be able to provide carbon-free energy.
+
+It has already partnered with geothermal energy companies Sage Geosystems and XGS Energy.
+
+And Meta has agreements with Vistra (VST) and Constellation (CEG) for traditional nuclear fission energy, and TerraPower with its Natrium plant in Wyoming, which I have visited, and Oklo (OKLO), both of which are fourth-generation nuclear fission technology developing small modular reactors (SMR).
+
+So Meta’s “partnership” makes sense.
+
+It doesn’t cost Meta anything, sounds nice, and provides another possible energy source in the future to help power its business.
+
+It’s a wildcard, and it has a long-time horizon well into the 2030s.
+
+But the announcement might give Overview Energy a boost to raise capital so that it has the funds to eventually make it to a space-based test of its technological approach…
+
+Beaming solar energy to Earth.
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+We’re seeing AI-first companies working towards supplanting Google’s and Apple’s smartphone operating systems…And one of the most visible pushes...
+
+About a decade’s worth of progress is happening in about 12 months regarding fourth-generation nuclear fission technology…
+
+Early today, Tesla announced that mass production of its fully autonomous Cybercab has begun…
+
+Read the latest insights from the world of high technology.
+
+We’re seeing AI-first companies working towards supplanting Google’s and Apple’s smartphone operating systems…And one of the most visible pushes...
+
+About a decade’s worth of progress is happening in about 12 months regarding fourth-generation nuclear fission technology…
+
+Early today, Tesla announced that mass production of its fully autonomous Cybercab has begun…

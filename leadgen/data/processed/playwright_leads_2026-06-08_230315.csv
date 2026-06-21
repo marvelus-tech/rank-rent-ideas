@@ -1,0 +1,11 @@
+name,category,location,phone,address,rating,is_open,score,priority,missing,source,scraped_at
+Whistle Clean Australia | Office Cleaning Melbourne | Commercial Cleaning Melbourne,commercial cleaning,"Victoria, Australia",+61 3 8007 3133,"Cleaners · Suite 65, Level 4/80 Market St",5.0,True,90,HOT,[],google_maps_playwright,2026-06-08T23:03:15.517712+00:00
+CLEANEY - Commercial Cleaning Melbourne,commercial cleaning,"Victoria, Australia",1300 707 371,Janitorial service · Suite 205/585 Little Collins St,5.0,True,90,HOT,[],google_maps_playwright,2026-06-08T23:03:15.519065+00:00
+Clean Group - Commercial Cleaning and Office Cleaning Melbourne,commercial cleaning,"Victoria, Australia",+61 3 8547 9578,Cleaners · 1107/413 Collins St,4.9,True,90,HOT,[],google_maps_playwright,2026-06-08T23:03:15.519081+00:00
+Sparkle Commercial Clean,commercial cleaning,"Victoria, Australia",,,5.0,True,65,WARM,"['phone', 'address']",google_maps_playwright,2026-06-08T23:03:15.519099+00:00
+Supa's Cleaning - Commercial Cleaning and Office Cleaning Melbourne,commercial cleaning,"Victoria, Australia",1300 591 550,"Cleaners · Tower, Level 3/480 Collins St",5.0,True,90,HOT,[],google_maps_playwright,2026-06-08T23:03:15.519110+00:00
+ACS Commercial Cleaning Melbourne,commercial cleaning,"Victoria, Australia",+61 3 9114 9778,"Cleaners · Level 23, Tower 5/727 Collins St",4.9,True,90,HOT,[],google_maps_playwright,2026-06-08T23:03:15.519120+00:00
+Yes Cleaning - Commercial and Office Cleaning Melbourne,commercial cleaning,"Victoria, Australia",+61 3 9088 3088,Cleaners · 8 Sutherland St,5.0,True,90,HOT,[],google_maps_playwright,2026-06-08T23:03:15.519128+00:00
+AMC Commercial Cleaning Pty Ltd,commercial cleaning,"Victoria, Australia",+61 3 8769 6000,Cleaners ·  · 22 Garden Blvd,4.3,True,90,HOT,[],google_maps_playwright,2026-06-08T23:03:15.519137+00:00
+Spiffy Clean - Commercial and Office Cleaning Services Melbourne,commercial cleaning,"Victoria, Australia",1300 668 025,Cleaners · Level 8/422 Collins St,4.8,True,90,HOT,[],google_maps_playwright,2026-06-08T23:03:15.519146+00:00
+Office Cleaning & Commercial Cleaning,commercial cleaning,"Victoria, Australia",1800 006 789,Cleaners · 26 Peterpaul Way,4.7,True,90,HOT,[],google_maps_playwright,2026-06-08T23:03:15.519155+00:00

@@ -1,0 +1,46 @@
+facebook:
+  email: ${FB_EMAIL}
+  password: ${FB_PASSWORD}
+  cookies_path: data/fb_cookies.json
+
+scraper:
+  headless: false
+  max_scrolls: 25
+  distance_km: 40
+  min_price: 20
+  max_price: 2000
+  user_agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36"
+
+searches:
+  - keyword: "lawn mower"
+    location: "Melbourne, VIC"
+    category: "mowers"
+    max_listings: 20
+
+analyzer:
+  default_discount_threshold: 0.30
+  min_profit: 80
+  category_rules:
+    mowers:
+      discount_threshold: 0.30
+      fallback_market_value: 450
+    gym equipment:
+      discount_threshold: 0.35
+      fallback_market_value: 600
+  manual_market_values:
+    honda hrx: 900
+    rogue echo bike: 1000
+
+alerts:
+  console: true
+  file_export: true
+  alerts_file: output/opportunities_alerts.json
+  webhook_url: ""
+  rate_limit_seconds: 8
+  # Obsidian-based duplicate tracking (replaces SQLite)
+  dedup_enabled: true
+  obsidian_vault_path: ""  # Leave empty to auto-detect
+
+output:
+  directory: output
+  file_prefix: marketplace_results

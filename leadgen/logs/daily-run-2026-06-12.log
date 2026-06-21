@@ -1,0 +1,73 @@
+========================================
+Daily Lead Gen — 2026-06-12
+Category: roofers
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: roofers
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - ApexX Roof Plumbing Services: https://apexxroofplumbing.com.au/
+  - Metropolitan Roof Repairs: https://metropolitanroofrepair.com.au/
+  - Melbourne Quality Roofing: https://www.melbournequalityroofing.com.au/
+  - Central Roofing and Property Repairs: https://centralroofingrepairs.com.au/
+  - Melbourne Roof Repairs: http://www.melbourneroofrepair.com.au/
+  - First Class Roofing: https://www.firstclassroofing.com.au/
+  - BRP Roof Repair Melbourne: https://brproofrepairmelbourne.com/
+  - Captain Roof Repair: https://captainroofrepair.com.au/?utm_source=google&utm_medium=business_profile&utm_campaign=tradius&utm_content=website_button
+  - New Look Roofing & Home Improvements: https://www.newlookroofingau.com/
+  - Exclusive Roofing & Home Improvements: https://www.exclusiveroofingandhomeimprovements.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: ApexX Roof Plumbing Services...
+  [2/10] Enriching: Metropolitan Roof Repairs...
+  [3/10] Enriching: Melbourne Quality Roofing...
+  [4/10] Enriching: Central Roofing and Property Repairs...
+  [5/10] Enriching: Melbourne Roof Repairs...
+  [6/10] Enriching: First Class Roofing...
+  [7/10] Enriching: BRP Roof Repair Melbourne...
+  [8/10] Enriching: Captain Roof Repair...
+  [9/10] Enriching: New Look Roofing & Home Improvements...
+  [10/10] Enriching: Exclusive Roofing & Home Improvements...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 ApexX Roof Plumbing Services: score=100, opportunities=['ai_chatbot', 'click_to_call', 'reputation_management', 'seo_optimization', 'online_booking']
+  🔥 Metropolitan Roof Repairs: score=100, opportunities=['ai_chatbot', 'click_to_call', 'reputation_management', 'seo_optimization', 'online_booking']
+  🔥 Melbourne Quality Roofing: score=100, opportunities=['ai_chatbot', 'click_to_call', 'reputation_management', 'seo_optimization', 'online_booking']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 109 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_roofers_2026-06-12.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================

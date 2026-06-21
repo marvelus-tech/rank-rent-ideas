@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "id": "tsla-001",
+      "name": "Tesla",
+      "ticker": "TSLA",
+      "status": "tracking",
+      "price": "$175.50",
+      "tags": ["ev", "musk", "robotaxi"],
+      "obsidianNote": "Investments/Stocks/TSLA.md",
+      "added": "2026-06-06",
+      "notes": "Watching for robotaxi catalyst. FSD v12 could be a game changer."
+    },
+    {
+      "id": "nvda-001",
+      "name": "NVIDIA",
+      "ticker": "NVDA",
+      "status": "invested",
+      "price": "$890.00",
+      "tags": ["ai", "chips", "datacenter"],
+      "obsidianNote": "Investments/Stocks/NVDA.md",
+      "added": "2026-05-15",
+      "notes": "AI infrastructure play. Strong moat with CUDA ecosystem."
+    }
+  ]
+}

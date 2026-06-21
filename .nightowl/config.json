@@ -1,0 +1,20 @@
+{
+  "name": "Night Owl",
+  "schedule": {
+    "active_hours": "02:00-07:00",
+    "timezone": "Australia/Melbourne"
+  },
+  "safety": {
+    "require_approval_for": [
+      "git_push_to_main",
+      "destructive_db_ops",
+      "paid_api_calls"
+    ],
+    "auto_commit_branch_prefix": "nightowl/"
+  },
+  "reporting": {
+    "format": "markdown",
+    "include_diffs": true,
+    "include_tests": true
+  }
+}

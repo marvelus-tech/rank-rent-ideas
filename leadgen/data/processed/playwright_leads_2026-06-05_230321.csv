@@ -1,0 +1,9 @@
+name,category,location,phone,address,rating,is_open,score,priority,missing,source,scraped_at
+QV Physiotherapy,physiotherapists,"Victoria, Australia",,Physical therapist ·  · 5/10 Artemis Ln,4.9,True,75,HOT,['phone'],google_maps_playwright,2026-06-05T23:03:21.680823+00:00
+Melbourne Physio Clinic,physiotherapists,"Victoria, Australia",,Physical therapist ·  · Level 14/333 Collins St,4.9,False,70,WARM,['phone'],google_maps_playwright,2026-06-05T23:03:21.681193+00:00
+Pure Physio Collins St,physiotherapists,"Victoria, Australia",,Physical therapist ·  · Mezzanine Level/80 Collins St,4.9,False,70,WARM,['phone'],google_maps_playwright,2026-06-05T23:03:21.681207+00:00
+Pure Physio Queen Street,physiotherapists,"Victoria, Australia",,Physical therapist ·  · 2/200 Queen St,4.9,False,70,WARM,['phone'],google_maps_playwright,2026-06-05T23:03:21.681217+00:00
+Melbourne CBD Physiotherapy and Sports Medicine Clinic,physiotherapists,"Victoria, Australia",,Physical therapist ·  · Ground Floor/179 Queen St,5.0,False,70,WARM,['phone'],google_maps_playwright,2026-06-05T23:03:21.681226+00:00
+The Alignment Studio Physiotherapy Melbourne,physiotherapists,"Victoria, Australia",,"Physical therapist ·  · 45 Collins Street, Shop/19 Collins Pl",5.0,True,75,HOT,['phone'],google_maps_playwright,2026-06-05T23:03:21.681239+00:00
+Evolutio Sports Physio Richmond,physiotherapists,"Victoria, Australia",,Physical therapist ·  · Level 1/3 Bromham Pl,5.0,True,75,HOT,['phone'],google_maps_playwright,2026-06-05T23:03:21.681248+00:00
+Australian Sports Physiotherapy Ivanhoe,physiotherapists,"Victoria, Australia",,Physical therapist ·  · 73 Upper Heidelberg Rd,4.9,True,75,HOT,['phone'],google_maps_playwright,2026-06-05T23:03:21.681256+00:00

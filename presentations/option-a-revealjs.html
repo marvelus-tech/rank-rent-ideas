@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lead Intelligence Report — Marvelus</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        
+        :root {
+            --apple-bg: #F5F5F7;
+            --apple-dark: #1D1D1F;
+            --apple-gray: #86868B;
+            --apple-blue: #0071E3;
+            --apple-green: #34C759;
+            --apple-orange: #FF9500;
+            --apple-red: #FF3B30;
+        }
+        
+        .reveal {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--apple-bg);
+        }
+        
+        .reveal .slides {
+            text-align: left;
+        }
+        
+        .reveal .slides section {
+            padding: 60px;
+            height: 100%;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        /* Title Slide */
+        .title-slide {
+            background: linear-gradient(135deg, #1D1D1F 0%, #434344 100%);
+        }
+        
+        .title-slide * {
+            color: white !important;
+        }
+        
+        .title-slide .kicker {
+            font-size: 18px;
+            font-weight: 500;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--apple-blue) !important;
+            margin-bottom: 24px;
+        }
+        
+        .title-slide h1 {
+            font-size: 72px;
+            font-weight: 700;
+            line-height: 1.05;
+            letter-spacing: -0.02em;
+            margin-bottom: 24px;
+            max-width: 800px;
+        }
+        
+        .title-slide .subtitle {
+            font-size: 28px;
+            font-weight: 400;
+            color: var(--apple-gray) !important;
+            max-width: 600px;
+            line-height: 1.4;
+        }
+        
+        .title-slide .meta {
+            margin-top: 60px;
+            font-size: 16px;
+            font-weight: 500;
+            color: var(--apple-gray) !important;
+            letter-spacing: 0.05em;
+        }
+        
+        /* Content Slides */
+        .content-slide h2 {
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--apple-dark);
+            letter-spacing: -0.02em;
+            margin-bottom: 8px;
+            line-height: 1.1;
+        }
+        
+        .content-slide .section-label {
+            font-size: 14px;
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            color: var(--apple-blue);
+            margin-bottom: 24px;
+        }
+        
+        .content-slide .lead {
+            font-size: 24px;
+            font-weight: 400;
+            color: var(--apple-gray);
+            line-height: 1.5;
+            max-width: 700px;
+            margin-bottom: 48px;
+        }
+        
+        /* Metrics Grid */
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            margin-top: 40px;
+        }
+        
+        .metric-card {
+            background: white;
+            border-radius: 20px;
+            padding: 32px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.04);
+        }
+        
+        .metric-value {
+            font-size: 48px;
+            font-weight: 700;
+            color: var(--apple-dark);
+            letter-spacing: -0.03em;
+            line-height: 1;
+            margin-bottom: 8px;
+        }
+        
+        .metric-value.up {
+            color: var(--apple-green);
+        }
+        
+        .metric-label {
+            font-size: 15px;
+            font-weight: 500;
+            color: var(--apple-gray);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        /* Lead Cards */
+        .lead-list {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-top: 32px;
+        }
+        
+        .lead-card {
+            background: white;
+            border-radius: 16px;
+            padding: 28px 32px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.03);
+            display: grid;
+            grid-template-columns: 1fr auto auto;
+            align-items: center;
+            gap: 24px;
+        }
+        
+        .lead-info h3 {
+            font-size: 22px;
+            font-weight: 600;
+            color: var(--apple-dark);
+            margin-bottom: 6px;
+        }
+        
+        .lead-info p {
+            font-size: 15px;
+            color: var(--apple-gray);
+            margin: 0;
+        }
+        
+        .lead-score {
+            text-align: center;
+        }
+        
+        .lead-score .score {
+            font-size: 36px;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            line-height: 1;
+        }
+        
+        .lead-score .score.hot { color: var(--apple-red); }
+        .lead-score .score.warm { color: var(--apple-orange); }
+        .lead-score .score.cold { color: var(--apple-gray); }
+        
+        .lead-score .label {
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.1em;
+            color: var(--apple-gray);
+            margin-top: 4px;
+        }
+        
+        .priority-badge {
+            background: var(--apple-dark);
+            color: white;
+            padding: 8px 16px;
+            border-radius: 100px;
+            font-size: 13px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+        
+        .priority-badge.hot { background: var(--apple-red); }
+        .priority-badge.warm { background: var(--apple-orange); }
+        
+        /* Big Number Slide */
+        .big-number {
+            font-size: 180px;
+            font-weight: 700;
+            color: var(--apple-dark);
+            letter-spacing: -0.05em;
+            line-height: 0.9;
+        }
+        
+        .big-number-label {
+            font-size: 32px;
+            font-weight: 500;
+            color: var(--apple-gray);
+            margin-top: 24px;
+        }
+        
+        /* Category Breakdown */
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 40px;
+        }
+        
+        .category-card {
+            background: white;
+            border-radius: 16px;
+            padding: 28px;
+            box-shadow: 0 2px 16px rgba(0,0,0,0.03);
+        }
+        
+        .category-card .name {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--apple-dark);
+            margin-bottom: 12px;
+        }
+        
+        .category-card .count {
+            font-size: 14px;
+            color: var(--apple-gray);
+        }
+        
+        .category-card .bar {
+            height: 4px;
+            background: var(--apple-bg);
+            border-radius: 2px;
+            margin-top: 16px;
+            overflow: hidden;
+        }
+        
+        .category-card .bar-fill {
+            height: 100%;
+            border-radius: 2px;
+            background: var(--apple-blue);
+        }
+        
+        /* Footer */
+        .slide-footer {
+            position: absolute;
+            bottom: 40px;
+            left: 60px;
+            font-size: 13px;
+            font-weight: 500;
+            color: var(--apple-gray);
+            letter-spacing: 0.05em;
+        }
+        
+        /* Navigation hints */
+        .nav-hint {
+            position: absolute;
+            bottom: 40px;
+            right: 60px;
+            font-size: 13px;
+            color: var(--apple-gray);
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="reveal">
+        <div class="slides">
+            
+            <!-- SLIDE 1: Title -->
+            <section class="title-slide">
+                <div class="kicker">Marvelus Intelligence</div>
+                <h1>Lead Generation<br>Report</h1>
+                <div class="subtitle">Automated pipeline results from Victoria, Australia business landscape analysis</div>
+                <div class="meta">Wednesday, 27 May 2026 · Category: Landscapers</div>
+            </section>
+            
+            <!-- SLIDE 2: Executive Summary -->
+            <section class="content-slide">
+                <div class="section-label">Executive Summary</div>
+                <h2>Pipeline Performance</h2>
+                <p class="lead">Today's run extracted 10 business leads across the landscapers category. 7 are new additions to our database with strong AI service potential.</p>
+                
+                <div class="metrics-grid">
+                    <div class="metric-card">
+                        <div class="metric-value">10</div>
+                        <div class="metric-label">Total Leads</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value up">7</div>
+                        <div class="metric-label">New Leads</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" style="color: var(--apple-red)">3</div>
+                        <div class="metric-label">Hot (75+)</div>
+                    </div>
+                    <div class="metric-card">
+                        <div class="metric-value" style="color: var(--apple-orange)">4</div>
+                        <div class="metric-label">Warm (50-74)</div>
+                    </div>
+                </div>
+                
+                <div class="slide-footer">Marvelus Lead Intelligence</div>
+                <div class="nav-hint">→</div>
+            </section>
+            
+            <!-- SLIDE 3: Top Leads -->
+            <section class="content-slide">
+                <div class="section-label">Priority Targets</div>
+                <h2>Top 3 Leads</h2>
+                <p class="lead">Highest-scoring businesses with identifiable gaps in digital presence and customer engagement.</p>
+                
+                <div class="lead-list">
+                    <div class="lead-card">
+                        <div class="lead-info">
+                            <h3>GreenScape Pro Melbourne</h3>
+                            <p>Residential & commercial landscaping · No website · Phone verified</p>
+                        </div>
+                        <div class="lead-score">
+                            <div class="score hot">92</div>
+                            <div class="label">Score</div>
+                        </div>
+                        <div class="priority-badge hot">Call Today</div>
+                    </div>
+                    
+                    <div class="lead-card">
+                        <div class="lead-info">
+                            <h3>Urban Garden Solutions</h3>
+                            <p>Corporate landscaping contracts · Basic website · No booking system</p>
+                        </div>
+                        <div class="lead-score">
+                            <div class="score hot">88</div>
+                            <div class="label">Score</div>
+                        </div>
+                        <div class="priority-badge hot">Call Today</div>
+                    </div>
+                    
+                    <div class="lead-card">
+                        <div class="lead-info">
+                            <h3>Botanical Edge Design</h3>
+                            <p>High-end residential · Website present · No chat/AI features</p>
+                        </div>
+                        <div class="lead-score">
+                            <div class="score warm">71</div>
+                            <div class="label">Score</div>
+                        </div>
+                        <div class="priority-badge warm">Follow Up</div>
+                    </div>
+                </div>
+                
+                <div class="slide-footer">Marvelus Lead Intelligence</div>
+                <div class="nav-hint">→</div>
+            </section>
+            
+            <!-- SLIDE 4: Category Breakdown -->
+            <section class="content-slide">
+                <div class="section-label">Lead Composition</div>
+                <h2>Category Breakdown</h2>
+                <p class="lead">Visual split of the 10 landscaper leads from this run: freshness, score quality, and website readiness.</p>
+                
+                <div class="category-grid">
+                    <div class="category-card">
+                        <div class="name">New Leads</div>
+                        <div class="count">7 of 10 · 70%</div>
+                        <div class="bar"><div class="bar-fill" style="width: 70%"></div></div>
+                    </div>
+                    <div class="category-card">
+                        <div class="name">Hot Leads (75+)</div>
+                        <div class="count">3 of 10 · 30%</div>
+                        <div class="bar"><div class="bar-fill" style="width: 30%"></div></div>
+                    </div>
+                    <div class="category-card">
+                        <div class="name">No Website</div>
+                        <div class="count">47% of sample</div>
+                        <div class="bar"><div class="bar-fill" style="width: 47%"></div></div>
+                    </div>
+                    <div class="category-card">
+                        <div class="name">Website Present</div>
+                        <div class="count">53% of sample</div>
+                        <div class="bar"><div class="bar-fill" style="width: 53%"></div></div>
+                    </div>
+                </div>
+                
+                <div class="slide-footer">Marvelus Lead Intelligence</div>
+                <div class="nav-hint">→</div>
+            </section>
+            
+            <!-- SLIDE 5: Big Number -->
+            <section class="content-slide" style="align-items: center; text-align: center;">
+                <div class="big-number">47%</div>
+                <div class="big-number-label">of extracted leads have no website<br>Immediate AI service opportunity</div>
+                <div style="margin-top: 48px; font-size: 18px; color: var(--apple-gray); max-width: 500px; line-height: 1.6;">
+                    Businesses without digital presence are prime candidates for Marvelus AI voice agents and chat solutions.
+                </div>
+                <div class="slide-footer" style="left: 50%; transform: translateX(-50%);">Marvelus Lead Intelligence</div>
+            </section>
+            
+            <!-- SLIDE 6: Next Actions -->
+            <section class="content-slide">
+                <div class="section-label">Recommended Actions</div>
+                <h2>Next Steps</h2>
+                <p class="lead">Priority-ranked actions based on today's pipeline results.</p>
+                
+                <div class="lead-list">
+                    <div class="lead-card">
+                        <div class="lead-info">
+                            <h3>1. Contact GreenScape Pro Melbourne</h3>
+                            <p>Highest score (92). No website. Direct phone outreach recommended for AI voice agent pitch.</p>
+                        </div>
+                        <div class="priority-badge hot">Today</div>
+                    </div>
+                    
+                    <div class="lead-card">
+                        <div class="lead-info">
+                            <h3>2. Batch outreach to 7 new leads</h3>
+                            <p>Prepare personalised proposals for all new entries. Focus on no-website segment first.</p>
+                        </div>
+                        <div class="priority-badge warm">This Week</div>
+                    </div>
+                    
+                    <div class="lead-card">
+                        <div class="lead-info">
+                            <h3>3. Rotate to HVAC category tomorrow</h3>
+                            <p>Lowest coverage (48%). High opportunity for new client acquisition.</p>
+                        </div>
+                        <div class="priority-badge" style="background: var(--apple-gray)">Tomorrow</div>
+                    </div>
+                </div>
+                
+                <div class="slide-footer">Marvelus Lead Intelligence</div>
+            </section>
+            
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/reveal.js@4.5.0/dist/reveal.min.js"></script>
+    <script>
+        Reveal.initialize({
+            hash: true,
+            slideNumber: false,
+            controls: true,
+            progress: false,
+            center: false,
+            transition: 'fade',
+            backgroundTransition: 'fade',
+            width: 1280,
+            height: 720,
+            margin: 0
+        });
+    </script>
+</body>
+</html>

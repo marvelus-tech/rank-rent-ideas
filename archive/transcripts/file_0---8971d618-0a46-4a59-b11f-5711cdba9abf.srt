@@ -1,0 +1,4 @@
+1
+00:00:00,000 --> 00:00:08,000
+So can you hear my voice if so, tell me that I said the color blue.
+

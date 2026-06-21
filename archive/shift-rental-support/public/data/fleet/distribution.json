@@ -1,0 +1,26 @@
+{
+  "channels": [
+    { "id": "shift", "label": "SHIFT Native", "lockedOn": true, "enabled": true, "sync": "ok" },
+    { "id": "turo", "label": "Turo", "lockedOn": false, "enabled": true, "sync": "ok" },
+    { "id": "getaround", "label": "Getaround", "lockedOn": false, "enabled": true, "sync": "desync" },
+    { "id": "kayak", "label": "Kayak", "lockedOn": false, "enabled": false, "sync": "ok" }
+  ],
+  "yield": {
+    "mode": 80,
+    "labelLeft": "Conservative (max utilization)",
+    "labelRight": "Aggressive (max revenue)"
+  },
+  "autoPricing": {
+    "enabled": true,
+    "confidencePct": 93
+  },
+  "calendar": {
+    "days": [
+      { "date": "Apr 13", "shift": "—", "turo": "AK", "getaround": "—", "kayak": "—" },
+      { "date": "Apr 14", "shift": "—", "turo": "AK", "getaround": "—", "kayak": "—" },
+      { "date": "Apr 15", "shift": "—", "turo": "—", "getaround": "MJ", "kayak": "—" },
+      { "date": "Apr 16", "shift": "—", "turo": "—", "getaround": "MJ", "kayak": "—" },
+      { "date": "Apr 17", "shift": "—", "turo": "—", "getaround": "—", "kayak": "—" }
+    ]
+  }
+}

@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SHIFT — Cold DM Roast Engine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --bg-elevated: #12121a;
+      --bg-card: #1a1a24;
+      --bg-input: #0f0f16;
+      --accent: #ff6b35;
+      --accent-light: #ff8f5c;
+      --accent-glow: rgba(255, 107, 53, 0.3);
+      --accent-glow-strong: rgba(255, 107, 53, 0.5);
+      --text: #ffffff;
+      --text-secondary: rgba(255, 255, 255, 0.6);
+      --text-muted: rgba(255, 255, 255, 0.4);
+      --text-subtle: rgba(255, 255, 255, 0.2);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-hover: rgba(255, 255, 255, 0.15);
+      --success: #30d158;
+      --warning: #ff9f0a;
+      --danger: #ff453a;
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --radius-xl: 24px;
+      --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+      --shadow-lg: 0 16px 48px rgba(0, 0, 0, 0.5);
+      --shadow-glow: 0 0 40px var(--accent-glow);
+      --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      --transition-bounce: all 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
+    }
+
+    /* Ambient background */
+    .ambient {
+      position: fixed;
+      inset: 0;
+      z-index: 0;
+      pointer-events: none;
+      overflow: hidden;
+    }
+
+    .ambient-orb {
+      position: absolute;
+      border-radius: 50%;
+      filter: blur(100px);
+      opacity: 0.15;
+      animation: orbFloat 20s ease-in-out infinite;
+    }
+
+    .ambient-orb-1 {
+      width: 600px;
+      height: 600px;
+      background: var(--accent);
+      top: -200px;
+      right: -100px;
+      animation-delay: 0s;
+    }
+
+    .ambient-orb-2 {
+      width: 400px;
+      height: 400px;
+      background: #ff9f0a;
+      bottom: -100px;
+      left: -100px;
+      animation-delay: -5s;
+      opacity: 0.1;
+    }
+
+    .ambient-orb-3 {
+      width: 300px;
+      height: 300px;
+      background: #64d2ff;
+      top: 50%;
+      left: 50%;
+      animation-delay: -10s;
+      opacity: 0.08;
+    }
+
+    @keyframes orbFloat {
+      0%, 100% {
+        transform: translate(0, 0) scale(1);
+      }
+      25% {
+        transform: translate(30px, -30px) scale(1.1);
+      }
+      50% {
+        transform: translate(-20px, 20px) scale(0.95);
+      }
+      75% {
+        transform: translate(20px, 10px) scale(1.05);
+      }
+    }
+
+    /* Noise texture overlay */
+    .noise {
+      position: fixed;
+      inset: 0;
+      z-index: 1;
+      pointer-events: none;
+      opacity: 0.03;
+      background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    }
+
+    /* Navigation */
+    .nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 16px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(10, 10, 15, 0.8);
+      backdrop-filter: blur(20px) saturate(180%);
+      -webkit-backdrop-filter: blur(20px) saturate(180%);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-weight: 800;
+      font-size: 20px;
+      letter-spacing: -0.02em;
+      color: var(--text);
+      text-decoration: none;
+    }
+
+    .nav-logo-icon {
+      width: 32px;
+      height: 32px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-light));
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .nav-link {
+      padding: 8px 16px;
+      border-radius: var(--radius-sm);
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      transition: var(--transition);
+    }
+
+    .nav-link:hover {
+      color: var(--text);
+      background: rgba(255, 255, 255, 0.05);
+    }
+
+    .nav-cta {
+      padding: 10px 20px;
+      background: var(--accent);
+      color: var(--bg);
+      border-radius: var(--radius-sm);
+      font-size: 14px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: var(--transition);
+      border: none;
+      cursor: pointer;
+    }
+
+    .nav-cta:hover {
+      background: var(--accent-light);
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-glow);
+    }
+
+    /* Hero Section */
+    .hero {
+      position: relative;
+      z-index: 2;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 120px 24px 80px;
+      text-align: center;
+    }
+
+    .hero-content {
+      max-width: 800px;
+      animation: fadeInUp 1s ease-out;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(40px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: rgba(255, 107, 53, 0.1);
+      border: 1px solid rgba(255, 107, 53, 0.2);
+      border-radius: 100px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--accent-light);
+      margin-bottom: 32px;
+      animation: pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        box-shadow: 0 0 0 0 rgba(255, 107, 53, 0.2);
+      }
+      50% {
+        box-shadow: 0 0 0 8px rgba(255, 107, 53, 0);
+      }
+    }
+
+    .hero-badge-dot {
+      width: 8px;
+      height: 8px;
+      background: var(--accent);
+      border-radius: 50%;
+      animation: dotPulse 2s ease-in-out infinite;
+    }
+
+    @keyframes dotPulse {
+      0%, 100% {
+        opacity: 1;
+        transform: scale(1);
+      }
+      50% {
+        opacity: 0.5;
+        transform: scale(0.8);
+      }
+    }
+
+    .hero-title {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      margin-bottom: 24px;
+    }
+
+    .hero-title .highlight {
+      background: linear-gradient(135deg, var(--accent), var(--accent-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(1.1rem, 2vw, 1.35rem);
+      color: var(--text-secondary);
+      max-width: 600px;
+      margin: 0 auto 40px;
+      line-height: 1.7;
+    }
+
+    .hero-stats {
+      display: flex;
+      justify-content: center;
+      gap: 48px;
+      margin-top: 48px;
+      padding-top: 48px;
+      border-top: 1px solid var(--border);
+    }
+
+    .hero-stat {
+      text-align: center;
+    }
+
+    .hero-stat-value {
+      font-size: 2rem;
+      font-weight: 800;
+      color: var(--accent);
+      display: block;
+    }
+
+    .hero-stat-label {
+      font-size: 13px;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* Main App Section */
+    .app-section {
+      position: relative;
+      z-index: 2;
+      padding: 40px 24px 80px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    .app-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 40px;
+      box-shadow: var(--shadow-lg);
+      animation: fadeInUp 0.8s ease-out 0.2s both;
+    }
+
+    .app-header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+
+    .app-header h2 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .app-header p {
+      color: var(--text-muted);
+      font-size: 15px;
+    }
+
+    /* Input Area */
+    .input-group {
+      margin-bottom: 24px;
+    }
+
+    .input-label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .input-wrapper {
+      position: relative;
+    }
+
+    .input-field {
+      width: 100%;
+      padding: 16px 20px;
+      background: var(--bg-input);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      color: var(--text);
+      font-family: inherit;
+      font-size: 15px;
+      line-height: 1.6;
+      resize: vertical;
+      min-height: 120px;
+      transition: var(--transition);
+    }
+
+    .input-field:focus {
+      outline: none;
+      border-color: var(--accent);
+      box-shadow: 0 0 0 3px var(--accent-glow);
+    }
+
+    .input-field::placeholder {
+      color: var(--text-subtle);
+    }
+
+    .input-hint {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 8px;
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    .input-hint svg {
+      width: 14px;
+      height: 14px;
+      flex-shrink: 0;
+    }
+
+    /* Roast Button */
+    .roast-btn {
+      width: 100%;
+      padding: 18px 32px;
+      background: linear-gradient(135deg, var(--accent), #e55a2b);
+      color: white;
+      border: none;
+      border-radius: var(--radius-md);
+      font-family: inherit;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: var(--transition-bounce);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .roast-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px var(--accent-glow-strong);
+    }
+
+    .roast-btn:active {
+      transform: translateY(0) scale(0.98);
+    }
+
+    .roast-btn:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+
+    .roast-btn-icon {
+      font-size: 20px;
+    }
+
+    /* Loading State */
+    .loading-state {
+      display: none;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .loading-state.active {
+      display: block;
+    }
+
+    .loading-spinner {
+      width: 48px;
+      height: 48px;
+      border: 3px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin: 0 auto 16px;
+    }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .loading-text {
+      color: var(--text-secondary);
+      font-size: 15px;
+    }
+
+    .loading-dots::after {
+      content: '';
+      animation: dots 1.5s steps(4, end) infinite;
+    }
+
+    @keyframes dots {
+      0% {
+        content: '';
+      }
+      25% {
+        content: '.';
+      }
+      50% {
+        content: '..';
+      }
+      75% {
+        content: '...';
+      }
+    }
+
+    /* Results Area */
+    .results {
+      display: none;
+      margin-top: 32px;
+      animation: fadeInUp 0.5s ease-out;
+    }
+
+    .results.active {
+      display: block;
+    }
+
+    .result-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      margin-bottom: 16px;
+      transition: var(--transition);
+    }
+
+    .result-card:hover {
+      border-color: var(--border-hover);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md);
+    }
+
+    .result-header {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+
+    .result-icon {
+      width: 40px;
+      height: 40px;
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      flex-shrink: 0;
+    }
+
+    .result-icon.roast {
+      background: rgba(255, 69, 58, 0.1);
+    }
+
+    .result-icon.fix {
+      background: rgba(48, 209, 88, 0.1);
+    }
+
+    .result-icon.score {
+      background: rgba(255, 159, 10, 0.1);
+    }
+
+    .result-title {
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .result-content {
+      color: var(--text-secondary);
+      font-size: 15px;
+      line-height: 1.7;
+    }
+
+    .result-content strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    .result-content ul {
+      list-style: none;
+      padding: 0;
+      margin: 12px 0;
+    }
+
+    .result-content li {
+      position: relative;
+      padding-left: 24px;
+      margin-bottom: 8px;
+    }
+
+    .result-content li::before {
+      content: '→';
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    /* Score Badge */
+    .score-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 8px 16px;
+      background: rgba(255, 159, 10, 0.1);
+      border: 1px solid rgba(255, 159, 10, 0.2);
+      border-radius: 100px;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--warning);
+    }
+
+    .score-value {
+      font-size: 24px;
+      font-weight: 900;
+    }
+
+    /* Action Buttons */
+    .actions {
+      display: flex;
+      gap: 12px;
+      margin-top: 24px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border-radius: var(--radius-sm);
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: none;
+    }
+
+    .btn-primary {
+      background: var(--accent);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      background: var(--accent-light);
+      transform: translateY(-1px);
+      box-shadow: var(--shadow-glow);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--text-secondary);
+      border: 1px solid var(--border);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text);
+      border-color: var(--border-hover);
+    }
+
+    /* Features Grid */
+    .features {
+      position: relative;
+      z-index: 2;
+      padding: 80px 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .features-header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+
+    .features-header h2 {
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 800;
+      margin-bottom: 12px;
+    }
+
+    .features-header p {
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .feature-card {
+      background: var(--bg-elevated);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px;
+      transition: var(--transition-bounce);
+    }
+
+    .feature-card:hover {
+      transform: translateY(-4px);
+      border-color: var(--accent);
+      box-shadow: 0 8px 32px rgba(255, 107, 53, 0.1);
+    }
+
+    .feature-icon {
+      width: 48px;
+      height: 48px;
+      background: rgba(255, 107, 53, 0.1);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .feature-card h3 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    .feature-card p {
+      color: var(--text-muted);
+      font-size: 14px;
+      line-height: 1.6;
+    }
+
+    /* Footer */
+    .footer {
+      position: relative;
+      z-index: 2;
+      padding: 48px 24px;
+      text-align: center;
+      border-top: 1px solid var(--border);
+    }
+
+    .footer p {
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 24px;
+      margin-top: 16px;
+    }
+
+    .footer-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 14px;
+      transition: var(--transition);
+    }
+
+    .footer-links a:hover {
+      color: var(--accent);
+    }
+
+    /* Toast Notification */
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      z-index: 1000;
+      padding: 16px 24px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      box-shadow: var(--shadow-lg);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transform: translateY(100px);
+      opacity: 0;
+      transition: var(--transition-bounce);
+    }
+
+    .toast.show {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    .toast-icon {
+      font-size: 20px;
+    }
+
+    .toast-message {
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .nav-links {
+        display: none;
+      }
+
+      .hero-stats {
+        gap: 24px;
+      }
+
+      .hero-stat-value {
+        font-size: 1.5rem;
+      }
+
+      .app-card {
+        padding: 24px;
+      }
+
+      .actions {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: var(--bg);
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--border-hover);
+      border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--text-subtle);
+    }
+  </style>
+</head>
+<body>
+  <!-- Ambient Background -->
+  <div class="ambient">
+    <div class="ambient-orb ambient-orb-1"></div>
+    <div class="ambient-orb ambient-orb-2"></div>
+    <div class="ambient-orb ambient-orb-3"></div>
+  </div>
+  <div class="noise"></div>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="/" class="nav-logo">
+      <div class="nav-logo-icon">🔥</div>
+      SHIFT Roast
+    </a>
+    <div class="nav-links">
+      <a href="#roast" class="nav-link">Roast Engine</a>
+      <a href="#features" class="nav-link">How It Works</a>
+      <a href="/support" class="nav-cta">Support Chat</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        AI-Powered DM Analysis
+      </div>
+      <h1 class="hero-title">
+        Don't Get Banned.<br>
+        <span class="highlight">Get Bookings.</span>
+      </h1>
+      <p class="hero-subtitle">
+        Paste your cold DM. Our AI roasts it, fixes it, and shows you exactly why it works — 
+        so you convert leads without triggering spam filters.
+      </p>
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <span class="hero-stat-value">12,400+</span>
+          <span class="hero-stat-label">DMs Analyzed</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-value">94%</span>
+          <span class="hero-stat-label">Delivery Rate</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-value">3.2x</span>
+          <span class="hero-stat-label">Reply Boost</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Section -->
+  <section class="app-section" id="roast">
+    <div class="app-card">
+      <div class="app-header">
+        <h2>🔥 Cold DM Roast Engine</h2>
+        <p>Paste your DM below. We'll roast the bad parts, fix them, and explain why.</p>
+      </div>
+
+      <div class="input-group">
+        <label class="input-label">Your Cold DM</label>
+        <div class="input-wrapper">
+          <textarea 
+            class="input-field" 
+            id="dm-input"
+            placeholder="Hey! I noticed you're in the car rental business. I'm reaching out because I have an amazing AI solution that can 10x your revenue. Let's jump on a quick call this week to discuss how we can transform your business. I guarantee you'll love it!"
+          ></textarea>
+        </div>
+        <div class="input-hint">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+          </svg>
+          Be honest — paste the actual DM you're sending (or planning to send)
+        </div>
+      </div>
+
+      <button class="roast-btn" id="roast-btn" onclick="roastDM()">
+        <span class="roast-btn-icon">🔥</span>
+        Roast My DM
+      </button>
+
+      <!-- Loading State -->
+      <div class="loading-state" id="loading-state">
+        <div class="loading-spinner"></div>
+        <p class="loading-text">Analyzing your DM for spam triggers<span class="loading-dots"></span></p>
+      </div>
+
+      <!-- Results -->
+      <div class="results" id="results">
+        <div class="result-card">
+          <div class="result-header">
+            <div class="result-icon roast">😬</div>
+            <div>
+              <div class="result-title">The Roast</div>
+              <div style="color: var(--text-muted); font-size: 13px;">What makes this DM terrible</div>
+            </div>
+          </div>
+          <div class="result-content" id="roast-content">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="result-header">
+            <div class="result-icon fix">✨</div>
+            <div>
+              <div class="result-title">The Fix</div>
+              <div style="color: var(--text-muted); font-size: 13px;">Rewritten to convert</div>
+            </div>
+          </div>
+          <div class="result-content" id="fix-content">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+
+        <div class="result-card">
+          <div class="result-header">
+            <div class="result-icon score">📊</div>
+            <div>
+              <div class="result-title">Spam Score</div>
+              <div style="color: var(--text-muted); font-size: 13px;">Likelihood of getting flagged</div>
+            </div>
+          </div>
+          <div class="result-content">
+            <div class="score-badge" id="score-badge">
+              <span class="score-value" id="score-value">--</span>
+              <span id="score-label">Risk Level</span>
+            </div>
+            <p style="margin-top: 12px;" id="score-explanation">
+              <!-- Populated by JS -->
+            </p>
+          </div>
+        </div>
+
+        <div class="actions">
+          <button class="btn btn-primary" onclick="copyFix()">
+            📋 Copy Fixed DM
+          </button>
+          <button class="btn btn-secondary" onclick="tryAnother()">
+            🔄 Try Another DM
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section class="features" id="features">
+    <div class="features-header">
+      <h2>How It Works</h2>
+      <p>Three steps to DMs that actually convert</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">📝</div>
+        <h3>Paste Your DM</h3>
+        <p>Drop in your current cold DM — even if it's terrible. Especially if it's terrible.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔍</div>
+        <h3>AI Analysis</h3>
+        <p>Our engine checks for spam triggers, pushy language, and conversion killers.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">✅</div>
+        <h3>Get The Fix</h3>
+        <p>Receive a rewritten version that respects the recipient and drives replies.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📈</div>
+        <h3>Track Results</h3>
+        <p>See delivery rates, reply rates, and which versions perform best.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2026 SHIFT Technologies. Built for sales teams who hate being ignored.</p>
+    <div class="footer-links">
+      <a href="/support">Support</a>
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+    </div>
+  </footer>
+
+  <!-- Toast -->
+  <div class="toast" id="toast">
+    <span class="toast-icon" id="toast-icon">✅</span>
+    <span class="toast-message" id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <script>
+    // Roast logic
+    const roastPatterns = [
+      {
+        pattern: /\b(10x|10x your|10x my|10x our)\b/gi,
+        roast: "'10x your revenue' — Every spammer says this. It's the 'Nigerian prince' of B2B.",
+        fix: "Be specific about one metric you actually improve. 'Reduce no-shows by 30%' beats '10x everything' every time."
+      },
+      {
+        pattern: /\b(guarantee|guaranteed|100%|money back|risk free)\b/gi,
+        roast: "Guarantees scream desperation. Real businesses don't guarantee outcomes they don't control.",
+        fix: "Replace with social proof: 'We've helped 3 Melbourne fleets increase utilization by 22%.'"
+      },
+      {
+        pattern: /\b(quick call|15 minutes|15 min|brief call|quick chat)\b/gi,
+        roast: "'Quick call' is a trap word. Everyone knows it's never quick.",
+        fix: "Ask a question instead: 'What's your biggest pain point with fleet utilization right now?'"
+      },
+      {
+        pattern: /\b(amazing|incredible|revolutionary|game.??changing|cutting.edge)\b/gi,
+        roast: "Hype words trigger spam filters AND eye rolls. Two birds, one stone.",
+        fix: "Use plain language. 'AI that predicts maintenance issues before they happen' > 'revolutionary AI solution'"
+      },
+      {
+        pattern: /\b(transform|transform your|transform my|transform our)\b/gi,
+        roast: "'Transform your business' — Have you met a business owner who wants to be 'transformed' by a stranger?",
+        fix: "Start with their world, not yours. 'Noticed your fleet grew from 12 to 30 vehicles — how are you handling scheduling?'"
+      },
+      {
+        pattern: /\b(I'm reaching out|I wanted to reach out|I am reaching out)\b/gi,
+        roast: "'I'm reaching out' = 'I'm about to pitch you something.' They know. You know. We all know.",
+        fix: "Lead with relevance: 'Saw your expansion to Geelong — congrats. How's the new location performing?'"
+      },
+      {
+        pattern: /\b(let's|let us|we should|we can)\b/gi,
+        roast: "'Let's jump on a call' assumes they want to talk to you. They don't. Yet.",
+        fix: "Earn the conversation first. Share something valuable, then ask if they want to discuss."
+      },
+      {
+        pattern: /\b(solution|platform|tool|software|product|service)\b/gi,
+        roast: "Nobody wakes up wanting 'solutions.' They want problems solved.",
+        fix: "Name the problem: 'Fleet sitting idle 40% of the time' > 'AI fleet management solution'"
+      },
+      {
+        pattern: /\b(this week|tomorrow|ASAP|soon|urgent)\b/gi,
+        roast: "Urgency from a stranger = pressure. Pressure = delete.",
+        fix: "Remove all time pressure. Let them respond on their timeline."
+      },
+      {
+        pattern: /\b(free|no cost|complimentary|at no charge)\b/gi,
+        roast: "'Free' attracts freebie hunters, not buyers. And spam filters love flagging it.",
+        fix: "If it's genuinely free, say 'pilot program' or 'beta access.' Otherwise, don't mention price."
+      }
+    ];
+
+    const spamWords = [
+      'guarantee', 'guaranteed', '100%', 'money back', 'risk free',
+      'free', 'no cost', 'complimentary', 'act now', 'limited time',
+      'urgent', 'hurry', 'asap', 'don\'t miss', 'exclusive offer',
+      'click here', 'buy now', 'order now', 'call now', 'act immediately',
+      'congratulations', 'winner', 'selected', 'you won', 'prize',
+      'earn extra cash', 'make money', 'work from home', 'income',
+      'credit card', 'no credit check', 'loan', 'debt', 'mortgage',
+      'viagra', 'weight loss', 'diet', 'pills', 'supplement'
+    ];
+
+    function analyzeDM(text) {
+      const issues = [];
+      const fixes = [];
+      let spamScore = 0;
+
+      // Check patterns
+      roastPatterns.forEach(({ pattern, roast, fix }) => {
+        if (pattern.test(text)) {
+          issues.push(roast);
+          fixes.push(fix);
+          spamScore += 15;
+        }
+      });
+
+      // Check spam words
+      const lowerText = text.toLowerCase();
+      spamWords.forEach(word => {
+        if (lowerText.includes(word.toLowerCase())) {
+          spamScore += 10;
+        }
+      });
+
+      // Check for excessive caps
+      const capsRatio = (text.match(/[A-Z]/g) || []).length / text.length;
+      if (capsRatio > 0.3) {
+        issues.push("SHOUTING WITH CAPS doesn't convey excitement. It conveys spam.");
+        fixes.push("Use sentence case. Save emphasis for the one thing that actually matters.");
+        spamScore += 20;
+      }
+
+      // Check for multiple exclamation marks
+      if (text.match(/!{2,}/)) {
+        issues.push("Multiple exclamation marks!!! Look like spam!!!");
+        fixes.push("One period. One exclamation mark max. Let the words do the work.");
+        spamScore += 15;
+      }
+
+      // Check length
+      if (text.length > 500) {
+        issues.push("This DM is a novel. Nobody reads novels from strangers.");
+        fixes.push("Cut to 2-3 sentences. 50-100 words max. Brevity is trust.");
+        spamScore += 10;
+      }
+
+      // Check for links
+      if (text.match(/https?:\/\/|www\./)) {
+        issues.push("Links in first DM = instant spam folder. Platforms flag this aggressively.");
+        fixes.push("Remove the link. Get a reply first. Then share resources.");
+        spamScore += 25;
+      }
+
+      // Check for emojis (too many)
+      const emojiCount = (text.match(/[\u{1F300}-\u{1F9FF}]/gu) || []).length;
+      if (emojiCount > 3) {
+        issues.push("Emoji overload looks like a marketing blast, not a personal message.");
+        fixes.push("Max 1-2 emojis. Or zero. Professional > playful for first contact.");
+        spamScore += 10;
+      }
+
+      // Generic check
+      if (issues.length === 0) {
+        issues.push("This DM is... actually not terrible. But it's probably still too generic.");
+        fixes.push("Add one specific detail about THEM. Their recent post, expansion, or fleet size. Show you did homework.");
+        spamScore = Math.max(spamScore, 20);
+      }
+
+      return {
+        issues: [...new Set(issues)],
+        fixes: [...new Set(fixes)],
+        spamScore: Math.min(spamScore, 100)
+      };
+    }
+
+    function generateFix(text, analysis) {
+      // Extract business type
+      const businessMatch = text.match(/(car rental|fleet|rental|dealership|auto|automotive)/i);
+      const business = businessMatch ? businessMatch[1] : 'business';
+
+      // Extract location if mentioned
+      const locationMatch = text.match(/(Melbourne|Sydney|Brisbane|Perth|Adelaide|Geelong|Gold Coast)/i);
+      const location = locationMatch ? locationMatch[1] : '';
+
+      const templates = [
+        `Hey [Name], saw ${location ? location + ' ' : ''}${business} is expanding — congrats. Quick question: what's the biggest bottleneck with fleet scheduling right now?`,
+        `Hi [Name], noticed ${location ? location + ' ' : ''}${business} grew fast. Curious — how are you handling maintenance prediction with that scale?`,
+        `Hey [Name], saw your fleet update. Question: are you using any AI for utilization tracking, or still manual?`,
+        `Hi [Name], ${location ? location + ' ' : ''}${business} looks busy. What's your current no-show rate like — and is it a pain point?`
+      ];
+
+      return templates[Math.floor(Math.random() * templates.length)];
+    }
+
+    function roastDM() {
+      const input = document.getElementById('dm-input');
+      const btn = document.getElementById('roast-btn');
+      const loading = document.getElementById('loading-state');
+      const results = document.getElementById('results');
+      const text = input.value.trim();
+
+      if (!text) {
+        showToast('⚠️ Paste a DM first!', 'warning');
+        input.focus();
+        return;
+      }
+
+      // Show loading
+      btn.disabled = true;
+      loading.classList.add('active');
+      results.classList.remove('active');
+
+      // Simulate analysis delay
+      setTimeout(() => {
+        const analysis = analyzeDM(text);
+        const fixedDM = generateFix(text, analysis);
+
+        // Populate results
+        document.getElementById('roast-content').innerHTML = `
+          <ul>
+            ${analysis.issues.map(issue => `<li>${issue}</li>`).join('')}
+          </ul>
+        `;
+
+        document.getElementById('fix-content').innerHTML = `
+          <p><strong>Here's a better version:</strong></p>
+          <div style="background: var(--bg-input); padding: 16px; border-radius: var(--radius-sm); margin: 12px 0; border: 1px solid var(--border); font-family: 'Inter', monospace; font-size: 14px; line-height: 1.6;">
+            ${fixedDM}
+          </div>
+          <ul>
+            ${analysis.fixes.map(fix => `<li>${fix}</li>`).join('')}
+          </ul>
+        `;
+
+        const scoreValue = document.getElementById('score-value');
+        const scoreLabel = document.getElementById('score-label');
+        const scoreBadge = document.getElementById('score-badge');
+        const scoreExplanation = document.getElementById('score-explanation');
+
+        scoreValue.textContent = analysis.spamScore + '%';
+        
+        if (analysis.spamScore >= 70) {
+          scoreLabel.textContent = 'High Risk';
+          scoreBadge.style.background = 'rgba(255, 69, 58, 0.1)';
+          scoreBadge.style.borderColor = 'rgba(255, 69, 58, 0.2)';
+          scoreBadge.style.color = 'var(--danger)';
+          scoreExplanation.textContent = 'This DM will likely land in spam/promotions. Multiple triggers detected. Use the fixed version above.';
+        } else if (analysis.spamScore >= 40) {
+          scoreLabel.textContent = 'Medium Risk';
+          scoreBadge.style.background = 'rgba(255, 159, 10, 0.1)';
+          scoreBadge.style.borderColor = 'rgba(255, 159, 10, 0.2)';
+          scoreBadge.style.color = 'var(--warning)';
+          scoreExplanation.textContent = 'Some spam triggers present. Delivery possible but not guaranteed. Consider the fixes suggested.';
+        } else {
+          scoreLabel.textContent = 'Low Risk';
+          scoreBadge.style.background = 'rgba(48, 209, 88, 0.1)';
+          scoreBadge.style.borderColor = 'rgba(48, 209, 88, 0.2)';
+          scoreBadge.style.color = 'var(--success)';
+          scoreExplanation.textContent = 'Good job! This DM should deliver fine. Minor tweaks could improve reply rates further.';
+        }
+
+        // Show results
+        loading.classList.remove('active');
+        results.classList.add('active');
+        btn.disabled = false;
+
+        // Scroll to results
+        results.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }, 1500);
+    }
+
+    function copyFix() {
+      const fixText = document.querySelector('#fix-content div').textContent;
+      navigator.clipboard.writeText(fixText).then(() => {
+        showToast('✅ Fixed DM copied! Go send it.', 'success');
+      });
+    }
+
+    function tryAnother() {
+      document.getElementById('dm-input').value = '';
+      document.getElementById('results').classList.remove('active');
+      document.getElementById('dm-input').focus();
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    function showToast(message, type = 'success') {
+      const toast = document.getElementById('toast');
+      const toastIcon = document.getElementById('toast-icon');
+      const toastMessage = document.getElementById('toast-message');
+
+      toastIcon.textContent = type === 'success' ? '✅' : '⚠️';
+      toastMessage.textContent = message;
+
+      toast.classList.add('show');
+      setTimeout(() => {
+        toast.classList.remove('show');
+      }, 3000);
+    }
+
+    // Auto-resize textarea
+    document.getElementById('dm-input').addEventListener('input', function() {
+      this.style.height = 'auto';
+      this.style.height = Math.min(this.scrollHeight, 300) + 'px';
+    });
+
+    // Enter to submit (Ctrl+Enter)
+    document.getElementById('dm-input').addEventListener('keydown', function(e) {
+      if (e.ctrlKey && e.key === 'Enter') {
+        roastDM();
+      }
+    });
+  </script>
+</body>
+</html>

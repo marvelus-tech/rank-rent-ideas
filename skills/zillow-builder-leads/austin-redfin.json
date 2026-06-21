@@ -1,0 +1,224 @@
+{
+  "search_params": {
+    "location": "Austin, TX",
+    "source": "redfin.com",
+    "total_listings": 23,
+    "unique_builders": 1,
+    "scraped_at": "2026-06-18T07:28:55.988Z"
+  },
+  "builders": [
+    {
+      "builder_name": "Unknown Builder",
+      "listings": [
+        {
+          "price": "$750,0003",
+          "address": null,
+          "beds": null,
+          "baths": "3",
+          "sqft": "3,136",
+          "isNew": false,
+          "textPreview": "COMING SOONABOUT THIS HOMECleveland, MN Homes for SaleCustom-built 3-bedroom, 3-bath home situated on a beautiful 1.13-acre lot with 133 feet of shoreline on East Lake Jefferson. The private setting is highlighted by mature trees, exceptional landscaping, and breathtaking views of the lake and surro"
+        },
+        {
+          "price": "$265,0003",
+          "address": null,
+          "beds": null,
+          "baths": "2",
+          "sqft": "1,332",
+          "isNew": false,
+          "textPreview": "ABOUT THIS HOMECleveland, MN Homes for SaleYou won't want to miss this gem in the heart of Cleveland.  Welcome to this cozy and inviting 3-bedroom, 2-bathroom gem.  Just minutes away from the area's beautiful lakes, this home offers the perfect blend of comfort, recreation, and small-town charm.  Th"
+        },
+        {
+          "price": null,
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "   Loading..."
+        },
+        {
+          "price": "$479,9003",
+          "address": null,
+          "beds": null,
+          "baths": "2",
+          "sqft": "1,826",
+          "isNew": false,
+          "textPreview": "OPEN SUN, 11AM TO 12:30PMABOUT THIS HOMECleveland, MN Homes for SaleWelcome to your lakefront opportunity on beautiful Middle Jefferson Lake! This 3-bedroom, 2-bath home has been lovingly owned by just one owner and is ready for its next chapter. Enjoy easy access down to the lake, making days on th"
+        },
+        {
+          "price": "$1,580,0003",
+          "address": null,
+          "beds": null,
+          "baths": "3",
+          "sqft": "4,500",
+          "isNew": false,
+          "textPreview": "ABOUT THIS HOMECleveland, MN Homes for SaleWelcome to your private lakeside sanctuary on West Lake Jefferson — where timeless architecture meets unforgettable lake living. Nestled on a spectacular point lot with sweeping water views in every direction, this custom-designed 3 bedroom, 3 bath home was"
+        },
+        {
+          "price": "$299,9002",
+          "address": null,
+          "beds": null,
+          "baths": "1",
+          "sqft": "808",
+          "isNew": false,
+          "textPreview": "3D WALKTHROUGHABOUT THIS HOMECleveland, MN Homes for SaleDouble lot on Lake Washington with approximately 78 feet of shoreline on a quiet bay and a flat, no-steps approach to the water. This seasonal, retro cabin sits on about 0.28 acres and greets you with calming lake views the moment you arrive. "
+        },
+        {
+          "price": "$474,9002",
+          "address": null,
+          "beds": null,
+          "baths": "2",
+          "sqft": "960",
+          "isNew": false,
+          "textPreview": "23994 Geldners Ln, Cleveland, MN 56017$474,9002 beds2 baths960 sq ft23994 Geldners Ln, Cleveland, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"23994 Geldners Ln, Cleveland, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland/23994-Geldners-Ln-56017/home/169535038\",\"address\":{\"@type\":\"PostalAddr"
+        },
+        {
+          "price": "$269,9003",
+          "address": null,
+          "beds": null,
+          "baths": "1",
+          "sqft": "1,820",
+          "isNew": false,
+          "textPreview": "704 Broadway St, Cleveland, MN 56017$269,9003 beds1 bath1,820 sq ft704 Broadway St, Cleveland, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"704 Broadway St, Cleveland, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland/704-Broadway-St-56017/home/169541245\",\"address\":{\"@type\":\"PostalAddress\",\"s"
+        },
+        {
+          "price": "$369,0002",
+          "address": null,
+          "beds": null,
+          "baths": "1",
+          "sqft": "768",
+          "isNew": false,
+          "textPreview": "46027 Beaver Dam Rd, Cleveland, MN 56017$369,0002 beds1 bath768 sq ft46027 Beaver Dam Rd, Cleveland, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"46027 Beaver Dam Rd, Cleveland, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland/46027-Beaver-Dam-Rd-56017/home/169535165\",\"address\":{\"@type\":\"Pos"
+        },
+        {
+          "price": "$599,0002",
+          "address": null,
+          "beds": null,
+          "baths": "2",
+          "sqft": "2,064",
+          "isNew": false,
+          "textPreview": "7012 Damar Ests, Saint Peter, MN 56082$599,0002 beds2 baths2,064 sq ft7012 Damar Ests, Saint Peter, MN 56082[{\"@context\":\"http://schema.org\",\"name\":\"7012 Damar Ests, Saint Peter, MN 56082\",\"url\":\"https://www.redfin.com/MN/Saint-Peter/7012-Da-Mar-Est-56082/home/169540247\",\"address\":{\"@type\":\"PostalAd"
+        },
+        {
+          "price": "$74,900",
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "23473 Cardinal Dr, Cleveland, MN 56017$74,900— beds— baths— sq ft23473 Cardinal Dr, Cleveland, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"23473 Cardinal Dr, Cleveland, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland/23473-Cardinal-Dr-56017/home/169533826\",\"address\":{\"@type\":\"PostalAddress"
+        },
+        {
+          "price": "$73,000",
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "46346 Cape Trl, Cleveland, MN 56017$73,000— beds— baths— sq ft46346 Cape Trl, Cleveland, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"46346 Cape Trl, Cleveland, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland/46346-Cape-Trl-56017/home/169533359\",\"address\":{\"@type\":\"PostalAddress\",\"streetAdd"
+        },
+        {
+          "price": "$65,000",
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "1xxx Lakeview Ct, Cleveland Township, MN 56017$65,000— beds— baths— sq ft1xxx Lakeview Ct, Cleveland Township, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"1xxx Lakeview Ct, Cleveland Township, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland-Township/1xxx-Lakeview-Ct-56017/home/201562057\",\""
+        },
+        {
+          "price": "$65,000",
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "4xxx Lakeview Ct, Cleveland Township, MN 56017$65,000— beds— baths— sq ft4xxx Lakeview Ct, Cleveland Township, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"4xxx Lakeview Ct, Cleveland Township, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland-Township/4xxx-Lakeview-Ct-56017/home/201561847\",\""
+        },
+        {
+          "price": "$599,900",
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "24444 & 24462 Arrowhead Trl, Cleveland, MN 56017$599,900— beds— baths— sq ft24444 & 24462 Arrowhead Trl, Cleveland, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"24444 & 24462 Arrowhead Trl, Cleveland, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland/24444-Arrowhead-Trl-56017/home/169535242\","
+        },
+        {
+          "price": "$65,000",
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "2xxx Lakeview Ct, Cleveland Township, MN 56017$65,000— beds— baths— sq ft2xxx Lakeview Ct, Cleveland Township, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"2xxx Lakeview Ct, Cleveland Township, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland-Township/2xxx-Lakeview-Ct-56017/home/201561863\",\""
+        },
+        {
+          "price": "$71,000",
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "46360 Cape Horn Rd, Cleveland, MN 56017$71,000— beds— baths— sq ft46360 Cape Horn Rd, Cleveland, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"46360 Cape Horn Rd, Cleveland, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland/46360-Cape-Trl-56017/home/169533378\",\"address\":{\"@type\":\"PostalAddress"
+        },
+        {
+          "price": null,
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "   Loading..."
+        },
+        {
+          "price": "$69,900",
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "TBD Cape Horn Rd, Cleveland Township, MN 56017$69,900— beds— baths— sq ftTBD Cape Horn Rd, Cleveland Township, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"TBD Cape Horn Rd, Cleveland Township, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland-Township/tbd-Cape-Horn-Rd-56017/home/171915994\",\""
+        },
+        {
+          "price": "$73,000",
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "46313 Cape Horn Trl, Cleveland, MN 56017$73,000— beds— baths— sq ft46313 Cape Horn Trl, Cleveland, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"46313 Cape Horn Trl, Cleveland, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland/46313-Cape-Horn-Rd-56017/home/194903000\",\"address\":{\"@type\":\"Postal"
+        },
+        {
+          "price": "$84,000",
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "TBD Jefferson Lake Dr, Cleveland Township, MN 56017$84,000— beds— baths— sq ftTBD Jefferson Lake Dr, Cleveland Township, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"TBD Jefferson Lake Dr, Cleveland Township, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland-Township/TBD-Jefferson-Lake-Dr-560"
+        },
+        {
+          "price": "$75,000",
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "5xxx Lakeview Ct, Cleveland Township, MN 56017$75,000— beds— baths— sq ft5xxx Lakeview Ct, Cleveland Township, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"5xxx Lakeview Ct, Cleveland Township, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland-Township/5xxx-Lakeview-Ct-56017/home/201561799\",\""
+        },
+        {
+          "price": "$65,000",
+          "address": null,
+          "beds": null,
+          "baths": null,
+          "sqft": null,
+          "isNew": false,
+          "textPreview": "3xxx Lakeview Ct, Cleveland Township, MN 56017$65,000— beds— baths— sq ft3xxx Lakeview Ct, Cleveland Township, MN 56017[{\"@context\":\"http://schema.org\",\"name\":\"3xxx Lakeview Ct, Cleveland Township, MN 56017\",\"url\":\"https://www.redfin.com/MN/Cleveland-Township/3xxx-Lakeview-Ct-56017/home/201561442\",\""
+        }
+      ],
+      "count": 23
+    }
+  ]
+}

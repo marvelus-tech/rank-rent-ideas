@@ -1,0 +1,193 @@
+Game On for IPOs
+
+May 14, 2026
+
+The floodgates have opened… interest rates are coming down later this year. The economy is booming, and so will the stock markets and new IPO issuances.
+
+Managing Editor’s Note:Jason Bodner is issuing an urgent message…
+
+One of his proprietary indicators with a 100% accuracy rate going back years is signaling that a “regime change” is coming.
+
+Jason is a quantitative analyst and former Wall Street insider… he’s seen this kind of “regime change” before during his time on Wall Street. He saw up close the sort of stocks that soar in shifts like these.
+
+And now, he’s reverse-engineered a way for everyday folks to get ahead of these big moves. Using his approach, you could have seen gains like 86%, 213%, 367%, 911%, and more… all in weeks and months. All told, you could have turned a few thousand dollars into a six-figure nest egg.
+
+That’s why Jeff and Jason are holding an event next Wednesday to reveal why this regime change could be twice as big as previous ones… and naming a top stock to buy beforehand.
+
+If you’re looking for the chance to potentially turn a few thousand dollars into a six-figure nest egg, this event is for you. You cango here to add your name to the guest list with one click.
+
+What a week!
+
+The floodgates have opened. It’sgame onfor IPOs.
+
+Cerebras Systems, a high-growth AI semiconductor company known for its wafer-scale semiconductors designed for inference, went public yesterday to a frenzied market.
+
+The IPO priced at $185 for those lucky enough to get an allocation of the IPO shares, and it opened at $385, a very symbolic way to signal the demand for new high-tech growth names that are part of this new industrial age, powered by AI, to access the public markets.
+
+Cerebras was more than 20X oversubscribed, so it was no surprise to see what happened yesterday. As of this writing, it is trading around $300, which puts the company’s valuation at around $65 billion for what is currently a pretty small company on an incredible growth trajectory.
+
+For perspective, Cerebras raised about $3 billion as a private company in addition to more debt to fuel its growth. Its IPO, however, raised $5.5 billion, more than all of the previously raised funds as a private company. This puts Cerebras in a fantastic place to grow aggressively and ramp up production with TSMC to meet demand.
+
+If that wasn’t exciting enough, Kevin Warsh was confirmed as the new chair of the Federal Reserve, and he begins his new job today. The next FOMC meeting is scheduled for June 16–17, which will be his first opportunity to consider reducing in interest rates.
+
+Warsh has been very consistent in his position that the employment of AI will result in once-in-a-generation productivity gains, which will be a disinflationary event. His position has been to take a forward-looking interest rate policy that anticipates this trend rather than being too late by waiting for the disinflationary data (which is always lagging).
+
+In short, interest rates are coming down later this year. The economy is booming, and so will the stock markets and new IPO issuances.
+
+What an exciting year we have in store.
+
+Jeff
+
+Given that the USD and, by default, USD stable coins are only divisible by 100, how do AI agents get paid when their costs are only 1/10th of a cent?
+
+Am I missing something here?
+
+– Stjon S.
+
+Hello Stjon,
+
+I have good news for you…
+
+Because stablecoins are digital assets, they are, in fact, programmed to be divisible into fractions of a cent. Which, to your point, is critically important for small transactions of less than a cent.
+
+The two dominant USD stablecoins, which make up about 83% of the market, are:
+
+Both are designed to have divisibility of six decimal places. That means the smallest unit of either stable coin is:
+
+0.000001 United States Dollar
+
+This is equal to:
+
+0.0001 Cents
+
+This design is almost certainly going to be sufficient for all agentic transactions. There are even some other USD stablecoins, like DAI, that are designed out to 18 decimal points for far smaller denominations.
+
+And the reality is that blockchain technology is software, which means that it can be reprogrammed with additional features if ever necessary. If Tether or USD Coin found that six decimal places were insufficient, that could be changed.
+
+Blockchain technology is an ideal construct for agentic AI, which is a bit ironic, as it was designed so many years before the era of generative and agentic AI.
+
+Your question is an important one, because agentic AI is already responsible for about 19% of onchain transactions, which is a number I think would surprise most of us. I believe that within a few short years, the majority of onchain transactions will become agentic.
+
+Hello Jeff,
+
+I recently heard about Span’s XFRA system that allows homes and businesses to receive discounted electricity and WiFi while providing power and compute without building a data center.
+
+I was wondering if you know anything about this and if it’s a viable alternative to building a data center with all of the NIMBY and zoning issues? Thanks.
+
+– Synthya G.
+
+Hi Synthya,
+
+Span is actually a pretty cool private company that has developed technology that most of us just wouldn’t think of.
+
+The foundational product of the company is a smart electrical panel for residential homes…
+
+Source: Span
+
+Naturally, Span’s panels come with a smartphone app that gives the homeowner the ability to see electricity utilization down to the circuit level.
+
+The app gives the homeowner recommendations on how to save electricity based on current utilization. I’ve included a screenshot of the application, which makes it really easy to understand.
+
+These prove a great utility. They are very expensive compared to traditional electrical panels, but I really like what they are doing and would probably use this technology if I were building a new home. It would pay off over the long run.
+
+Now, to your question about distributed computing.
+
+Last month, Span announced its distributed data center solution, which it calls XFRA (that’s the marketing name).
+
+The idea is that they’ll install a small rack of computational resources in the same outdoor encasement that holds a compressor or heat pump outside of your house, as shown in the picture below.
+
+Source: Span
+
+A more technical diagram is shown below for those who might be curious.
+
+Source: Span
+
+While the implementation is technical, the idea is simple. Paired with the Span smart electrical panels, when a house has available cheap electricity, it can use that electricity to power computational resources in a distributed manner.
+
+If we could imagine 50 million homes having a setup like this, it would result in meaningful computational power for certain kinds of workloads.
+
+This wouldn’t be a replacement for the hyperscale AI data centers on Earth or in a sun-synchronous orbit, but it would complement those resources.
+
+The challenge, however, is thatmillionsof these units would need to be installed for them to provide a meaningful amount of compute. And I suspect that these will mostly be installed for new construction.
+
+Elon Musk has often spoken about distributed computing in the context of using the computational resources available on idle Teslas. This is a very practical solution for a distributed computational network, as there are already millions of Teslas around the world that could be harnessed.
+
+Tesla owners could be paid for the utilization of their vehicles for computational resources. And for those who have financed their Tesla or leased their Tesla, monthly payments could be reduced in exchange for the use of those computational resources.
+
+What Span has proposed is a larger scale (i.e., much more computational power and memory) form of a distributed computing network.
+
+Ultimately, the idea is sound, but the implementation is difficult at scale. We can think of it as a supplement, but not an alternative to the AI data center construction that is necessary to fuel AGI and ultimately ASI.
+
+Hello Jeff,
+
+First of all, I am amazed and impressed at the detailed knowledge you have of all technical and scientific data.
+
+I have been thinking about the rapid buildout of data centers, and all that is needed to get them up and running. We have several being proposed in areas not far from me. In all cases, the local residents have serious concerns, especially about power and water consumption. My questions center around the power.
+
+Given that current electric grids do not have near the capacity to add a power-hungry data center, how can they be up and running in the next couple of years? Also, the data centers will require a humongous amount of wiring, which requires copper and possibly silver wires. Where will those raw materials come from so quickly?
+
+Any insight you can provide would be appreciated.
+
+Thank you,
+
+– Sandra H.
+
+Hello Sandra,
+
+Thanks for writing in. This is such an interesting topic. Data centers are being proposed in places that we just wouldn’t expect them.
+
+I experienced the same thing in my own town. A structure that was originally designed to be a parking garage was recently rezoned to become a data center in a relatively small suburban town of just 20,000 people.
+
+The reality is that wherever there is fiber optic network connectivity (which is pretty much everywhere now) and enough electricity to power a data center, hyperscalers and data center companies are looking to build. My colleagueJason Bodner touched on this topic in yesterday’sBleeding Edge.
+
+To your point, permitting issues and insufficient power generation are the two biggest issues facing AI data centers right now. Globally, somewhere between 30–50% of all planned data centers have been delayed for these two reasons, and some have been canceled.
+
+How can data centers get up and running within the next two years? The easiest answer is to generate your own power with natural gas turbines. Assuming any data center operator can purchase the turbines, they don’t need to rely on a power grid at all. They become their own power generator.
+
+Other solutions are to recommission a closed-down nuclear power plant likeThree Mile Islandin Pennsylvania,Palisades in Michigan, or the Duane Arnold plant in Iowa. I’ve written about all three projects inThe Bleeding Edge,and they’re all coming back online within the next 24 months.
+
+And beyond that, fourth-generation nuclear fission technology will soon follow with its small modular reactor designs (SMR). SMRs will be built exclusively to power large AI data centers.
+
+And in parallel to these new sources of energy coming online, AI data center satellites are already being launched into orbit. Starcloud has a prototype unit in orbit right now, Sophia Space will soon do the same, SpaceXAI will be sending up production AI data centers within 30 months on its Starship, Google is already in talks with SpaceXAI to do the same, and Relativity Space is gearing up to do the same. More will follow.
+
+As for the raw materials, which are another critical input to making this buildout possible, a similar dynamic is unfolding. Just like with energy production, necessity is the mother of invention, or in this case, additional investment.
+
+Let’s have a quick look at the five-year charts of copper and silver.
+
+5-Year Chart of Copper
+
+As we can see above, copper is up 95% from its 2022 lows, and silver is up even more dramatically, about 330% from its 2022 lows. See below…
+
+5-Year Chart of Silver
+
+Under any healthy regulatory environment that is pro-energy and pro-economy (as we have now), higher materials prices result in more investment in mining and exploration.
+
+Global exploration investment is currently at a 12-year high because of what’s happening in raw materials prices. It obviously takes time to bring new production online, but the supply is growing to meet the demand.
+
+I’m very bullish on metals and energy as a result of this incredible industrial growth period that we’ve entered. It will last for many years.
+
+I’m going to be producing dedicated investment research on this very topic soon, as the growth in these sectors is entirely driven by what is happening in technology right now.
+
+I hope that provides some useful context.
+
+That’s all for this week’s AMA. As always, you can reach usright here. I can’t respond to every email, and I can’t give personalized investment advice, but I read everything you all send in and enjoy hearing from you.
+
+Have a great weekend…
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+Human history tends to move in waves of innovation... and now, we're entering the next wave.
+
+This odd situation is a clear indication that the market is realizing that AI infrastructure demand is spreading across...
+
+This is an ideal environment for scammers looking to defraud normal investors by claiming to offer direct ownership stakes...
+
+Read the latest insights from the world of high technology.
+
+Human history tends to move in waves of innovation... and now, we're entering the next wave.
+
+This odd situation is a clear indication that the market is realizing that AI infrastructure demand is spreading across...
+
+This is an ideal environment for scammers looking to defraud normal investors by claiming to offer direct ownership stakes...

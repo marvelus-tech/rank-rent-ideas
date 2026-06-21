@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Solana Alpha — Live</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#f6f6f2;--surface:#fff;--text:#171728;--muted:#66667a;--border:#e4e4ef;--pos:#00875a;--neg:#d92d20}
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:'Plus Jakarta Sans',sans-serif}
+    .wrap{max-width:1100px;margin:0 auto;padding:32px 18px 56px}
+    h1{font-family:'Space Grotesk',sans-serif;font-size:clamp(1.8rem,3vw,2.6rem);margin:0}
+    .sub{margin:8px 0 0;color:var(--muted)}
+    .bar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:flex-end}
+    .updated{font-size:.92rem;color:var(--muted)}
+    .overview{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin:20px 0 24px}
+    .stat{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:12px 14px}
+    .stat .k{font-size:.78rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em}
+    .stat .v{font-size:1.1rem;font-weight:700;margin-top:4px}
+    .grid{display:grid;grid-template-columns:1fr;gap:14px}
+    @media (min-width:920px){.grid{grid-template-columns:repeat(3,1fr)}}
+    .panel{background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:14px}
+    .panel h2{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;margin:2px 0 10px}
+    .list{display:flex;flex-direction:column;gap:8px}
+    .row{border:1px solid var(--border);border-radius:10px;padding:10px}
+    .top{display:flex;justify-content:space-between;gap:10px;align-items:center}
+    .sym{font-weight:700}.name{font-size:.86rem;color:var(--muted)}
+    .num{font-variant-numeric:tabular-nums;text-align:right}.chg.pos{color:var(--pos)}.chg.neg{color:var(--neg)}
+    .meta{display:flex;justify-content:space-between;gap:8px;font-size:.82rem;color:var(--muted);margin-top:6px}
+    .empty,.loading{color:var(--muted);font-size:.92rem;padding:6px 2px}
+    .scout{margin-top:14px}
+    .scout .row{padding:12px}
+    .badge{display:inline-flex;align-items:center;padding:2px 8px;border-radius:999px;font-size:.72rem;font-weight:700;letter-spacing:.02em}
+    .badge.new{background:#eef4ff;color:#2a4bcf}
+    .badge.conf-high{background:#e8fff2;color:#067647}
+    .badge.conf-mid{background:#fff7e6;color:#b54708}
+    .badge.conf-low{background:#ffeceb;color:#b42318}
+    .labels{display:flex;gap:6px;flex-wrap:wrap}
+    .mechanic{font-size:.84rem;color:#3a3a4f;margin-top:7px;line-height:1.35}
+    a{color:inherit}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header class="bar">
+      <div>
+        <h1>Solana Alpha</h1>
+        <p class="sub">Live token intelligence from DexScreener + scout findings context.</p>
+      </div>
+      <div class="updated" id="updatedAt">Updating…</div>
+    </header>
+
+    <section class="overview" id="overview"></section>
+
+    <section class="grid">
+      <article class="panel">
+        <h2>Top Gainers (24h)</h2>
+        <div class="list" id="gainers"><div class="loading">Loading live data…</div></div>
+      </article>
+      <article class="panel">
+        <h2>New Listings (72h)</h2>
+        <div class="list" id="newListings"><div class="loading">Loading live data…</div></div>
+      </article>
+      <article class="panel">
+        <h2>Trending</h2>
+        <div class="list" id="trending"><div class="loading">Loading live data…</div></div>
+      </article>
+    </section>
+
+    <section class="scout">
+      <article class="panel">
+        <h2>Scout Finds</h2>
+        <div class="list" id="scoutFinds"><div class="loading">Loading curated scout data…</div></div>
+      </article>
+    </section>
+  </div>
+
+  <script>
+    const money = (n)=> new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:n>=1?0:6}).format(Number(n||0));
+    const compactMoney = (n)=> new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',notation:'compact',maximumFractionDigits:2}).format(Number(n||0));
+    const pct = (n)=> `${Number(n||0).toFixed(2)}%`;
+    const age = (ms)=>{
+      if(!ms) return 'n/a';
+      const h = Math.floor((Date.now()-ms)/36e5);
+      if(h<1) return '<1h';
+      if(h<24) return `${h}h`;
+      return `${Math.floor(h/24)}d`;
+    };
+
+    function renderOverview(m){
+      const data = [
+        ['Token Universe', m.tokenUniverse],
+        ['Investable', m.investableUniverse],
+        ['24h Volume', compactMoney(m.total24hVolumeUsd)],
+        ['Liquidity', compactMoney(m.totalLiquidityUsd)],
+        ['Avg 24h Change', pct(m.avg24hChangePct)],
+        ['Gainers / Losers', `${m.gainersCount} / ${m.losersCount}`]
+      ];
+      document.getElementById('overview').innerHTML = data.map(([k,v])=>`<div class="stat"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('');
+    }
+
+    function tokenRow(t, withAge=false){
+      const chgClass = Number(t.priceChange24h) >= 0 ? 'pos' : 'neg';
+      const linkStart = t.url ? `<a href="${t.url}" target="_blank" rel="noopener noreferrer">` : '';
+      const linkEnd = t.url ? '</a>' : '';
+      return `<div class="row">${linkStart}
+        <div class="top">
+          <div><div class="sym">${t.symbol}</div><div class="name">${t.name}</div></div>
+          <div class="num"><div class="price">${money(t.priceUsd)}</div><div class="chg ${chgClass}">${pct(t.priceChange24h)}</div></div>
+        </div>
+        <div class="meta"><span>MCap ${compactMoney(t.marketCap)}</span><span>Vol ${compactMoney(t.volume24h)}</span>${withAge?`<span>${age(t.pairCreatedAt)}</span>`:''}</div>
+      ${linkEnd}</div>`;
+    }
+
+    function renderList(id, arr, withAge=false){
+      const el = document.getElementById(id);
+      if(!arr || !arr.length){el.innerHTML='<div class="empty">No live tokens matched current filters.</div>'; return;}
+      el.innerHTML = arr.slice(0,10).map((t)=>tokenRow(t, withAge)).join('');
+    }
+
+    function confidenceClass(conf){
+      const n = Number(conf||0);
+      if(n >= 75) return 'conf-high';
+      if(n >= 50) return 'conf-mid';
+      return 'conf-low';
+    }
+
+    function scoutRow(t){
+      const conf = Number(t.confidence||0);
+      return `<div class="row">
+        <div class="top">
+          <div>
+            <div class="sym">${t.name} <span class="name">$${t.ticker}</span></div>
+            <div class="name">MCap ${t.marketCap || 'n/a'}</div>
+          </div>
+          <div class="labels">
+            ${t.isNew ? '<span class="badge new">New</span>' : ''}
+            <span class="badge ${confidenceClass(conf)}">${conf}/100</span>
+          </div>
+        </div>
+        <div class="mechanic">${t.rewardMechanic || 'Hold-to-earn mechanics tracked by scout.'}</div>
+      </div>`;
+    }
+
+    function renderScout(arr){
+      const el = document.getElementById('scoutFinds');
+      if(!arr || !arr.length){
+        el.innerHTML = '<div class="empty">No scout findings available yet.</div>';
+        return;
+      }
+      el.innerHTML = arr.slice(0,8).map(scoutRow).join('');
+    }
+
+    async function load(){
+      try{
+        const [liveRes, scoutRes] = await Promise.all([
+          fetch('./data/live-data.json?ts='+Date.now(), {cache:'no-store'}),
+          fetch('./data/scout-findings.json?ts='+Date.now(), {cache:'no-store'}).catch(()=>null)
+        ]);
+
+        if(!liveRes.ok) throw new Error(`HTTP ${liveRes.status}`);
+        const data = await liveRes.json();
+        renderOverview(data.marketOverview || {});
+        renderList('gainers', data.topGainers || []);
+        renderList('newListings', data.newListings || [], true);
+        renderList('trending', data.trending || []);
+
+        if(scoutRes && scoutRes.ok){
+          const scoutData = await scoutRes.json();
+          renderScout(scoutData.tokens || []);
+        } else {
+          renderScout([]);
+        }
+
+        const updated = data.generatedAt ? new Date(data.generatedAt) : new Date();
+        document.getElementById('updatedAt').textContent = `Last update: ${updated.toLocaleString('en-AU', {timeZone:'Australia/Melbourne'})}`;
+      }catch(err){
+        ['gainers','newListings','trending'].forEach((id)=>{
+          document.getElementById(id).innerHTML = `<div class="empty">Failed to load live data (${err.message}).</div>`;
+        });
+        document.getElementById('scoutFinds').innerHTML = '<div class="empty">Failed to load scout findings.</div>';
+        document.getElementById('updatedAt').textContent = 'Last update: unavailable';
+      }
+    }
+
+    load();
+  </script>
+</body>
+</html>

@@ -1,0 +1,111 @@
+Weeks Away from Criticality
+
+Apr 30, 2026
+
+About a decade’s worth of progress is happening in about 12 months regarding fourth-generation nuclear fission technology…
+
+When the Department of Energy (DOE) announced its Reactor Pilot Program in June 2025, it was met with a lot of skepticism.
+
+The Reactor Pilot Program was the direct follow-up toExecutive Order 14301 – Reforming Nuclear Reactor Testing at the Department of Energy.
+
+As the name of the EO suggests, the Reactor Pilot Program is designed to accelerate the testing of advanced nuclear reactor designs at sites located outside of the DOE’s national laboratories.
+
+The significance of this program is that it is targeted specifically at the private sector, designed to bring advanced nuclear energy production technologies to the grid as quickly as possible, as opposed to just government research and development projects.
+
+The objective of the program made perfect sense. And its importance is even easier to understand now than it was last year…
+
+Energy production is the largest single bottleneckfor the construction of AI data centers.
+
+To state the obvious, without the increase of abundant, cheap energy production, not only will economic growth stall, but it poses a significant national security risk, as the U.S. could potentially fall behind in the race to artificial general intelligence (AGI) and artificial superintelligence (ASI).
+
+The reason the program was met with such skepticism wasn’t the purpose of the program or the executive order… it was the time frame. Incredibly, the DOE’s target for the Reactor Pilot Program is to have private industry demonstrate criticality ofat least threeadvanced nuclear fission test reactors by July 4, 2026.
+
+We are now less than 10 weeks away.
+
+Building, testing, commissioning, and demonstrating a self-sustaining nuclear fission reaction in just over a year seems impossible. Historically, the nuclear power industry operates in timeframes measured in a decade or more. To do something like this in the span of a year, one-tenth the time, seems like madness.
+
+But that was the point.
+
+If the DOE doesn’t radically expedite the process for prototyping and testing advanced reactor designs and provide a fast track for commercial approvals and licensing, the much-needed clean energy production simply won’t arrive quickly enough.
+
+By August 12, 2025, 10 companies supporting 11 projects were selected, all involving new advanced nuclear reactor designs, and all of which are considered small modular reactors (SMRs) capable of enabling a distributed, decentralized energy production architecture ideally suited for powering AI data centers.
+
+We’re more than eight months since that August selection, and the progress has been nothing short of spectacular.
+
+The program lit a fire under the nuclear energy industry and gave it the platform to invest, to raise capital, and, of course, to demonstrate the ability to produce clean energy with an advanced reactor design.
+
+I’m confident the skeptics will be proven wrong given the progress that has been made. I’ve been tracking the progress of all the related companies closely, and I have four favorites from which at least three will demonstrate criticality on or before Independence Day.
+
+Last week,Valar Atomics’ Final Documented Safety Analysis (FDSA) was accepted by the DOE for its Ward250 advanced nuclear reactor.
+
+The core reactor was actually airlifted via a U.S. Air Force C-17 for installation at its pilot reactor location at the San Rafael Energy Lab in Emery County, Utah, in February this year.
+
+Valar Atomics Advanced Reactor Site in Utah |Source: Valar Atomics
+
+One of the key advantages of these modular reactor designs is that they can be centrally manufactured and then transported via air, surface, or rail to their desired destination for installation and commissioning.
+
+All that’s left for Valar is now a final operational readiness review before turning the reactor on and demonstrating a self-sustaining reaction. Valar is on track to do so before July 4.
+
+Another favorite of mine isAalo Atomics, which has been building its Aalo-X prototype reactor bordering the Idaho National Laboratory (INL) outside of Arco, Idaho, which I visited late last year.
+
+The progress has been incredible.
+
+Aalo built its reactor at its headquarters in Austin, Texas, and shipped it to Idaho, where it was installed last month, as shown below.
+
+Aalo Atomics Prototype Reactor, Idaho |Source: Aalo Atomics
+
+Aalo received approval for its Preliminary Documented Safety Analysis (PDSA) last month, and I expect that it will receive approval for its FDSA any day now, putting it on the same footing as Valar.
+
+In addition to Valar and Aalo,Antareswas actually the first to achieve its PDSA this January and FDSA at the beginning of this month. Antares is now in the readiness review process in preparation for the startup of its pilot reactor to achieve criticality.
+
+Antares Test Reactor Building |Source: Antares
+
+My fourth most likely nuclear energy company to achieve criticality is Atomic Alchemy – a fully owned subsidiary of publicly tradedOklo(OKLO).
+
+We’ve written about Oklo a number of times before here atThe Bleeding Edge.The nuclear company also has another project under construction, building a second prototype reactor adjacent to Idaho National Laboratories near Arco, Idaho.
+
+Oklo acquired Atomic Alchemy in February last year and currently has a test reactor in Groves, Texas. That facility has just received approval from the DOE for its Nuclear Safety Design Agreement (NSDA). This is the precursor to the PDSA and FDSA.
+
+Oklo Groves Test Reactor Site, Groves, Texas |Source: Oklo
+
+While behind the other three in approvals from the DOE, I believe it will catch up quickly. Oklo has the most to lose, as it is a public company. It needs to share positive news about its advanced reactor program, and the DOE Reactor Pilot Program is high visibility. And compared to the other three companies, which are all private, Oklo is the most well-funded of them all, with about $1.4 billion in cash to work with. It doesn’t have any resource constraints.
+
+I provided photos of all four pilot reactors from each company to make it easy for us to see the scale of each building. One key takeaway should jump out at us… the facilities are all pretty small. They look like a small warehouse or even a small office building. Valar’s building almost looks like a tented facility.
+
+And that’s the point.
+
+Small modular reactors are a fraction of the size of second-generation and third-generation nuclear reactors. There is no massive cooling tower. They are all modular and can be shipped in. And there is no risk of a nuclear meltdown by design.
+
+To go from selection of companies for the Reactor Pilot Program in August last year to four very legitimate companies in the race to reach criticality first (my bet is on Valar or Aalo to be first) is just a stunning pace of development in a field that has been notoriously slow in innovation.
+
+The importance of this program isn’t just for show either. It’s a clever way for the U.S. DOE to endorse promising companies in this competition – which is a critical tool for companies, both private and public – and to raise additional capital to further develop their nuclear energy technology and accelerate commercialization.
+
+Just consider the capital that has been raised by those selected by the DOE last August:
+
+All told, a bit more than $1.9 billion was raised on the back of the Reactor Pilot Program and the “endorsements” provided by the Department of Energy.
+
+That’s smart policy. It cost the U.S. taxpayer barely anything to administer the program and provide a clear, pro-nuclear energy regulatory framework for the industry. And that’s what gave investors the confidence needed to invest almost $2 billion in the named nuclear energy companies.
+
+And the best part is that about a decade’s worth of progress is happening in about 12 months regarding fourth-generation nuclear fission technology.
+
+And with three or four successful criticality demonstrations, even more capital will be raised to accelerate the commercialization of this technology and help bring clean energy onto the power grid.
+
+The next several weeks will be incredibly exciting for the nuclear energy industry.
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+This case isn’t a silly “billionaire vs. billionaire” battle… It’s actually about the abuse of charitable trusts and non-profits...
+
+Many have argued that improved economics will make beaming solar energy down to Earth makes so much sense. But...
+
+We’re seeing AI-first companies working towards supplanting Google’s and Apple’s smartphone operating systems…And one of the most visible pushes...
+
+Read the latest insights from the world of high technology.
+
+This case isn’t a silly “billionaire vs. billionaire” battle… It’s actually about the abuse of charitable trusts and non-profits...
+
+Many have argued that improved economics will make beaming solar energy down to Earth makes so much sense. But...
+
+We’re seeing AI-first companies working towards supplanting Google’s and Apple’s smartphone operating systems…And one of the most visible pushes...

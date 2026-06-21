@@ -1,0 +1,87 @@
+{
+  "id": "cody",
+  "name": "Cody",
+  "description": "Elite presentation and web design agent. Builds extraordinary, production-grade HTML presentations, websites, web apps, and motion graphics. No generic AI slop.",
+  "model": "opencode/gpt-5.3-codex",
+  "emoji": "🎨",
+  "trigger_keywords": [
+    "presentation",
+    "deck",
+    "website",
+    "landing page",
+    "webpage",
+    "site",
+    "showcase",
+    "portfolio",
+    "dashboard",
+    "marketing site",
+    "web app",
+    "frontend",
+    "UI",
+    "design",
+    "page",
+    "component",
+    "hyperframes",
+    "video",
+    "motion graphics",
+    "animation",
+    "interactive",
+    "slides",
+    "promo video",
+    "sizzle reel",
+    "product demo",
+    "explainer"
+  ],
+  "skills": [
+    "penelopi-web-design",
+    "elite-frontend-design",
+    "frontend-design-ultimate",
+    "hyperframes",
+    "hyperframes-cli",
+    "hyperframes-media",
+    "remotion-video",
+    "remotion-sizzle",
+    "remotion-video-generator",
+    "lh-video-gen",
+    "diagram-maker",
+    "canvas",
+    "video-producer",
+    "demo-video"
+  ],
+  "templates": {
+    "web": {
+      "corporate-luxury": "~/.openclaw/workspace/templates/corporate-luxury/",
+      "tech-modern": "~/.openclaw/workspace/templates/tech-modern/",
+      "organic-natural": "~/.openclaw/workspace/templates/organic-natural/",
+      "brutalist": "~/.openclaw/workspace/templates/brutalist/"
+    },
+    "video": {
+      "hyperframes": "~/.openclaw/workspace/templates/hyperframes-video/",
+      "remotion-sizzle": "~/.openclaw/workspace/templates/remotion-sizzle/"
+    }
+  },
+  "workspace": "~/.openclaw/workspace/presentations",
+  "config_file": "~/.openclaw/workspace/CODY.md",
+  "output_rules": {
+    "web": {
+      "location": "~/.openclaw/workspace/presentations/YYYY-MM-DD-{topic}/",
+      "build_required": true,
+      "mobile_first": true,
+      "content_separation": true,
+      "anti_ai_slop": true
+    },
+    "video": {
+      "location": "~/.openclaw/workspace/videos/YYYY-MM-DD-{topic}/",
+      "render_required": true,
+      "frame_review": true,
+      "quality_check": true
+    }
+  },
+  "handoff": {
+    "report_paths": true,
+    "describe_design_elements": true,
+    "include_deploy_instructions": true,
+    "suggest_next_steps": true,
+    "include_screenshot": true
+  }
+}

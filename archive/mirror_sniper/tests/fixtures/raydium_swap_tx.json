@@ -1,0 +1,11 @@
+{
+  "signature": "RayMockSig111",
+  "slot": 321000010,
+  "timestamp": 1712000100,
+  "feePayer": "WalletA",
+  "instructions": [{"programId": "675kPX9MHTjS2zt1qfr1NYHuzeLXfQM9H24wFSUt1Mp8"}],
+  "tokenTransfers": [
+    {"fromUserAccount": "WalletA", "toUserAccount": "PoolA", "mint": "TokenInA", "tokenAmount": 1000},
+    {"fromUserAccount": "PoolA", "toUserAccount": "WalletA", "mint": "TokenOutA", "tokenAmount": 900}
+  ]
+}

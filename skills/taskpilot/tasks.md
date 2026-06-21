@@ -1,0 +1,2 @@
+- [ ] Create Claude Code seminar (added 2026-06-11)
+- [ ] Create reactivation automation instructional session for PAYAM (added 2026-06-11)

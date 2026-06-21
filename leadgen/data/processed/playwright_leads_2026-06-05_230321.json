@@ -1,0 +1,136 @@
+{
+  "category": "physiotherapists",
+  "location": "Victoria, Australia",
+  "generated_at": "2026-06-05T23:03:21.767019+00:00",
+  "count": 8,
+  "leads": [
+    {
+      "name": "QV Physiotherapy",
+      "category": "physiotherapists",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Physical therapist \u00b7 \ue934 \u00b7 5/10 Artemis Ln",
+      "rating": "4.9",
+      "is_open": true,
+      "score": 75,
+      "priority": "HOT",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-05T23:03:21.680823+00:00"
+    },
+    {
+      "name": "Melbourne Physio Clinic",
+      "category": "physiotherapists",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Physical therapist \u00b7 \ue934 \u00b7 Level 14/333 Collins St",
+      "rating": "4.9",
+      "is_open": false,
+      "score": 70,
+      "priority": "WARM",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-05T23:03:21.681193+00:00"
+    },
+    {
+      "name": "Pure Physio Collins St",
+      "category": "physiotherapists",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Physical therapist \u00b7 \ue934 \u00b7 Mezzanine Level/80 Collins St",
+      "rating": "4.9",
+      "is_open": false,
+      "score": 70,
+      "priority": "WARM",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-05T23:03:21.681207+00:00"
+    },
+    {
+      "name": "Pure Physio Queen Street",
+      "category": "physiotherapists",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Physical therapist \u00b7 \ue934 \u00b7 2/200 Queen St",
+      "rating": "4.9",
+      "is_open": false,
+      "score": 70,
+      "priority": "WARM",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-05T23:03:21.681217+00:00"
+    },
+    {
+      "name": "Melbourne CBD Physiotherapy and Sports Medicine Clinic",
+      "category": "physiotherapists",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Physical therapist \u00b7 \ue934 \u00b7 Ground Floor/179 Queen St",
+      "rating": "5.0",
+      "is_open": false,
+      "score": 70,
+      "priority": "WARM",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-05T23:03:21.681226+00:00"
+    },
+    {
+      "name": "The Alignment Studio Physiotherapy Melbourne",
+      "category": "physiotherapists",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Physical therapist \u00b7 \ue934 \u00b7 45 Collins Street, Shop/19 Collins Pl",
+      "rating": "5.0",
+      "is_open": true,
+      "score": 75,
+      "priority": "HOT",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-05T23:03:21.681239+00:00"
+    },
+    {
+      "name": "Evolutio Sports Physio Richmond",
+      "category": "physiotherapists",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Physical therapist \u00b7 \ue934 \u00b7 Level 1/3 Bromham Pl",
+      "rating": "5.0",
+      "is_open": true,
+      "score": 75,
+      "priority": "HOT",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-05T23:03:21.681248+00:00"
+    },
+    {
+      "name": "Australian Sports Physiotherapy Ivanhoe",
+      "category": "physiotherapists",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Physical therapist \u00b7 \ue934 \u00b7 73 Upper Heidelberg Rd",
+      "rating": "4.9",
+      "is_open": true,
+      "score": 75,
+      "priority": "HOT",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-05T23:03:21.681256+00:00"
+    }
+  ]
+}

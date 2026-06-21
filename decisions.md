@@ -1,23 +1,49 @@
-# Decisions Log
-**Purpose:** Every correction, redirect, or "stop doing that" goes here immediately with a date. Loaded at session start. If it's not in this file, it didn't happen.
+# Duplicate Message Prevention Rule
 
----
+## Problem
+Duplicate messages waste tokens, time, and user patience.
 
-## Active Decisions
+## Root Causes
+1. Telegram delivery retries (network hiccups)
+2. OpenClaw event duplication (race conditions on spawn completions)
+3. Subagent spawn + yield creating double announcements
 
-### 2026-03-20
-- **90-day focus:** Land 6 clients for NoLostSales/Marvelus + build passive crypto income
-- **Solana only:** All token research restricted to Solana ecosystem
-- **Scout hierarchy:** Daily automated scouting via sub-agent, main session filters, only high-confidence finds surfaced to Okeito
-- **Client work priority:** NoLostSales/Marvelus lead gen takes precedence over other tasks unless explicitly deprioritized
+## Prevention Rules (Non-Negotiable)
 
-### 2026-03-19
-- System hardening plan adopted from @kloss_xyz article. Implement fixes systematically, one at a time, in priority order. Do NOT import external configs wholesale.
-- Evidence required for all "done" claims. No receipts = not done.
-- Write state to file BEFORE reporting completion. Always.
+### 1. Idempotency Check
+Before sending ANY message:
+- Check if the last message in this session (within 60 seconds) has identical content
+- If yes → NO_REPLY (silent drop)
+- If no → proceed
 
-## Deprioritized / Do Not Surface
-*(Add items here when you tell me to stop doing something)*
+### 2. Spawn Acknowledgment Pattern
+When spawning a subagent:
+- **Option A**: Spawn + immediate yield (NO separate acknowledgment message)
+- **Option B**: One acknowledgment message, then yield with NO_REPLY
+- **NEVER**: Acknowledgment + yield with message (creates duplicate)
 
-## Reversed Decisions
-*(Decisions that were later overturned — keep for history)*
+### 3. Completion Event Handling
+When a subagent completion event arrives:
+- Check if we already announced this task's status in the last 2 minutes
+- If yes → NO_REPLY
+- If no → send the result
+
+### 4. Telegram-Specific
+- Never send the same text twice within 60 seconds
+- If a message fails to deliver, wait 5s before retry
+- Use NO_REPLY for all retry attempts
+
+## Implementation
+
+In practice, this means:
+1. Spawn subagent → NO_REPLY (or one brief acknowledgment)
+2. Yield → NO_REPLY
+3. Wait for completion event
+4. Send result ONCE
+5. If completion event fires twice → second one gets NO_REPLY
+
+## Verification
+After implementing:
+- Check conversation history for duplicates
+- If found → investigate which rule was violated
+- Update this file with the specific case

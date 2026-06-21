@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "model-001",
+      "name": "AI Agency",
+      "status": "invested",
+      "tags": ["ai", "service", "recurring"],
+      "obsidianNote": "Investments/Models/AI-Agency.md",
+      "added": "2026-03-15",
+      "notes": "Marvelus/Nolostsales model. White-label AI agents for SMBs."
+    },
+    {
+      "id": "model-002",
+      "name": "Rank & Rent",
+      "status": "researching",
+      "tags": ["seo", "local", "passive"],
+      "obsidianNote": "Investments/Models/Rank-and-Rent.md",
+      "added": "2026-06-02",
+      "notes": "Build local sites, rank them, rent to businesses. Scalable."
+    }
+  ]
+}

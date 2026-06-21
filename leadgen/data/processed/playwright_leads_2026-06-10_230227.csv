@@ -1,0 +1,11 @@
+name,category,location,phone,address,rating,is_open,score,priority,missing,source,scraped_at
+Melbourne Law Offices,lawyers,"Victoria, Australia",1300 005 786,"General practice attorney ·  · Suite 408, Level 4/517 Flinders Ln",5.0,True,90,HOT,[],google_maps_playwright,2026-06-10T23:02:27.411541+00:00
+Nevett Ford Lawyers Melbourne,lawyers,"Victoria, Australia",+61 3 9614 7111,"Attorney ·  · Level 16, Rialto South Tower, 525 Collins St",4.9,True,90,HOT,[],google_maps_playwright,2026-06-10T23:02:27.411887+00:00
+Pentana Stanton Lawyers,lawyers,"Victoria, Australia",+61 3 9002 2800,Law firm ·  · Level 3 & Level 5/552 Lonsdale St,4.4,True,90,HOT,[],google_maps_playwright,2026-06-10T23:02:27.411896+00:00
+Best Hooper Lawyers,lawyers,"Victoria, Australia",+61 3 9670 8951,Law firm ·  · Level 12/10 Queen St,4.8,True,90,HOT,[],google_maps_playwright,2026-06-10T23:02:27.411906+00:00
+Bentleys Lawyers,lawyers,"Victoria, Australia",+61 3 9419 6066,,4.5,True,80,HOT,['address'],google_maps_playwright,2026-06-10T23:02:27.411912+00:00
+"AMA Lawyers | Legal Services in Melbourne: Family, Property, Immigration, Commercial | AMA律师 | 墨尔本法律服务: 家庭法、房产、移民、商业法、离婚律师",lawyers,"Victoria, Australia",+61 3 9125 1019,Law firm · Suite 1/325 Clayton Rd,5.0,True,90,HOT,[],google_maps_playwright,2026-06-10T23:02:27.411916+00:00
+Velos & Velos Lawyers,lawyers,"Victoria, Australia",+61 3 8379 1000,Attorney ·  · level 6/326 William St,4.9,True,90,HOT,[],google_maps_playwright,2026-06-10T23:02:27.411923+00:00
+Gateway Lawyers (Australia) PTY LTD,lawyers,"Victoria, Australia",+61 3 9704 9756,Law firm ·  · 18/26-28 Verdun Dr,4.9,True,90,HOT,[],google_maps_playwright,2026-06-10T23:02:27.411928+00:00
+Galbally Parker,lawyers,"Victoria, Australia",+61 3 9670 8771,Attorney ·  · Suite 102/250 Queen St,4.9,True,90,HOT,[],google_maps_playwright,2026-06-10T23:02:27.411932+00:00
+Aston Legal Group,lawyers,"Victoria, Australia",+61 3 8391 8411,Family law attorney ·  · level 1/91 William St,4.9,True,90,HOT,[],google_maps_playwright,2026-06-10T23:02:27.411936+00:00

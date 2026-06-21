@@ -1,0 +1,1335 @@
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Error fetching articles: 403 Client Error: Forbidden for url: https://www.brownstoneresearch.com/bleeding-edge/
+  Direct fetch failed (likely 403). Waiting for agent intervention or alternate path...
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: NASA’s Acceleration with the Private Sector
+URL: https://www.brownstoneresearch.com/bleeding-edge/nasas-acceleration-with-the-private-sector/
+  Fetching content...
+  Content: 1264 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-nasas-acceleration-with-the-private-sector.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-nasas-acceleration-with-the-private-sector.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-nasas-acceleration-with-the-private-sector.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Google’s Pod Power
+URL: https://www.brownstoneresearch.com/bleeding-edge/googles-pod-power/
+  Fetching content...
+  Content: 1390 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-googles-pod-power.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-googles-pod-power.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-googles-pod-power.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Cybercab Mass Production Has Begun
+URL: https://www.brownstoneresearch.com/bleeding-edge/cybercab-mass-production-has-begun/
+  Fetching content...
+  Content: 1981 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-cybercab-mass-production-has-begun.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-cybercab-mass-production-has-begun.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-cybercab-mass-production-has-begun.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Weeks Away from Criticality
+URL: https://www.brownstoneresearch.com/bleeding-edge/weeks-away-from-criticality/
+  Fetching content...
+  Content: 1562 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-weeks-away-from-criticality.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-weeks-away-from-criticality.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-weeks-away-from-criticality.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 2
+
+Processing: OpenAI’s Agentic AI Smartphone
+URL: https://www.brownstoneresearch.com/bleeding-edge/openais-agentic-ai-smartphone/
+  Fetching content...
+  Content: 1411 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-openais-agentic-ai-smartphone.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-openais-agentic-ai-smartphone.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-openais-agentic-ai-smartphone.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: Weeks Away from Criticality
+URL: https://www.brownstoneresearch.com/bleeding-edge/weeks-away-from-criticality/
+  Fetching content...
+  Content: 1562 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-weeks-away-from-criticality.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-weeks-away-from-criticality.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-weeks-away-from-criticality.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 2
+
+Processing: Space-Based Solar Power
+URL: https://www.brownstoneresearch.com/bleeding-edge/space-based-solar-power/
+  Fetching content...
+  Content: 1374 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-space-based-solar-power.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-space-based-solar-power.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-space-based-solar-power.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: Weeks Away from Criticality
+URL: https://www.brownstoneresearch.com/bleeding-edge/weeks-away-from-criticality/
+  Fetching content...
+  Content: 1463 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-weeks-away-from-criticality.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-weeks-away-from-criticality.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-weeks-away-from-criticality.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 2
+
+Processing: Esse Quam Videri
+URL: https://www.brownstoneresearch.com/bleeding-edge/esse-quam-videri/
+  Fetching content...
+  Content: 1088 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-esse-quam-videri.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-esse-quam-videri.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-esse-quam-videri.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: Weeks Away from Criticality
+URL: https://www.brownstoneresearch.com/bleeding-edge/weeks-away-from-criticality/
+  Fetching content...
+  Content: 1473 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-weeks-away-from-criticality.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-weeks-away-from-criticality.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-weeks-away-from-criticality.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: It’s Full Steam Ahead for the Hyperscalers
+URL: https://www.brownstoneresearch.com/bleeding-edge/its-full-steam-ahead-for-the-hyperscalers/
+  Fetching content...
+  Content: 2490 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-its-full-steam-ahead-for-the-hyperscalers.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-its-full-steam-ahead-for-the-hyperscalers.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-its-full-steam-ahead-for-the-hyperscalers.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Control, Don’t Vibe
+URL: https://www.brownstoneresearch.com/bleeding-edge/control-dont-vibe/
+  Fetching content...
+  Content: 1323 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-control-dont-vibe.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-control-dont-vibe.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-control-dont-vibe.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Robotics Is Following the “Smartphone Playbook”
+URL: https://www.brownstoneresearch.com/bleeding-edge/robotics-is-following-the-smartphone-playbook/
+  Fetching content...
+  Content: 1438 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-robotics-is-following-the-smartphone-playbook.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-robotics-is-following-the-smartphone-playbook.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-robotics-is-following-the-smartphone-playbook.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Understanding the AI Productivity Boom
+URL: https://www.brownstoneresearch.com/bleeding-edge/understanding-the-ai-productivity-boom/
+  Fetching content...
+  Content: 2543 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-understanding-the-ai-productivity-boom.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-understanding-the-ai-productivity-boom.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-understanding-the-ai-productivity-boom.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Anthropic or Misanthropic
+URL: https://www.brownstoneresearch.com/bleeding-edge/anthropic-or-misanthropic/
+  Fetching content...
+  Content: 1178 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 3
+
+Processing: What This Stodgy Chipmaker’s Surge Says About the AI Boom
+URL: https://www.brownstoneresearch.com/bleeding-edge/what-this-stodgy-chipmakers-surge-says-about-the-ai-boom/
+  Fetching content...
+  Content: 1640 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-this-stodgy-chipmakers-surge-says-about-the-ai-boom.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-this-stodgy-chipmakers-surge-says-about-the-ai-boom.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-this-stodgy-chipmakers-surge-says-about-the-ai-boom.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: Beware of the Scammers
+URL: https://www.brownstoneresearch.com/bleeding-edge/beware-of-the-scammers/
+  Fetching content...
+  Content: 1864 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-beware-of-the-scammers.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-beware-of-the-scammers.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-beware-of-the-scammers.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: Anthropic or Misanthropic
+URL: https://www.brownstoneresearch.com/bleeding-edge/anthropic-or-misanthropic/
+  Fetching content...
+  Content: 1188 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 3
+
+Processing: What This Stodgy Chipmaker’s Surge Says About the AI Boom
+URL: https://www.brownstoneresearch.com/bleeding-edge/what-this-stodgy-chipmakers-surge-says-about-the-ai-boom/
+  Fetching content...
+  Content: 1640 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-this-stodgy-chipmakers-surge-says-about-the-ai-boom.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-this-stodgy-chipmakers-surge-says-about-the-ai-boom.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-this-stodgy-chipmakers-surge-says-about-the-ai-boom.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: Beware of the Scammers
+URL: https://www.brownstoneresearch.com/bleeding-edge/beware-of-the-scammers/
+  Fetching content...
+  Content: 1864 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-beware-of-the-scammers.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-beware-of-the-scammers.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-beware-of-the-scammers.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: Anthropic or Misanthropic
+URL: https://www.brownstoneresearch.com/bleeding-edge/anthropic-or-misanthropic/
+  Fetching content...
+  Content: 1188 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 5
+
+Processing: Game On for IPOs
+URL: https://www.brownstoneresearch.com/bleeding-edge/game-on-for-ipos/
+  Fetching content...
+  Content: 2218 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-game-on-for-ipos.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-game-on-for-ipos.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-game-on-for-ipos.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: Understanding the Fifth Wave of Human Innovation
+URL: https://www.brownstoneresearch.com/bleeding-edge/understanding-the-fifth-wave-of-human-innovation/
+  Fetching content...
+  Content: 1332 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-understanding-the-fifth-wave-of-human-innovation.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-understanding-the-fifth-wave-of-human-innovation.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-understanding-the-fifth-wave-of-human-innovation.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: What This Stodgy Chipmaker’s Surge Says About the AI Boom
+URL: https://www.brownstoneresearch.com/bleeding-edge/what-this-stodgy-chipmakers-surge-says-about-the-ai-boom/
+  Fetching content...
+  Content: 1638 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-this-stodgy-chipmakers-surge-says-about-the-ai-boom.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-this-stodgy-chipmakers-surge-says-about-the-ai-boom.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-this-stodgy-chipmakers-surge-says-about-the-ai-boom.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: Beware of the Scammers
+URL: https://www.brownstoneresearch.com/bleeding-edge/beware-of-the-scammers/
+  Fetching content...
+  Content: 1862 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-beware-of-the-scammers.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-beware-of-the-scammers.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-beware-of-the-scammers.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: Anthropic or Misanthropic
+URL: https://www.brownstoneresearch.com/bleeding-edge/anthropic-or-misanthropic/
+  Fetching content...
+  Content: 1182 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 3
+
+Processing: What This Stodgy Chipmaker’s Surge Says About the AI Boom
+URL: https://www.brownstoneresearch.com/bleeding-edge/what-this-stodgy-chipmakers-surge-says-about-the-ai-boom/
+  Fetching content...
+  Content: 1638 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-this-stodgy-chipmakers-surge-says-about-the-ai-boom.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-this-stodgy-chipmakers-surge-says-about-the-ai-boom.mp3
+  Sending to Telegram...
+Successfully sent: 🎙️ Bleeding Edge: What This Stodgy Chipmaker’s Sur...
+  ✓ Sent to Telegram
+Added to state
+  ✓ Marked as processed
+
+Processing: Beware of the Scammers
+URL: https://www.brownstoneresearch.com/bleeding-edge/beware-of-the-scammers/
+  Fetching content...
+  Content: 1862 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-beware-of-the-scammers.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-beware-of-the-scammers.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-beware-of-the-scammers.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: Anthropic or Misanthropic
+URL: https://www.brownstoneresearch.com/bleeding-edge/anthropic-or-misanthropic/
+  Fetching content...
+  Content: 1182 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-anthropic-or-misanthropic.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: The Last Time a Human Will Win
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-last-time-a-human-will-win/
+  Fetching content...
+  Content: 1242 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-last-time-a-human-will-win.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-last-time-a-human-will-win.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-last-time-a-human-will-win.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: SpaceX Sets Its IPO Date
+URL: https://www.brownstoneresearch.com/bleeding-edge/spacex-sets-its-ipo-date/
+  Fetching content...
+  Content: 1399 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-spacex-sets-its-ipo-date.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-spacex-sets-its-ipo-date.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-spacex-sets-its-ipo-date.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 2
+
+Processing: “Demand Has Gone Parabolic”
+URL: https://www.brownstoneresearch.com/bleeding-edge/demand-has-gone-parabolic/
+  Fetching content...
+  Content: 2190 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-demand-has-gone-parabolic.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-demand-has-gone-parabolic.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-demand-has-gone-parabolic.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: U.S. Government Leans into Quantum
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-u-s-government-leans-into-quantum/
+  Fetching content...
+  Content: 1587 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-u-s-government-leans-into-quantum.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-u-s-government-leans-into-quantum.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-u-s-government-leans-into-quantum.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 3
+
+Processing: Wall Street and the “Tokenization of Everything”
+URL: https://www.brownstoneresearch.com/bleeding-edge/wall-street-and-the-tokenization-of-everything/
+  Fetching content...
+  Content: 1984 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-wall-street-and-the-tokenization-of-everything.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-wall-street-and-the-tokenization-of-everything.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-wall-street-and-the-tokenization-of-everything.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: The Picks and Shovels Beneath the Digital Gold Rush
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-picks-and-shovels-beneath-the-digital-gold-rush/
+  Fetching content...
+  Content: 1075 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-picks-and-shovels-beneath-the-digital-gold-rush.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-picks-and-shovels-beneath-the-digital-gold-rush.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-picks-and-shovels-beneath-the-digital-gold-rush.mp3'
+  ✗ Failed to send to Telegram
+
+Processing: The Quiet Leveling
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-quiet-leveling/
+  Fetching content...
+  Content: 1060 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-quiet-leveling.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-quiet-leveling.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-quiet-leveling.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: The Next Megatrend in Digital Assets
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-next-megatrend-in-digital-assets/
+  Fetching content...
+  Content: 1671 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-next-megatrend-in-digital-assets.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-next-megatrend-in-digital-assets.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-next-megatrend-in-digital-assets.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Error fetching articles: HTTPSConnectionPool(host='www.brownstoneresearch.com', port=443): Max retries exceeded with url: /bleeding-edge/ (Caused by NameResolutionError("HTTPSConnection(host='www.brownstoneresearch.com', port=443): Failed to resolve 'www.brownstoneresearch.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Direct fetch failed (likely 403). Waiting for agent intervention or alternate path...
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Blue Origin’s Loss Is SpaceX’s Gain
+URL: https://www.brownstoneresearch.com/bleeding-edge/blue-origins-loss-is-spacexs-gain/
+  Fetching content...
+  Content: 2561 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-blue-origins-loss-is-spacexs-gain.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-blue-origins-loss-is-spacexs-gain.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-blue-origins-loss-is-spacexs-gain.mp3'
+  ✗ Failed to send to Telegram
+
+=== Done ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Railroads to Space
+URL: https://www.brownstoneresearch.com/bleeding-edge/railroads-to-space/
+  Fetching content...
+  Content: 1643 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-railroads-to-space.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-railroads-to-space.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-railroads-to-space.mp3'
+  ✗ Failed to send to Telegram
+=== Done (nothing sent) ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Colossal’s Real Business
+URL: https://www.brownstoneresearch.com/bleeding-edge/colossals-real-business/
+  Fetching content...
+  Content: 1354 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-colossals-real-business.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-colossals-real-business.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-colossals-real-business.mp3'
+  ✗ Failed to send to Telegram
+=== Done (nothing sent) ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Network Demand Is About to Surge on Public Blockchains
+URL: https://www.brownstoneresearch.com/bleeding-edge/network-demand-is-about-to-surge-on-public-blockchains/
+  Fetching content...
+  Content: 1743 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-network-demand-is-about-to-surge-on-public-blockchains.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-network-demand-is-about-to-surge-on-public-blockchains.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-network-demand-is-about-to-surge-on-public-blockchains.mp3'
+  ✗ Failed to send to Telegram
+=== Done (nothing sent) ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: SpaceX Is Setting the Standard
+URL: https://www.brownstoneresearch.com/bleeding-edge/spacex-is-setting-the-standard/
+  Fetching content...
+  Content: 2536 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-spacex-is-setting-the-standard.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-spacex-is-setting-the-standard.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-spacex-is-setting-the-standard.mp3'
+  ✗ Failed to send to Telegram
+=== Done (nothing sent) ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: The ‘Big Three’ Are Scared
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-big-three-are-scared/
+  Fetching content...
+  Content: 1334 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-big-three-are-scared.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-big-three-are-scared.mp3
+  Sending to Telegram...
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 61, in <module>
+    success = send_audio_to_telegram(audio_path, caption)
+  File "/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/send-telegram.py", line 29, in send_audio_to_telegram
+    with open(audio_path, 'rb') as audio_file:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-big-three-are-scared.mp3'
+  ✗ Failed to send to Telegram
+=== Done (nothing sent) ===
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+  Attempting fetch via web_fetch tool...
+Error fetching articles: HTTPSConnectionPool(host='www.brownstoneresearch.com', port=443): Max retries exceeded with url: /bleeding-edge/ (Caused by NameResolutionError("HTTPSConnection(host='www.brownstoneresearch.com', port=443): Failed to resolve 'www.brownstoneresearch.com' ([Errno 8] nodename nor servname provided, or not known)"))
+  Direct fetch failed (likely 403). Waiting for agent intervention or alternate path...
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+Found 10 articles on the page
+New articles to process: 2
+
+Processing: In Space, Under the Ocean
+URL: https://www.brownstoneresearch.com/bleeding-edge/in-space-under-the-ocean/
+  Fetching content...
+  Content: 1751 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-in-space-under-the-ocean.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-in-space-under-the-ocean.mp3
+  Publishing to GitHub Pages...
+Audio file not found: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-in-space-under-the-ocean.mp3
+  ✗ Failed to publish
+
+Processing: The $22.7 Trillion Opportunity
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-22-7-trillion-opportunity/
+  Fetching content...
+  Content: 1457 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-22-7-trillion-opportunity.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-22-7-trillion-opportunity.mp3
+  Publishing to GitHub Pages...
+Audio file not found: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-22-7-trillion-opportunity.mp3
+  ✗ Failed to publish
+=== Done ===
+Published: 0 | Failed: 2
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+Found 10 articles on the page
+New articles to process: 2
+
+Processing: The World’s Largest IPO
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-worlds-largest-ipo/
+  Fetching content...
+  Content: 1562 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-worlds-largest-ipo.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-worlds-largest-ipo.mp3
+  Publishing to GitHub Pages...
+Audio file not found: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-worlds-largest-ipo.mp3
+  ✗ Failed to publish
+
+Processing: The $22.7 Trillion Opportunity
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-22-7-trillion-opportunity/
+  Fetching content...
+  Content: 1463 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-22-7-trillion-opportunity.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-22-7-trillion-opportunity.mp3
+  Publishing to GitHub Pages...
+Audio file not found: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-22-7-trillion-opportunity.mp3
+  ✗ Failed to publish
+=== Done ===
+Published: 0 | Failed: 2
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+Found 10 articles on the page
+New articles to process: 2
+
+Processing: The World’s First Trillionaire
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-worlds-first-trillionaire/
+  Fetching content...
+  Content: 2435 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-worlds-first-trillionaire.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-worlds-first-trillionaire.mp3
+  Publishing to GitHub Pages...
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main 6861894] Add Brownstone audio: The World’s First Trillionaire
+ 3 files changed, 15 insertions(+)
+ create mode 100644 audio/the-worlds-first-trillionaire.mp3
+fatal: could not read Username for 'https://github.com': Device not configured
+  ✗ Failed to publish
+
+Processing: The $22.7 Trillion Opportunity
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-22-7-trillion-opportunity/
+  Fetching content...
+  Content: 1349 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-22-7-trillion-opportunity.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-22-7-trillion-opportunity.mp3
+  Publishing to GitHub Pages...
+Audio file not found: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-22-7-trillion-opportunity.mp3
+  ✗ Failed to publish
+=== Done ===
+Published: 0 | Failed: 2
+./scripts/check-and-process.sh: line 13: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../.venv/bin/activate: No such file or directory
+./scripts/check-and-process.sh: line 13: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../.venv/bin/activate: No such file or directory
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: What the Market Doesn’t Understand about SpaceX
+URL: https://www.brownstoneresearch.com/bleeding-edge/what-the-market-doesnt-understand-about-spacex/
+  Fetching content...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  Content: 1298 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-the-market-doesnt-understand-about-spacex.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-what-the-market-doesnt-understand-about-spacex.mp3
+  Publishing to GitHub Pages...
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+warning: fetch updated the current branch head.
+fast-forwarding your working tree from
+commit d7524e0fb6b65e2d2bd4ac2d083171f020ba2c3f.
+error: The following untracked working tree files would be overwritten by merge:
+	audio/what-the-market-doesnt-understand-about-spacex.mp3
+Please move or remove them before you merge.
+Aborting
+fatal: Cannot fast-forward your working tree.
+After making sure that you saved anything precious from
+$ git diff d7524e0fb6b65e2d2bd4ac2d083171f020ba2c3f
+output, run
+$ git reset --hard
+to recover.
+[main fdebb4f] Add Brownstone audio: What the Market Doesn’t Understand about SpaceX
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+fatal: could not read Username for 'https://github.com': Device not configured
+  ✗ Failed to publish
+=== Done ===
+Published: 0 | Failed: 1
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: The Third Wave of the AI Rally
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-third-wave-of-the-ai-rally/
+  Fetching content...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  Content: 1822 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-third-wave-of-the-ai-rally.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-third-wave-of-the-ai-rally.mp3
+  Publishing to GitHub Pages...
+Audio file not found: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-third-wave-of-the-ai-rally.mp3
+  ✗ Failed to publish
+=== Done ===
+Published: 0 | Failed: 1
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: How Wall Street Rigs the Market
+URL: https://www.brownstoneresearch.com/bleeding-edge/how-wall-street-rigs-the-market/
+  Fetching content...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  Content: 1258 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-how-wall-street-rigs-the-market.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-how-wall-street-rigs-the-market.mp3
+  Publishing to GitHub Pages...
+Audio file not found: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-how-wall-street-rigs-the-market.mp3
+  ✗ Failed to publish
+=== Done ===
+Published: 0 | Failed: 1
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: The Push for Decentralized AI Solutions
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-push-for-decentralized-ai-solutions/
+  Fetching content...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  Content: 1431 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-push-for-decentralized-ai-solutions.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-push-for-decentralized-ai-solutions.mp3
+  Publishing to GitHub Pages...
+Audio file not found: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-push-for-decentralized-ai-solutions.mp3
+  ✗ Failed to publish
+=== Done ===
+Published: 0 | Failed: 1
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: The Truth About the “AI Bubble”
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-truth-about-the-ai-bubble/
+  Fetching content...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  Content: 2121 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-truth-about-the-ai-bubble.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-truth-about-the-ai-bubble.mp3
+  Publishing to GitHub Pages...
+Audio file not found: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-truth-about-the-ai-bubble.mp3
+  ✗ Failed to publish
+=== Done ===
+Published: 0 | Failed: 1
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Found 10 articles on the page
+New articles to process: 0
+No new articles. Exiting.

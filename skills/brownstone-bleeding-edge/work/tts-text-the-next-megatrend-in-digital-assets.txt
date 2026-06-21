@@ -1,0 +1,163 @@
+The Next Megatrend in Digital Assets
+
+May 27, 2026
+
+Zero-human companies are businesses that operate entirely by AI. It’s fully autonomous. In theory, they can manage marketing, sales, customer service, and expenses all on their own…
+
+Managing Editor’s Note:We’re just a couple of weeks away from SpaceX’s historic IPO…
+
+This company’s public market debut is set to shake things up… but buying on IPO day isn’t necessarily the best way to play this explosive opportunity.
+
+Rather, there are a few plays connected to SpaceX that Jeff has his eye on that could skyrocket starting on IPO day.
+
+He’s getting into all the details next Wednesday, June 3, at 8 p.m. ET. You cango here to automatically add your name to the guest list.
+
+In December 2017, a collector bought a digital image of a cat…
+
+That alone isn’t much to write about. Maybe it’s not your cup of tea. But there are plenty of collectible communities out there. Baseball cards, Pokémon cards, rare coins – you name it.
+
+The shocking part was the price tag. It sold for $117,712.
+
+Yes, really…
+
+Then, six months later, another sold for $140,000.
+
+In September of 2018, a cat named “Dragon” sold for $170,000.
+
+You may know what I’m talking about here…
+
+These were NFTs, or non-fungible tokens.
+
+They were, and still are, a collection of digital images called CryptoKitties that reside on the Ethereum public blockchain.
+
+Dragon |Source: cryptokitties.co/kitty/896775
+
+Each CryptoKitty was unique. They had a specific set of traits which acted as its “Kitty Genes.” Each cat possessed 12 attributes. And the value of each often hinged on the rarity of those traits. Owners could “breed” the NFTs to generate new attributes.
+
+The game was incredibly successful when it was released in 2017. It resulted in record levels of congestion on the Ethereum network.
+
+But here’s what’s interesting…
+
+NFTs were introduced to the market in the late 2010s. But the big NFT rally didn’t happen until 2020, years after CryptoKitties.
+
+2020 had $90 million in sales volume. Digital artist Beeple set a record with a $3.5 million NFT sale in December that year. Then, 2021 was even bigger, with $35 billion in sales and some truly historic sales in the tens of millions.
+
+Here’s the important point: The massive rise in asset values only occurred several years after the introduction of the assets themselves.
+
+I think something similar is about to happen in another corner of the market.
+
+In October 2024, a protocol known as Virtuals went live. LongtimeBleeding Edgereaders might recall learning about the launchpad just three weeks after it launched. I covered it inThe Agentic Economy Goes Permissionless.
+
+In the seven weeks that followed, Virtuals’ native token rose 1,080%.
+
+It’s since come back to Earth. But that moment reminds me of what took place with CryptoKitties prior to the major NFT boom.
+
+That’s because Virtuals was showcasing something unique: The market could gain exposure to an AI agent.
+
+The agent could interact via social media and answer individual questions. And the agent also minted its own native token.
+
+The idea was that the agents would be finely tuned to provide useful insights or information to niche areas. And this information exchange would produce revenue back to the agent. In turn, this would lead to value accrual to token holders of the agent.
+
+It’s an exciting idea. But let’s just say the market got a little ahead of itself.
+
+Most agents were poorly tuned. Creators behind the agent often lacked runway. Most were “unplugged” when costs became too much. And the true capabilities of the agents were really nothing more than social interactions.
+
+But the excitement wasn’t for nothing.
+
+And to understand why, we need to understand another concept –zero-human companies.
+
+This comingWednesday, June 3, at 8 p.m. ET, Jeff Brown will be reporting directly from SpaceX’s headquarters in Starbase, Texas.So please click here to save your seat for his special SpaceX broadcast…And he will share details on THREE new official recommendations… Including an early-stage company that’s tied to the growth of SpaceX… And that could return up to 50 times more money than the IPO.
+
+Larry Benedict generated $274 million for his clients by finding the trade most missed. He says The Final Phase of Elon’s Master Plan is about to trigger one of the biggest wealth transfers in market history. He's already identified the ONE ticker positioned to capture it. It isn't SpaceX, Tesla, or anything you'd expect. He's giving away the name, free.Click here to get the full details before the window closes.
+
+These are businesses that operate entirely by AI. It’s fully autonomous. In theory, they can manage marketing, sales, customer service, and expenses all on their own.
+
+And when we look back on what Virtuals was showcasing in 2024, it was a version of these zero-human companies.
+
+The original tokenized AI agents were underwhelming – but the market has been busy building the infrastructure to make the trend stick.
+
+Three major technology releases have happened since those early days of 2024.
+
+The first was something we covered atThe Bleeding Edgeback in August last year inA New Asset Class Is Coming. It touched on a proposal called ERC-8004 Trustless Agents.
+
+It introduced a new standard enabling agents to interact with one another autonomously. We described it as anonchain version of the Better Business Bureau (BBB).
+
+The main component is what’s termed a “registry system.” It acts as a way for agents to trust one another by creating an onchain identity that shows validated transactions and reputation. It’s a social coordination layer for onchain agents.
+
+The second release was x402, which we covered inThe Forgotten Code.
+
+It’s essentially a payment infrastructure for agents to transact with one another in a frictionless manner.
+
+Early experiments on agentic payment solutions have revolved around single-use credit cards or even credit cards with strict limits. But these cards come with prohibitive fees for micropayments. And what the market is finding is that these agents prefer using stablecoins on public blockchain rails.
+
+It’s easier to verify a payment was processed since the chain is transparent, settlement is near instant, and the cost to transact via a blockchain is about 1/10th of a penny.
+
+There’s also minimal onboarding. Give an agent a wallet, and let it act.
+
+There is now a growing list of tools in the market that equip an LLM like Claude to transact onchain. It’s a true prompt finance setup.
+
+Then there’s the more recent work taking place on something called Agentic Commerce.
+
+The work is taking place on Ethereum via a draft paper introducing a new standard, ERC-8183. These features need to be voted on. But the capabilities are intriguing.
+
+What the standard does is map out a process for agents to conduct business using escrow. A job is posted with a certain amount of funds attached to it. It’s a bit like a traditional job posting – “$500 offered for garage cleaning.” But it’s all happening onchain, and not on some local corkboard.
+
+An agent then completes the job and gets evaluated. If an evaluator marks the job as complete, the funds get sent, and the job is marked as complete.
+
+It might seem basic, but it’s an essential component for agents to transact with one another. And the essential infrastructure is there for zero-human companies:
+
+A registry or “BBB profile” for credibility
+
+A payment solution utilizing stablecoins and an escrow
+
+A method to generate “postings” onchain
+
+Bottom line: With these tools, AI agents can do much more than reply to a social media post. And the excitement we saw in 2024 is likely just a taste of what’s to come.
+
+Don’t be surprised to see new tokens attached to these zero-human businesses. And it’ll happen sooner than you think.
+
+On May 4, VC firm Haun Ventures announced they’d raised $1 billion. The next day, a16z Crypto announced a $2.2 billion fund. And Paradigm is rumored to be raising a $1.5 billion fund.
+
+These three join other notable VCs like Dragonfly, ParaFi, and Blockchain Capital, which have also raised or closed between $125 million and $700 million each.
+
+And the theme behind much of this capital is…
+
+The permissionless agentic economy.
+
+It’s the nexus of crypto and AI. And when we consider that stocks, commodities, private credit, and other assets are moving onchain… we begin to appreciate the magnitude of the trend.
+
+We’re talking hundreds of trillions of dollars transacting autonomously across the globe on permissionless and public blockchains.
+
+Zero-human businesses will be the next megatrend in the digital asset markets. I wouldn’t be surprised to see a speculative mania that makes the NFT boom look tame by comparison.
+
+Get ready.
+
+Your Pulse on Crypto,
+
+Ben LillySenior Blockchain Analyst,Chain of Thought
+
+P.S.Jeff’s managing editor here…
+
+If you’re interested in following Ben as he tracks the latest developments and trends across the blockchain and crypto industries, you cango here to sign up to receive hisChain of Thoughtnewsletter.
+
+Three times a week, Ben’s diving deep into the sort of blockchain-focused topics and themes he’s been tracking over atPermissionless Investorand in theBleeding Edge.
+
+Zero-human businesses… the permissionless agentic economy… tokenization of assets… the shift as the traditional financial system moves onchain… and so much more.
+
+Justgo here to sign up…
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+The tokenization trend will take place on public and permissionless blockchains like Ethereum, Solana, and others. It won’t happen...
+
+Most investors still think AI is just a technology story… But AI is quietly becoming something much bigger.
+
+There has never been a technology that democratized capability without first being feared by the people whose capability it...
+
+Read the latest insights from the world of high technology.
+
+The tokenization trend will take place on public and permissionless blockchains like Ethereum, Solana, and others. It won’t happen...
+
+Most investors still think AI is just a technology story… But AI is quietly becoming something much bigger.
+
+There has never been a technology that democratized capability without first being feared by the people whose capability it...

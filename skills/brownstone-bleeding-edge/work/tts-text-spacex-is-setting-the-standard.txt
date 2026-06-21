@@ -1,0 +1,175 @@
+SpaceX Is Setting the Standard
+
+Jun 4, 2026
+
+Starbase, Texas, isn’t exactly the easiest place to get to unless you live in South Texas.
+
+Managing Editor’s Note:As you’ll hear from Jeff in today’s AMA, SpaceX isn’t tiptoeing into the future… it is boldly stepping forward tobuildit.
+
+In just one week,SpaceX is launching with the biggest IPO in history… all to execute on Elon Musk’s vision for humanity as a multiplanetary species… his vision to create a constellation of orbital data centers… his vision for a better future for humanity.
+
+And behind SpaceX… behind Elon’s ambitious endeavors… are the companies helping to make this mission a reality.
+
+SpaceX is a truly incredible company, but it isn’t building all of this all by itself. There are companies tied to the leader in establishing the new space economy that may present better opportunities for investors than they might have investing in this massive company on IPO day.
+
+Jeff covered all of this and more earlier this week in hisCountdown to SpaceX IPOevent earlier this week. We’re closing in on IPO day, so we don’t have a lot of time to position ahead of the big public market debut. Butwe do have a replay availablefor a short time longer for anyone who might have missed the event earlier this week… and who wants their own part in this historic buildout.
+
+You cango here to watch it. Then read on for more from Jeff about his trip out to Starbase to get a firsthand view of the incredible work being done at SpaceX HQ…
+
+I recently made a trip out to SpaceX headquarters…
+
+Starbase, Texas, isn’t exactly the easiest place to get to unless you live in South Texas.
+
+Most have to connect through Dallas or Houston to fly into Brownsville or Harlingen, and then drive from there.
+
+The SpaceX facilities, as well as the Starship launch pads – made famous by catching the Starship’s first-stage booster, the Super Heavy rocket, in mid-air after returning to Earth from a successful launch – are situated at sea level right on the border with Mexico.
+
+There is an absolute buzz in Brownsville due to all the activity at Starbase. Everyone I talked to knows about SpaceX. And they have visceral, exciting reminders of the extraordinary objectives every time SpaceX conducts a launch.
+
+At the hotels, on the TV screens in the restaurants and bars, there’s a channel that shows nothing but the SpaceX facility on Starbase where you can view the launch pads and the Starships as they roll down the street from factory to launch pad.
+
+Not only can the whole town see a launch, but they canfeelit. The most powerful rocket ever built creates such thrust that the locals say their homes shake a bit when a Starship takes off. It lights up the sky and reminds them that something special is happening… an incredible moment in history.
+
+Pictures don’t do it justice. The scale is something that has to be seen to really grasp just how impressive it is.
+
+It’s one thing to know that the Starship and its Super Heavy rocket stand 407 feet tall. It’s another to stand in front of it and realize how massive it is.
+
+While I was there, SpaceX ran a wet test of its Deluge System where they flood the concrete of the launch pad with hundreds of thousands of gallons of water to absorb the heat from the Super Heavy Raptor engines. It’s hard to describe how exhilarating it is to hear the roar of the water while they test these systems.
+
+And to see the scale of not only the Starfactory, where the Starship and the Super Heavy rocket have been manufactured, but to stand at the foot of the recently erected Gigabay shown behind me in the picture below, which will be capable of manufacturing 1,000 Starships a year, is nothing short of inspiring.
+
+This isn’t a normal corporate endeavor. This isn’t a typical aerospace company.
+
+Written on a wall next to the Starship launch pads are the words “Gateway to Mars” in big bold letters.
+
+It’s not a catchphrase, or something done out of fun or jest. It’s the mission. Literally. To make the human race a multi-planetary species.
+
+And SpaceX has already successfully sent the Starship to space several times. I even got to see an early prototype of the Starship known as the Starhopper. This particular prototype was powered by a single Raptor engine (version 1 of the Raptor engine), rather than the next-generation Starship V3, which will have 39 Raptor V3 engines. The final configuration of the Starship and Super Heavy booster will have a total of 42 Raptor engines.
+
+In time, SpaceX will launch Starships thousands of times into Earth’s orbit, an almost unthinkable feat. Starships in orbit will receive a fuel transfer from another Starship and begin their journeys to the moon and Mars.
+
+The first couple of Starships will make the journey to the Red Planet with materials – and I predict at least a couple of Optimus robots – likely near the end of 2028 when there will be an Earth-Mars transfer window ideal for launch.
+
+SpaceX isn’t stepping cautiously into the future. It isdefiningit… building it and setting the standard for others eager to help establish the new space economy. It is accomplishing what most thought was impossible. And in the end, it will have shown the world what it means to think big and execute on a vision bigger than all of us.
+
+It is more than appropriate that the SpaceX IPO be the largest in history. Its IPO should match the audacity of its mission. And SpaceX will need a whole lot of capital to bring this vision to life.
+
+It is unstoppable. The IPO is only symbolic. Musk will get the capital he needs to build the future.
+
+And some day, in the not-too-distant future, many of us will have a chance to ride a Starship.
+
+For some, that might mean a 90-minute journey from New York to Tokyo. For others, maybe it’s a weeklong trip in orbit on a commercial space station. Some of us will go to work on the moon to mine helium-3 and help build essential space infrastructure, like AI data center satellites. And for the most adventurous of us, it will look like a journey to the thriving Mars colony.
+
+It’s time to dream big again, to do the impossible. SpaceX is showing us the way. And we now have tools and technologies to do extraordinary things in every industry.
+
+Now is the time.
+
+Jeff
+
+Hi Jeff,
+
+You’re tracking Elon’s activities. Recently, you have been following the SpaceX IPO. But I haven’t heard anything from you about his planned battery project providing energy to the data centers. With your deep knowledge, I would expect at least some shadow IPOs for his suppliers, as his new factory in Texas is near completion. Can we hear anything on this subject in the near future through any of your services? Best regards.
+
+– Wolfgang B.
+
+Hello Wolfgang,
+
+What you’re referring to is Tesla’s Megapack product, which is designed for industrial-scale energy storage. And this isn’t something that is planned. It exists and has existed for years. Tesla continues to scale up its production of this product.
+
+The early applications of the Megapacks were typically associated with clean energy projects like solar energy installations like the one shown below (Megapacks are the large white containers).
+
+Source: Tesla
+
+Perhaps ironically, one of the most suitable applications of Tesla’s Megapack is to support AI data centers, which have nothing to do with clean energy.
+
+The use of Megapacks got a lot of attention when Musk and his team at xAI utilized this kind of battery storage in order to commission and operate xAI’s Colossus I and Colossus II data centers in South Memphis, Tennessee.
+
+It wasn’t so much about providing power to the data centers. That was/is done using a combination of power from the local grid and on-site natural gas turbines. The real value in the large number of Megapacks on site was to help manage the variable demands for power from such a powerful AI data center.
+
+Electricity demands can spike quickly, and they can also drop quickly. A power grid can’t respond that quickly to these kinds of spikes/drops. That’s where the Megapacks come in. They manage those fluctuations smoothly, improve uptime, and, if ever necessary, can provide backup power.
+
+What xAI did with Megapacks was one of the most interesting and valuable engineering works in AI data centers that is being emulated elsewhere. AI workloads, especially training workloads, are highly variable, and it’s the Megapack that manages that variability.
+
+Tesla has already deployed more than 58 GWh (gigawatt hours) of Megapacks globally. Its megafactories are in Lathrop, California, and Shanghai, China. Combined, they can produce 20,000 units annually, equivalent to 80 GWh a year.
+
+Tesla’s approach to Megapack and battery manufacturing has largely been in-house. The company is vertically integrated, and it receives its lithium iron phosphate (LFP) battery cells from LG Energy Solution and CATL. This battery chemistry is different from its electric vehicle battery chemistry, which is, of course, lithium-ion battery cells manufactured in partnership with Panasonic at its Gigafactory Nevada location. Tesla and Panasonic continue to partner on EV batteries, but Panasonic has no involvement in the Megapack.
+
+Hundreds of millions of investors around the world are sitting on the edge of their seats right now, literally salivating… And just waiting for the moment SpaceX finally begins trading on June 12. But buying shares on IPO day is NOT the best way to cash in on this historic event. Instead, Jeff is recommendingthis tiny company he calls “the Backbone of Space-Based AI…”Which is 1,000 times smaller than SpaceX… and has much more upside potential.
+
+In 2022, when the Federal Reserve made its most dramatic pivot in history and the S&P lost nearly 20%, Larry Benedict didn't lose a single trade. He knew where the money was going and positioned his readers to profit. Trump is now installing his own Fed Chair, something Wall Street is already calling a generational shift. Larry says his readers will be ready for it.Click here to find out the one ticker he's positioning in, completely free.
+
+Jeff,
+
+Tesla designs its own proprietary AI chips such as the AI4, AI5, and AI6. I have a couple of related questions:
+
+What electronic design automation (EDA) software do they use to design those chips? Synopsys (SNPS), Cadence Design (CDNS), or something else?
+
+How do these chips compare to those from Nvidia and AMD? I understand they consume much less power. Are they nevertheless as good at training and inferencing as chips from these other companies? I understand that the Dojo computer incorporates AI4s, but the Colossus computers are built on Nvidia GPUs.
+
+Thanks.
+
+– Bobby W.
+
+Hi Bobby,
+
+Tesla uses both Cadence (CDNS) and Synopsys (SNPS) EDA software. While this is well known in tech circles, it is easy to confirm by just looking at one of Tesla’s related job postings.Here is an example right herefor an “Applied AI Engineer, AI Hardware.”
+
+As for the performance comparison of Tesla’s AI chips, it is not exactly an apples-to-apples comparison.
+
+Tesla’s AI5 chip has already taped out, and from Musk’s perspective, it is a “monster” of a chip. It will be going into production in late 2026 in smaller volumes, and mass production is scheduled for 2027.
+
+Tesla’s AI chips are specifically designed for inference, and they are customized for Tesla’s specific inference applications, namely vision-based full self-driving (FSD) and Optimus general-purpose intelligence humanoid robots.
+
+We can think of the AI5 being capable of similar performance levels to NVIDIA’s or AMD’s latest chips, the main difference being that the AI5 is not designed for general-purpose training of AI models. It is designed for Tesla’s inference – i.e., therunning of AI models– needs.
+
+And due to the customization for Tesla’s specific applications, it has superior power efficiency per unit of compute compared to NVIDIA’s or AMD’s GPUs. This is a natural trade-off.
+
+And yes, xAI’s Colossus I and Colossus II AI data centers are comprised of NVIDIA’s GPUs for training, and many of the AI servers also use AMD’s CPUs.
+
+As for Tesla’s in-house supercomputer, Dojo 1 was designed using Tesla’s D1 application-specific semiconductors. Dojo 2 was planned to incorporate a D2 semiconductor, but that project was scrapped as the D1/D2 design had limitations.
+
+Dojo 3, however, will incorporate the new AI5 chips, and ultimately AI6 in a new architecture that will be flexible and scalable to meet the incredible needs of Tesla’s product development.
+
+Joe Rogan interviewed Marc Andreessen recently. Marc stated that AGI was achieved a few months ago. What say you?
+
+– Nicholas S.
+
+Hello Nicholas,
+
+Yes, artificial general intelligence (AGI) was achieved a few months ago. I hadlong predicted that it would be achieved by the spring of 2026, and I am confident that it has happened.
+
+I could make an argument, admittedly without complete information, that it was actually achieved in December of 2025.
+
+With that said, the reason that the world doesn’t “see it” or “feel it” yet is because it isn’t widely distributed commercially.
+
+The U.S. government has seen these models and is employing them, but they haven’t hit the consumer or enterprise markets just yet.
+
+I am confident that xAI, with its current Grok model in its laboratories, is an AGI model and is currently being refined. These are general intelligence models capable of thinking, reasoning, operating autonomously, capable of recursive learning, and even solving unsolved mathematics and physics problems.
+
+And I wouldn’t be a bit surprised if Elon Musk/SpaceX made a major announcement about xAI and Grok in the days leading up to the SpaceX IPO currently scheduled for next Friday, June 12.
+
+Ready or not, AGI is here already, and it will be deployed at lightning speed in the second half of this year. But the key point for us to understand is that AGI isn’t the endpoint. Companies like OpenAI, xAI, and Anthropic are already working on artificial superintelligence (ASI).
+
+This once-in-history race to ASI won’t falter or slow down. It will speed up until there is a winner. And after that, infrastructure build-out will continue for inference-related computational resources to power the world. AGI/ASI are going to quickly become like an operating system for life, companies, and even governments.
+
+Andreessen is correct, and so is Jensen Huang, the CEO of NVIDIA, who also said the same a couple of months ago.
+
+It has arrived.
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+A wave of network demand coming for public blockchains...
+
+One of the world’s most interesting biotech companies is back in the headlines again…
+
+Starlink, Starshield, and now… Starfall? I recently ventured out to SpaceX headquarters in Starbase, Texas, to do some boots-on-the-ground...
+
+Read the latest insights from the world of high technology.
+
+A wave of network demand coming for public blockchains...
+
+One of the world’s most interesting biotech companies is back in the headlines again…
+
+Starlink, Starshield, and now… Starfall? I recently ventured out to SpaceX headquarters in Starbase, Texas, to do some boots-on-the-ground...

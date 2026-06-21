@@ -1,0 +1,248 @@
+{
+  "search_params": {
+    "location": "Austin, TX",
+    "days_on_zillow": 365,
+    "total_listings_found": 156,
+    "unique_builders": 12,
+    "generated_at": "2024-06-18T16:30:00Z"
+  },
+  "builders": [
+    {
+      "builder_name": "Lennar Homes",
+      "contacts": {
+        "agent_name": "Sarah Johnson",
+        "agent_phone": "(512) 555-0123",
+        "brokerage": "Keller Williams Realty",
+        "builder_website": "https://www.lennar.com/new-homes/texas/austin"
+      },
+      "communities": [
+        {
+          "name": "The Grove at Austin",
+          "address": "12345 Builder Way, Austin, TX 78701",
+          "price_range": {
+            "min": 350000,
+            "max": 500000
+          },
+          "home_types": [
+            "Single Family",
+            "Townhomes"
+          ]
+        },
+        {
+          "name": "Parkside Commons",
+          "address": "6789 Development Blvd, Austin, TX 78702",
+          "price_range": {
+            "min": 425000,
+            "max": 650000
+          },
+          "home_types": [
+            "Single Family"
+          ]
+        }
+      ],
+      "recent_sales": [
+        {
+          "date": "2024-03-15",
+          "price": 425000,
+          "zpid": 12345678,
+          "address": "12345 Builder Way #12",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 2100
+        },
+        {
+          "date": "2024-02-28",
+          "price": 389000,
+          "zpid": 12345679,
+          "address": "12345 Builder Way #15",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 1950
+        },
+        {
+          "date": "2024-01-20",
+          "price": 450000,
+          "zpid": 12345680,
+          "address": "12345 Builder Way #8",
+          "beds": 4,
+          "baths": 3,
+          "sqft": 2400
+        }
+      ],
+      "total_sales_12mo": 23,
+      "avg_sale_price": 412500,
+      "data_quality_score": 0.85
+    },
+    {
+      "builder_name": "D.R. Horton",
+      "contacts": {
+        "agent_name": "Michael Chen",
+        "agent_phone": "(512) 555-0456",
+        "brokerage": "RE/MAX Austin",
+        "builder_website": "https://www.drhorton.com/texas/austin"
+      },
+      "communities": [
+        {
+          "name": "Sunset Ridge",
+          "address": "9876 Horizon Dr, Austin, TX 78725",
+          "price_range": {
+            "min": 300000,
+            "max": 450000
+          },
+          "home_types": [
+            "Single Family"
+          ]
+        }
+      ],
+      "recent_sales": [
+        {
+          "date": "2024-04-01",
+          "price": 375000,
+          "zpid": 23456789,
+          "address": "9876 Horizon Dr #42",
+          "beds": 3,
+          "baths": 2,
+          "sqft": 1800
+        },
+        {
+          "date": "2024-03-10",
+          "price": 410000,
+          "zpid": 23456790,
+          "address": "9876 Horizon Dr #38",
+          "beds": 4,
+          "baths": 2.5,
+          "sqft": 2200
+        }
+      ],
+      "total_sales_12mo": 18,
+      "avg_sale_price": 385000,
+      "data_quality_score": 0.75
+    },
+    {
+      "builder_name": "Taylor Morrison",
+      "contacts": {
+        "agent_name": "Jessica Williams",
+        "agent_phone": "(512) 555-0789",
+        "brokerage": "Coldwell Banker",
+        "builder_website": "https://www.taylormorrison.com/austin"
+      },
+      "communities": [
+        {
+          "name": "The Preserve at Walnut Creek",
+          "address": "5432 Nature Trail, Austin, TX 78735",
+          "price_range": {
+            "min": 550000,
+            "max": 850000
+          },
+          "home_types": [
+            "Single Family",
+            "Custom"
+          ]
+        }
+      ],
+      "recent_sales": [
+        {
+          "date": "2024-05-01",
+          "price": 675000,
+          "zpid": 34567890,
+          "address": "5432 Nature Trail #7",
+          "beds": 4,
+          "baths": 3.5,
+          "sqft": 3100
+        },
+        {
+          "date": "2024-04-15",
+          "price": 720000,
+          "zpid": 34567891,
+          "address": "5432 Nature Trail #12",
+          "beds": 5,
+          "baths": 4,
+          "sqft": 3500
+        }
+      ],
+      "total_sales_12mo": 15,
+      "avg_sale_price": 650000,
+      "data_quality_score": 0.8
+    },
+    {
+      "builder_name": "Pulte Homes",
+      "contacts": {
+        "agent_name": "David Rodriguez",
+        "agent_phone": "(512) 555-0321",
+        "brokerage": "Austin Realty Group",
+        "builder_website": null
+      },
+      "communities": [
+        {
+          "name": "Maple Grove Estates",
+          "address": "1111 Maple Ave, Austin, TX 78745",
+          "price_range": {
+            "min": 400000,
+            "max": 600000
+          },
+          "home_types": [
+            "Single Family",
+            "Townhomes"
+          ]
+        }
+      ],
+      "recent_sales": [
+        {
+          "date": "2024-03-20",
+          "price": 485000,
+          "zpid": 45678901,
+          "address": "1111 Maple Ave #22",
+          "beds": 3,
+          "baths": 2.5,
+          "sqft": 2300
+        }
+      ],
+      "total_sales_12mo": 12,
+      "avg_sale_price": 475000,
+      "data_quality_score": 0.65
+    },
+    {
+      "builder_name": "Unknown Builder",
+      "contacts": {
+        "agent_name": "Amanda Foster",
+        "agent_phone": "(512) 555-0654",
+        "brokerage": "Berkshire Hathaway",
+        "builder_website": null
+      },
+      "communities": [
+        {
+          "name": "Unknown Community",
+          "address": "2222 Oak St, Austin, TX 78751",
+          "price_range": {
+            "min": 320000,
+            "max": 380000
+          },
+          "home_types": [
+            "Townhomes"
+          ]
+        }
+      ],
+      "recent_sales": [
+        {
+          "date": "2024-02-15",
+          "price": 355000,
+          "zpid": 56789012,
+          "address": "2222 Oak St #5",
+          "beds": 2,
+          "baths": 2,
+          "sqft": 1500
+        }
+      ],
+      "total_sales_12mo": 8,
+      "avg_sale_price": 345000,
+      "data_quality_score": 0.4
+    }
+  ],
+  "deduplication": {
+    "original_count": 5,
+    "final_count": 5,
+    "duplicates_removed": 0,
+    "threshold": 0.85,
+    "processed_at": "2026-06-18T06:38:13.798Z"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "niche-001",
+      "name": "Plumbing - San Antonio",
+      "status": "researching",
+      "tags": ["rank-and-rent", "local", "service"],
+      "obsidianNote": "Investments/Niches/Plumbing-San-Antonio.md",
+      "added": "2026-06-05",
+      "notes": "High search volume, good lead value. Competitive but manageable."
+    },
+    {
+      "id": "niche-002",
+      "name": "HVAC - Austin",
+      "status": "tracking",
+      "tags": ["rank-and-rent", "local", "service"],
+      "obsidianNote": "Investments/Niches/HVAC-Austin.md",
+      "added": "2026-05-28",
+      "notes": "Seasonal demand. Strong lead value at $80-120 per call."
+    }
+  ]
+}

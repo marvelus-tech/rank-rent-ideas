@@ -1,0 +1,11 @@
+{
+  "search_params": {
+    "input_file": "examples/test-zpids.txt",
+    "type": "zpids",
+    "total_input": 30,
+    "properties_found": 0,
+    "unique_builders": 0,
+    "generated_at": "2026-06-18T07:14:45.874Z"
+  },
+  "builders": []
+}

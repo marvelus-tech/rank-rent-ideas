@@ -1,0 +1,187 @@
+Google Search’s AI Transformation
+
+May 29, 2026
+
+Google will continue to be a leader in AI and search because it has finally integrated the technology into its core search service…
+
+Managing Editor’s Note:We’re less than two weeks away from SpaceX’s historic public debut.
+
+The IPO date is locked in for June 12… the roadshow is targeted to launch later this week… the lead-up to the biggest IPO in history is in motion.
+
+But buying shares of SpaceX on IPO day isn’t necessarily the best way to make the most of this opportunity.
+
+On Wednesday, Jeff is sharing details on a few companies tied to SpaceX that could skyrocket starting on IPO day…
+
+The briefing is free to attend. You just have togo here to sign up with one click.
+
+You can also sign up for VIP alerts, so we can keep you posted leading up to showtime and make sure you don’t miss a thing… as well as collect a special report,How to Partner With Elon Musk’s Favorite Billionaire.
+
+Justgo here to automatically add your name to the listor sign up for alerts…
+
+One of the most common predictions about the impact of generative AI on internet search is that it would result in the downfall of Alphabet (GOOGL)…
+
+Because who needs Google’s search engine when you can just ask a chatbot and get an answer?
+
+It was a silly prediction that never made any sense.
+
+After all, Google has been one of the top four developers of frontier AI models alongside OpenAI, Anthropic, and xAI.
+
+It has also had the cash and free cash flow to fund development to whatever extent necessary.
+
+But on the surface, it was easy to believe that Google was falling behind.
+
+The rapid consumer adoption of OpenAI’s ChatGPT caught the entire internet off guard.
+
+Despite the shortcomings of ChatGPT in 2023 and 2024, consumers couldn’t get enough of using the large language model (LLM). It was an easy button.
+
+And every few months, the improvements in performance were easy to notice.
+
+As we know well, the adoption of ChatGPT was the fastest adoption of an independent consumer application in history, reaching 100 million users in just two months.
+
+And to prove it wasn’t just a fad, OpenAI recorded 5.51 billion monthly visits in April this year and currently has close to 1 billion weekly active users.
+
+Perhaps not surprisingly, adoption has been widespread across all age groups.
+
+Shown below, we can see that the 18-24 and the 25-34 year old age groups are the most active with ChatGPT. The 35-44 cohort comes in third, close to 20%. And the 45-54 group is approaching 10% of all messages.
+
+Source: OpenAI
+
+In addition to ChatGPT, the success of X and xAI’s frontier model Grok has been the largest surprise to what most of the industry and the media had been predicting (i.e., X’s downfall, and that xAI was too late to the game with Grok).
+
+In the recently filed SpaceX S-1 filing with the SEC, we learned that X now has an impressive 550 million monthly active users (MAU), 117 million of which are active users of Grok.
+
+Most impressively, Grok’s market share in the U.S. chatbot market grew from just 1.9% in January of 2025 to 17.8% in January 2026, demonstrating remarkable competitive growth against what has been dominated by OpenAI.
+
+It was the success of OpenAI’s ChatGPT, and then the dramatic rise of xAI’s Grok, that presented the threat to the use of Google’s search engine.
+
+After all, these generative AI models had something that Google’s traditional search engine didn’t provide: Deep contextual understanding of an inquiry and the ability to anticipate the information that would be most useful to the user.
+
+And at the same time, both models eliminated the pages of less useful links that Google historically presented to its users.
+
+“Just Google it.” Googling became a part of our vernacular.
+
+But who needed to Google anymore?
+
+The New York Timescalled the upcoming SpaceX IPO “a generational moneymaking event.” But please DO NOT BUY shares of SpaceX before youclick here and see Jeff Brown’s Elon Musk update.In short, thisWednesday, June 3, at 8 p.m. ET… Jeff will be reporting directly from SpaceX’s headquarters… To tell you what he believes is the single best way to cash in on this historic IPO.Click here to save your seat.
+
+Jeff Brown believes Elon is about to make his latest invention available to the public. When he does, sales could go through the roof. And the stock price of one of his critical partners could soar. He expects Elon to make this announcement any day now. By the end of the month at the latest. But you never know with Elon… He could post it on X tomorrow. So, there’s very little time to act.Click here to find out the name of Elon’s critical partner… The company he can’t live without.
+
+In May 2024, as part of its annual Google I/O conference, Google announced an AI-related upgrade to its search engine.
+
+It would be providing an “AI Overview.”
+
+It was an attempt to combine a generative AI search result with its traditional model of providing pages of links of declining utility.
+
+Example of Google’s AI Overview |Source: Google
+
+It was surprising to see such a halfhearted attempt at employing AI in Google’s search technology.
+
+After all, Google’s Gemini model has been one of the leaders in the industry, and yet the application of that model in search was far less compelling than what OpenAI’s ChatGPT, and ultimately xAI’s Grok, were able to provide.
+
+Two years on, during last month’s Google I/O conference, we are now finally able to see what Google’s vision of AI-powered search looks like.
+
+And it’s the largest upgrade to its search engine in the last 25 years.
+
+The first thing that a Google search user will notice is the “AI Mode” on the right side of the search bar.
+
+And the search results to a query are materially different, as shown below:
+
+Shown above is the AI response to my “toy shop” query.
+
+As we can see, it isn’t a list of links to possible answers to my question. The reply to my query came back with a list of eight stores that were consistent with my query.
+
+All the data was formatted in the same way, making it easy to read. All stores came with ratings, and the results included a map of the Nashville area, making it simple to see where the stores are located.
+
+And one of the more interesting new features, shown above, is the ability to have Google’s AI “check for me” – shown as the blue button on the lower right of the image below.
+
+The AI will prompt the user for a specific LEGO set, and the agentic AI feature will literally call stores to find out which store has the LEGO set that the user is looking for.
+
+The agentic AI calling feature was actually announced in November 2025, and now we are seeing it widely deployed around the world as a key feature of Google’s search engine.
+
+This is a particularly exciting feature as it crosses the digital-to-analog gap that has always existed on the internet.
+
+The reality is that there is an entire world of “analog” information out there that we need to access that cannot readily be accessed just using a search engine.
+
+That information requires an e-mail, a text message, or a phone call to gain the information that we need.
+
+Google has just solved that problem using agentic AI and its conversational AI agents.
+
+It’s hard to overemphasize the importance of this feature.
+
+One of the reasons that internet technology and smartphone applications were adopted so quickly is that they enable the disintermediation between the user and the business.
+
+Any applications that enable a user to simply press a button to transact and eliminate the need to have human interaction become wildly successful.
+
+Uber, Lyft, Grubhub, Airbnb, Doordash, and Instacart are all simple examples of that trend.
+
+Google’s “new era of AI Search” is the internet’s equivalent of those applications.
+
+And it gets better, as Google has implemented another form of agentic AI in the form ofsearch agents.
+
+Google now enables the user to establish a search agent for any subject matter or objective that is important to them.
+
+Shown below is the response from Google’s AI Search from the query: “keep me updated when any of my favorite athletes announce sneaker collabs or signature drops.”
+
+Source: Google
+
+The user can create as many search agents as they want.
+
+They operate in the background and run 24/7.
+
+They’ll alert you whenever they discover anything relevant to your query, and even have the ability, if prompted to, to take action.
+
+Said another way, Google’s search agents can work for you while you sleep.
+
+And perhaps the most exciting feature for users will become the addition ofpersonal intelligenceas part of the new Google AI Search offering.
+
+Google is now enabling the user to connect applications and their data – like Gmail, Google Photos, and Google Calendar – to AI Search.
+
+The benefits should be fairly obvious.
+
+If Google’s AI understands your daily schedule, what is important to you, what and with whom you are communicating with, whom you like to transact with, and your lifestyle, it will begin to know you better than you know yourself.
+
+This kind of contextual understanding will empower the AI to make its recommendations for products, services, and information entirely tailored for the user and seemingly made at precisely the right time.
+
+Yes, the users are giving up their privacy by doing so.
+
+Each user has to consent to share their information from the apps with Google’s AI, but the reality is that most people won’t care. They’ll willingly do it.
+
+The utility will be too great not to.
+
+It will save time and make people feel like they have a superpowered executive assistantworking for them for free.
+
+The era that I have been writing about and predicting for years is here…
+
+The era of personalized, agentic AIs for everyone on the planet.
+
+That’s the significance of what Google just announced.
+
+It is making this service available in 200 countries across 98 languages, and, to no surprise, there is no subscription required. It’s “free.”
+
+And remember, if a service is free, you are the product.
+
+To be very clear, Alphabet (GOOGL) and its Google search engine are not going to experience a downfall.
+
+Google will continue to be a leader in AI and search because it has finally integrated the technology into its core search service… Ignore the naysayers.
+
+Alphabet/Google will continue to win.
+
+Not only does it have the technology and cash to do so, but it also has one of the largest distribution channels on the internet and across mobile devices through its Android OS.
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+Last night, the skies over Cape Canaveral lit up as a Blue Origin New Glenn rocket exploded in a...
+
+Zero-human companies are businesses that operate entirely by AI. It’s fully autonomous. In theory, they can manage marketing, sales,...
+
+The tokenization trend will take place on public and permissionless blockchains like Ethereum, Solana, and others. It won’t happen...
+
+Read the latest insights from the world of high technology.
+
+Last night, the skies over Cape Canaveral lit up as a Blue Origin New Glenn rocket exploded in a...
+
+Zero-human companies are businesses that operate entirely by AI. It’s fully autonomous. In theory, they can manage marketing, sales,...
+
+The tokenization trend will take place on public and permissionless blockchains like Ethereum, Solana, and others. It won’t happen...

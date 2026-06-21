@@ -1,0 +1,11 @@
+{
+  "signature": "OrcaMockSig111",
+  "slot": 321000020,
+  "timestamp": 1712000200,
+  "feePayer": "WalletB",
+  "instructions": [{"programId": "whirLbMiicVdio4qvUfM5KAg6Ct8VwpYzGff3G4fRj"}],
+  "tokenTransfers": [
+    {"fromUserAccount": "WalletB", "toUserAccount": "PoolB", "mint": "TokenInB", "tokenAmount": 1000},
+    {"fromUserAccount": "PoolB", "toUserAccount": "WalletB", "mint": "TokenOutB", "tokenAmount": 980}
+  ]
+}

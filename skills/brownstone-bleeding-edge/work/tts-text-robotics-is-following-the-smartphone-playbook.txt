@@ -1,0 +1,155 @@
+Robotics Is Following the “Smartphone Playbook”
+
+May 6, 2026
+
+Just a few years ago, talking to computers felt awkward. But today, it feels routine... Now, the same thing is beginning to happen with robotics.
+
+Managing Editor’s Note:Before we move to today’s guest issue from friend of Brownstone Jason Bodner, don’t forget togo here to automatically add your nameto Larry Benedict’s guest list…
+
+In just a couple of hours, he’s broadcasting the details of his one-ticker strategy for pulling quick profits from choppy markets.
+
+It’s a great way to take advantage of market swings rather than sitting on the sidelines waiting for volatility to slow…here’s that link again to sign up with one click. He’s kicking things off at 8 p.m. ET tonight, so if you’re curious, make sure you get your name on the list.
+
+As I mentioned before, today, we’re sharing another insight from contributing editor Jason Bodner. As we shared on Tuesday, Jason’s is a longtime friend and colleague of Brownstone Research. And we’re happy to welcome him back to the fold.
+
+Today, he dives into a familiar favorite Brownstone trend – robotics. Jason shows below why the robotics revolution is already here, why this technology is following the “smartphone playbook,” and why it will be a make-or-break technology for developed economies.
+
+Read on…
+
+Every day, millions of people talk to machines. They don’t even think twice about it.
+
+“Hey Siri: what does a platypus eat?”
+
+“Alexa, turn off the lights, please.” – (I’m polite).
+
+“Hey Google – take me home.”
+
+Just a few years ago, people talking to computers felt awkward. But today, it feels routine. Children are growing up in homes where invisible software assistants are simply part of life.
+
+Think about it. That shift happened remarkably fast.
+
+Now, the same thing is beginning to happen with robotics.
+
+Most people still think of robots as sci-fi. It’s hard not to picture humanoid machines walking through dystopian city streets or metallic assistants from Hollywood films.
+
+But the robotics revolution is arriving in a much subtler way.
+
+In fact, it’s already here.
+
+There’s a good chance you’ve already interacted with robots multiple times today without noticing.
+
+If you ordered something online recently, robotic systems likely moved that package through a fulfillment center.
+
+Modern warehouses increasingly resemble automated cities, with fleets of machines carrying inventory all over massive facilities. Humans no longer move to products… products now move to humans.
+
+Amazon (AMZN) was an early adopter of automation technology in its fulfillment centers. Today, approximately 75% of order volume is assisted by robotics in some way.
+
+That’s a profound shift.
+
+Consider self-checkout lanes. The first time I used one, it felt awkward and unnatural. Today it’s common. Millions of people scan and bag their own groceries every day without giving it a second thought. Society adapted to automation one small behavioral change at a time.
+
+The masses keep waiting for “the robot moment.”
+
+Sorry to say… they missed it.
+
+The reason this transition suddenly feels real is because the missing ingredient was never the robot itself. We’ve had industrial robots for decades. Factories have used robotic arms since the 1970s. I remember a 1986 movieGung-Howhere robots came to replace auto assembly line workers.
+
+The robot’s physical body was a breakthrough, but the revolution was intelligence.
+
+A robot without intelligence is just a machine repeating preprogrammed tasks. But recent advances in artificial intelligence literally changed the equation. AI models can now interpret visual environments, understand language, adapt to changing environments, and make decisions in real time.
+
+That’s why progress suddenly seems like it is accelerating all at once. We now have that missing ingredient – the “brain.”
+
+The same AI infrastructure powering chatbots and image generators is increasingly being connected to physical machines. Suddenly robots can navigate warehouses, identify damaged inventory, assist in manufacturing, and perform tasks that once required human judgment.
+
+Another application is self-driving cars. As Jeff demonstrated recently, Tesla’s full-self driving technology rivals – and exceeds – human operation in most circumstances.
+
+The craziest part is that several technological curves are converging simultaneously.
+
+AI chips became powerful enough to process enormous amounts of data instantly. Cameras and sensors became inexpensive and highly capable. Battery technology improved. Cloud connectivity matured. Simulation software now allows robots to practice tasks millions of times virtually before operating in the real world.
+
+This is very similar to what happened with smartphones.
+
+The iPhone didn’t emerge because of one invention. It happened because batteries, mobile processors, wireless internet, touchscreens, and software ecosystems all matured at the same time.
+
+Think how transformative the smartphone was, and how quickly it was adopted.
+
+Pew Research tell us that in 2011, a few years after the release of the original iPhone, only 35% of adults in the U.S. owned one of these devices. Today, that figure is 91%. Now, robotics is reaching the same type of inflection point.
+
+What makes this opportunity so large is that robotics isn’t a single product or company. It’s an entire technology stack forming in real time.
+
+Artificial intelligence acts as the brain. Sensors allow machines to see and understand the world around them. Actuators create movement and physical interaction. Power systems provide the energy and endurance to keep everything running. And increasingly, cloud connectivity and edge computing tie it all together:
+
+Every layer matters.
+
+That’s important from an investment perspective because major technological shifts rarely create just one winner. Smartphones didn’t only benefit handset makers. They unleashed massive demand for chips, sensors, memory, batteries, wireless infrastructure, and software ecosystems.
+
+The entire stack.
+
+And then there’s the businesses made possible by the new smartphone user base. Uber (UBER), Meta (META), Spotify (SPOT) – none of those companies exist today without the smartphone.
+
+The physical AI buildout will follow a very similar path.
+
+And much of that ecosystem is already quietly growing before our eyes.
+
+And there’s another reason this matters that has little to do with futuristic gadgets.
+
+The developed world is running out of workers.
+
+Japan may be offering an early preview. The country faces severe labor shortages tied to aging demographics and declining birth rates. Don’t take my word for it. See for yourself below.
+
+Source: Populationpyramids.org
+
+What you’re looking at is the a “population pyramid” for Japan. What it shows is the population of that country distributed by age and sex. And one thing should stand out – the pyramid is inverted. Put another way, the elderly outnumber the young.
+
+As a result, warehousing, elder care, logistics, agriculture, and manufacturing are all under increasing strain.
+
+That creates an uncomfortable reality.
+
+Robotics may not arrive simply because humanity wants it.
+
+It may arrive because aging economies can no longer functionwithout it.
+
+That’s what makes this larger than a niche technology story. This is increasingly about automating portions of the physical economy itself.
+
+Naturally, investors are noticing. And the smart money always knows first.
+
+Just look at this chart… I took the 20 highest ranking robotics-involved stocks and created a custom basket. The 1-year performance is shocking. This basket of stocks is up 104%, or more than triple the S&P 500.
+
+Many will focus on flashy humanoid robots and viral demonstrations. But history suggests the largest winners during technological revolutions are often the hidden infrastructure companies underneath them.
+
+The smartphone boom didn’t only create winners in phones. It created massive opportunities in semiconductors, sensors, wireless infrastructure, memory, optics, and batteries.
+
+The robotics buildout may follow a similar pattern.
+
+Machine vision systems, industrial automation platforms, AI chips, memory systems, and power infrastructure could all become critical layers of the emerging robotics stack.
+
+And despite the AI buzz today, the broader robotics theme is still in its early innings.
+
+The strange thing about technological revolutions is that they rarely feel revolutionary while they’re happening.
+
+They arrive quietly.
+
+One behavioral shift at a time.
+
+Then, suddenly, the world looks completely different.
+
+Regards,
+
+Jason BodnerContributing Editor,The Bleeding Edge
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+SpaceX needs more space for more manufacturing and launch capabilities to achieve its vision…
+
+For the last two years, the AI story has been dominated by compute. Today, the constraint is different. We...
+
+While many believe that AI is leading to fewer jobs for software programmers, that couldn’t be further from the...
+
+Read the latest insights from the world of high technology.
+
+SpaceX needs more space for more manufacturing and launch capabilities to achieve its vision…
+
+For the last two years, the AI story has been dominated by compute. Today, the constraint is different. We...
+
+While many believe that AI is leading to fewer jobs for software programmers, that couldn’t be further from the...

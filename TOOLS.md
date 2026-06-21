@@ -35,6 +35,16 @@ Things like:
 
 Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
 
----
+## Lazyweb MCP
+- Token: `4623ba0e-2f03-49ee-9379-a181c3b2d178`
+- URL: `https://www.lazyweb.com/mcp`
+- Transport: Streamable HTTP
+- Header: `Authorization: Bearer <token>`
+- Skills installed at: `~/.openclaw/workspace/skills/lazyweb-*`
+- Router installed for: codex
+- Use for: design research, UI/UX references, screenshot search, A/B test research, paywall optimization, onboarding flows
 
-Add whatever helps you do your job. This is your cheat sheet.
+
+## Related
+
+- [Agent workspace](/concepts/agent-workspace)

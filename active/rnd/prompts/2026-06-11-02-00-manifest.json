@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-06-11-02-00",
+  "generatedAt": "2026-06-10T16:00:10.013Z",
+  "rounds": [
+    {
+      "round": "research",
+      "agentId": "research-analyst",
+      "agentName": "Research Analyst",
+      "model": "opencode/gemini-3.5-flash",
+      "promptFile": "/Users/oktos/.openclaw/workspace/rnd/prompts/2026-06-11-02-00-research.md"
+    },
+    {
+      "round": "build",
+      "agentId": "systems-builder",
+      "agentName": "Systems Builder",
+      "model": "opencode/gpt-5.3-codex",
+      "promptFile": "/Users/oktos/.openclaw/workspace/rnd/prompts/2026-06-11-02-00-build.md"
+    },
+    {
+      "round": "direct",
+      "agentId": "strategic-director",
+      "agentName": "Strategic Director",
+      "model": "kimi/k2p5",
+      "promptFile": "/Users/oktos/.openclaw/workspace/rnd/prompts/2026-06-11-02-00-direct.md"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "category": "chiropractors",
+  "location": "Victoria, Australia",
+  "generated_at": "2026-06-06T23:02:39.004887+00:00",
+  "count": 8,
+  "leads": [
+    {
+      "name": "The Melbourne Chiropractor",
+      "category": "chiropractors",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Chiropractor \u00b7 \ue934 \u00b7 Unit 1/1 Paris Rd",
+      "rating": "5.0",
+      "is_open": true,
+      "score": 75,
+      "priority": "HOT",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-06T23:02:38.920691+00:00"
+    },
+    {
+      "name": "Melbourne City Chiropractic",
+      "category": "chiropractors",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Chiropractor \u00b7 \ue934 \u00b7 Suite 1112, Level 11/530 Little Collins St",
+      "rating": "5.0",
+      "is_open": false,
+      "score": 70,
+      "priority": "WARM",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-06T23:02:38.921210+00:00"
+    },
+    {
+      "name": "The Melbourne Chiropractor Mill Park",
+      "category": "chiropractors",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Chiropractor \u00b7 \ue934 \u00b7 51 Pindari Ave",
+      "rating": "5.0",
+      "is_open": true,
+      "score": 75,
+      "priority": "HOT",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-06T23:02:38.921228+00:00"
+    },
+    {
+      "name": "The Melbourne Chiropractor Westmeadows",
+      "category": "chiropractors",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Chiropractor \u00b7 \ue934 \u00b7 1 Hopetoun Ct",
+      "rating": "5.0",
+      "is_open": true,
+      "score": 75,
+      "priority": "HOT",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-06T23:02:38.921242+00:00"
+    },
+    {
+      "name": "Port Melbourne Chiropractic (previously Life Chiropractic Port Melbourne)",
+      "category": "chiropractors",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Chiropractor \u00b7 \ue934 \u00b7 377 Bay St",
+      "rating": "4.9",
+      "is_open": false,
+      "score": 70,
+      "priority": "WARM",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-06T23:02:38.921256+00:00"
+    },
+    {
+      "name": "The Melbourne Chiropractor Fawkner",
+      "category": "chiropractors",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Chiropractor \u00b7 Unit 1/58 Lynch Rd",
+      "rating": "5.0",
+      "is_open": true,
+      "score": 75,
+      "priority": "HOT",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-06T23:02:38.921275+00:00"
+    },
+    {
+      "name": "Errol Street Chiropractic Centre",
+      "category": "chiropractors",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "Chiropractor \u00b7 222 Errol St",
+      "rating": "5.0",
+      "is_open": false,
+      "score": 70,
+      "priority": "WARM",
+      "missing": [
+        "phone"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-06T23:02:38.921288+00:00"
+    },
+    {
+      "name": "Diskin Life",
+      "category": "chiropractors",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "",
+      "rating": "4.9",
+      "is_open": false,
+      "score": 60,
+      "priority": "WARM",
+      "missing": [
+        "phone",
+        "address"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-06T23:02:38.921300+00:00"
+    }
+  ]
+}

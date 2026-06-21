@@ -1,0 +1,127 @@
+Tokenmaxxing: The Weird AI Trend Investors Are Overlooking
+
+May 19, 2026
+
+The practice of using as many tokens as possible is called “tokenmaxxing.” And it’s taking over Silicon Valley.
+
+Silicon Valley has found a new way to rank its programmers.
+
+Not by lines of code or by bugs fixed…
+
+But by how many AI tokens they burn.
+
+“Tokens” are the basic unit of AI usage. Large language models process text in tokens to understand a prompt, reason through a task, and generate a response. The more complex the task, the more tokens it consumes.
+
+A token can be thought of as a single word, punctuation, or part of a word. An easy reference is that for every million tokens, there are about 750,000 words of text.
+
+So the theory is simple. The more token usages mean more AI utilization. And more AI utilization will lead to more productivity.
+
+That logic has led some companies to create internal leaderboards showing which employees are using AI the most (i.e., using the most tokens in their work). But as we might expect, a competition based on measuring usage, or token burn, alone has created some strange behavior.
+
+Employees are launching agents to run redundant tasks, pet projects, or even personal tasks with no real business purpose. They’re gaming the system.
+
+At Meta, employees have competed for labels like “Session Immortal” and “Token Legend.” During one 30-day period, the top individual burned through 281 billion tokens. Across the company, employees used 60.2 trillion AI tokens.
+
+At standard Anthropic pricing, that usage would have cost roughly $900 million. Meta almost certainly receives a volume discount. But even after discounts, the compute bill was enormous.
+
+Over at Amazon, one engineer reportedly said that whenever his project manager annoys him, he dumps the entire Slack chat history into Amazon’s MeshClaw. Then he launches 10 sub-agents to comb through the history and find ways to ridicule him.
+
+Ridiculous for sure, but this is the reality in the tech industry.
+
+The practice of using as many tokens as possible is called “tokenmaxxing.” And it’s taking over Silicon Valley.
+
+Yes, some of it is ridiculous, and a bit of it is wasteful. But investors should not laugh it off.
+
+Every breakthrough technology starts with behavior that looks strange to the “experts” on the inside.
+
+When Alexander Graham Bell offered to sell the telephone patent to Western Union, the company’s president reportedly dismissed it as a toy.
+
+In 1946, a 20th Century Fox executive said television was a passing craze because people would “soon get tired of staring at a plywood box every night.”
+
+In much more recent history, the internet was derided as “a wasteland of unfiltered data” and that “a network chat line is a limp substitute for meeting friends over coffee.”
+
+While the new technology may have seemed silly, the adoption curve is what mattered.
+
+The same dynamic is playing out with AI, only a whole lot faster.
+
+Tokenmaxxing looks strange today. But the reason companies tolerate it is obvious. They want employees using AI, building habits around AI, learning how to think in agentic workflows, and ultimately increasing their productivity.
+
+Meta’s chief technology officer reportedly said one of his top engineers was spending the equivalent of his salary in tokens. But the engineer was 5x to 10x more productive. His conclusion was simple: “This is easy money. Keep doing it. No limit.”
+
+That is the mindset spreading across Silicon Valley. Time and acceleration for competitive advantage are far more important than spend right now.
+
+NVIDIA CEO Jensen Huang said he would be “deeply alarmed” if an engineer he paid $500,000 a year did not use at least $250,000 worth of tokens.
+
+The perverse incentives are real. But so is the productivity upside.
+
+The spending is already showing up. Blackstone President Jon Gray recently said LLM spending across the company’s portfolio companies rose 15x in the first quarter compared with the same quarter last year.
+
+Uber offered another striking example. Its chief technology officer said engineers had run through the full 2026 AI budget in just the first quarter. But the usage is beginning to pay off. About 11% of Uber’s live backend code updates are now written by AI agents. These systems help with critical functions such as ride matching, pricing, and fixing bugs.
+
+The media will look at stories like this and see waste. But as investors, we see exponential growth in utilization.
+
+AI agents multiply token consumption because they turn one human request into many autonomous steps. A worker no longer has to type every query. The agent can keep working in the background.
+
+That is why tokenmaxxing matters. It is a preview of a much broader shift in how AI infrastructure will be consumed.
+
+Since the beginning of 2022, the number of tokens processed per quarter has risen 17,000x. That represents exponential growth that is orders of magnitude greater than Moore’s Law.
+
+Source: Exponential View
+
+And as agentic tasks became more useful, the number of tokens used more than doubled quarter over quarter in Q1.
+
+This is just the beginning. A recent report from Goldman Sachs shows token consumption continuing to soar through the remainder of the decade. The chart above gets us only to the red lines in the middle of the following chart.
+
+Even after this year’s explosion in usage, the trend is still in its infancy.
+
+That shouldn’t surprise regular readers ofThe Bleeding Edge. We have repeatedly said thatcheaper compute would create a Jevons Paradox.
+
+Jevons Paradox describes what happens when something valuable becomes cheaper and easier to use. Instead of total consumption falling, adoption and utilization soar. And the size of the addressable market soars.
+
+That is exactly what we expect with AI tokens. And it will accelerate the AI infrastructure buildout.
+
+Many investors mistakenly believe that lower inference costs mean companies will spend less on AI. The opposite is true. As tokens get cheaper, companies will use more of them. They will run more agents, automate more workflows, analyze more data, generate more code, and launch more AI-driven products.
+
+Goldman Sachs appears to agree. The firm points to two important forces.
+
+First, as compute costs decline, the lower cost per token enables more complex agents to run profitably. These agents consume more tokens. That increases utilization of AI infrastructure and gives providers better economics to keep investing in model quality and distribution.
+
+Second, compute costs are falling faster than hyperscalers are charging per token. That improves unit economics for hyperscalers and data center operators. At this point, it will increase not only revenue but also profit margins.
+
+And better margins allow even more spending on AI infrastructure. That is the flywheel.
+
+Many on Wall Street are asking whether companies are overspending on AI. Our answer to that is no. They’re underspending.
+
+We see the early stages of a demand curve that is still being discovered.
+
+Tokenmaxxing is one of the first signs that AI demand is highly elastic. Give workers more AI and make it cheaper, and they will use more of it.
+
+That does not mean every token will create value. It will not. There will be waste. There will be bad experiments. There will be people using agents for personal tasks and leaderboard games.
+
+But that is how every major technology adoption curve begins. First, people experiment. Then they overuse it. Then businesses discover the workflows that actually matter. And finally, adoption becomes widespread.
+
+Tokenmaxxing may look silly today, but the bigger signal is clear.
+
+As tokens get cheaper, usage will rise. As agents get better, workflows will multiply. And as workflows multiply, the world will need more semiconductors, more memory, more networking, more power, and more AI data centers.
+
+Wall Street is still trying to decide whether the AI buildout is too big. We think it is still too small. And for the companies supplying the infrastructure behind this boom, the best days are still ahead.
+
+Regards,
+
+Jeff Brown and Nick Rokke
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+The date has been set… The day of SpaceX’s long-awaited IPO.
+
+Just how far off are humanoid robots from “human-level” productivity?
+
+The floodgates have opened… interest rates are coming down later this year. The economy is booming, and so will...
+
+Read the latest insights from the world of high technology.
+
+The date has been set… The day of SpaceX’s long-awaited IPO.
+
+Just how far off are humanoid robots from “human-level” productivity?
+
+The floodgates have opened… interest rates are coming down later this year. The economy is booming, and so will...

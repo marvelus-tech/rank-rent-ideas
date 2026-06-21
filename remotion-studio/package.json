@@ -1,0 +1,31 @@
+{
+  "name": "remotion-studio",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "start": "remotion studio",
+    "preview": "remotion preview",
+    "render": "remotion render",
+    "compositions": "remotion compositions",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.122.0",
+    "@react-three/fiber": "^8.18.0",
+    "@remotion/cli": "^4.0.248",
+    "@remotion/google-fonts": "^4.0.248",
+    "@remotion/player": "^4.0.248",
+    "@remotion/transitions": "^4.0.248",
+    "@types/three": "^0.184.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.248",
+    "three": "^0.160.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.1",
+    "typescript": "^5.6.3"
+  }
+}

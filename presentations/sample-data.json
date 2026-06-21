@@ -1,0 +1,74 @@
+{
+  "title": "Lead Generation Report",
+  "kicker": "Marvelus Intelligence",
+  "subtitle": "Automated pipeline results from Victoria, Australia business landscape analysis",
+  "date": "Wednesday, 27 May 2026",
+  "category": "Landscapers",
+  "metrics_lead": "Today's run extracted 10 business leads across the landscapers category. 7 are new additions to our database with strong AI service potential.",
+  "metrics": [
+    {"value": "10", "label": "Total Leads", "color": "dark"},
+    {"value": "7", "label": "New Leads", "color": "green"},
+    {"value": "3", "label": "Hot (75+)", "color": "red"},
+    {"value": "4", "label": "Warm (50-74)", "color": "orange"}
+  ],
+  "leads": [
+    {
+      "name": "GreenScape Pro Melbourne",
+      "description": "Residential & commercial landscaping · No website · Phone verified",
+      "score": "92",
+      "score_color": "red",
+      "priority": "Call Today",
+      "priority_color": "red"
+    },
+    {
+      "name": "Urban Garden Solutions",
+      "description": "Corporate landscaping contracts · Basic website · No booking system",
+      "score": "88",
+      "score_color": "red",
+      "priority": "Call Today",
+      "priority_color": "red"
+    },
+    {
+      "name": "Botanical Edge Design",
+      "description": "High-end residential · Website present · No chat/AI features",
+      "score": "71",
+      "score_color": "orange",
+      "priority": "Follow Up",
+      "priority_color": "orange"
+    }
+  ],
+  "categories": [
+    {"name": "Plumbers", "count": "12 leads · 8 new", "fill": "85%"},
+    {"name": "Electricians", "count": "9 leads · 5 new", "fill": "72%"},
+    {"name": "Landscapers", "count": "10 leads · 7 new", "fill": "78%"},
+    {"name": "HVAC", "count": "7 leads · 4 new", "fill": "60%"},
+    {"name": "Cleaners", "count": "15 leads · 11 new", "fill": "92%"},
+    {"name": "Painters", "count": "6 leads · 3 new", "fill": "48%"}
+  ],
+  "big_number": {
+    "value": "47%",
+    "label": "of extracted leads have no website",
+    "sublabel": "Immediate AI service opportunity",
+    "description": "Businesses without digital presence are prime candidates for Marvelus AI voice agents and chat solutions."
+  },
+  "actions": [
+    {
+      "title": "1. Contact GreenScape Pro Melbourne",
+      "description": "Highest score (92). No website. Direct phone outreach recommended for AI voice agent pitch.",
+      "badge": "Today",
+      "badge_color": "red"
+    },
+    {
+      "title": "2. Batch outreach to 7 new leads",
+      "description": "Prepare personalised proposals for all new entries. Focus on no-website segment first.",
+      "badge": "This Week",
+      "badge_color": "orange"
+    },
+    {
+      "title": "3. Rotate to HVAC category tomorrow",
+      "description": "Lowest coverage (48%). High opportunity for new client acquisition.",
+      "badge": "Tomorrow",
+      "badge_color": "gray"
+    }
+  ]
+}

@@ -306,23 +306,20 @@ EOF
 if [ "$JSON_ONLY" = true ]; then
   cat "$REPORT_JSON"
 elif [ "$QUIET" = false ]; then
-  echo "========================================="
-  echo "  DISK AUDIT — OpenClaw Storage"
-  echo "  Timestamp: $NOW"
-  echo "========================================="
-  echo ""
-  echo "  Grade: $GRADE ($FINAL_SCORE/100)"
-  echo "  Raw Score: $RAW_SCORE/100"
-  echo "  Integrity: $INTEGRITY (×$MULTIPLIER)"
-  echo ""
-  echo "  Checks: $PASS pass / $WARN warn / $FAIL fail"
-  echo "  Critical failures: $CRITICAL_FAIL"
-  echo ""
-  echo "  Details:"
-  echo -e "$DETAILS"
-  echo ""
-  echo "========================================="
-  echo "  JSON report saved to $REPORT_JSON"
+  echo "💾 *Disk Audit Report*
+
+📊 *Grade:* \`$GRADE\` ($FINAL_SCORE/100)
+• Raw Score: $RAW_SCORE
+• Integrity: $INTEGRITY
+
+📈 *Checks*
+• ✅ Pass: $PASS
+• ⚠️ Warn: $WARN
+• ❌ Fail: $FAIL
+• 🚨 Critical: $CRITICAL_FAIL
+
+📁 *Details*
+$(echo -e "$DETAILS" | sed 's/^/• /')"
 fi
 
 if [ "$FAIL" -gt 0 ]; then

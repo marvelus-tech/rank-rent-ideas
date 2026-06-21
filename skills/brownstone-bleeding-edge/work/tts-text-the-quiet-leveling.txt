@@ -1,0 +1,91 @@
+The Quiet Leveling
+
+May 27, 2026
+
+There has never been a technology that democratized capability without first being feared by the people whose capability it democratized.
+
+In 1474, a Venetian monk named Filippo de Strata wrote a furious pamphlet. He called itPolemic Against Printing.
+
+The new machines, he warned, would flood civilization with cheap text. They would corrupt morals. They would ruin the honest livelihoods of scribes who had spent decades mastering their craft.
+
+From an English translation:
+
+They shamelessly print, at a negligible price, material which may, alas, inflame impressionable youths, while a true writer dies of hunger. Cure (if you will) the plague which is doing away with the laws of all decency and curb the printers.
+
+Across Europe, the Scribes’ Guilds agreed. They petitioned councils to ban the presses. They accused printers of witchcraft. In some towns, they smashed the machines outright.
+
+Here is the part you will love: Filippo’s pamphlet was distributed widely because it was printed on a printing press.
+
+There has never been a technology that democratized capability without first being feared by the people whose capability it democratized.
+
+We are living through that moment again, and almost nobody is talking about it correctly.
+
+Pick up any newspaper, listen to any podcast, read any LinkedIn thread, and you will find one of two stories about AI agentics…
+
+Of the two, you can probably guess which drives the most headlines. An infamous example of the latter was the February 22 Substack post from Citrini Research,The 2028 Global Intelligence Crisis.
+
+The post borrows the format made famous by Orson Welles’ radio broadcast ofWar of the Worlds, when the story was presented as a real-world news broadcast. Stocks name-checked in the post were down materially the next day, a modern version of “Martians land outside Princeton, New Jersey.”
+
+But both stories miss the point.
+
+Agentics is not a productivity tool. It is not a job-killer.
+
+It is the first technology in history that gives non-experts direct access to expert capability without forcing them to become experts first.
+
+Read that again. The full implication takes a moment to land.
+
+For most of human history, capability was rationed. Reading belonged to the church. Mechanical clocks belonged to palaces. Steam engines belonged to industrialists who could afford coal. Electricity arrived in mansions first.
+
+The telephone, the automobile, the personal computer, the internet, the smartphone. Every single one started as an elite privilege and ended as a universal utility. Every single one, the moment it crossed that threshold, restructured the entire economy.
+
+The car was a plaything for the rich until Henry Ford made it an infrastructure. The decade that followed gave us suburbs, interstate highways, modern logistics… the entire post-war American economy. The personal computer was a hobbyist toy until it became a desktop fixture, then a phone in every pocket. The internet economy followed.
+
+The pattern is so consistent that it should be a law of physics. When elite capability becomes universal capability, the floor of what is economically possible rises, and entire categories of business become trivial.
+
+Agentics represents that moment for the ability to act through software.
+
+A chatbot answers questions. An agent takes actions. It reads documentation, calls APIs, writes code, queries databases, runs analyses, places orders, monitors markets, and executes workflows without you needing to know how any of it works underneath.
+
+Consider OpenClaw, an open-source framework that has gone to over 247,000 GitHub stars in just three months since launch. It connects large language models directly to operating systems and APIs, allowing users to automate sophisticated workflows simply by describing what they want in plain English.
+
+Imagine a small business owner asking an AI system to analyze sales trends, reorder inventory, update pricing, generate marketing campaigns, and build a dashboard summarizing the results – all without writing code or hiring a development team.
+
+This is not just software making professionals more productive. It is software widening access to capabilities that once belonged only to specialists.
+
+The non-programmer building applications. The independent creator running a media studio. The entrepreneur operating with the leverage of an entire back office. The student is producing research, which once required a team of analysts.
+
+Across industry after industry, the distance between having an idea and executing on it is collapsing.
+
+The mainstream worry is jobs. The right worry is that the professional moat was always thinner than people thought, and the value captured for decades was capability that has now become commodity.
+
+The good news is that the same revolution also creates entirely new forms of leverage. A two-person company can operate like a 50-person company. A small business can access capabilities that once required massive budgets and large staffs. Independent creators can produce studio-quality work. Entrepreneurs can automate operations that previously demanded entire departments.
+
+The opportunity for the people willing to adapt may be enormous.
+
+The pivot for those who do not adapt is equally clear, and the irony is delicious. The skilled trades are screaming for workers. The U.S. faces a shortage of more than 500,000 construction workers in 2026. Master electricians clear $130,000. Master plumbers running their own businesses regularly top $150,000. For 40 years, the cultural script told a generation to chase office work and avoid the trades.
+
+The script is about to flip.
+
+Filippo de Strata wrote a printed pamphlet against printing. The Scribes’ Guild died within two generations. The pamphlet against agentics will be written on a laptop running an AI agent.
+
+The future is being printed right now, and the press is in everyone’s hands.
+
+Regards,
+
+Jason BodnerFounder, Outlier Intel
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+The tokenization trend will take place on public and permissionless blockchains like Ethereum, Solana, and others. It won’t happen...
+
+Most investors still think AI is just a technology story… But AI is quietly becoming something much bigger.
+
+As if we needed even more evidence that the AI boom is real and here to stay…
+
+Read the latest insights from the world of high technology.
+
+The tokenization trend will take place on public and permissionless blockchains like Ethereum, Solana, and others. It won’t happen...
+
+Most investors still think AI is just a technology story… But AI is quietly becoming something much bigger.
+
+As if we needed even more evidence that the AI boom is real and here to stay…

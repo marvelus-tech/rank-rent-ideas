@@ -1,0 +1,11 @@
+name,category,location,phone,address,rating,is_open,score,priority,missing,source,scraped_at
+Victorian Accounting Services,accountants,"Victoria, Australia",,,5.0,True,65,WARM,"['phone', 'address']",google_maps_playwright,2026-06-11T23:04:37.455596+00:00
+Reliable Melbourne Accountants,accountants,"Victoria, Australia",1300 049 534,Accountant · 1/3 Westside Ave,5.0,True,90,HOT,[],google_maps_playwright,2026-06-11T23:04:37.455931+00:00
+"AIMS AUSTRALIA Tax Accountants, Expat Tax Accountants, Overdue Tax Returns, Late Tax Returns",accountants,"Victoria, Australia",1300 112 467,Tax preparation service · 5/11 Queens Rd,4.9,True,90,HOT,[],google_maps_playwright,2026-06-11T23:04:37.455941+00:00
+VIC Tax and Accounting Services,accountants,"Victoria, Australia",,Tax preparation service ·  · 421 Docklands Dr,5.0,True,75,HOT,['phone'],google_maps_playwright,2026-06-11T23:04:37.455952+00:00
+Grace Accountants Pty Ltd,accountants,"Victoria, Australia",,Accountant · 60 St Andrews Dr,5.0,True,75,HOT,['phone'],google_maps_playwright,2026-06-11T23:04:37.455958+00:00
+G-TAX ACCOUNTANTS,accountants,"Victoria, Australia",,Accountant · 21 May St,5.0,True,75,HOT,['phone'],google_maps_playwright,2026-06-11T23:04:37.455964+00:00
+Beyond Accountancy Services,accountants,"Victoria, Australia",1300 823 011,Accountant · Level 2/696 Bourke St,4.8,True,90,HOT,[],google_maps_playwright,2026-06-11T23:04:37.455969+00:00
+Clear Tax Accountants Melbourne,accountants,"Victoria, Australia",1300 417 399,"Tax preparation service · Level 22, WeWork/120 Spencer St",4.8,False,85,HOT,[],google_maps_playwright,2026-06-11T23:04:37.455974+00:00
+Steven Wong Accountants,accountants,"Victoria, Australia",,,5.0,True,65,WARM,"['phone', 'address']",google_maps_playwright,2026-06-11T23:04:37.455979+00:00
+Camberwell Accountants,accountants,"Victoria, Australia",,Accountant · 1428 Toorak Rd,4.9,False,70,WARM,['phone'],google_maps_playwright,2026-06-11T23:04:37.455984+00:00

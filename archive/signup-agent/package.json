@@ -1,0 +1,21 @@
+{
+  "name": "signup-agent",
+  "version": "1.0.0",
+  "description": "Automated business directory signup agent with NAP upload and CAPTCHA notifications",
+  "main": "signup-agent.js",
+  "scripts": {
+    "start": "node cli.js",
+    "signup": "node cli.js --directory",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0",
+    "commander": "^11.1.0",
+    "winston": "^3.11.0",
+    "node-notifier": "^10.0.1",
+    "axios": "^1.6.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

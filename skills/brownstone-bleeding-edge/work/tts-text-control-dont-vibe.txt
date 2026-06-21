@@ -1,0 +1,151 @@
+Control, Don’t Vibe
+
+May 1, 2026
+
+While many believe that AI is leading to fewer jobs for software programmers, that couldn’t be further from the truth…
+
+Managing Editor’s Note:Our colleague Larry Benedict, founder of The Opportunistic Trader, doesn’t chase moonshots that have already left orbit.
+
+Instead, he uses ONE ticker for a shot at more gains in a ONE day than the S&P 500 typically delivers in an entire YEAR. Over and over again. And he does it without ever buying, selling, or holding a single stock.
+
+Anyone can learn to do this. That’s why on Thursday, May 7, at 8 p.m. ET, he’s showing you the way… including the ONE ticker that makes all the difference.
+
+Click here to save your spot automatically and find out more.
+
+At face value, the narrative is logical.
+
+Artificial intelligence (AI) is enabling the largest productivity boost in history.
+
+It has already proven to be exceptionally good at software programming and operations.
+
+AI can perform the same amount of work as a team of humans, and all it needs is compute and electricity.
+
+Therefore, software developers and programmers will lose their jobs en masse.
+
+This is precisely the narrative thatdecelsand naysayers have been pushing in an effort to slow things down and/or develop heavy regulations for AI.
+
+Except there’s one major problem.
+
+It’s not true.
+
+The opposite is happening.
+
+For a short period of time from late 2023 to summer 2025, it did look like job opportunities for software engineers were on the decline, as shown in the chart below.
+
+Source: Citadel Securities
+
+But this was just a false flag.
+
+Three key things were happening in high-tech during that window:
+
+Let’s have a look at a perfect example of this with Salesforce (CRM).
+
+In September of last year, not long ago, Salesforce CEO Marc Benioff announced that he was cutting 4,000 of the company’s customer support roles.
+
+This represented about 5.2% of the massive software company’s worldwide headcount.
+
+In his words, when referring to the impact of AI on his customer support organization:“I’ve reduced it from 9,000 heads to about 5,000, because I need less heads.”
+
+Source: CNBC
+
+Again, at face value, it looks like AI is having a direct impact on the reduction of jobs at the software company.
+
+But then, let’s have a look at this, a post on X from Marc Benioff from April 24 this year:
+
+Source: Marc Benioff
+
+Months later, Benioff announces that he is hiring 1,000 new grads and interns to build with artificial intelligence.
+
+None of the media has stated the obvious.
+
+Every two or three years, sometimes more frequently, tech companies have a reduction in force (RIF) of 5-10% of their global workforce.
+
+Companies often become bloated or lazy and need to clean out the parts of the organization that simply aren’t performing well.
+
+In high tech, metrics are extremely important.
+
+You’ll often hear a phrase likeone headcount is one headcount, so we need to have the best person for the job.That kind of mindset is necessary to compete and grow in high tech.
+
+So, these kinds of announcements are used to reduce the bottom 5-10% of the performers and often to affect some kind of restructuring.
+
+When I worked in the semiconductor industry, this kind of RIF would happen at least once a year. It may sound brutal, but the need to innovate and improve in the semiconductor industry is incessant.
+
+Conducting a large RIF also provides the company with legal cover to eliminate troublesome employees – known bad actors, who might be a risk by attempting to sue the company for some kind of fabricated mistreatment.
+
+So, using AI provides a great excuse to clean up an organization and begin the process of hiring better people.
+
+Something very different is happening now in high tech, and it might feel counterintuitive.
+
+AI is not resulting in less work for software engineers.
+
+AI is resulting in more work for software engineers.
+
+From my own network, I’m hearing that software engineers are busier than ever.
+
+Agentic and generative AI is enabling them to be more productive.
+
+Rather than working less, they are working more. They are busier than ever before.
+
+They are leveraging the newfound technology to do things in days that may have taken them a year in the past. And they are ridiculously excited about the transformation that is underway, so they are reengaging and leaning in.
+
+Why is this happening? Shouldn’t it be the opposite?
+
+No, it actually makes a lot of sense.
+
+A research paper was recently published about exactly this topic, which does a great job at explaining why this is true.
+
+Professional Software Developers Don’t Vibe, The Control: AI Agent Use for Coding in 2025worked with and surveyed 112 professional software developers to better understand the impact of the technology on their jobs.
+
+The research found that agentic and generative AI were great at supporting certain tasks and not preferred for a wide range of other tasks.
+
+For example, the technology was found to be highly useful to software engineers in the kinds of tasks listed below.
+
+And alternatively, it was found to also be unsuitable for a wide range of tasks, which are shown below.
+
+To summarize what was found, AI was not very well suited for just one-shotting code, architecting a software program, performing complex tasks, or applying business logic to software development.
+
+Software developers were still needed to perform the planning and the software architecture and then to design the prompts for the AI for very specific tasks that needed to be performed. Understanding how to “constrain” or limit the AI in a given job is a critical human-level job function.
+
+They also found the need to review every change made by the AI to understand the differences in the software.
+
+It’s one thing to generate the code, but it’s another to test it and ensure that it is ready for putting into production and is good enough as an enterprise-grade software package.
+
+The reality is that to use agentic and generative AI effectively, it has to be tightly monitored and controlled.
+
+When it’s not, it results in quality issues and software slop that can create liabilities for a company.
+
+This is precisely why there is arise in demandfor software engineers.
+
+Companies need both new graduates and experienced software engineers to properly harness the power of agentic and generative AI.
+
+And every tech company knows that if they don’t lean in and take advantage of this productivity boosting technology, they will be left behind by the competition.
+
+The fact is, AI makes the development of high-quality software less expensive and more efficient.
+
+The result is that companies are now able to build even more software and more value, enabling more growth.
+
+It’s a classic Jevons Paradox: When something valuable becomes less expensive and more economically available, adoption and utilization soars.
+
+That’s exactly what’s happening now, and it’s precisely why the software industry isn’t dead at all.
+
+Software engineering jobs aren’t going away.
+
+The industry is restructuring itself and adapting to the mass employment of, and deployment of, agentic and generative AI.
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+Investment and expansion in the AI buildout continue to grow and accelerate with the hyperscalers naturally leading the charge.
+
+This case isn’t a silly “billionaire vs. billionaire” battle… It’s actually about the abuse of charitable trusts and non-profits...
+
+Many have argued that improved economics will make beaming solar energy down to Earth makes so much sense. But...
+
+Read the latest insights from the world of high technology.
+
+Investment and expansion in the AI buildout continue to grow and accelerate with the hyperscalers naturally leading the charge.
+
+This case isn’t a silly “billionaire vs. billionaire” battle… It’s actually about the abuse of charitable trusts and non-profits...
+
+Many have argued that improved economics will make beaming solar energy down to Earth makes so much sense. But...

@@ -1,0 +1,22 @@
+{
+  "type": "new-consultation",
+  "jobId": "41c38fcc-755a-4f44-ac63-1e61dd685364",
+  "timestamp": "2026-03-27-115734",
+  "clientName": "EMILY",
+  "duration": "00:50",
+  "audioFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115734-EMILY.webm",
+  "noteFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115734-EMILY.md",
+  "status": "done",
+  "receivedAt": "2026-03-27T11:57:35.434920",
+  "recordingFilename": "2026-03-27-115734-EMILY.webm",
+  "processingStarted": "2026-03-27T11:57:35.835173",
+  "completedAt": "2026-03-27T11:57:50.400764",
+  "results": {
+    "clientName": "EMILY",
+    "transcript": "Okay. Well, so here's the problem. I'm supposed to put together a CVT for the disaster response communication form. And as you know, I'm new to this role. I've never done a CVT before. I don't even know very much about the form. And there's a lot of people expecting things from this. It's going to be a pretty big deal. And I just don't know where to begin. And so I really, I just feel like I can really use your help. Sure. And that does sound like a lot. It sounds like you've kind of been thrown into the deep end of the pool on the project. And you don't necessarily know the steps where to start. And you don't know what you don't know, would you say that? Yes, exactly. Plus there's the whole technology piece of it. And any new tools and new processes, I understand.",
+    "email": "Subject: Thank you for our consultation - March 27, 2026\n\nHi EMILY,\n\nThank you for taking the time to speak with me today. I appreciate the opportunity to discuss your needs.\n\nKey points from our conversation:\n- We covered the main topics you wanted to discuss\n- Next steps were outlined during our call\n\nPlease let me know if you have any questions or need clarification on anything we discussed.\n\nBest regards,\n[Your name]",
+    "emailSource": "template",
+    "obsidianUpdated": true,
+    "processedAt": "2026-03-27T11:57:50.400463"
+  }
+}

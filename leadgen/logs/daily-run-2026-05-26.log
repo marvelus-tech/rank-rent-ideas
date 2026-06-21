@@ -1,0 +1,73 @@
+========================================
+Daily Lead Gen — 2026-05-26
+Category: dentists
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: dentists
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Seddon Dental, Victoria St Clinic: http://www.seddondental.com.au/
+  - Million Smiles Dental | Altona Meadows Dentist: http://millionsmilesdental.com.au/
+  - Gorgeous Smiles Dentist Melbourne: https://www.gorgeoussmiles.com.au/
+  - Smile Solutions - Dentist Melbourne: https://www.smilesolutions.com.au/
+  - Australian Dentists Clinic: https://dentistsclinic.com.au/locations/melbourne-cbd/index.html
+  - Art De Dente - Dentist Melbourne CBD: https://artdedente.com.au/
+  - Collins Street Dental: https://www.collinsstreetdental.net.au/?utm_source=gmb&utm_medium=organic
+  - Melbourne Dentist Clinic: https://melbourne.dentist-clinic.com/
+  - The Affordable Dentist Melbourne: https://affordabledentistcbd.melbourne/?utm_source=GMB&utm_medium=GMBprofile&utm_campaign=GMBprofile
+  - Dentist Melbourne Clinic: https://www.dentistmelbourneclinic.com.au/index.php
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Seddon Dental, Victoria St Clinic...
+  [2/10] Enriching: Million Smiles Dental | Altona Meadows Dentist...
+  [3/10] Enriching: Gorgeous Smiles Dentist Melbourne...
+  [4/10] Enriching: Smile Solutions - Dentist Melbourne...
+  [5/10] Enriching: Australian Dentists Clinic...
+  [6/10] Enriching: Art De Dente - Dentist Melbourne CBD...
+  [7/10] Enriching: Collins Street Dental...
+  [8/10] Enriching: Melbourne Dentist Clinic...
+  [9/10] Enriching: The Affordable Dentist Melbourne...
+  [10/10] Enriching: Dentist Melbourne Clinic...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Seddon Dental, Victoria St Clinic: score=100, opportunities=['seo_optimization', 'online_booking', 'click_to_call', 'reputation_management', 'ai_chatbot']
+  🔥 Million Smiles Dental | Altona Meadows Dentist: score=100, opportunities=['seo_optimization', 'online_booking', 'click_to_call', 'reputation_management', 'ai_chatbot']
+  🔥 Gorgeous Smiles Dentist Melbourne: score=100, opportunities=['seo_optimization', 'online_booking', 'click_to_call', 'reputation_management', 'ai_chatbot']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 36 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_dentists_2026-05-26.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================

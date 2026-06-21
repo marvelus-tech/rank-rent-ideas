@@ -1,0 +1,165 @@
+The Last Time a Human Will Win
+
+May 15, 2026
+
+Just how far off are humanoid robots from “human-level” productivity?
+
+Managing Editor’s Note:Our colleague, Jason Bodner, was a senior executive and partner on Wall Street during previous stock regime changes. He saw up close which types of stocks soar. In fact, he helped cause some of the biggest moves.
+
+Now he’s reverse-engineered a way for everyday folks to get ahead of these big moves, too. Using his approach, you could have seen gains as high as 86%, 213%, 367%, and even 911% in a matter of weeks and months.
+
+That’s why he and Jeff are sitting down this Wednesday, May 20, at 8 p.m. ET… they’ll discuss the details on the regime change they see coming right around the corner and how you can prepare.
+
+Justgo here to automatically sign up.
+
+It all started last Wednesday, May 13, with unexpected outcomes.
+
+Humanoid robotics firm Figure came up with a clever idea to publicly demonstrate what the company had been cooking in research and development.
+
+The idea was to livestream on X and YouTube one of Figure’s Figure 03 intelligent humanoid robots performing a common human task.
+
+Source: Figure
+
+It’s a great time for a litmus test.
+
+Just how far off are humanoids from “human-level” productivity?
+
+The overall purpose of the drill was to have a Figure 03 robot perform human labor for a full eight-hour shift, determining if it could match a level of human productivity.
+
+The chosen task was small package sorting. Figure 03’s responsibilities were:
+
+It’s tedious and physically tiring work for humans that has become relentless work, given the world we now live in, with deliveries coming just a day later, and sometimes within hours.
+
+Humans average around three seconds per package, and Figure wanted to see if its robot could match the pace.
+
+The Figure 03 robot would work for three to four hours until it got low on battery.
+
+Then, it would autonomously communicate with another Figure 03 to take over the shift.
+
+If you look closely at the video shown above, you can see a couple of additional Figure 03’s standing in the background.
+
+They are actually docked into a charging station.
+
+So as one steps off to take over a shift, the other one will simply return to an available charging station to refuel.
+
+The eight hours came and went quickly.
+
+And it seemed almost a surprise to Figure that its robots completed a full shift so successfully. In the waning minutes of the livestream, Figure 03 had already sorted through more than 9,700 packages.
+
+Source: X @adcock_brett
+
+The excitement was palpable among the team at Figure, as well as from those of us in the industry watching closely at the progress.
+
+After all, if Figure 03 could so easily cruise through an eight-hour shift for this kind of tedious work, surely it can do a whole lot more.
+
+So, what did Figure do?
+
+It doubled down.
+
+Figure decided to extend the livestream to 24 hours.
+
+It got so much attention that there was a prediction market to trade for how many hours Figure 03 would run without failing.
+
+Source: Polymarket
+
+By day two, having exceeded 24 hours of operation without failure, the excitement continued.
+
+Figure announced that it would be launchinga Shopify storeto make merch available on its website. Because obviously if you’re cheering this hard, you need swag for the newly named robots – “Frank” and “Rose” – working the shifts. Go, Rose, go!
+
+By May 15, Figure 03 had passed the 48-hour mark.
+
+By May 16, Figure 03 had passed through 80 hours straight of continuous work, sorting through more than 100,000 packages.
+
+And then the inevitable happened.
+
+All the progress invited the most obvious head-to-head…
+
+Human versus machine.
+
+Who needs a UFC fight when you can have an intelligent humanoid robot pitted against a human?
+
+So yesterday, Sunday, at 10 a.m. PT, the battle began.
+
+The rules were simple:
+
+The results were nothing short of phenomenal.
+
+The general expectation was that the human would win, and that Figure 03 would not be able to move as quickly as the human in a sorting capacity that requires fine motor skills and vision to complete the task.
+
+And while the human did, in fact, win, here were the results…
+
+The difference was a mere 192 packages.
+
+That’s all.
+
+Figure CEO Brett Adcock proclaimed,“This is the last time a human will ever win.”
+
+And he’s right.
+
+Here’s the thing…
+
+Most people watching were focused on the robot, the machine, and its ability to perform the task at hand adeptly.
+
+But that wasn’t the breakthrough.
+
+The breakthrough was in the software… what Figure refers to as its Helix 02 – its single neural network that enables full-body autonomy, which it announced in January.
+
+Figure refers to it as a foundation model for “humanlike, whole-body control.”
+
+The real-time inputs in Helix 02 are cameras in the “head,” cameras in the palms of Figure 03, fingertip tactile sensors, and full-body proprioception.
+
+Proprioception is the awareness of the robot’s position, movement, and posture in space.
+
+This is enabled through sensors that measure joint angles, velocities, and applied forces.
+
+It’s easiest to think of Helix 02 as the brain of Figure 03.
+
+And if we learned anything from Figure’s head-to-head livestream, it’s that Figure’s intelligent general-purpose humanoid robot can operate on par with an equivalent human worker.
+
+The difference between the two is now nominal, and Figure 03 will only get faster in the weeks ahead.
+
+We’ve crossed the threshold.
+
+And now Figure is a viable competitor to Tesla’s Optimus, given this latest demonstration.
+
+Yes, Figure pulled off a brilliant marketing stunt.
+
+Of course, it had already tested and knew how well the robot was performing. It was brilliant, nonetheless.
+
+Figure leaned in, had fun with it, and chose a task that was simple for anyone to understand.
+
+And it’s just as easy to believe that Figure 03 will exceed human performance in the weeks ahead as the neural network improves.
+
+As we might imagine, the implications are, of course, far bigger.
+
+This isn’t about package sorting at all.
+
+This is about any form of tedious human labor that is physically demanding and repetitive.
+
+Whether it is in the home, in an office, at a logistics facility, at a hospital, or in an industrial setting, Figure 03 and its future versions will be capable of performing tasks beyond human capabilities.
+
+So, it won’t be long before a Figure 03, Figure 04, or Optimus steps out of a delivery truck to drop off a package on your doorstep.
+
+Source: Figure
+
+No need to be concerned.
+
+“They” are just doing their jobs.
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+The floodgates have opened… interest rates are coming down later this year. The economy is booming, and so will...
+
+Human history tends to move in waves of innovation... and now, we're entering the next wave.
+
+This odd situation is a clear indication that the market is realizing that AI infrastructure demand is spreading across...
+
+Read the latest insights from the world of high technology.
+
+The floodgates have opened… interest rates are coming down later this year. The economy is booming, and so will...
+
+Human history tends to move in waves of innovation... and now, we're entering the next wave.
+
+This odd situation is a clear indication that the market is realizing that AI infrastructure demand is spreading across...

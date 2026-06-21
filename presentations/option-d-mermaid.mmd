@@ -1,0 +1,35 @@
+flowchart LR
+  classDef dark fill:#1D1D1F,color:#F5F5F7,stroke:#1D1D1F,stroke-width:1px;
+  classDef blue fill:#0071E3,color:#F5F5F7,stroke:#0071E3,stroke-width:1px;
+  classDef green fill:#34C759,color:#1D1D1F,stroke:#34C759,stroke-width:1px;
+  classDef orange fill:#FF9500,color:#1D1D1F,stroke:#FF9500,stroke-width:1px;
+  classDef red fill:#FF3B30,color:#F5F5F7,stroke:#FF3B30,stroke-width:1px;
+  classDef light fill:#F5F5F7,color:#1D1D1F,stroke:#D2D2D7,stroke-width:1px;
+
+  A[Lead Pipeline\nVictoria Landscapers\n10 total]:::dark --> B
+
+  subgraph Extraction[Extraction]
+    direction TB
+    B[Scraper Run\n10 landscaper businesses]:::blue --> C[Normalize Records\nphone • website • location]:::light
+    C --> D[Tag Freshness\n7 New • 3 Existing]:::green
+  end
+
+  subgraph Scoring[Scoring]
+    direction TB
+    D --> E[Lead Score Engine]:::blue
+    E --> F1[GreenScape Pro\nScore 92]:::red
+    E --> F2[Urban Garden\nScore 88]:::red
+    E --> F3[Botanical Edge\nScore 71]:::orange
+  end
+
+  subgraph Actions[Actions]
+    direction TB
+    G[Website Opportunity Split\n47% No Website]:::orange --> H[Priority Outreach\nCall 92 + 88 Today]:::red
+    F1 --> H
+    F2 --> H
+    F3 --> I[Follow-Up Queue\nNurture 71 Score]:::orange
+    H --> J[Offer AI Voice + Chat Package]:::green
+    I --> J
+  end
+
+  D --> G

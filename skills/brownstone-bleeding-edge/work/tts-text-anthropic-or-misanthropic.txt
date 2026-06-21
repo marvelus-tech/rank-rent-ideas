@@ -1,0 +1,131 @@
+Anthropic or Misanthropic
+
+May 15, 2026
+
+Some might say it was the kind of deal that would only happen when hell freezes over.
+
+Last week, a highly unexpected deal in artificial intelligence was announced…
+
+Some might say it was the kind of deal that would only happenwhen hell freezes over.
+
+It was a deal for AI computational resources – signed by SpaceXAI (the new name for SpaceX) and Anthropic, one of the leading frontier AI model companies.
+
+And it was a big one.
+
+SpaceXAI agreed to lease the resources of its Colossus 1 AI data center in South Memphis, Tennessee, to Anthropic.
+
+Colossus 1, a site that I’ve visited, shattered all records for what was possible in architecting, constructing, and commissioning what became the world’s largest homogenous cluster of GPUs at the time.
+
+xAI managed to string together 220,000-230,000 GPUs in a record 122 days – a jaw-dropping feat that had the rest of the industry shaking their heads and asking, “How is that possible?”
+
+And Anthropic wanted access to this engineering marvel. Its interest in doing business with SpaceXAI is simple to understand… pure necessity.
+
+Anthropic’s biggest shortcoming as a company is that it lacked the computational resources to support the demand to access its frontier AI models.
+
+Unlike OpenAI, Google (GOOGL), Meta (META), Microsoft (MSFT), or Amazon (AMZN), Anthropic’s business strategy has been toleasecomputational resources, rather than build out its own AI data centers to support its frontier AI models.
+
+Google and Amazon have been Anthropic’s largest compute partners to date…
+
+The numbers are mind-boggling, and yet they still make sense if we understand the demand for using Claude, the computational needs for AGI, and ultimately artificial superintelligence (ASI).
+
+The only divergence from Anthropic’s strategy for leasing computational resources was an announcement made last November.
+
+Shown below, Anthropic agreed to invest $50 billion in “American computing infrastructure,” choosing to partner with Fluidstack to build data centers in Texas and New York.
+
+Source: Anthropic
+
+The announcement was structured in such a way to highlight that it would be creating 2,400 construction jobs and 800 permanent jobs in the U.S.
+
+The announcement even went so far as to state this…
+
+[The project] will help advance the goals in the Trump administration’s AI Action Plan to maintain American AI leadership and strengthen domestic technology infrastructure.
+
+From my analysis, it’s obvious that this deal was designed to buy goodwill from the U.S. government.
+
+Anthropic has long been known for having developed the most biased AI designed to push political narratives. It has also tried to restrict the U.S. government in how its AI is used.
+
+These points eventually led to a banning of the use of Anthropic by the U.S. Department of War, as Anthropic was deemed a “supply chain risk to national security.”
+
+But the reality is that even without the U.S. government’s business, Anthropic’s business has been booming, and it needs far more compute that it currently has access to.
+
+Which leads us to the deal with SpaceXAI, and why it came as such a surprise.
+
+It has been no secret that Elon Musk has never liked what Anthropic has been building.
+
+He went to far as to label Anthropic as “evil” and a company that hates Western civilization.
+
+Source: Elon Musk
+
+The irony of Anthropic’s name has been particularly poignant to Musk, noting that “Anthropic is Misanthropic.”
+
+Musk has consistently taken issue with Anthropic over the last year because of how Anthropic programs mistruths into its models.
+
+Anthropic has been abusing its current position, much in the same way that Google, Meta, and Microsoft did during the pandemic, something that I find dangerous and yes… evil.
+
+It’s a certainty that the people of Anthropic don’t care much for Musk, either…
+
+But without the additional computational resources, Anthropic was in a bind.
+
+SpaceXAI has something that Anthropic’s other providers don’t have: excess available AI computational resources.
+
+This is evidenced by Anthropic’s announcement last week:
+
+Just have a look at the dramatic rate limit increases in the table below…
+
+Source: Anthropic
+
+The demand for Anthropic’s AI has been so severe that it has been forced to limit the usage for its customers.
+
+This became a massive problem in recent months, so much so that it cut the deal with SpaceXAI.
+
+Meanwhile, Musk’s willingness to conduct business with (mis)Anthropic was such an about-face that it required some explanation from Musk.
+
+Smartly, he met with the Anthropic team to evaluate whether he would be all right doing business with them.
+
+It wasn’t without a caveat, though.
+
+“So long as they engage in critical self-examination, Claude will probably be good.”
+
+That certainly suggests that if Anthropic doesn’t clean up its act and stick to the truth, the deal could be at risk.
+
+Many journalists misunderstood and mistook the deal to suggest that SpaceXAI has given up on its aspirations to become the world’s leading AI model, the first to AGI, and ultimately ASI.
+
+“They” also suggested that SpaceXAI didn’t have use for its own AI data center capacity, so it decided to lease it out.
+
+They’re all so wrong.
+
+xAI’s Colossus 1 was its first foray into building an AI data center.
+
+It was a record-breaking feat, one that showed the industry was possible.
+
+But xAI didn’t rest. It immediately built Colossus 2, which now stands at 550,000 GPUs and is the largest homogenous AI data center in the world.
+
+xAI is also known as being the most efficient at training its AI models, meaning it can achieve more with less compute.
+
+SpaceXAI is leasing out its “old” AI data center to Anthropic and keeping its most advanced AI data center to itself.
+
+Anthropic gets what it needs immediately, and SpaceXAI immediately starts getting paid for AI computational resources, giving it a source of revenue leading up to its IPO.
+
+Musk also demonstrates his willingness to work on fair and reasonable terms with a competitor, something that Musk has demonstrated with SpaceX and even Tesla.
+
+And if that’s not exciting enough, part of the Anthropic/SpaceXAI deal is to further the partnership to develop “multiple gigawatts of orbital AI compute capacity.”
+
+Not only is SpaceXAI now competing directly with Google, Amazon, Microsoft, and Oracle for terrestrial web services, it is already cutting deals to dominate in orbital web services (OWS), a completely new industry.
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+The floodgates have opened… interest rates are coming down later this year. The economy is booming, and so will...
+
+Human history tends to move in waves of innovation... and now, we're entering the next wave.
+
+This odd situation is a clear indication that the market is realizing that AI infrastructure demand is spreading across...
+
+Read the latest insights from the world of high technology.
+
+The floodgates have opened… interest rates are coming down later this year. The economy is booming, and so will...
+
+Human history tends to move in waves of innovation... and now, we're entering the next wave.
+
+This odd situation is a clear indication that the market is realizing that AI infrastructure demand is spreading across...

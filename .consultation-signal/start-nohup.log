@@ -1,0 +1,997 @@
+🎙️  Starting Consultation Webhook Server + transcription worker...
+📡 Endpoint: http://localhost:5678/webhook/consultation
+📁 Files saved to: ~/Obsidian/Consultations/Incoming
+
+To expose with ngrok (in another terminal):
+  ngrok http 5678
+
+2026-03-27 10:29:52 | INFO | Consultation watcher started
+2026-03-27 10:29:52 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 10:29:52 | INFO | Starting processing for client: fake
+2026-03-27 10:29:52 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-210306-fake.webm
+🎙️  Consultation Webhook Server
+📁 Saving to: /Users/oktos/Obsidian/Consultations/Incoming
+📡 Job signals: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+📡 Legacy mirror: /Users/oktos/.openclaw/workspace/.consultation-signal/new-recording.json
+🚀 Starting server on http://localhost:5678
+
+Ready to receive recordings!
+
+ * Serving Flask app 'server'
+ * Debug mode: off
+[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5678
+ * Running on http://10.2.0.2:5678
+[33mPress CTRL+C to quit[0m
+127.0.0.1 - - [27/Mar/2026 10:29:56] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:29:56] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:00] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:00] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:04] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:04] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:08] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:08] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:12] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:12] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:16] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:16] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:20] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:20] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:24] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:24] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:29] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:29] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:32] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:32] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:36] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:36] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:40] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:40] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:44] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:44] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:48] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:48] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:52] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:52] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:56] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:30:57] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:00] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:00] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:04] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:04] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:08] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:08] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:12] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:12] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:16] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:16] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:20] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:20] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:24] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:24] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:28] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:28] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:32] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:32] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:36] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:36] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:40] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:40] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:44] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:45] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:48] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:48] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:52] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:52] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:56] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:31:56] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:00] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:00] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:04] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:04] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:08] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:08] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:12] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:12] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:16] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:16] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:20] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:20] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:24] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:24] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:28] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:28] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:32] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:32] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:37] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:37] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:41] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:41] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:32:45 | INFO | Transcription complete (338 chars)
+2026-03-27 10:32:45 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-210306-fake.md
+2026-03-27 10:32:45 | INFO | Processing complete for fake (2026-03-26-210306-fake.json)
+127.0.0.1 - - [27/Mar/2026 10:32:45] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:45] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:32:45 | INFO | Starting processing for client: faker
+2026-03-27 10:32:45 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-210809-faker.webm
+127.0.0.1 - - [27/Mar/2026 10:32:49] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:49] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:32:52 | INFO | Transcription complete (391 chars)
+2026-03-27 10:32:52 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-210809-faker.md
+2026-03-27 10:32:52 | INFO | Processing complete for faker (2026-03-26-210809-faker.json)
+2026-03-27 10:32:52 | INFO | Starting processing for client: big boobs
+2026-03-27 10:32:52 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-211743-big-boobs.webm
+127.0.0.1 - - [27/Mar/2026 10:32:53] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:53] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:57] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:32:57] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:32:58 | INFO | Transcription complete (451 chars)
+2026-03-27 10:32:58 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-211743-big-boobs.md
+2026-03-27 10:32:58 | INFO | Processing complete for big boobs (2026-03-26-211743-big-boobs.json)
+2026-03-27 10:32:59 | INFO | Starting processing for client: lusie
+2026-03-27 10:32:59 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-212457-lusie.webm
+127.0.0.1 - - [27/Mar/2026 10:33:01] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:01] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:33:04 | INFO | Transcription complete (489 chars)
+2026-03-27 10:33:04 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-212457-lusie.md
+2026-03-27 10:33:04 | INFO | Processing complete for lusie (2026-03-26-212457-lusie.json)
+127.0.0.1 - - [27/Mar/2026 10:33:05] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:05] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:33:05 | INFO | Starting processing for client: bertha
+2026-03-27 10:33:05 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-213456-bertha.webm
+127.0.0.1 - - [27/Mar/2026 10:33:09] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:09] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:33:11 | INFO | Transcription complete (421 chars)
+2026-03-27 10:33:11 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-213456-bertha.md
+2026-03-27 10:33:11 | INFO | Processing complete for bertha (2026-03-26-213456-bertha.json)
+2026-03-27 10:33:12 | INFO | Starting processing for client: MILF
+2026-03-27 10:33:12 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-214129-MILF.webm
+127.0.0.1 - - [27/Mar/2026 10:33:13] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:13] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:17] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:17] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:33:18 | INFO | Transcription complete (546 chars)
+2026-03-27 10:33:18 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-214129-MILF.md
+2026-03-27 10:33:18 | INFO | Processing complete for MILF (2026-03-26-214129-MILF.json)
+2026-03-27 10:33:18 | INFO | Starting processing for client: Luzy
+2026-03-27 10:33:18 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-222533-Luzy.webm
+127.0.0.1 - - [27/Mar/2026 10:33:20] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:20] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:24] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:24] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:33:25 | INFO | Transcription complete (351 chars)
+2026-03-27 10:33:25 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-222533-Luzy.md
+2026-03-27 10:33:25 | INFO | Processing complete for Luzy (2026-03-26-222533-Luzy.json)
+2026-03-27 10:33:25 | INFO | Starting processing for client: dasfa
+2026-03-27 10:33:25 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-230512-dasfa.webm
+127.0.0.1 - - [27/Mar/2026 10:33:28] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:28] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:33:31 | INFO | Transcription complete (406 chars)
+2026-03-27 10:33:31 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-230512-dasfa.md
+2026-03-27 10:33:31 | INFO | Processing complete for dasfa (2026-03-26-230512-dasfa.json)
+2026-03-27 10:33:31 | INFO | Starting processing for client: lola
+2026-03-27 10:33:31 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-092207-lola.webm
+127.0.0.1 - - [27/Mar/2026 10:33:32] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:32] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:36] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:36] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:33:39 | INFO | Transcription complete (489 chars)
+2026-03-27 10:33:39 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-092207-lola.md
+2026-03-27 10:33:39 | INFO | Processing complete for lola (2026-03-27-092207-lola.json)
+2026-03-27 10:33:39 | INFO | Starting processing for client: inhome
+2026-03-27 10:33:39 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-093127-inhome.webm
+127.0.0.1 - - [27/Mar/2026 10:33:40] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:40] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:44] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:44] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:33:45 | INFO | Transcription complete (407 chars)
+2026-03-27 10:33:45 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-093127-inhome.md
+2026-03-27 10:33:45 | INFO | Processing complete for inhome (2026-03-27-093127-inhome.json)
+2026-03-27 10:33:46 | INFO | Starting processing for client: Patience
+2026-03-27 10:33:46 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-093446-Patience.webm
+127.0.0.1 - - [27/Mar/2026 10:33:48] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:48] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:52] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:52] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:33:55 | INFO | Transcription complete (619 chars)
+2026-03-27 10:33:55 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-093446-Patience.md
+2026-03-27 10:33:55 | INFO | Processing complete for Patience (2026-03-27-093446-Patience.json)
+2026-03-27 10:33:56 | INFO | Starting processing for client: patty
+2026-03-27 10:33:56 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-094013-patty.webm
+127.0.0.1 - - [27/Mar/2026 10:33:56] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:33:56] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:00] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:00] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:04] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:04] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:34:07 | INFO | Transcription complete (633 chars)
+2026-03-27 10:34:07 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-094013-patty.md
+2026-03-27 10:34:07 | INFO | Processing complete for patty (2026-03-27-094013-patty.json)
+2026-03-27 10:34:07 | INFO | Starting processing for client: betty
+2026-03-27 10:34:07 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-095009-betty.webm
+127.0.0.1 - - [27/Mar/2026 10:34:08] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:08] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:12] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:12] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:34:15 | INFO | Transcription complete (425 chars)
+2026-03-27 10:34:15 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-095009-betty.md
+2026-03-27 10:34:15 | INFO | Processing complete for betty (2026-03-27-095009-betty.json)
+2026-03-27 10:34:15 | INFO | Starting processing for client: 69th recording
+2026-03-27 10:34:15 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-102145-69th-recording.webm
+127.0.0.1 - - [27/Mar/2026 10:34:16] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:16] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:20] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:20] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:24] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:24] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+2026-03-27 10:34:25 | INFO | Transcription complete (581 chars)
+2026-03-27 10:34:25 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-102145-69th-recording.md
+2026-03-27 10:34:25 | INFO | Processing complete for 69th recording (2026-03-27-102145-69th-recording.json)
+127.0.0.1 - - [27/Mar/2026 10:34:28] "OPTIONS /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:28] "GET /webhook/status?file=2026-03-27-102145-69th-recording.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:34:29] "[33mOPTIONS /webhook/enhance-email HTTP/1.1[0m" 404 -
+127.0.0.1 - - [27/Mar/2026 10:36:30] "OPTIONS /webhook/upload/start HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:30] "POST /webhook/upload/start HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:31] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:32] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:33] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:34] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:34] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:35] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:36] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:37] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:38] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:38] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:39] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:40] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:40] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:41] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:42] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:42] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:44] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:45] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:46] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:46] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:47] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:48] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:49] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:49] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:50] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:50] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:51] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:52] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:53] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:53] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:54] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:55] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:55] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:56] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:57] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:58] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:58] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:36:59] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:00] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:00] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:01] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:02] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:02] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:04] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:05] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:06] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:06] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:07] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:08] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:09] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:10] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:10] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:12] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:13] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:14] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:15] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:15] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:16] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:17] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:18] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:18] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:19] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:20] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:20] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:21] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:22] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:23] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:23] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:24] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:25] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:25] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:26] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:27] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:27] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:28] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:29] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:29] "OPTIONS /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:30] "POST /webhook/upload/part?uploadId=6804d0d8-098a-4117-b05c-5e289b092a4b HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:31] "OPTIONS /webhook/upload/finish HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:31] "POST /webhook/upload/finish HTTP/1.1" 200 -
+2026-03-27 10:37:31 | INFO | Starting processing for client: webber
+2026-03-27 10:37:31 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-103630-webber.webm
+127.0.0.1 - - [27/Mar/2026 10:37:34] "OPTIONS /webhook/status?file=2026-03-27-103630-webber.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:34] "GET /webhook/status?file=2026-03-27-103630-webber.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:36] "OPTIONS /webhook/status?file=2026-03-27-103630-webber.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:36] "GET /webhook/status?file=2026-03-27-103630-webber.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:38] "OPTIONS /webhook/status?file=2026-03-27-103630-webber.webm HTTP/1.1" 200 -
+2026-03-27 10:37:38 | INFO | Transcription complete (439 chars)
+2026-03-27 10:37:38 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-103630-webber.md
+2026-03-27 10:37:38 | INFO | Processing complete for webber (2026-03-27-103630-webber.json)
+127.0.0.1 - - [27/Mar/2026 10:37:38] "GET /webhook/status?file=2026-03-27-103630-webber.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 10:37:39] "[33mOPTIONS /webhook/enhance-email HTTP/1.1[0m" 404 -
+2026-03-27 10:47:21 | INFO | Received signal 15; shutting down watcher
+127.0.0.1 - - [27/Mar/2026 11:09:13] "GET /webhook/health HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:09:13] "GET /webhook/status?file=nonexistent.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:09:21] "POST /webhook/consultation HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/start HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/start HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:01] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "OPTIONS /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "POST /webhook/upload/part?uploadId=fc9a058f-9bde-4deb-b309-b51a9e8634e8 HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "OPTIONS /webhook/upload/finish HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "POST /webhook/upload/finish HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:02] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:03] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:03] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:05] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:05] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:06] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:06] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:08] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:08] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:09] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:09] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:11] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:11] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:12] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:12] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:14] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:14] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:15] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:15] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:17] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:17] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:18] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:18] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:20] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:20] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:21] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:21] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:23] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:23] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:24] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:24] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:26] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:26] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:27] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:27] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:29] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:29] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:30] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:30] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:32] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:32] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:33] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:33] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:35] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:35] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:36] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:36] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:38] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:38] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:39] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:39] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:41] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:41] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:42] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:42] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:44] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:44] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:45] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:45] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:47] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:47] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:48] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:48] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:50] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:50] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:51] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:51] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:53] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:53] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:54] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:54] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:56] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:56] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:57] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:57] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:59] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:19:59] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:00] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:00] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:02] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:02] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:03] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:03] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:05] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:05] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:06] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:06] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:08] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:08] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:09] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:09] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:11] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:11] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:12] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:12] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:14] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:14] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:15] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:15] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:17] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:17] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:18] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:18] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:20] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:20] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:21] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:21] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:23] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:23] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:24] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:24] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:26] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:26] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:27] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:27] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:29] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:29] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:30] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:30] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:32] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:32] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:33] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:33] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:35] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:35] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:36] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:36] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:38] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:38] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:39] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:39] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:41] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:41] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:42] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:42] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:44] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:44] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:45] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:45] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:47] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:47] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:48] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:48] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:50] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:50] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:51] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:51] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:53] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:53] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:54] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:54] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:56] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:56] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:57] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-102145-69th-recording.webm'
+Status check for: '2026-03-27-103630-webber.webm'
+Status check for: '2026-03-27-103630-webber.webm'
+Status check for: '2026-03-27-103630-webber.webm'
+Status check for: 'nonexistent.webm'
+✅ Saved: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.webm
+✅ Created note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.md
+✅ Job signal: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs/2026-03-27-110921-E2E-Curl-Test.json
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'
+Status check for: '2026-03-27-111901-LILA.webm'127.0.0.1 - - [27/Mar/2026 11:20:57] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:59] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:20:59] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:00] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:00] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:02] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:02] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:03] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:03] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:05] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:05] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:06] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:06] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:08] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:08] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:09] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:09] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:11] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:11] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:12] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:12] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:14] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:14] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:15] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:15] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:17] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:17] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:18] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:18] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:20] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:20] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:21] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:21] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:23] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:23] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:24] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:24] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:26] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:26] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:27] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:27] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:29] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:29] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:30] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:30] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:32] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:32] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:33] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:33] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:35] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:35] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:36] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:36] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:38] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:38] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:39] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:39] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:41] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:41] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:42] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:42] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:44] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:44] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:45] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:45] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:47] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:47] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:48] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:48] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:50] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:50] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:51] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:51] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:53] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:53] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:54] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:54] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:56] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:56] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:57] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:57] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:59] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:21:59] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:00] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:00] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:04] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:04] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:08] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:08] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:12] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:12] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:16] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:16] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:20] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:20] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:24] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:24] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:28] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:28] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:32] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:32] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:36] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:36] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:40] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:40] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:44] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:44] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:48] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:48] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:52] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:52] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:56] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:22:56] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:00] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:00] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:04] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:04] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:08] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:08] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:12] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:12] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:16] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:16] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:20] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:20] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:24] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:24] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:28] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:28] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:32] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:32] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:36] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:36] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:40] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:40] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:44] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:44] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:48] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:48] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:52] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:52] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:56] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:23:56] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:00] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:00] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:04] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:04] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:08] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:08] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:12] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:12] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:16] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:16] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:20] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:20] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:24] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:24] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:28] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:28] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:32] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:32] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:36] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:36] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:40] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:40] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:44] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:44] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:48] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:48] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:52] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:52] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:56] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:24:56] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:00] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:00] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:04] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:04] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:08] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:08] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:12] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:12] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:16] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:16] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:21] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:21] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:25] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:25] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:29] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:29] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:33] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:33] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:37] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:37] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:41] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:41] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:45] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:45] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:49] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:49] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:53] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:53] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:57] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:25:57] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:01] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:01] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:04] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:04] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:08] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:08] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:12] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:12] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:16] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:16] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:20] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:20] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:24] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:24] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:29] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:29] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:33] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:33] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:36] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:36] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:40] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:40] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:44] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:44] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:48] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:48] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:52] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:52] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:56] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:26:56] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:00] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:00] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:04] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:04] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:08] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:08] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:12] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:12] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:16] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:16] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:20] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:20] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:24] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:24] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:28] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:28] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:32] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:32] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:36] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:36] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:40] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:40] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:44] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:44] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:48] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:48] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:52] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:52] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:56] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:27:56] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:00] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:00] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:04] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:04] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:08] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:08] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:12] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:12] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:16] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:16] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:20] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:20] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:25] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:25] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:29] "OPTIONS /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+127.0.0.1 - - [27/Mar/2026 11:28:29] "GET /webhook/status?file=2026-03-27-111901-LILA.webm HTTP/1.1" 200 -
+Terminated: 15
+./start.sh: line 39: syntax error near unexpected token `('
+./start.sh: line 39: `l \$(lsof -nP -t -iTCP:5678 -sTCP:LISTEN)"'

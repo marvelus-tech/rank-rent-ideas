@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TKO Intel Feed</title>
+  <meta name="description" content="Business intelligence dashboard from The Koerner Office podcast." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper: #faf7f1;
+      --card: #fffdf8;
+      --ink: #22201b;
+      --muted: #6f6758;
+      --line: #ddd2c2;
+      --line-soft: #ece3d7;
+      --accent: #3f6ea8;
+      --gold: #b8891d;
+      --radius: 16px;
+      --shadow: 0 8px 24px rgba(33, 29, 21, .08);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: "Inter", sans-serif;
+      color: var(--ink);
+      background: radial-gradient(circle at 100% 0%, #f4efe7 0%, var(--paper) 42%, #f7f2ea 100%);
+    }
+
+    .app {
+      width: min(1080px, 100%);
+      margin: 0 auto;
+      padding: 18px 12px 72px;
+    }
+
+    h1 {
+      margin: 0;
+      font-family: "Playfair Display", serif;
+      font-size: clamp(2rem, 8vw, 3rem);
+      letter-spacing: -.02em;
+    }
+
+    .sub {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: .95rem;
+    }
+
+    .stats {
+      margin-top: 18px;
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .stat {
+      background: var(--card);
+      border: 1px solid var(--line-soft);
+      border-radius: 14px;
+      padding: 12px;
+      box-shadow: var(--shadow);
+    }
+
+    .stat-label {
+      color: var(--muted);
+      font-size: .74rem;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    .stat-value {
+      margin-top: 5px;
+      font-family: "Playfair Display", serif;
+      font-size: 1.26rem;
+      line-height: 1.05;
+    }
+
+    .controls {
+      margin-top: 14px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 12px;
+      display: grid;
+      gap: 8px;
+    }
+
+    .row { display: grid; gap: 8px; }
+
+    input, select {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: #fffcf7;
+      color: var(--ink);
+      border-radius: 12px;
+      font-size: .92rem;
+      padding: 10px 12px;
+      min-height: 44px;
+    }
+
+    input:focus, select:focus {
+      border-color: #bba272;
+      outline: 2px solid #f2e1bc;
+      outline-offset: 1px;
+    }
+
+    .meta {
+      display: flex;
+      justify-content: space-between;
+      color: var(--muted);
+      font-size: .82rem;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .episodes {
+      margin-top: 14px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .episode {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .ep-head {
+      width: 100%;
+      border: 0;
+      background: transparent;
+      text-align: left;
+      padding: 14px;
+      cursor: pointer;
+      display: grid;
+      gap: 8px;
+      color: inherit;
+    }
+
+    .ep-top {
+      display: flex;
+      justify-content: space-between;
+      font-size: .74rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: .06em;
+      gap: 10px;
+    }
+
+    .ep-title {
+      margin: 0;
+      font-family: "Playfair Display", serif;
+      font-size: 1.3rem;
+      line-height: 1.18;
+    }
+
+    .ep-desc {
+      margin: 0;
+      color: var(--muted);
+      font-size: .9rem;
+      line-height: 1.45;
+    }
+
+    .chev {
+      justify-self: end;
+      color: var(--muted);
+      font-size: .85rem;
+      transition: transform .25s ease;
+    }
+
+    .ep-content {
+      display: grid;
+      grid-template-rows: 0fr;
+      transition: grid-template-rows .28s ease;
+      border-top: 1px solid transparent;
+    }
+
+    .ep-inner {
+      min-height: 0;
+      overflow: hidden;
+      padding: 0 14px;
+      display: grid;
+      gap: 10px;
+    }
+
+    .episode.open .ep-content {
+      grid-template-rows: 1fr;
+      border-top-color: var(--line-soft);
+    }
+
+    .episode.open .ep-inner { padding: 12px 14px 14px; }
+    .episode.open .chev { transform: rotate(180deg); }
+
+    audio { width: 100%; }
+
+    .intel-grid { display: grid; gap: 10px; }
+
+    .intel-card {
+      border: 1px solid var(--line-soft);
+      border-radius: 14px;
+      background: linear-gradient(180deg, #fffdf9 0%, #fdf8ef 100%);
+      padding: 12px;
+      display: grid;
+      gap: 9px;
+    }
+
+    .intel-head {
+      display: flex;
+      gap: 8px;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+
+    .idea {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 700;
+      line-height: 1.3;
+    }
+
+    .badge {
+      font-size: .7rem;
+      border-radius: 999px;
+      border: 1px solid #d7cab6;
+      background: #f7efe2;
+      color: #5d503f;
+      padding: 4px 8px;
+      white-space: nowrap;
+    }
+
+    .meta-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 7px;
+    }
+
+    .kv {
+      background: #fffefb;
+      border: 1px solid var(--line-soft);
+      border-radius: 10px;
+      padding: 8px;
+      font-size: .77rem;
+      color: var(--muted);
+    }
+
+    .kv b {
+      display: block;
+      margin-top: 3px;
+      color: var(--ink);
+      font-size: .88rem;
+    }
+
+    .score {
+      font-size: .74rem;
+      font-weight: 700;
+      border-radius: 999px;
+      padding: 5px 8px;
+      white-space: nowrap;
+      border: 1px solid transparent;
+    }
+
+    .score.gold { background: #f8ebc9; border-color: #e4cb83; color: #7e5f14; }
+    .score.blue { background: #e9f2ff; border-color: #b9d3fa; color: #245492; }
+    .score.gray { background: #efefef; border-color: #d8d8d8; color: #5f5f5f; }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+
+    .chip {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      padding: 4px 8px;
+      font-size: .73rem;
+      color: #5d564a;
+      background: #fffcf6;
+    }
+
+    .insight {
+      margin: 0;
+      font-size: .88rem;
+      line-height: 1.5;
+      color: #3f392f;
+    }
+
+    .empty {
+      border: 1px dashed var(--line);
+      border-radius: 12px;
+      color: var(--muted);
+      padding: 18px 12px;
+      text-align: center;
+      font-size: .9rem;
+      background: #fffefb;
+    }
+
+    @media (min-width: 820px) {
+      .app { padding: 28px 16px 84px; }
+      .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+      .row { grid-template-columns: 2fr 1fr 1fr 1fr; }
+      .intel-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <h1>TKO Intel Feed</h1>
+    <p class="sub">Episodes with extracted business intelligence ideas.</p>
+
+    <section class="stats" aria-label="Dashboard stats">
+      <article class="stat"><div class="stat-label">Episodes processed</div><div id="statEpisodes" class="stat-value">—</div></article>
+      <article class="stat"><div class="stat-label">Ideas extracted</div><div id="statIdeas" class="stat-value">—</div></article>
+      <article class="stat"><div class="stat-label">Average match score</div><div id="statAvg" class="stat-value">—</div></article>
+      <article class="stat"><div class="stat-label">Top category</div><div id="statTopCategory" class="stat-value">—</div></article>
+    </section>
+
+    <section class="controls">
+      <div class="row">
+        <input id="search" type="search" placeholder="Search idea name or category" autocomplete="off" />
+        <select id="barrier">
+          <option value="all">All barriers</option>
+          <option value="Low">Low</option>
+          <option value="Medium">Medium</option>
+          <option value="High">High</option>
+        </select>
+        <select id="timeline">
+          <option value="all">All timelines</option>
+          <option value="Days">Days</option>
+          <option value="Weeks">Weeks</option>
+          <option value="Months">Months</option>
+        </select>
+        <select id="score">
+          <option value="all">All scores</option>
+          <option value="7">7+</option>
+          <option value="5">5+</option>
+        </select>
+      </div>
+      <div class="meta">
+        <span id="meta">Loading dashboard…</span>
+        <span id="count">—</span>
+      </div>
+    </section>
+
+    <section id="episodes" class="episodes" aria-live="polite"></section>
+  </main>
+
+  <script>
+    const els = {
+      episodes: document.getElementById('episodes'),
+      search: document.getElementById('search'),
+      barrier: document.getElementById('barrier'),
+      timeline: document.getElementById('timeline'),
+      score: document.getElementById('score'),
+      meta: document.getElementById('meta'),
+      count: document.getElementById('count'),
+      statEpisodes: document.getElementById('statEpisodes'),
+      statIdeas: document.getElementById('statIdeas'),
+      statAvg: document.getElementById('statAvg'),
+      statTopCategory: document.getElementById('statTopCategory')
+    };
+
+    const state = {
+      episodes: [],
+      q: '',
+      barrier: 'all',
+      timeline: 'all',
+      score: 'all',
+      openEpisodeIds: new Set()
+    };
+
+    const esc = (v = '') => String(v).replace(/[&<>"']/g, (m) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[m]));
+
+    const toDate = (v) => {
+      const d = new Date(v || '');
+      return Number.isNaN(d.getTime()) ? 'Unknown date' : d.toLocaleDateString(undefined, { day: 'numeric', month: 'short', year: 'numeric' });
+    };
+
+    const normalizeBarrier = (v = '') => {
+      const t = String(v).toLowerCase();
+      if (t.includes('low')) return 'Low';
+      if (t.includes('high')) return 'High';
+      return 'Medium';
+    };
+
+    const normalizeTimeline = (v = '') => {
+      const t = String(v).toLowerCase();
+      if (t.includes('day')) return 'Days';
+      if (t.includes('week')) return 'Weeks';
+      if (t.includes('month')) return 'Months';
+      return 'Weeks';
+    };
+
+    const scoreClass = (score) => {
+      const n = Number(score) || 0;
+      if (n >= 8) return 'gold';
+      if (n >= 5) return 'blue';
+      return 'gray';
+    };
+
+    function rawIdeas(ep) {
+      const out = [];
+      if (Array.isArray(ep?.intelligence)) out.push(...ep.intelligence);
+      if (Array.isArray(ep?.intelligence?.cards)) out.push(...ep.intelligence.cards);
+      if (Array.isArray(ep?.businessIntelligence)) out.push(...ep.businessIntelligence);
+      return out;
+    }
+
+    function normalizeIdeas(ep) {
+      return rawIdeas(ep).map((idea, i) => ({
+        id: idea.id || `${ep.id || ep.guid || 'ep'}-${i}`,
+        ideaName: idea.ideaName || idea.name || idea.idea || `Business idea ${i + 1}`,
+        category: idea.category || 'General',
+        barrier: normalizeBarrier(idea.barrierLevel || idea.barrier || 'Medium'),
+        timeline: normalizeTimeline(idea.timeline || ''),
+        tools: Array.isArray(idea.toolsNeeded) ? idea.toolsNeeded : (Array.isArray(idea.tools) ? idea.tools : []),
+        revenue: Array.isArray(idea.revenueFigures) ? idea.revenueFigures : (idea.revenue ? [idea.revenue] : []),
+        insight: idea.insight || idea.notes || idea.summary || '',
+        matchScore: Math.max(0, Math.min(10, Number(idea.matchScore) || 0))
+      }));
+    }
+
+    function hydrateEpisodes(data) {
+      return (data.episodes || [])
+        .map((ep) => ({ ...ep, ideas: normalizeIdeas(ep) }))
+        .sort((a, b) => new Date(b.publishedAt || b.publishDate || 0) - new Date(a.publishedAt || a.publishDate || 0));
+    }
+
+    function renderStats() {
+      const totalEpisodes = state.episodes.length;
+      const allIdeas = state.episodes.flatMap((ep) => ep.ideas);
+      const totalIdeas = allIdeas.length;
+      const avg = totalIdeas ? (allIdeas.reduce((sum, i) => sum + (Number(i.matchScore) || 0), 0) / totalIdeas) : 0;
+      const categoryCount = allIdeas.reduce((acc, i) => {
+        acc[i.category] = (acc[i.category] || 0) + 1;
+        return acc;
+      }, {});
+      const topCategory = Object.entries(categoryCount).sort((a, b) => b[1] - a[1])[0]?.[0] || '—';
+
+      els.statEpisodes.textContent = String(totalEpisodes);
+      els.statIdeas.textContent = String(totalIdeas);
+      els.statAvg.textContent = totalIdeas ? `${avg.toFixed(1)}/10` : '—';
+      els.statTopCategory.textContent = topCategory;
+    }
+
+    function ideaPasses(idea) {
+      if (state.barrier !== 'all' && idea.barrier !== state.barrier) return false;
+      if (state.timeline !== 'all' && idea.timeline !== state.timeline) return false;
+      if (state.score === '7' && idea.matchScore < 7) return false;
+      if (state.score === '5' && idea.matchScore < 5) return false;
+
+      const q = state.q.trim().toLowerCase();
+      if (!q) return true;
+      return `${idea.ideaName} ${idea.category}`.toLowerCase().includes(q);
+    }
+
+    function filteredEpisodes() {
+      const constrained = state.q.trim() || state.barrier !== 'all' || state.timeline !== 'all' || state.score !== 'all';
+      return state.episodes
+        .map((ep) => ({ ...ep, visibleIdeas: ep.ideas.filter(ideaPasses) }))
+        .filter((ep) => (constrained ? ep.visibleIdeas.length > 0 : true));
+    }
+
+    function ideaCard(idea) {
+      return `
+        <article class="intel-card">
+          <div class="intel-head">
+            <h3 class="idea">${esc(idea.ideaName)}</h3>
+            <span class="score ${scoreClass(idea.matchScore)}">Match ${esc(idea.matchScore.toFixed(1))}</span>
+          </div>
+          <div class="chips">
+            <span class="badge">${esc(idea.category)}</span>
+            <span class="chip">Barrier: ${esc(idea.barrier)}</span>
+            <span class="chip">Timeline: ${esc(idea.timeline)}</span>
+          </div>
+          <div class="meta-grid">
+            <div class="kv">Tools<b>${esc((idea.tools || []).join(', ') || '—')}</b></div>
+            <div class="kv">Revenue<b>${esc((idea.revenue || []).join(', ') || '—')}</b></div>
+          </div>
+          <p class="insight">${esc(idea.insight || 'No insight captured yet.')}</p>
+        </article>
+      `;
+    }
+
+    function episodeCard(ep, isOpen) {
+      const ideas = ep.visibleIdeas || [];
+      return `
+        <article class="episode ${isOpen ? 'open' : ''}" data-episode="${esc(ep.id || ep.guid || '')}">
+          <button class="ep-head" type="button" aria-expanded="${isOpen ? 'true' : 'false'}" data-toggle="${esc(ep.id || ep.guid || '')}">
+            <div class="ep-top"><span>Episode ${esc(ep.episodeNumber || '—')}</span><span>${esc(toDate(ep.publishedAt || ep.publishDate))}</span></div>
+            <h2 class="ep-title">${esc(ep.title || 'Untitled episode')}</h2>
+            <p class="ep-desc">${esc(ep.descriptionExcerpt || ep.description || '')}</p>
+            <span class="chev">▼</span>
+          </button>
+          <div class="ep-content">
+            <div class="ep-inner">
+              ${ep.audioUrl ? `<audio controls preload="none" src="${esc(ep.audioUrl)}"></audio>` : ''}
+              <div class="intel-grid">
+                ${ideas.length ? ideas.map(ideaCard).join('') : '<div class="empty">No business intelligence matched these filters.</div>'}
+              </div>
+            </div>
+          </div>
+        </article>
+      `;
+    }
+
+    function render() {
+      const rows = filteredEpisodes();
+      const firstOpenId = rows[0]?.id || rows[0]?.guid;
+      els.count.textContent = `${rows.length} / ${state.episodes.length} episodes visible`;
+
+      if (!rows.length) {
+        els.episodes.innerHTML = '<article class="empty">No intelligence ideas match this search/filter combo.</article>';
+        return;
+      }
+
+      if (!state.openEpisodeIds.size && firstOpenId) state.openEpisodeIds.add(String(firstOpenId));
+
+      els.episodes.innerHTML = rows.map((ep) => {
+        const id = String(ep.id || ep.guid || '');
+        return episodeCard(ep, state.openEpisodeIds.has(id));
+      }).join('');
+
+      els.episodes.querySelectorAll('[data-toggle]').forEach((btn) => {
+        btn.addEventListener('click', () => {
+          const id = String(btn.dataset.toggle || '');
+          if (!id) return;
+          if (state.openEpisodeIds.has(id)) state.openEpisodeIds.delete(id);
+          else state.openEpisodeIds.add(id);
+          render();
+        });
+      });
+    }
+
+    async function init() {
+      const res = await fetch('./data/tko-intel.json', { cache: 'no-store' });
+      if (!res.ok) throw new Error(`Feed JSON unavailable (${res.status})`);
+      const data = await res.json();
+
+      state.episodes = hydrateEpisodes(data);
+      els.meta.textContent = `${data.feed?.title || 'TKO'} · ${data.intelligenceMeta?.processedEpisodes || state.episodes.length} analyzed`;
+
+      renderStats();
+      render();
+
+      els.search.addEventListener('input', (e) => { state.q = e.target.value || ''; render(); });
+      els.barrier.addEventListener('change', (e) => { state.barrier = e.target.value || 'all'; render(); });
+      els.timeline.addEventListener('change', (e) => { state.timeline = e.target.value || 'all'; render(); });
+      els.score.addEventListener('change', (e) => { state.score = e.target.value || 'all'; render(); });
+    }
+
+    init().catch((err) => {
+      console.error(err);
+      els.meta.textContent = 'Failed to load dashboard data';
+      els.episodes.innerHTML = '<article class="empty">Could not load ./data/tko-intel.json.</article>';
+    });
+  </script>
+</body>
+</html>

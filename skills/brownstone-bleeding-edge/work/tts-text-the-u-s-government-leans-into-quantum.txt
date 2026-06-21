@@ -1,0 +1,163 @@
+U.S. Government Leans into Quantum
+
+May 22, 2026
+
+Most simply don’t understand how quickly quantum computing technology is advancing…
+
+This morning brought some bullish news to the quantum computing sector.
+
+The U.S. Department of Commerce announced that it is awarding $2 billion in grants to nine quantum computing companies.
+
+The grants are unique in that they include U.S. government equity stakes in those businesses, so the capital awards look more like investments than they do traditional grants.
+
+This is something that I predicted at the beginning of the year in mypredictions issue inThe Bleeding Edgeat the start of the year.
+
+In that issue, I specifically predicted:
+
+Prediction 24:We’ll see another major breakthrough in quantum error correction, drawing even more excitement to the quantum computing sector, which will see major growth in 2026.
+
+Prediction 25:The Trump administration will make at least one strategic investment into a quantum computing company, as leadership in this sector has become a matter of national security. The most likely candidates are IonQ (IONQ), Rigetti (RGTI), Quantinuum (private – majority owned by Honeywell), PsiQuantum (private), or Sygaldry (private).
+
+Both have already turned out to be true.
+
+In March, Google announced additional progress on its quantum error correction technology.
+
+It was so significant that Google materially pulled in its own forecasts for the need to enable post-quantum cryptography to 2029.
+
+This was a radical announcement, and I think most still don’t believe it.
+
+Most simply don’t understand how quickly quantum computing technology is advancing. But of course,Bleeding Edgereaders are well informed and aren’t surprised at all.
+
+The background behind my prediction about U.S. government investments into the quantum computing sector is a combination of optics and national security.
+
+The critics of the U.S. government have consistently used the tired trope that the U.S. is losing to China because the Chinese government outspends the U.S. government on quantum computing technologies.
+
+Therefore, the assumption is that the U.S. is behind China.
+
+What is true is that China’s government has outspent the U.S. government in this sector.
+
+Roughly $15 billion has been spent on quantum computing technology in China, $10 billion of which has been spent to fund the Hefei National Laboratory for Quantum Information Sciences.
+
+Most of the investment by China appears to be focused on quantum communications and quantum networking technology, designed to secure future data communications and transmission, whether through terrestrial networks or via satellite communications networks.
+
+The U.S. government, however, has averaged about $1 billion a year in spend over the previous four years on quantum technologies with a broader focus spread over applied quantum applications, quantum computers, quantum networking, and quantum sensing.
+
+Source: United States Government Accountability Office
+
+Given the above figures, I would say that China’s government has spent about 3X more than the U.S. government to date on quantum technologies, which is why uninformed people make the argument that China is ahead.
+
+It is such a sophomoric argument, and it is completely wrong.
+
+It’s wrong because it ignores the investments that have been made by the private sector in quantum computing in the U.S.
+
+The fact is that the U.S. private sector has invested orders of magnitude more than China has in its private sector into quantum computing companies.
+
+By my own calculations, venture capital and private equity have invested around $7-8 billion into private quantum computing companies in the U.S.
+
+Several of those companies – like D-Wave (QBTS), Rigetti Computing, IonQ, Infleqtion (INFQ), Quantum Computing (QUBT), and Quantinuum (QNT) – have gone or will very soon go public, raising an additional $6 billion in their IPOs and follow-on secondary offerings.
+
+And that’s not all…
+
+The above figures don’t include the investments made in quantum computing by the large tech corporations’ research and development teams.
+
+All told, just these four large-cap tech companies have invested at least as much in quantum computing as the venture capital/private equity industry has over the year.
+
+Said another way, the U.S. private sector has invested significantly more than China’s government into quantum computing technology.
+
+Better yet, it is estimated that only about 60% of China’s headline investment was actually spent on quantum computing projects.
+
+And it goes without saying that the U.S. private sector is arguably the most efficient allocator of capital in high tech on the planet.
+
+This is why the U.S. dominates in quantum computing technologies.
+
+It leads in every subspecialty of quantum computing and quantum communications.
+
+And the U.S. government has been especially proactive in quantum technology by providing leadership under the National Institute of Standards and Technology (NIST) to developpost-quantum encryption standards.
+
+To NIST’s credit, this is a project that it has been working on for the last decade.
+
+By August 2024, it announced the first three post-quantum encryption standards, and it has been working on refining those standards, as well as selecting backup algorithms if a weakness has been discovered in another.
+
+The motivation of NIST, and thus the U.S. government, to lead on standardization comes down to national security.
+
+In hindsight, this was a very prudent move to get the standards in place well before quantum computing evolves to the level where all current encryption algorithms are vulnerable to a universal fault-tolerant quantum computer.
+
+This is also the motivation for this Department of Commerce “grant” of $2 billion to quantum computing companies.
+
+The U.S. government wants to ensure that U.S. companies are the first to develop all critical quantum technologies, as the ability to protect against adversaries requires the most advanced technology for defense.
+
+It also wants to ensure secure supply chains for quantum technologies, so that U.S. companies and divisions of the government are not at risk from depending on components only available from China.
+
+Every Form of Architecture
+
+The $2 billion in grants are part of the 2022 CHIPS and Science Act, which was primarily designed to support the domestic semiconductor industry.
+
+To date, $33 billion in grant awards have been made to private companies in the semiconductor industry in the U.S. to incentivize domestic manufacturing.
+
+In addition to that, more than $7 billion in loans have been made to 35 companies.
+
+Source: Semiconductor Industry Association
+
+The $2 billion in quantum technologies is on top of the investments that have been made in the semiconductor industry.
+
+The “brains” of most quantum computers are semiconductors – and all the control systems, networking systems, and sensors – are also composed of semiconductors, so the use of the CHIPS and Science Act makes perfect sense.
+
+While all the details have not yet been released, what is known is that:
+
+As we might expect, the impact of this announcement on the share prices of the above public quantum computing companies was all positive.
+
+Below is a look at Rigetti’s share price today on the back of the announcement.
+
+1-Month Chart of Rigetti (RGTI)
+
+What clearly jumps out to me from the nine companies is that there was careful thought put into developing a portfolio of a wide range of quantum technologies.
+
+Every form of leading quantum computing architecture is well-represented by best-in-class companies.
+
+Global Foundries was in there to support U.S.-based quantum semiconductor manufacturing.
+
+Of the nine selected companies, only two don’t make sense to me.
+
+IBM’s grant of $1 billion comes as a surprise.
+
+IBM, despite having invested billions in quantum technology, has been a laggard in terms of commercializing its quantum technology compared to the others.
+
+It also has the capital to support further investment and plenty of free cash flow to continue building its quantum computing technology.
+
+It is the least likely in need, and yet it received 50% of the grants.
+
+The other strange award was the smallest, Diraq.
+
+This is actually an Australian company and is the earliest stage of them all.
+
+Yes, it has offices in the U.S., but it is not a U.S. company.
+
+This is a wildcard as it is pursuing a technology that uses modified silicon transistors to create a quantum computer.
+
+This has yet to be proven, and without additional information from the Department of Commerce, it’s hard to understand why it received a grant.
+
+Regardless, the $33 billion already granted in the CHIPS and Science Act is linked to more than $640 billion in investment in the U.S. by semiconductor industry companies, along with more than 500,000 new jobs.
+
+I expect a similar return on investment (proportionally) from the $2 billion in grants into the quantum computing industry.
+
+And because each of these grants will come with minority U.S. government ownership in each of these companies, I fully expect that the $2 billion will be more than paid back over the next few years as the value of the equity in these companies increases over time.
+
+Given Google’s revised timeline for a post-quantum encryption world by 2029, the acceleration of quantum computing technologies is critical for both scientific advancement… as well as for national security.
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+As if we needed even more evidence that the AI boom is real and here to stay…
+
+The practice of using as many tokens as possible is called “tokenmaxxing.” And it’s taking over Silicon Valley.
+
+The date has been set… The day of SpaceX’s long-awaited IPO.
+
+Read the latest insights from the world of high technology.
+
+As if we needed even more evidence that the AI boom is real and here to stay…
+
+The practice of using as many tokens as possible is called “tokenmaxxing.” And it’s taking over Silicon Valley.
+
+The date has been set… The day of SpaceX’s long-awaited IPO.

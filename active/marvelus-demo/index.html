@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MarvelUs Demo</title>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Plus+Jakarta+Sans:wght@400;700;800&display=swap');
+    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    
+    body, html {
+      width: 1920px;
+      height: 1080px;
+      overflow: hidden;
+      background: #f5f5f0;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    
+    #stage {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      background: #f5f5f0;
+    }
+    
+    .scene {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 100px 120px;
+      opacity: 0;
+      visibility: hidden;
+    }
+    
+    .scene-content {
+      text-align: center;
+      width: 100%;
+      max-width: 1400px;
+    }
+    
+    .headline {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 100px;
+      font-weight: 700;
+      line-height: 1.1;
+      color: #1a1a2e;
+      letter-spacing: -0.02em;
+      margin-bottom: 30px;
+    }
+    
+    .headline.accent { color: #00d4ff; }
+    
+    .subhead {
+      font-size: 48px;
+      font-weight: 400;
+      color: #666;
+      line-height: 1.4;
+      margin-bottom: 40px;
+    }
+    
+    .stat {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 160px;
+      font-weight: 700;
+      color: #00d4ff;
+      line-height: 1;
+      margin-bottom: 20px;
+    }
+    
+    .stat-label {
+      font-size: 40px;
+      font-weight: 700;
+      color: #1a1a2e;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+    }
+    
+    .logo {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 120px;
+      font-weight: 700;
+      color: #00d4ff;
+      letter-spacing: -0.03em;
+      margin-bottom: 30px;
+    }
+    
+    .tagline {
+      font-size: 44px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 50px;
+    }
+    
+    .cta {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 56px;
+      font-weight: 700;
+      color: #00d4ff;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    .url {
+      font-size: 36px;
+      font-weight: 400;
+      color: #666;
+      margin-top: 20px;
+    }
+    
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    
+    .feature-card {
+      background: #fbfbf7;
+      border: 2px solid #e5e5e0;
+      border-radius: 16px;
+      padding: 40px;
+      text-align: left;
+    }
+    
+    .feature-card h3 {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 36px;
+      font-weight: 700;
+      color: #1a1a2e;
+      margin-bottom: 16px;
+    }
+    
+    .feature-card p {
+      font-size: 24px;
+      color: #666;
+      line-height: 1.5;
+    }
+    
+    .check {
+      color: #00d4ff;
+      font-weight: 800;
+      margin-right: 12px;
+    }
+    
+    .flash {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #ffffff;
+      opacity: 0;
+      pointer-events: none;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <div id="stage" data-composition-id="root" data-width="1920" data-height="1080" data-duration="30" data-start="0">
+    <div class="flash" id="flash"></div>
+    
+    <!-- Scene 1: Problem (0-5s) -->
+    <div class="scene clip" id="scene1" data-start="0" data-duration="5" data-track-index="0">
+      <div class="scene-content">
+        <div class="subhead">Every missed call costs your business</div>
+        <div class="stat">$2,400</div>
+        <div class="stat-label">In Lost Revenue</div>
+        <div class="subhead" style="margin-top: 40px; color: #00d4ff;">Every Month</div>
+      </div>
+    </div>
+    
+    <!-- Scene 2: The Hook (5-10s) -->
+    <div class="scene clip" id="scene2" data-start="5" data-duration="5" data-track-index="0">
+      <div class="scene-content">
+        <div class="subhead">What if AI could</div>
+        <div class="headline">Answer Every Call</div>
+        <div class="headline accent">Book Every Appointment</div>
+        <div class="subhead" style="margin-top: 30px;">While you focus on running your business?</div>
+      </div>
+    </div>
+    
+    <!-- Scene 3: Solution (10-16s) -->
+    <div class="scene clip" id="scene3" data-start="10" data-duration="6" data-track-index="0">
+      <div class="scene-content">
+        <div class="logo">MarvelUs</div>
+        <div class="tagline">AI Voice & Chat for Small Businesses</div>
+        <div class="subhead" style="color: #00d4ff; font-size: 52px; font-weight: 800;">Never Miss a Lead Again</div>
+      </div>
+    </div>
+    
+    <!-- Scene 4: Features (16-22s) -->
+    <div class="scene clip" id="scene4" data-start="16" data-duration="6" data-track-index="0">
+      <div class="scene-content">
+        <div class="feature-grid">
+          <div class="feature-card">
+            <h3><span class="check">✓</span>Answers Calls 24/7</h3>
+            <p>AI voice agent handles inquiries, bookings, and FAQs around the clock</p>
+          </div>
+          <div class="feature-card">
+            <h3><span class="check">✓</span>Books Appointments</h3>
+            <p>Integrates with your calendar to schedule clients automatically</p>
+          </div>
+          <div class="feature-card">
+            <h3><span class="check">✓</span>Captures Leads</h3>
+            <p>Collects contact info and qualifies prospects while you sleep</p>
+          </div>
+          <div class="feature-card">
+            <h3><span class="check">✓</span>Follows Up</h3>
+            <p>Automated SMS and email reminders to reduce no-shows</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Scene 5: CTA (22-30s) -->
+    <div class="scene clip" id="scene5" data-start="22" data-duration="8" data-track-index="0">
+      <div class="scene-content">
+        <div class="subhead">Join 500+ businesses using MarvelUs</div>
+        <div class="cta">Get Started Free</div>
+        <div class="url">MarvelUs.cc</div>
+        <div class="subhead" style="margin-top: 40px; font-size: 32px; color: #999;">Setup in 5 minutes. No credit card required.</div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    const tl = gsap.timeline({ paused: true });
+    
+    // Scene 1: Problem - dramatic reveal
+    tl.set("#scene1", { visibility: "visible" }, 0);
+    tl.from("#scene1", { opacity: 0, duration: 0.5, ease: "power2.out" }, 0);
+    tl.from("#scene1 .stat", { scale: 0.5, opacity: 0, duration: 0.8, ease: "back.out(1.7)" }, 0.3);
+    tl.to("#scene1", { opacity: 0, duration: 0.4 }, 4.6);
+    
+    // Flash transition
+    tl.to("#flash", { opacity: 0.6, duration: 0.1 }, 4.8);
+    tl.to("#flash", { opacity: 0, duration: 0.2 }, 4.9);
+    
+    // Scene 2: The Hook
+    tl.set("#scene2", { visibility: "visible" }, 5);
+    tl.from("#scene2", { opacity: 0, duration: 0.4 }, 5);
+    tl.from("#scene2 .headline", { y: 60, opacity: 0, duration: 0.6, ease: "power3.out", stagger: 0.2 }, 5.2);
+    tl.to("#scene2", { opacity: 0, duration: 0.4 }, 9.6);
+    
+    // Scene 3: Solution
+    tl.set("#scene3", { visibility: "visible" }, 10);
+    tl.from("#scene3", { opacity: 0, duration: 0.4 }, 10);
+    tl.from("#scene3 .logo", { scale: 0.8, opacity: 0, duration: 0.6, ease: "back.out(1.7)" }, 10.2);
+    tl.from("#scene3 .tagline", { y: 40, opacity: 0, duration: 0.5, ease: "power2.out" }, 10.8);
+    tl.to("#scene3", { opacity: 0, duration: 0.4 }, 15.6);
+    
+    // Scene 4: Features
+    tl.set("#scene4", { visibility: "visible" }, 16);
+    tl.from("#scene4", { opacity: 0, duration: 0.3 }, 16);
+    tl.from("#scene4 .feature-card", { y: 80, opacity: 0, duration: 0.5, ease: "power3.out", stagger: 0.15 }, 16.2);
+    tl.to("#scene4", { opacity: 0, duration: 0.4 }, 21.6);
+    
+    // Scene 5: CTA
+    tl.set("#scene5", { visibility: "visible" }, 22);
+    tl.from("#scene5", { opacity: 0, duration: 0.4 }, 22);
+    tl.from("#scene5 .cta", { scale: 0.8, opacity: 0, duration: 0.6, ease: "back.out(1.7)" }, 22.2);
+    tl.from("#scene5 .url", { y: 30, opacity: 0, duration: 0.4, ease: "power2.out" }, 22.8);
+    tl.to("#scene5", { opacity: 0, duration: 0.5 }, 29.5);
+    
+    window.__timelines = window.__timelines || {};
+    window.__timelines["root"] = tl;
+  </script>
+</body>
+</html>

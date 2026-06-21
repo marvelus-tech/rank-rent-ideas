@@ -1,0 +1,199 @@
+Understanding the AI Productivity Boom
+
+May 7, 2026
+
+It is critical for us to understand that productivity increases are not a zero-sum game, nor are they a negative-sum game for that matter…
+
+Well… what a week.
+
+If one chart could tell the story, it would be the chart of the NASDAQ index. Record highs in the face of geopolitical conflict, soaring oil prices, and another assassination attempt on a sitting U.S. president.
+
+It seems nothing can get in the way of this technology-driven economic growth. Something I certainly predicted for 2026…
+
+1-Year Chart of the NASDAQ
+
+The U.S. Labor Department also released strong nonfarm payroll data at 115,000, which was more than double the 55,000 that had been forecast. The unemployment rate remains low at just 4.3%.
+
+It’s not at all what the mainstream media would have us believe… that the economy is crashing, inflation is getting worse, and the U.S. is losing its conflict with Iran. Those narratives continue to be proven false.
+
+This is a resilient economy in the early stages of accelerated economic growth and prosperity. Brownstone Research subscribers have been so well-positioned for what is happening right now and are making a mint with their portfolio holdings.
+
+That’s the advantage of seeing around the corner and understanding what’s coming. Ignoring the media is critical. Insights come from boots-on-the-ground research and a whole lot of hard work to accurately predict the future.
+
+I know what’s coming, and it’s incredible.
+
+We have so much to look forward to,
+
+Jeff
+
+I can see whymass AI layoffs might not be coming for software engineers, after all. But it seems that demand for many other professions will not go up simply because of AI.
+
+In other words, don’t you think the “productivity boom” will simply make the price of those jobs/services cheap, while demand will not rise in conjunction? Good examples: Interior design, architecture, legal services, etc.
+
+– Lindsey H.
+
+Hi there Lindsey,
+
+You’re absolutely correct that this AI-powered productivity boom that has already begun will make the costs of delivering products or services fall. It will also increase the quality of those products and services.
+
+Demand, however, will rise as a result. Declining prices broaden the addressable market for products and services. Combined with increased quality and utility, those products and services experience increased demand.
+
+This is a classic example of the Jevons Paradox. When something valuable becomes less expensive and more economically available, adoption and utilization soar.
+
+What is unique about this moment in time, however, is howquicklyAI has been developed, with such astounding utility, while the costs of AI utilization (inference) are simultaneously falling at an exponential rate.
+
+That’s actually an understatement to say just an exponential rate of decline in costs. As the graph shows below, the costs of inference have been declining anywhere on the order of 9X to 900X a year.
+
+For further clarification, while the above chart is useful, I don’t like the way that it says costs will decline 9X per year, or 900X per year. It’s not very intuitive. In percentage terms, though:
+
+This is all to say that the Jevons Paradox is in full force to an extent never seen before in history. Declining costs of utilization will increase demand at a faster rate than any previous technologically fueled productivity boom.
+
+Before we go further, it is critical for us to understand that productivity increases are not a zero-sum game, nor are they a negative-sum game for that matter. Productivity increases actually increase economic activity and accelerate economic growth.
+
+Said another way, the scale of economic opportunities for us humans always increases during productivity booms.
+
+Your question reminded me of the economist John Maynard Keynes and his 1930 paper titledEconomic Possibilities for Our Grandchildren.In that paper, Keynes posited that future productivity increases would become problematic for humans. He said specifically:
+
+Thus, for the first time since his creation, man will be faced with his real, his permanent problem – how to use his freedom from pressing economic cares, how to occupy the leisure, which science and compound interest will have won for him, to live wisely and agreeably and well.
+
+– John Maynard Keynes
+
+He went further to predict that:
+
+Three-hour shifts or a fifteen-hour week may put off the problem for a great while.
+
+He literally predicted that by now we’d only be working 15-hour workweeks…
+
+Needless to say, he wasvery wrong.
+
+The employment of technology to boost productivity in agriculture, textiles, automotive manufacturing, medical imaging, aerospace technology, wireless technology, and internet technology didn’t reduce the labor force. Quite the opposite.
+
+These technologies made our lives more productive, improved the quality of life, and enabled us to do things that we couldn’t previously do. And we didn’t reduce our work weeks. We actually increased them. These technological tools enabled us to get more done and increase overall economic output.
+
+And here’s the rub…
+
+These technologies resulted in therestructuring of the economy. Some professions were materially impacted/disrupted, and new professions were born. To your point, the legal industry, consultants, customer service reps, web designers, administrative positions, etc., will be disrupted by AI.
+
+And, at the same time, completely new job categories will be created, and the economy will expand at a faster rate than at any time in history. This growth will more than offset labor declines in certain professions.
+
+Put simply, the size of the pie will be so much larger.
+
+The real question is more of an individual one. Will we be flexible enough to adapt and transition to these new technology-enhanced roles? Will we choose to leverage the technology to become more productive and increase economic output?
+
+Regardless, what is happening will lead to a world of abundance and democratization for the majority of the world’s population. Quality of life will improve dramatically, and our options for how we live and work will also expand.
+
+Hi Jeff, Thanks so much for your keen insight on all things technology-related.
+
+A couple of years ago, a book by David Webb titledThe Great Takingcirculated on the internet. The crux of it revealed that securities laws in most states had been amended in the 1990s to give only a “securities entitlement” to stocks purchased by individual investors by the DTCC, while the intermediaries that held them (brokerages, etc.) in street name would have a priority to pledge them should they face a significant liquidity crisis, a la 2008.
+
+My question is: Will tokenization eliminate this risk and return full custody of shares directly to the individual investor, similar to the environment stockholders enjoyed prior to electronic settlement?
+
+Thanks so much for your perspective.
+
+– David T.
+
+Hi David,
+
+Your question is actually quite timely.
+
+My senior blockchain analyst, Ben Lilly, covered security entitlements in the context of tokenization in last Friday’s issue ofChain of Thought – Freeing $100 Trillion in Assets.
+
+If you haven’t already heard,Chain of Thoughtis our new free e-letter dedicated to all things blockchain and crypto. Three times a week, Ben’s bringing insights from the latest developments across the digital assets industry.
+
+I decided to establish a dedicated e-letter for blockchain technology and digital assets because it is such a unique asset class, and with so much industry activity to stay on top of, it warranted its own e-letter.
+
+If you’re at all interested in regular updates on the daily comings and goings of the crypto industry, Ben’s writing about related regulatory updates, tokenization, the nexus of AI and crypto, and the financial system moving onchain.
+
+It’s truly unique research and analysis that you won’t find anywhere else.You can sign up here for free, and you’ll also receive a free report that unpacks just how significant this financial system upgrade will be.
+
+As for your question, it’s a very interesting one. Most people have no idea about the risk that you raised or that they don’t actually have in their possession or account for the shares they believe they purchased. This is something that has been abused by custodians in the past to the detriment of retail investors.
+
+To dig into the details of how blockchain technology will help solve this problem and eliminate the risk, I’m going to hand things off to Ben to explain…
+
+Thanks for writing in, David. Your question hits on a very important evolution that is taking place with tokenization, and it showcases a change taking place in a very opaque part of the financial system.
+
+Tokenization is trending towards returning full custody of shares directly to the individual investor.
+
+On the one hand, we have entities like the Depository Trust & Clearing Corporation (DTCC), which handles actual custody and recordkeeping in today’s electronic trading environment. They are a near-monopoly on this service.
+
+And they are doing everything they can to hold on to this market position.
+
+The DTCC has been showcasing varying solutions to tokenization. Its services depend on its continued custody position. And instead of tokenizing the share of stock, its model tokenizes the security entitlement. It’s the same setup as investors experience in their brokerage accounts. It’s essentially a legal claim on the stock, not theactualstock. It is almost pointless, and it is designed to maintain DTCC’s chokehold on the industry.
+
+But their model is getting disrupted.
+
+Securitize is a company focused on tokenizing assets like money market funds, stocks, private credit funds, and more. It works with major players like BlackRock, VanEck, Hamilton Lane, BNY, and several others.
+
+Securitize is the most trusted solution for bringing assets to public blockchains in the market. And on April 29, it announced an agreement with Computershare.
+
+Computershare is a relatively unknown company that acts as a transfer agent for more than 25,000 companies globally and about 58% of the S&P 500. It is the market leader of transfer agents.
+
+A transfer agent is another important “plumbing” layer of markets – those less visible layers embedded deep in the infrastructure of our financial system. It’s the entity that operates as the official recordkeeper of who owns shares in a corporation. Transfer agents sit between the company and shareholders.
+
+This is important because Securitize’s agreement with Computershare allows the market to bypass DTCC. Here’s a graphic showcasing just how many layers of friction get removed from this setup…
+
+Source: LinkedIn @Chuk Okpalugo
+
+The result is exactly what you’re touching on, David – a return to self-custody of shares.
+
+This is the likely result of tokenization, and not simply because of reduced friction and costs, though those are certainly strong reasons to do so.
+
+But the main incentive for making this transition is simply that 24/7 markets demand this structure.
+
+Banks can’t wait hours to days to settle assets via the model shown on the left-hand side. It’s just not feasible from a risk perspective. A company selling an asset and waiting for settlement ties up capital on the balance sheet. Meanwhile, self-custody is near instant settlement, which is a true unlock for 24/7 markets.
+
+The market must remove these middlemen to upgrade to a far more efficient system.
+
+This moment may remind us of when the industry said “Blockchain, not Bitcoin,” – an expression that suggests enterprise blockchain solutions are the future, not the public blockchains that enterprises aren’t able to profit from and control as much. It’s a viewpoint that originates from some entity attempting to preserve market power.
+
+But each attempt is futile. Reducing friction is the premise of bringing finance onchain. Trillions in assets are moving onchain, and we’re moments away from seeing 24/7 global financial markets blossom in ways we can hardly imagine today.
+
+You can learn more from Ben about these sorts of topics in futureChain of Thoughtissues. If you’re interested,here’s that link again to sign up forChain of Thought,for free.
+
+Jeff and team,
+
+This is such a difficult problem. I am in my mid-60s and doing well. As a Brownstone Lifer, I loveBleeding Edgeand every new thing coming out of the Brownstone house of goods.
+
+The problem is, my daughter, who is about 35 and a marketing pro, recently got let go by a company that was bought out and brought in a new team. Looking for a job in the past year has been a change and a challenge for her. She is not adept in AI yet (I am pushing hard.).
+
+How do we help our kids in this era? She is bright and ga great people person, hardworking to a fault. But finding a job seems to be crazy hard. Can you give some pointers or leads on this? I have pointed to online courses and AI training, but I am Dad, and sometimes that only goes so far. She hears what I am telling her, but please help me help her.
+
+– Daniel K.
+
+Hi Daniel,
+
+Thank you for being part of our community and sharing your story.
+
+I’m sorry to hear that your daughter is going through a rough patch with work. I’ve been there before myself, but I have also always found those transition periods to be exciting. They present windows to improve skills, think big, explore new avenues for work, and pursue things that we might be passionate about.
+
+I will say this: marketing is absolutely a field that is already being disrupted by the latest AI tools. We have been proactively using AI in our marketing operations to improve our own productivity here at Brownstone Research. These tools have freed up time for us to spend more of our time on creative work, ideas, and new projects.
+
+It’s just an idea, but Anthropic – one of the leading frontier AI models – has recently launched itsAnthropic Academy, which is a free resource for those interested in learning about how to use generative AI in the workplace.
+
+There are a number of coursesthat we can register for, and when complete, we receive a certificate. This might be something that she might work through to build a foundation in generative and agentic AI.
+
+If she is interested in something more formal, MIT has a professional course onApplied Agentic AI for Organizational Transformation, but it is expensive. Better to start with the free resources and then build from there, depending on what might catch her interest.
+
+She’s still young and hardworking, so there is a lot of opportunity to look forward to. I wish her luck during the transition.
+
+My advice is simple for her: lean in and learn how to leverage this incredible technology as quickly as she can. It will make her that much more marketable.
+
+Thanks again,
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+Just a few years ago, talking to computers felt awkward. But today, it feels routine... Now, the same thing...
+
+SpaceX needs more space for more manufacturing and launch capabilities to achieve its vision…
+
+For the last two years, the AI story has been dominated by compute. Today, the constraint is different. We...
+
+Read the latest insights from the world of high technology.
+
+Just a few years ago, talking to computers felt awkward. But today, it feels routine... Now, the same thing...
+
+SpaceX needs more space for more manufacturing and launch capabilities to achieve its vision…
+
+For the last two years, the AI story has been dominated by compute. Today, the constraint is different. We...

@@ -18,10 +18,10 @@ if [ ! -f "$DECISIONS" ]; then
     exit 1
 fi
 
-echo "========================================="
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "  AUTO-ESCALATION CHECK"
 echo "  Timestamp: $NOW"
-echo "========================================="
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 
 # Extract decision lines (lines starting with - that have dates)
@@ -91,7 +91,7 @@ echo "$TOPICS" | while read count phrase; do
 done
 
 echo ""
-echo "========================================="
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 if [ "$ESCALATION_NEEDED" -gt 0 ]; then
     echo "  ⚠️  ESCALATION RECOMMENDED"
@@ -107,7 +107,7 @@ else
     echo "  ✅ No escalation needed. All corrections appear unique."
 fi
 
-echo "========================================="
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 # Append to escalation log if issues found
 if [ "$ESCALATION_NEEDED" -gt 0 ]; then

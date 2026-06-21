@@ -1,0 +1,39 @@
+# TaskPilot OpenClaw Handler
+# 
+# This file defines how OpenClaw should handle TaskPilot button callbacks.
+# Place in: ~/.openclaw/workspace/skills/taskpilot/
+#
+# When a user clicks a TaskPilot button, OpenClaw receives:
+#   callback_data: taskpilot:<action>:<args>
+#
+# This handler should be called automatically by OpenClaw's Telegram integration.
+
+# Handler definition for OpenClaw skill system
+name: taskpilot
+version: 1.0.0
+description: Task management with inline buttons
+
+# Trigger patterns
+triggers:
+  - pattern: "^callback_data: taskpilot:"
+    type: callback_query
+    action: handle_taskpilot_callback
+  
+  - pattern: "^taskpilot:"
+    type: message
+    action: handle_taskpilot_command
+
+# Actions
+actions:
+  handle_taskpilot_callback:
+    script: ~/.openclaw/workspace/scripts/taskpilot-bridge.mjs
+    args:
+      - "{callback_data}"
+      - "{chat_id}"
+      - "{message_id}"
+    
+  handle_taskpilot_command:
+    script: ~/.openclaw/workspace/scripts/taskpilot-bridge.mjs
+    args:
+      - "{message_text}"
+      - "{chat_id}"

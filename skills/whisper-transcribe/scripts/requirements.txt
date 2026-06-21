@@ -1,0 +1,4 @@
+# System Requirements
+
+- openai-whisper (install via: brew install openai-whisper)
+- ffmpeg (install via: brew install ffmpeg)

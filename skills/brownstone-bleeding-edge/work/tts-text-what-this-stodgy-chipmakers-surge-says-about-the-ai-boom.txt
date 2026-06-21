@@ -1,0 +1,117 @@
+What This Stodgy Chipmaker’s Surge Says About the AI Boom
+
+May 15, 2026
+
+This odd situation is a clear indication that the market is realizing that AI infrastructure demand is spreading across the entire semiconductor chain…
+
+Managing Editor’s Note:You’ve been hearing more from our friend and colleague Jason Bodner in these pages lately.
+
+Well now, Jason and Jeff have an urgent message… a radical shift in the market is coming, and it’s coming soon.
+
+These sorts of “regime changes” have happened three times in the past decade. Each one saw top stocks displaced by a new group of stocks that rose to prominence as the new regime took root.
+
+Jason was a senior executive and partner on Wall Street during previous regime changes and saw up close which types of stocks soar in these times. And now, he’s reverse-engineered a way for everyday folks to get ahead of these big moves, too… while avoiding the losers.
+
+He and Jeff are airing the details next Wednesday, May 20, at 8 p.m. ET. You cango here to sign up with one clickto join them.
+
+We’ll have more for you tomorrow from Jason. Until then, read on for today’s issue fromNear Future Reportsenior analyst Nick Rokke on where we should be focusing our attention at this point in the artificial intelligence boom…
+
+For years Intel was dead money…
+
+Investors exiled the company as it missed the boom in wireless devices, lost its ability to manufacture bleeding edge semiconductors, and lost its lead as the top provider of server CPUs.
+
+It stood by and watched NVIDIA (NVDA) and AMD (AMD) become the face of the AI revolution.
+
+But the AI infrastructure buildout did something no one expected… The extraordinary levels of infrastructure spending meant that NVIDIA, AMD, and other semiconductors companies could sell all the processors they could manufacture.
+
+That left data center operators, enterprises, and even consumers looking to buy Intel (INTC) central processing units (CPUs), even if they were significantly lagging in performance behind AMD. They are buying all they can from AMD, and what they can’t get from AMD, they are picking up from Intel simply because there is no other choice.
+
+So then, Intel shares surged. From March 30 until this afternoon, shares rose from $41.19 to $121.85. That’s a 196% gain in roughly six weeks for one of the oldest, most scrutinized semiconductor companies in the world, that has demonstrated one misstep and disappointment after the other for more than a decade.
+
+Intel is a steady, stable business with decades of operating history. These kinds of businesses aren’t supposed to nearly triple in ayear, let alone just over a month. This is especially true for Intel, a company that failed so badly at its own manufacturing that it has to hire TSMC to produce its best chips.
+
+This odd situation is a clear indication that the market is realizing that AI infrastructure demand is spreading across the entire semiconductor chain… And to all companies along that chain.
+
+We’re seeing surging demand for CPUs, GPUs, ASICs, high bandwidth memory (HBM), networking, optical interconnects, and power conducting semiconductors.
+
+The AI boom may have started with GPUs, but it is no longer the end all, be all.
+
+The Philadelphia Stock Exchange Semiconductor Index (SOX) delivered a historic run, rising every single trading day from March 31 through April 24. That’s 18 consecutive sessions higher. And across the full month of April, it closed higher in 19 out of 21 trading days.
+
+The Near Future Reportportfolio had four companies that gained over 60% on the month… And the entire portfolio gained 24% in April… in a single month. That’s an exceptional outcome and exactly what happens when we position ourselves properly in front of major technological shifts.
+
+And the Semiconductor Index isn’t done yet. After climbing 40% in April, it’s up another 16% so far in May.
+
+After a move like this, many people are asking themselves one question…
+
+In short, the answer is yes.
+
+From a technical perspective, the sector is clearly extended to the upside. Using the iShares PHLX Semiconductor ETF (SOXX) as a proxy, the relative strength index (RSI) is approaching levels that have historically marked overbought conditions. In past cycles, SOXX has tended to peak when RSI reaches the high 70s.
+
+But “overbought” is often misunderstood. In strong secular trends, assets can remain overbought for extended periods of time.
+
+In fact, looking at prior cycles, once SOXX reaches these elevated RSI levels, it often continues to move higher for months, and in some cases more than a year. We’re only about six months into the current overbought window, which suggests the trend is not over yet.
+
+Here’s a chart I shared withNear Future Reportsubscribers last week.
+
+Now let’s turn to the fundamentals.
+
+The world is in the middle of the largest infrastructure buildout in modern history, driven by the growth in artificial intelligence. This shift is creating an insatiable demand for compute, and that compute requires semiconductors at a scale the industry has never seen before.
+
+The constraint today isn’t demand, it’s supply. The world simply cannot produce enough advanced chips to keep up.
+
+We’ve talked about the increase in spending of the hyperscalers. And every quarterly earnings report comes with increased capital expenditures (capex) to build these large data centers to meet surging customer demand.
+
+This past quarter, Microsoft laid out plans that implied they would raise their planned capex spend on the year from $140 billion to $190 billion. Meta’s raised its capex from a midpoint of $125 billion to $135 billion with a high-end forecast as much as $145 billion.
+
+And both Amazon and Google raised their planned spend by $5 billion. And Google management took a step further and said that they expect their 2027 capex toincrease significantlyfrom the planned $185 billion spent this year.
+
+Critics argue that this level of spending will eventually lead to excess capacity and poor returns. But that view ignores what’s happening on the ground. Even with hundreds of billions of dollars being deployed, there still isn’t enough compute to meet demand.
+
+Just this past month, we saw GitHub pause its new Copilot Pro trials because they didn’t have enough compute to support additional users. OpenAI scaled back the rollout of its Sora video generation app to free up resources. And Anthropic has faced repeated outages with its Claude Code product as it actively rations compute during peak demand periods. This was the reason that Anthropic struck the deal with SpaceXAI to lease the computational resources of its Colossus 1 data center.
+
+And the primary driver behind this surge in demand is what Jeff highlighted earlier – the rapid rise of agentic AI.
+
+This is a fundamental shift in how software is built and how work gets done. A single skilled programmer can now deploy a team of AI agents to generate code, test features, and iterate rapidly. The human role is increasingly shifting toward supervision and validation rather than creation from scratch.
+
+We already see AI writing the majority of new code. Google has indicated that roughly 75% of its new code is now generated by AI. Snap and Meta Platforms are both reporting figures around 65%. And Kevin Scott, an executive vice president at Microsoft, has stated that he expects that number to reach 95% within five years.
+
+What’s happening in software development today is just the beginning. This trend will expand into every knowledge-based industry. And as it does, it will reshape the underlying hardware requirements.
+
+And this is the main reason behind Intel’s sudden rise… And why AMD has deliveredNear Future Reportsubscribers another double in the past six weeks.
+
+Historically, AI training workloads required far more GPUs than CPUs. Commonly eight GPUs for every CPU. But with the rise of agentic inference, that dynamic is shifting toward parity. In many cases, we’re moving closer to a 1-to-1 ratio between GPUs and CPUs, which has major implications for demand across the semiconductor stack.
+
+This means CPU demand will rise sharply alongside GPUs, expanding the opportunity set across the semiconductor landscape.
+
+As the market begins to understand how AI workloads are evolving, capital is quickly rotating toward the companies best positioned to capture that demand.
+
+When trends shift in artificial intelligence, markets don’t wait. The repricing happens quickly, and often before the broader investment community fully understands what’s taking place. That’s why our strategy is to identify these inflection points early and position accordingly.
+
+Even after the strong gains we’ve seen this past month, we remain in the early stages of this cycle.
+
+AI is just beginning to move from experimentation into real-world deployment. As it becomes embedded across industries, it will drive meaningful productivity gains – from software to robotics to industrial automation. We’re already seeing the first signs of that shift, and it will broaden from here.
+
+The biggest returns won’t come from chasing what’s obvious today. They will come from owning the companies building the infrastructure and enabling these capabilities before the market fully appreciates their impact.
+
+That’s where we remain focused.
+
+Regards,
+
+Nick RokkeSenior Analyst,The Bleeding Edge
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+The floodgates have opened… interest rates are coming down later this year. The economy is booming, and so will...
+
+Human history tends to move in waves of innovation... and now, we're entering the next wave.
+
+This is an ideal environment for scammers looking to defraud normal investors by claiming to offer direct ownership stakes...
+
+Read the latest insights from the world of high technology.
+
+The floodgates have opened… interest rates are coming down later this year. The economy is booming, and so will...
+
+Human history tends to move in waves of innovation... and now, we're entering the next wave.
+
+This is an ideal environment for scammers looking to defraud normal investors by claiming to offer direct ownership stakes...

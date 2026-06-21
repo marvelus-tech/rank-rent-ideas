@@ -1,0 +1,6 @@
+# Night Owl Cron Entry
+# Add this to your crontab: crontab -e
+# Or run: crontab /Users/oktos/.openclaw/workspace/.nightowl/cron-entry.txt
+
+# Night Owl wakes up at 2:00 AM daily
+0 2 * * * cd /Users/oktos/.openclaw/workspace/.nightowl && ./wake.sh >> /Users/oktos/.openclaw/workspace/.nightowl/logs/cron.log 2>&1

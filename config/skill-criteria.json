@@ -1,0 +1,80 @@
+{
+  "skill_criteria": {
+    "can_be_automated": {
+      "description": "Can this pain point be solved with an automated workflow?",
+      "weight": 0.25,
+      "threshold": 7
+    },
+    "has_clear_input_output": {
+      "description": "Does it have clear inputs and outputs that an agent can handle?",
+      "weight": 0.2,
+      "threshold": 7
+    },
+    "api_available": {
+      "description": "Are there APIs or tools available to build this?",
+      "weight": 0.15,
+      "threshold": 5
+    },
+    "market_size": {
+      "description": "How many people/businesses have this pain?",
+      "weight": 0.2,
+      "threshold": 6
+    },
+    "price_point": {
+      "description": "Can this be priced at $29-99/mo or $79-199 one-time?",
+      "weight": 0.1,
+      "threshold": 6
+    },
+    "build_time": {
+      "description": "Can MVP be built in 1-2 weekends?",
+      "weight": 0.1,
+      "threshold": 6
+    }
+  },
+  "reddit_sources": {
+    "high_value": [
+      "r/webscraping",
+      "r/Automate",
+      "r/VideoEditing",
+      "r/ContentCreation",
+      "r/LocalLLaMA",
+      "r/ClaudeAI",
+      "r/Entrepreneur",
+      "r/SmallBusiness",
+      "r/SaaS",
+      "r/startups"
+    ],
+    "pain_keywords": [
+      "frustrating",
+      "annoying",
+      "pain",
+      "broken",
+      "waste time",
+      "manual",
+      "tedious",
+      "error",
+      "failed",
+      "can't",
+      "impossible",
+      "hate",
+      "wish there was",
+      "someone should build",
+      "no tool does",
+      "constantly breaks",
+      "losing hours",
+      "spending too much"
+    ]
+  },
+  "clawhub_audit": {
+    "check_existing": true,
+    "gap_threshold": 0.7,
+    "improvement_areas": [
+      "better UX",
+      "more integrations",
+      "lower price",
+      "faster execution",
+      "better error handling",
+      "more customization"
+    ]
+  }
+}

@@ -34,12 +34,29 @@ check() {
     fi
 }
 
-# --- Core Files ---
-for f in SOUL.md IDENTITY.md USER.md AGENTS.md decisions.md SYSTEM_HARDENING.md; do
+# --- Core Files (root + Obsidian canonical) ---
+for f in AGENTS.md PROJECTS.md decisions.md SYSTEM_HARDENING.md; do
     if [ -f "$WORKSPACE/$f" ]; then
         check "Core file: $f" "PASS" "exists"
     else
         check "Core file: $f" "FAIL" "MISSING" "true"
+    fi
+done
+
+OBSIDIAN_DECISIONS="$HOME/Obsidian/Penelopi/DECISIONS.md"
+if [ -f "$OBSIDIAN_DECISIONS" ]; then
+    check "Obsidian DECISIONS" "PASS" "canonical decisions log exists"
+else
+    check "Obsidian DECISIONS" "WARN" "missing at $OBSIDIAN_DECISIONS"
+fi
+
+for f in SOUL.md IDENTITY.md USER.md MEMORY.md; do
+    if [ -f "$WORKSPACE/archive/docs-deprecated/$f" ]; then
+        check "Deprecated doc: $f" "PASS" "archived (see Obsidian/Penelopi)"
+    elif [ -f "$WORKSPACE/$f" ]; then
+        check "Deprecated doc: $f" "PASS" "exists at root (prefer archive/)"
+    else
+        check "Deprecated doc: $f" "WARN" "not found at root or archive/docs-deprecated/"
     fi
 done
 
@@ -173,10 +190,10 @@ else GRADE="F"
 fi
 
 # --- Output ---
-echo "========================================="
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "  SYSTEM HEALTH CHECK"
 echo "  Timestamp: $NOW"
-echo "========================================="
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 echo "  Grade: $GRADE ($FINAL_SCORE/100)"
 echo "  Raw Score: $RAW_SCORE/100"
@@ -188,7 +205,7 @@ echo ""
 echo "  Details:"
 echo -e "$DETAILS"
 echo ""
-echo "========================================="
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 # JSON output
 cat <<EOF > "$WORKSPACE/health-report.json"

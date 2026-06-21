@@ -1,0 +1,15 @@
+{
+  "type": "new-consultation",
+  "jobId": "5e54a93d-4d10-47ff-a2c0-1bc673f4e23b",
+  "timestamp": "2026-03-27-113959",
+  "clientName": "abby ",
+  "duration": "00:31",
+  "audioFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-113959-abby.webm",
+  "noteFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-113959-abby.md",
+  "status": "error",
+  "receivedAt": "2026-03-27T11:40:00.315856",
+  "recordingFilename": "2026-03-27-113959-abby.webm",
+  "processingStarted": "2026-03-27T11:40:00.341951",
+  "error": "Transcription subprocess failed: 2026-03-27 11:40:00 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-113959-abby.webm\n2026-03-27 11:40:02 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)\n2026-03-27 11:40:31 | WARNING | faster-whisper unavailable/failed; falling back to whisper CLI: Transcript is empty\nTranscript is empty",
+  "completedAt": "2026-03-27T11:44:05.209863"
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "source_query": "plumbers in Melbourne, Australia",
+    "category": "plumbers",
+    "location": "Melbourne, Australia",
+    "name": "Royal Flushed Plumbing & Gasfitting",
+    "address": "\ue0c8\n1 Mt Morton Rd, Belgrave South VIC 3160, Australia",
+    "phone": "\ue0b0\n+61 422 365 747",
+    "website": "https://royalflushed.com/",
+    "website_missing": false,
+    "rating": 5.0,
+    "reviews": null,
+    "place_id": "0x6ad61dc6a3b460ab:0",
+    "discovered_at": "2026-05-22T01:12:29.016513+00:00",
+    "business_hours": "Friday7 AM\u20135 PM\ue14dSaturday8 AM\u20131 PM\ue14dSundayClosed\ue14dMonday7 AM\u20135 PM\ue14dTuesday7 AM\u20135 PM\ue14dWednesday7 AM\u20135 PM\ue14dThursday7 AM\u20135 PM\ue14d",
+    "business_type": "Plumber",
+    "maps_url": "https://www.google.com/maps/place/Royal+Flushed+Plumbing+%26+Gasfitting/data=!4m7!3m6!1s0x6ad61dc6a3b460ab:0xf0537d690702ea20!8m2!3d-37.932801!4d145.356452!16s%2Fg%2F11ffw6s95h!19sChIJq2C0o8Yd1moRIOoCB2l9U_A?authuser=0&hl=en&rclk=1",
+    "email": "info@royalflushed.com",
+    "emails_found": [
+      "info@royalflushed.com"
+    ],
+    "phones_found": [
+      "0 0 1000 100",
+      "0422365747",
+      "\ue0b0\n+61 422 365 747"
+    ],
+    "contact_page_url": "https://royalflushed.com/contact",
+    "social_links": {
+      "facebook": null,
+      "instagram": null,
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null
+    },
+    "contact_confidence": "high",
+    "has_complete_contact_info": true,
+    "website_scraped_at": "2026-05-22T11:13:07+1000",
+    "website_scrape_success": true
+  },
+  {
+    "source_query": "plumbers in Melbourne, Australia",
+    "category": "plumbers",
+    "location": "Melbourne, Australia",
+    "name": "Grey Army Pty Ltd",
+    "address": "\ue0c8\n4/38 Hartnett Dr, Seaford VIC 3198, Australia",
+    "phone": "\ue0b0\n+61 131198",
+    "website": "https://greyarmy.com.au/",
+    "website_missing": false,
+    "rating": 3.3,
+    "reviews": null,
+    "place_id": "0x6ad5d9543c97ffa7:0",
+    "discovered_at": "2026-05-22T01:12:38.259167+00:00",
+    "business_hours": "Friday9 AM\u20135 PM\ue14dSaturdayClosed\ue14dSundayClosed\ue14dMonday9 AM\u20135 PM\ue14dTuesday9 AM\u20135 PM\ue14dWednesday9 AM\u20135 PM\ue14dThursday9 AM\u20135 PM\ue14d",
+    "business_type": "Property maintenance",
+    "maps_url": "https://www.google.com/maps/place/Grey+Army+Pty+Ltd/data=!4m7!3m6!1s0x6ad5d9543c97ffa7:0x6ab5ea67ad8f91ac!8m2!3d-38.114655!4d145.140828!16s%2Fg%2F1tjz83f3!19sChIJp_-XPFTZ1WoRrJGPrWfqtWo?authuser=0&hl=en&rclk=1",
+    "email": "info@greyarmy.com.au",
+    "emails_found": [
+      "info@greyarmy.com.au"
+    ],
+    "phones_found": [
+      "\ue0b0\n+61 131198"
+    ],
+    "contact_page_url": "https://greyarmy.com.au/contact",
+    "social_links": {
+      "facebook": "https://www.facebook.com/pages/Grey-Army-Victoria/389160094531088",
+      "instagram": null,
+      "linkedin": null,
+      "twitter": "https://twitter.com/greyarmyvic",
+      "youtube": null
+    },
+    "contact_confidence": "high",
+    "has_complete_contact_info": true,
+    "website_scraped_at": "2026-05-22T11:13:35+1000",
+    "website_scrape_success": true
+  },
+  {
+    "source_query": "plumbers in Melbourne, Australia",
+    "category": "plumbers",
+    "location": "Melbourne, Australia",
+    "name": "Plumb Medic - Emergency Plumber Melbourne",
+    "address": "\ue0c8\n3/394 Collins St, Melbourne VIC 3000, Australia",
+    "phone": null,
+    "website": "https://www.plumbmedic.com.au/",
+    "website_missing": false,
+    "rating": 4.9,
+    "reviews": null,
+    "place_id": "0x6ad66397cd2550f3:0",
+    "discovered_at": "2026-05-22T01:12:47.616439+00:00",
+    "business_hours": null,
+    "business_type": "Plumber",
+    "maps_url": "https://www.google.com/maps/place/Plumb+Medic+-+Emergency+Plumber+Melbourne/data=!4m7!3m6!1s0x6ad66397cd2550f3:0x996d6a3f14edb436!8m2!3d-37.8168154!4d144.961175!16s%2Fg%2F11rw_qkzyt!19sChIJ81AlzZdj1moRNrTtFD9qbZk?authuser=0&hl=en&rclk=1",
+    "email": "info@plumbmedic.com.au",
+    "emails_found": [
+      "info@plumbmedic.com.au"
+    ],
+    "phones_found": [
+      "0 0 400 400",
+      "0 0 512 512",
+      "016 0 0 1 -8-8",
+      "007 0 0 0 11",
+      "0 1 1-44 44 44",
+      "0 0 128 128",
+      "0 0 510 510",
+      "031005859375"
+    ],
+    "contact_page_url": "https://www.plumbmedic.com.au/contact",
+    "social_links": {
+      "facebook": "https://www.facebook.com/plumbmedicau",
+      "instagram": null,
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null
+    },
+    "contact_confidence": "high",
+    "has_complete_contact_info": true,
+    "website_scraped_at": "2026-05-22T11:13:57+1000",
+    "website_scrape_success": true
+  }
+]

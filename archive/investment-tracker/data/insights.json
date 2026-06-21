@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "id": "insight-001",
+      "name": "Wyoming LLC Structure",
+      "status": "researching",
+      "tags": ["llc", "tax", "asset-protection"],
+      "obsidianNote": "Investments/Insights/Wyoming-LLC.md",
+      "added": "2026-06-03",
+      "notes": "No state income tax, strong privacy laws, charging order protection."
+    },
+    {
+      "id": "insight-002",
+      "name": "Captive Insurance Strategy",
+      "status": "researching",
+      "tags": ["insurance", "tax", "risk"],
+      "obsidianNote": "Investments/Insights/Captive-Insurance.md",
+      "added": "2026-06-04",
+      "notes": "Form own insurance company. Deduct premiums, accumulate reserves tax-deferred."
+    }
+  ]
+}

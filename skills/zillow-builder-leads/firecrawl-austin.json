@@ -1,0 +1,116 @@
+{
+  "search_params": {
+    "location": "Austin, TX",
+    "source": "zillow-firecrawl",
+    "total_listings": 9,
+    "unique_builders": 1,
+    "scraped_at": "2026-06-18T08:59:36.862Z"
+  },
+  "builders": [
+    {
+      "builder_name": "Unknown Builder",
+      "listings": [
+        {
+          "price": "1000000",
+          "address": "12113 Cascade Caverns Trl, Austin, TX 78739",
+          "zpid": "64443019",
+          "isNew": false,
+          "beds": "5",
+          "baths": "4",
+          "sqft": "3935",
+          "agent": null,
+          "textPreview": "=topnav)\n\nclear search text buttonSubmit Search\n\nFor sale\n\nPrice\n\nBeds & baths\n\nProperty type\n\nFilters\n\nSave search\n\n# Austin TX Real Estate & Homes For Sale\n\n## 5,944 results\n\nSort: Homes for You\n\n- "
+        },
+        {
+          "price": "398000",
+          "address": "1806 Krizan Ave, Austin, TX 78727",
+          "zpid": "29443350",
+          "isNew": false,
+          "beds": "3",
+          "baths": "2",
+          "sqft": "1334",
+          "agent": null,
+          "textPreview": "e.webp)](https://www.zillow.com/homedetails/12113-Cascade-Caverns-Trl-Austin-TX-78739/64443019_zpid/)\n\n![](https://photos.zillowstatic.com/fp/410aa80cbd8a38ab49e64bd71d94162b-zillow_web_48_23.jpg)\n\n- "
+        },
+        {
+          "price": "625000",
+          "address": "8409 Nairn Dr, Austin, TX 78749",
+          "zpid": "29496220",
+          "isNew": false,
+          "beds": "4",
+          "baths": "3",
+          "sqft": "2238",
+          "agent": "KELLER WILLIAMS REALTY",
+          "textPreview": "//www.zillow.com/homedetails/1806-Krizan-Ave-Austin-TX-78727/29443350_zpid/)\n\n![](https://photos.zillowstatic.com/fp/410aa80cbd8a38ab49e64bd71d94162b-zillow_web_48_23.jpg)\n\n- Loading\n\n\n\nLoading...\n\n- "
+        },
+        {
+          "price": "680000",
+          "address": "12712 Twisted Briar Ln, Austin, TX 78729",
+          "zpid": "29596334",
+          "isNew": false,
+          "beds": "5",
+          "baths": "4",
+          "sqft": "3154",
+          "agent": "KELLER WILLIAMS REALTY",
+          "textPreview": "c4bb17b66-p_e.webp)](https://www.zillow.com/homedetails/8409-Nairn-Dr-Austin-TX-78749/29496220_zpid/)\n\n![](https://photos.zillowstatic.com/fp/410aa80cbd8a38ab49e64bd71d94162b-zillow_web_48_23.jpg)\n\n- "
+        },
+        {
+          "price": "9950000",
+          "address": "4402 Aqua Verde Dr, Austin, TX 78746",
+          "zpid": "29348440",
+          "isNew": false,
+          "beds": "5",
+          "baths": "6",
+          "sqft": "6200",
+          "agent": "MORELAND PROPERTIES",
+          "textPreview": "-p_e.webp)](https://www.zillow.com/homedetails/12712-Twisted-Briar-Ln-Austin-TX-78729/29596334_zpid/)\n\n![](https://photos.zillowstatic.com/fp/410aa80cbd8a38ab49e64bd71d94162b-zillow_web_48_23.jpg)\n\n- "
+        },
+        {
+          "price": "325000",
+          "address": "12704 Bloomington Dr, Austin, TX 78748",
+          "zpid": "442199950",
+          "isNew": false,
+          "beds": "4",
+          "baths": "2",
+          "sqft": "1800",
+          "agent": "KELLER WILLIAMS REALTY",
+          "textPreview": "b55e-p_e.webp)](https://www.zillow.com/homedetails/4402-Aqua-Verde-Dr-Austin-TX-78746/29348440_zpid/)\n\n![](https://photos.zillowstatic.com/fp/410aa80cbd8a38ab49e64bd71d94162b-zillow_web_48_23.jpg)\n\n- "
+        },
+        {
+          "price": "239500",
+          "address": "4509 Magin Meadow Dr, Austin, TX 78744",
+          "zpid": "64465341",
+          "isNew": false,
+          "beds": "3",
+          "baths": "2",
+          "sqft": "1232",
+          "agent": "KELLER WILLIAMS REALTY",
+          "textPreview": "0-p_e.webp)](https://www.zillow.com/homedetails/12704-Bloomington-Dr-Austin-TX-78748/442199950_zpid/)\n\n![](https://photos.zillowstatic.com/fp/410aa80cbd8a38ab49e64bd71d94162b-zillow_web_48_23.jpg)\n\n- "
+        },
+        {
+          "price": "725000",
+          "address": "6501 Willamette Dr, Austin, TX 78723",
+          "zpid": "29408382",
+          "isNew": false,
+          "beds": "3",
+          "baths": "2",
+          "sqft": "1904",
+          "agent": "KELLER WILLIAMS REALTY",
+          "textPreview": "b0-p_e.webp)](https://www.zillow.com/homedetails/4509-Magin-Meadow-Dr-Austin-TX-78744/64465341_zpid/)\n\n![](https://photos.zillowstatic.com/fp/410aa80cbd8a38ab49e64bd71d94162b-zillow_web_48_23.jpg)\n\n- "
+        },
+        {
+          "price": "20000000",
+          "address": "15016 Flat Top Ranch Rd, Austin, TX 78732",
+          "zpid": "89551133",
+          "isNew": false,
+          "beds": "6",
+          "baths": "7",
+          "sqft": "9725",
+          "agent": null,
+          "textPreview": "0595-p_e.webp)](https://www.zillow.com/homedetails/6501-Willamette-Dr-Austin-TX-78723/29408382_zpid/)\n\n![](https://photos.zillowstatic.com/fp/410aa80cbd8a38ab49e64bd71d94162b-zillow_web_48_23.jpg)\n\n- "
+        }
+      ],
+      "count": 9
+    }
+  ]
+}

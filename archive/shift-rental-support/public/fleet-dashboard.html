@@ -1,0 +1,2467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fleet Dashboard — SHIFT</title>
+  <style>
+    /*
+      Phase 1 shell — 12-column bento (spec)
+      Breakpoints: ≤1440px tighter gutters; ≤1200px stack matrix + maintenance (full width);
+      ≤767px sidebar → overlay drawer (decision 1.7).
+    */
+    :root {
+      --bg-primary: #000000;
+      --bg-secondary: #0d0d0d;
+      --bg-tertiary: #141414;
+      --accent-amber: #ff9f0a;
+      --accent-cyan: #64d2ff;
+      --critical: #ff453a;
+      --text-primary: rgba(255, 255, 255, 0.92);
+      --text-secondary: rgba(255, 255, 255, 0.55);
+      --text-tertiary: rgba(255, 255, 255, 0.3);
+      --glass-border: rgba(255, 255, 255, 0.08);
+      --ease: cubic-bezier(0.4, 0, 0.2, 1);
+      --font-stack: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Display", "Segoe UI", system-ui, sans-serif;
+      --mono: "SF Mono", ui-monospace, Menlo, Monaco, Consolas, monospace;
+      --sidebar-expanded: 256px;
+      --sidebar-collapsed: 72px;
+      --sidebar-w: var(--sidebar-expanded);
+      --top-h: 64px;
+    }
+
+    .sidebar--collapsed {
+      --sidebar-w: var(--sidebar-collapsed);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: var(--font-stack);
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      -webkit-font-smoothing: antialiased;
+    }
+
+    :focus-visible {
+      outline: 2px solid var(--accent-amber);
+      outline-offset: 2px;
+    }
+    a, button {
+      font-family: inherit;
+      color: inherit;
+    }
+    a { text-decoration: none; }
+
+    .app {
+      display: flex;
+      min-height: 100vh;
+      width: 100%;
+    }
+
+    /* —— Sidebar 256 ↔ 72 —— */
+    .sidebar {
+      width: var(--sidebar-w);
+      flex-shrink: 0;
+      border-right: 1px solid var(--glass-border);
+      background: var(--bg-secondary);
+      padding: 20px 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      transition: width 260ms var(--ease);
+      overflow: hidden;
+    }
+    .sidebar-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      min-height: 36px;
+      padding: 0 4px;
+    }
+    .sidebar-brand {
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .sidebar--collapsed .sidebar-brand {
+      font-size: 15px;
+      text-align: center;
+      width: 100%;
+    }
+    .nav-primary {
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+      flex: 1;
+    }
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      height: 44px;
+      padding: 0 12px;
+      border-radius: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      transition: background 180ms var(--ease), color 180ms var(--ease);
+      width: 100%;
+      border: 0;
+      background: transparent;
+      text-align: left;
+      cursor: pointer;
+    }
+    .nav-item:hover {
+      background: rgba(255, 255, 255, 0.06);
+      color: var(--text-primary);
+    }
+    .nav-item[aria-current="page"] {
+      background: rgba(255, 159, 10, 0.12);
+      color: var(--text-primary);
+    }
+    .nav-item[aria-pressed="true"] {
+      background: rgba(255, 159, 10, 0.12);
+      color: var(--text-primary);
+    }
+    .nav-item svg {
+      flex-shrink: 0;
+      opacity: 0.85;
+    }
+    .nav-item__label {
+      white-space: nowrap;
+      overflow: hidden;
+    }
+    /* Reports / Settings — not shipped yet */
+    .nav-item--soon {
+      height: auto;
+      min-height: 44px;
+      padding: 8px 12px;
+      align-items: flex-start;
+      cursor: default;
+      opacity: 0.72;
+      pointer-events: none;
+    }
+    .nav-item--soon:hover {
+      background: transparent;
+      color: var(--text-secondary);
+    }
+    .nav-item__label-row {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 2px;
+      min-width: 0;
+      overflow: hidden;
+    }
+    .nav-item__soon {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      opacity: 0.85;
+    }
+    .sidebar--collapsed .nav-item {
+      justify-content: center;
+      padding: 0;
+    }
+    .sidebar--collapsed .nav-item__label,
+    .sidebar--collapsed .nav-item__label-row {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .sidebar--collapsed .nav-item--soon {
+      padding: 0;
+      min-height: 44px;
+      height: 44px;
+      align-items: center;
+    }
+    .sidebar-foot {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+
+    /* Full-width vehicles registry (main area when Vehicles tab is active) */
+    .vehicles-main-table-wrap {
+      overflow: auto;
+      max-height: min(70vh, calc(100vh - 220px));
+      border-radius: 12px;
+      border: 1px solid var(--glass-border);
+    }
+    .vehicles-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    .vehicles-table th,
+    .vehicles-table td {
+      padding: 10px 14px;
+      text-align: left;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      color: var(--text-secondary);
+      vertical-align: middle;
+    }
+    .vehicles-table th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      background: var(--bg-tertiary);
+    }
+    .vehicles-table td:first-child {
+      font-weight: 600;
+      color: var(--text-primary);
+      letter-spacing: -0.01em;
+    }
+    .vehicles-table tbody tr:hover td {
+      background: rgba(255, 255, 255, 0.03);
+    }
+    .btn-collapse {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      height: 40px;
+      padding: 0 12px;
+      border-radius: 10px;
+      border: 1px solid var(--glass-border);
+      background: transparent;
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: border-color 180ms var(--ease), color 180ms var(--ease), background 180ms var(--ease);
+    }
+    .btn-collapse:hover {
+      border-color: rgba(255, 255, 255, 0.15);
+      color: var(--text-primary);
+      background: rgba(255, 255, 255, 0.04);
+    }
+    .btn-collapse__chev {
+      transition: transform 260ms var(--ease);
+    }
+    .sidebar--collapsed .btn-collapse__chev {
+      transform: rotate(180deg);
+    }
+    .sidebar--collapsed .btn-collapse__text {
+      display: none;
+    }
+    .sign-out {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 12px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--text-secondary);
+      border-radius: 10px;
+      border: 1px solid var(--glass-border);
+      transition: color 200ms var(--ease), border-color 200ms var(--ease);
+    }
+    .sign-out:hover {
+      color: var(--text-primary);
+      border-color: rgba(255, 255, 255, 0.15);
+    }
+
+    .main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      background: var(--bg-primary);
+    }
+
+    .top {
+      height: var(--top-h);
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      padding: 0 clamp(16px, 3vw, 32px);
+      border-bottom: 1px solid var(--glass-border);
+      background: rgba(13, 13, 13, 0.72);
+      backdrop-filter: blur(16px) saturate(180%);
+      -webkit-backdrop-filter: blur(16px) saturate(180%);
+    }
+    .top-left {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      min-width: 0;
+    }
+    .menu-toggle {
+      display: none;
+      width: 44px;
+      height: 44px;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid var(--glass-border);
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.04);
+      cursor: pointer;
+      color: var(--text-primary);
+    }
+    .menu-toggle:hover {
+      background: rgba(255, 255, 255, 0.08);
+    }
+    .top-titles {
+      min-width: 0;
+    }
+    .top-title {
+      margin: 0;
+      font-size: clamp(17px, 2vw, 20px);
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      line-height: 1.2;
+    }
+    .top-context {
+      margin: 4px 0 0;
+      font-size: 12px;
+      color: var(--text-tertiary);
+      letter-spacing: 0.02em;
+    }
+    .top-right {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+
+    /* Sync pill — cyan idle / amber syncing (stub until WebSocket) */
+    .sync-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      height: 36px;
+      padding: 0 14px 0 12px;
+      border-radius: 18px;
+      border: 1px solid var(--glass-border);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      font-family: var(--mono);
+    }
+    .sync-pill__dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .sync-pill--idle {
+      color: var(--accent-cyan);
+      background: rgba(100, 210, 255, 0.08);
+      border-color: rgba(100, 210, 255, 0.25);
+    }
+    .sync-pill--idle .sync-pill__dot {
+      background: var(--accent-cyan);
+      box-shadow: 0 0 12px rgba(100, 210, 255, 0.5);
+    }
+    .sync-pill--syncing {
+      color: var(--accent-amber);
+      background: rgba(255, 159, 10, 0.1);
+      border-color: rgba(255, 159, 10, 0.35);
+    }
+    .sync-pill--syncing .sync-pill__dot {
+      background: var(--accent-amber);
+      box-shadow: 0 0 12px rgba(255, 159, 10, 0.45);
+      animation: syncPulse 1.2s ease-in-out infinite;
+    }
+    @keyframes syncPulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.55; transform: scale(0.92); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .sync-pill--syncing .sync-pill__dot { animation: none; opacity: 1; }
+      .sidebar { transition: none; }
+      .btn-collapse__chev { transition: none; }
+    }
+
+    .content {
+      flex: 1;
+      padding: clamp(16px, 2.5vw, 28px) clamp(16px, 3vw, 32px) 32px;
+      overflow: auto;
+    }
+
+    /*
+      12-column bento — distribution span 12.
+      Matrix + maint: wide viewports use 8+4; mid widths use 7+5 then 6+6 so Kanban gets
+      horizontal budget the fixed-width cards in the matrix are not using.
+      ≤1200px: stacked full width.
+    */
+    .bento {
+      display: grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap: 20px;
+      align-content: start;
+      min-width: 0;
+    }
+    .bento-matrix {
+      grid-column: 1 / span 8;
+      min-height: 280px;
+      min-width: 0;
+    }
+    .bento-maint {
+      grid-column: 9 / span 4;
+      min-height: 280px;
+      min-width: 0;
+    }
+    .bento-dist {
+      grid-column: 1 / span 12;
+      min-height: 200px;
+    }
+    @media (max-width: 1599px) {
+      .bento-matrix { grid-column: 1 / span 7; }
+      .bento-maint { grid-column: 8 / span 5; }
+    }
+    @media (max-width: 1366px) {
+      .bento-matrix { grid-column: 1 / span 6; }
+      .bento-maint { grid-column: 7 / span 6; }
+    }
+    @media (max-width: 1440px) {
+      .content { padding-top: 20px; }
+      .bento { gap: 16px; }
+    }
+    @media (max-width: 1200px) {
+      .bento-matrix { grid-column: 1 / span 12; }
+      .bento-maint { grid-column: 1 / span 12; }
+    }
+
+    .panel {
+      border-radius: 16px;
+      border: 1px solid var(--glass-border);
+      background: var(--bg-tertiary);
+      padding: 20px 22px;
+      height: 100%;
+      min-height: 200px;
+      display: flex;
+      flex-direction: column;
+    }
+    .panel__head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .panel__title {
+      margin: 0;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+    }
+    .panel__meta {
+      font-family: var(--mono);
+      font-size: 10px;
+      color: var(--text-tertiary);
+      letter-spacing: 0.08em;
+    }
+    .panel__body {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      min-width: 0;
+    }
+
+    .placeholder-strip {
+      margin-bottom: 20px;
+      padding: 14px 18px;
+      border-radius: 12px;
+      border: 1px dashed rgba(255, 159, 10, 0.3);
+      background: rgba(255, 159, 10, 0.05);
+      font-size: 13px;
+      line-height: 1.5;
+      color: var(--text-secondary);
+    }
+    .placeholder-strip strong {
+      color: var(--text-primary);
+    }
+
+    /* —— Phase 2: Fleet status matrix (vehicle cards) —— */
+    .matrix-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+    .matrix-toolbar__bulk {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+    }
+    .matrix-toolbar__bulk[hidden] {
+      display: none !important;
+    }
+    .btn-matrix {
+      height: 34px;
+      padding: 0 14px;
+      border-radius: 10px;
+      border: 1px solid var(--glass-border);
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-secondary);
+      font-size: 13px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 180ms var(--ease), color 180ms var(--ease), border-color 180ms var(--ease);
+    }
+    .btn-matrix:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-primary);
+      border-color: rgba(255, 255, 255, 0.14);
+    }
+    .btn-matrix--primary {
+      border-color: rgba(255, 159, 10, 0.45);
+      color: var(--accent-amber);
+      background: rgba(255, 159, 10, 0.08);
+    }
+    .btn-matrix--primary:hover {
+      background: rgba(255, 159, 10, 0.15);
+      color: var(--accent-primary-hover, #ffb340);
+    }
+    .matrix-toast {
+      flex: 1;
+      min-width: 140px;
+      font-size: 12px;
+      color: var(--text-tertiary);
+    }
+
+    /* auto-fill: use rail width for extra columns instead of one skinny column + dead space */
+    .vehicle-matrix {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 272px), 1fr));
+      gap: 16px;
+      align-content: start;
+    }
+
+    .vcard {
+      position: relative;
+      width: 100%;
+      min-width: 0;
+      height: 160px;
+      flex-shrink: 0;
+      border-radius: 14px;
+      border: 1px solid var(--glass-border);
+      background: rgba(28, 28, 30, 0.96);
+      padding: 12px 14px 12px 14px;
+      text-align: left;
+      cursor: default;
+      transition: box-shadow 200ms var(--ease), transform 120ms var(--ease);
+    }
+    .vcard:hover {
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+    }
+    .vcard:focus {
+      outline: none;
+    }
+    .vcard:focus-visible {
+      box-shadow: 0 0 0 2px var(--bg-primary), 0 0 0 4px var(--accent-amber);
+    }
+    .vcard--active {
+      border-left: 4px solid var(--accent-amber);
+      padding-left: 11px;
+    }
+    .vcard--maintenance {
+      border-top: 4px solid var(--accent-cyan);
+      padding-top: 9px;
+    }
+    .vcard--idle {
+      filter: grayscale(0.6);
+      opacity: 0.95;
+    }
+    .vcard--offline {
+      border-color: rgba(255, 69, 58, 0.35);
+    }
+
+    .vcard__select {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      width: 18px;
+      height: 18px;
+      accent-color: var(--accent-amber);
+      cursor: pointer;
+      z-index: 2;
+    }
+    .vcard__select[hidden] {
+      display: none !important;
+    }
+
+    .vcard__top {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 6px;
+      padding-right: 22px;
+    }
+    .vcard__mark {
+      flex-shrink: 0;
+      margin-top: 3px;
+      color: var(--text-secondary);
+    }
+    .vcard--active .vcard__mark { color: var(--accent-amber); }
+    .vcard--maintenance .vcard__mark { color: var(--accent-cyan); }
+    .vcard--idle .vcard__mark { color: var(--text-tertiary); }
+    .vcard--offline .vcard__mark { color: var(--critical); }
+
+    .vcard__mark--circle {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: currentColor;
+    }
+    .vcard__mark--square {
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+      background: currentColor;
+    }
+    .vcard__mark--triangle {
+      width: 0;
+      height: 0;
+      border-left: 5px solid transparent;
+      border-right: 5px solid transparent;
+      border-bottom: 9px solid currentColor;
+      background: none !important;
+      border-radius: 0 !important;
+    }
+    .vcard__mark--ring {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      border: 2px solid currentColor;
+      background: transparent !important;
+    }
+
+    .vcard__name {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      line-height: 1.25;
+      color: var(--text-primary);
+    }
+    .vcard__status {
+      margin: 0 0 6px;
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+      font-family: var(--mono);
+    }
+
+    .vcard__revline {
+      display: flex;
+      align-items: baseline;
+      gap: 6px;
+      font-variant-numeric: tabular-nums;
+    }
+    .vcard__rev {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--accent-amber);
+    }
+    .vcard__revsub {
+      font-size: 11px;
+      color: var(--text-tertiary);
+      font-family: var(--mono);
+    }
+
+    .vcard__wrench {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: var(--accent-cyan);
+    }
+    .vcard__wrench svg {
+      animation: wrenchPulse 1.5s ease-in-out infinite;
+    }
+    @keyframes wrenchPulse {
+      0%, 100% { opacity: 1; transform: rotate(0deg); }
+      50% { opacity: 0.55; transform: rotate(-12deg); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .vcard__wrench svg { animation: none; }
+    }
+
+    .vcard__deploy {
+      margin-top: 8px;
+      height: 32px;
+      padding: 0 14px;
+      border-radius: 10px;
+      border: 1px solid var(--text-quaternary, rgba(255, 255, 255, 0.18));
+      background: transparent;
+      font-size: 12px;
+      font-weight: 600;
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: border-color 180ms var(--ease), color 180ms var(--ease), background 180ms var(--ease);
+    }
+    .vcard__deploy:hover {
+      border-color: var(--text-secondary);
+      color: var(--text-primary);
+      background: rgba(255, 255, 255, 0.06);
+    }
+
+    .vcard__offline {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 4px;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+    .vcard__offline-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--critical);
+      flex-shrink: 0;
+    }
+
+    /* Hover telemetry overlay (pointer); keyboard → Enter opens modal */
+    .vcard__overlay {
+      position: absolute;
+      inset: 0;
+      padding: 12px;
+      border-radius: 14px;
+      background: rgba(0, 0, 0, 0.9);
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 200ms var(--ease);
+    }
+    .vcard:hover .vcard__overlay {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .vcard__meter {
+      height: 6px;
+      border-radius: 3px;
+      background: rgba(255, 255, 255, 0.1);
+      overflow: hidden;
+    }
+    .vcard__meter > span {
+      display: block;
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, #ffb340, var(--accent-amber));
+    }
+    .vcard__map {
+      width: 80px;
+      height: 80px;
+      border-radius: 8px;
+      align-self: flex-start;
+      background:
+        linear-gradient(135deg, rgba(100, 210, 255, 0.12) 0%, transparent 50%),
+        repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.04) 0 1px, transparent 1px 12px),
+        repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.04) 0 1px, transparent 1px 12px),
+        #0a0a0a;
+      border: 1px solid var(--glass-border);
+    }
+    .vcard__book {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+    .vcard__avatar {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: rgba(255, 159, 10, 0.25);
+      border: 1px solid rgba(255, 159, 10, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: 700;
+      color: var(--accent-amber);
+    }
+
+    /* Detail modal */
+    .vehicle-modal {
+      position: fixed;
+      inset: 0;
+      z-index: 400;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      background: rgba(0, 0, 0, 0.65);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+    }
+    .vehicle-modal[hidden] {
+      display: none !important;
+    }
+    .vehicle-modal__card {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 20px;
+      border: 1px solid var(--glass-border);
+      background: var(--bg-tertiary);
+      padding: 24px;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.6);
+    }
+    .vehicle-modal__card h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+    .vehicle-modal__card dl {
+      margin: 0;
+      display: grid;
+      gap: 8px;
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+    .vehicle-modal__card dt {
+      font-family: var(--mono);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--text-tertiary);
+    }
+    .vehicle-modal__card dd {
+      margin: 0;
+      color: var(--text-primary);
+    }
+    .vehicle-modal__close {
+      margin-top: 20px;
+      width: 100%;
+      height: 44px;
+      border-radius: 12px;
+      border: none;
+      background: var(--accent-amber);
+      color: #000;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .vehicle-modal__close:hover {
+      filter: brightness(1.06);
+    }
+
+    /* —— Phase 3: Maintenance Kanban —— */
+    .bento-maint .panel__body {
+      min-height: 0;
+      min-width: 0;
+    }
+    /* Grid + min column width: flex equal-shrink was crushing 4 columns in the 4-col bento rail */
+    .kanban {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(152px, 1fr));
+      gap: 10px;
+      flex: 1;
+      min-height: 280px;
+      align-items: stretch;
+      overflow-x: auto;
+      overflow-y: hidden;
+      padding-bottom: 4px;
+      -webkit-overflow-scrolling: touch;
+      scrollbar-gutter: stable;
+    }
+    @media (max-width: 520px) {
+      .kanban {
+        grid-template-columns: 1fr;
+        min-height: 0;
+        overflow-x: visible;
+      }
+    }
+    .kanban-col {
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      border-radius: 12px;
+      border: 1px solid var(--glass-border);
+      background: rgba(0, 0, 0, 0.28);
+      overflow: hidden;
+    }
+    .kanban-col__head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      flex-wrap: wrap;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--glass-border);
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .kanban-col__title {
+      margin: 0;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      line-height: 1.25;
+      flex: 1 1 auto;
+      min-width: 0;
+      overflow-wrap: break-word;
+    }
+    .kanban-col__count {
+      font-family: var(--mono);
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--accent-cyan);
+      min-width: 1.5rem;
+      flex-shrink: 0;
+      text-align: center;
+      padding: 2px 8px;
+      border-radius: 8px;
+      background: rgba(100, 210, 255, 0.1);
+      border: 1px solid rgba(100, 210, 255, 0.22);
+    }
+    .kanban-col__body {
+      flex: 1;
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      overflow-y: auto;
+      max-height: 380px;
+    }
+    .kanban-card {
+      text-align: left;
+      padding: 10px 12px;
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(28, 28, 30, 0.9);
+      cursor: default;
+      transition: border-color 180ms var(--ease), box-shadow 180ms var(--ease);
+    }
+    .kanban-card:hover {
+      border-color: rgba(255, 255, 255, 0.14);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    }
+    .kanban-card:focus {
+      outline: none;
+    }
+    .kanban-card:focus-visible {
+      box-shadow: 0 0 0 2px var(--bg-primary), 0 0 0 4px var(--accent-cyan);
+    }
+    .kanban-card__vehicle {
+      margin: 0 0 4px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: var(--text-primary);
+      line-height: 1.25;
+      overflow-wrap: anywhere;
+    }
+    .kanban-card__work {
+      margin: 0 0 6px;
+      font-size: 12px;
+      color: var(--text-secondary);
+      overflow-wrap: break-word;
+    }
+    .kanban-card__due {
+      margin: 0;
+      font-family: var(--mono);
+      font-size: 10px;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--text-tertiary);
+    }
+    .kanban-empty {
+      margin: 0;
+      padding: 20px 10px;
+      font-size: 12px;
+      line-height: 1.45;
+      color: var(--text-tertiary);
+      text-align: center;
+    }
+
+    /* —— Phase 4: Multi-channel distribution —— */
+    .dist-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr 1.2fr;
+      gap: 16px;
+      align-items: start;
+    }
+    @media (max-width: 1024px) {
+      .dist-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .dist-card {
+      border-radius: 14px;
+      border: 1px solid var(--glass-border);
+      background: rgba(0, 0, 0, 0.22);
+      padding: 14px;
+      min-height: 160px;
+    }
+    .dist-card__head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+    .dist-card__title {
+      margin: 0;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-secondary);
+      font-family: var(--mono);
+    }
+    .dist-card__sub {
+      margin: 0;
+      font-size: 12px;
+      color: var(--text-tertiary);
+    }
+
+    .channel-list {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .channel-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 10px;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      background: rgba(28, 28, 30, 0.75);
+    }
+    .channel-row__left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      min-width: 0;
+    }
+    .sync-ico {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      flex-shrink: 0;
+      background: rgba(48, 209, 88, 0.95);
+      box-shadow: 0 0 10px rgba(48, 209, 88, 0.35);
+    }
+    .sync-ico--bad {
+      background: rgba(255, 69, 58, 0.95);
+      box-shadow: 0 0 12px rgba(255, 69, 58, 0.35);
+    }
+    .channel-name {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: var(--text-primary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .channel-meta {
+      font-size: 11px;
+      color: var(--text-tertiary);
+      font-family: var(--mono);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .toggle {
+      position: relative;
+      width: 44px;
+      height: 26px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      background: rgba(255, 255, 255, 0.06);
+      cursor: pointer;
+      flex-shrink: 0;
+      display: inline-flex;
+      align-items: center;
+      padding: 2px;
+      transition: border-color 180ms var(--ease), background 180ms var(--ease);
+    }
+    .toggle[aria-checked="true"] {
+      background: rgba(255, 159, 10, 0.16);
+      border-color: rgba(255, 159, 10, 0.38);
+    }
+    .toggle[aria-disabled="true"] {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+    .toggle::after {
+      content: "";
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.85);
+      transform: translateX(0);
+      transition: transform 200ms var(--ease), background 200ms var(--ease);
+    }
+    .toggle[aria-checked="true"]::after {
+      background: #000;
+      transform: translateX(18px);
+    }
+
+    .yield-wrap {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .yield-labels {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      font-size: 11px;
+      color: var(--text-tertiary);
+      font-family: var(--mono);
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+    .yield-slider {
+      width: 100%;
+      accent-color: var(--accent-amber);
+    }
+    .yield-readout {
+      font-size: 12px;
+      color: var(--text-secondary);
+      line-height: 1.4;
+    }
+    .yield-readout strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    .auto-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 10px 12px;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      background: rgba(28, 28, 30, 0.75);
+    }
+    .auto-row__text {
+      min-width: 0;
+    }
+    .auto-row__title {
+      margin: 0 0 2px;
+      font-size: 13px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      color: var(--text-primary);
+    }
+    .auto-row__sub {
+      margin: 0;
+      font-size: 12px;
+      color: var(--text-tertiary);
+    }
+    .confidence {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 10px;
+      font-size: 12px;
+      color: var(--text-secondary);
+    }
+    .confidence-bar {
+      flex: 1;
+      height: 6px;
+      border-radius: 3px;
+      background: rgba(255, 255, 255, 0.08);
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .confidence-bar > span {
+      display: block;
+      height: 100%;
+      background: linear-gradient(90deg, rgba(100, 210, 255, 0.9), rgba(255, 159, 10, 0.9));
+      width: 0%;
+    }
+
+    .cal-grid {
+      width: 100%;
+      border-collapse: collapse;
+      overflow: hidden;
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .cal-grid th,
+    .cal-grid td {
+      padding: 10px 10px;
+      font-size: 12px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      color: var(--text-secondary);
+      text-align: left;
+      vertical-align: middle;
+      white-space: nowrap;
+    }
+    .cal-grid th {
+      font-family: var(--mono);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-size: 10px;
+      color: var(--text-tertiary);
+      background: rgba(255, 255, 255, 0.02);
+    }
+    .cal-grid td:first-child {
+      color: var(--text-primary);
+      font-weight: 600;
+      letter-spacing: -0.01em;
+    }
+    .cal-pill {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 28px;
+      height: 24px;
+      padding: 0 8px;
+      border-radius: 999px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      background: rgba(0, 0, 0, 0.18);
+      color: var(--text-secondary);
+      font-family: var(--mono);
+      font-size: 11px;
+      letter-spacing: 0.08em;
+    }
+    .cal-pill--booked {
+      border-color: rgba(255, 159, 10, 0.35);
+      background: rgba(255, 159, 10, 0.1);
+      color: var(--accent-amber);
+    }
+
+    /* Skeleton */
+    .sk {
+      position: relative;
+      overflow: hidden;
+      background: rgba(255, 255, 255, 0.06);
+      border-radius: 8px;
+    }
+    .sk::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      transform: translateX(-100%);
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.06), transparent);
+      animation: skShine 1.8s var(--ease) infinite;
+    }
+    @keyframes skShine {
+      to { transform: translateX(100%); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .sk::after { animation: none; }
+    }
+    .sk-line { height: 12px; margin-bottom: 10px; }
+    .sk-line--sm { width: 45%; }
+    .sk-line--md { width: 70%; }
+    .sk-line--lg { width: 92%; }
+    .sk-block { height: 100px; border-radius: 12px; margin-top: 8px; flex: 1; min-height: 80px; }
+    .sk-avatar { width: 36px; height: 36px; border-radius: 50%; margin-bottom: 12px; }
+
+    /* Mobile drawer */
+    .drawer-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+      z-index: 150;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 240ms var(--ease);
+    }
+    .drawer-backdrop.is-open {
+      display: block;
+      opacity: 1;
+      pointer-events: auto;
+    }
+    @media (max-width: 767px) {
+      .menu-toggle { display: inline-flex; }
+      .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 200;
+        width: min(var(--sidebar-expanded), 88vw) !important;
+        transform: translateX(-100%);
+        transition: transform 260ms var(--ease), width 0s;
+        box-shadow: 8px 0 40px rgba(0, 0, 0, 0.5);
+      }
+      .sidebar.is-drawer-open {
+        transform: translateX(0);
+      }
+      /* On mobile, ignore collapsed width — drawer always full nav width when open */
+      .sidebar--collapsed:not(.is-drawer-open) {
+        transform: translateX(-100%);
+      }
+      .btn-collapse {
+        display: none;
+      }
+      .sidebar .nav-item__label,
+      .sidebar .nav-item__label-row {
+        position: static;
+        width: auto;
+        height: auto;
+        margin: 0;
+        clip: auto;
+        overflow: visible;
+      }
+      .sidebar-brand { text-align: left; width: auto; }
+    }
+  </style>
+</head>
+<body>
+  <div class="app">
+    <div class="drawer-backdrop" id="drawer-backdrop" aria-hidden="true"></div>
+
+    <aside
+      class="sidebar"
+      id="sidebar"
+      aria-label="Fleet navigation"
+    >
+      <div class="sidebar-head">
+        <a href="index.html" class="sidebar-brand" id="sidebar-brand">SHIFT</a>
+      </div>
+      <nav class="nav-primary" aria-label="Primary">
+        <a href="fleet-dashboard.html" class="nav-item" id="nav-dashboard" aria-current="page" title="Dashboard" aria-label="Dashboard">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <rect x="3" y="3" width="8" height="8" rx="1.5"/>
+            <rect x="13" y="3" width="8" height="8" rx="1.5"/>
+            <rect x="3" y="13" width="8" height="8" rx="1.5"/>
+            <rect x="13" y="13" width="8" height="8" rx="1.5"/>
+          </svg>
+          <span class="nav-item__label">Dashboard</span>
+        </a>
+        <button
+          type="button"
+          class="nav-item"
+          id="nav-vehicles"
+          title="Vehicles"
+          aria-label="Vehicles"
+          aria-pressed="false"
+          aria-controls="vehicles-main"
+          aria-expanded="false"
+        >
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <path d="M5 17h14v-5l-3-4H8L5 12v5z"/>
+            <circle cx="7.5" cy="17.5" r="1.5"/>
+            <circle cx="16.5" cy="17.5" r="1.5"/>
+          </svg>
+          <span class="nav-item__label">Vehicles</span>
+        </button>
+        <span class="nav-item nav-item--soon" title="Reports — coming soon" aria-label="Reports, coming soon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <path d="M4 19V5"/><path d="M4 19h16"/><path d="M8 15v-4"/><path d="M12 15V7"/><path d="M16 15v-6"/>
+          </svg>
+          <span class="nav-item__label-row">
+            <span class="nav-item__label">Reports</span>
+            <span class="nav-item__soon">Coming soon</span>
+          </span>
+        </span>
+        <span class="nav-item nav-item--soon" title="Settings — coming soon" aria-label="Settings, coming soon">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" aria-hidden="true">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/>
+          </svg>
+          <span class="nav-item__label-row">
+            <span class="nav-item__label">Settings</span>
+            <span class="nav-item__soon">Coming soon</span>
+          </span>
+        </span>
+      </nav>
+      <div class="sidebar-foot">
+        <button type="button" class="btn-collapse" id="btn-collapse" aria-expanded="true" aria-controls="sidebar" title="Collapse sidebar">
+          <svg class="btn-collapse__chev" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M15 6l-6 6 6 6"/>
+          </svg>
+          <span class="btn-collapse__text">Collapse</span>
+        </button>
+        <a href="sign-in.html" class="sign-out">Sign out</a>
+      </div>
+    </aside>
+
+    <div class="main" id="main">
+      <header class="top">
+        <div class="top-left">
+          <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="sidebar" aria-label="Open navigation menu">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M4 6h16M4 12h16M4 18h16"/>
+            </svg>
+          </button>
+          <div class="top-titles">
+            <h1 class="top-title" id="top-page-title">Unified command</h1>
+            <p class="top-context" id="fleet-context">Demo fleet · North region · Owner view</p>
+          </div>
+        </div>
+        <div class="top-right">
+          <div
+            class="sync-pill sync-pill--idle"
+            id="sync-pill"
+            role="status"
+            aria-live="polite"
+            title="Simulated connection — replace with WebSocket status"
+          >
+            <span class="sync-pill__dot" aria-hidden="true"></span>
+            <span id="sync-pill-label">Live · Idle</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="content" id="dashboard-main">
+        <p class="placeholder-strip">
+          <strong>Fleet matrix + maintenance Kanban.</strong> Data: <code>data/fleet/vehicles.json</code>, <code>data/fleet/maintenance.json</code>. Distribution row and APIs still to ship.
+        </p>
+
+        <div class="bento" role="presentation">
+          <section class="bento-matrix panel" aria-labelledby="matrix-heading">
+            <div class="panel__head">
+              <h2 class="panel__title" id="matrix-heading">Fleet status matrix</h2>
+              <span class="panel__meta">cols 1–8</span>
+            </div>
+            <div class="matrix-toolbar">
+              <button type="button" class="btn-matrix" id="btn-select-mode" aria-pressed="false">
+                Select vehicles
+              </button>
+              <div class="matrix-toolbar__bulk" id="matrix-bulk" hidden>
+                <button type="button" class="btn-matrix" id="btn-select-all">Select all</button>
+                <button type="button" class="btn-matrix" id="btn-select-clear">Clear</button>
+                <button type="button" class="btn-matrix btn-matrix--primary" id="btn-batch-maint">Batch schedule maintenance</button>
+                <button type="button" class="btn-matrix btn-matrix--primary" id="btn-batch-price">Dynamic price adjust</button>
+              </div>
+              <span class="matrix-toast" id="matrix-toast" role="status" aria-live="polite" aria-atomic="true"></span>
+            </div>
+            <div class="panel__body" id="matrix-body">
+              <div class="vehicle-matrix" id="vehicle-matrix" aria-label="Vehicles"></div>
+              <p id="matrix-error" class="matrix-toast" hidden style="color: var(--critical); margin: 0;"></p>
+            </div>
+          </section>
+
+          <section class="bento-maint panel" aria-labelledby="maint-heading">
+            <div class="panel__head">
+              <h2 class="panel__title" id="maint-heading">Maintenance command</h2>
+              <span class="panel__meta">Kanban</span>
+            </div>
+            <div class="panel__body" id="maint-panel-body">
+              <div class="kanban" id="maint-kanban" role="region" aria-label="Maintenance queue by status"></div>
+              <p id="maint-error" class="kanban-empty" hidden style="color: var(--critical);"></p>
+            </div>
+          </section>
+
+          <section class="bento-dist panel" aria-labelledby="dist-heading">
+            <div class="panel__head">
+              <h2 class="panel__title" id="dist-heading">Multi-channel distribution</h2>
+              <span class="panel__meta">full width</span>
+            </div>
+            <div class="panel__body" id="dist-body">
+              <div class="dist-grid">
+                <section class="dist-card" aria-labelledby="dist-channels-title">
+                  <div class="dist-card__head">
+                    <h3 class="dist-card__title" id="dist-channels-title">Channels</h3>
+                    <p class="dist-card__sub" id="dist-sync-summary">Sync status loading…</p>
+                  </div>
+                  <div class="channel-list" id="dist-channels"></div>
+                </section>
+
+                <section class="dist-card" aria-labelledby="dist-yield-title">
+                  <div class="dist-card__head">
+                    <h3 class="dist-card__title" id="dist-yield-title">Yield optimization</h3>
+                    <p class="dist-card__sub" id="dist-yield-sub">Strategy control surface</p>
+                  </div>
+                  <div class="yield-wrap">
+                    <div class="yield-labels">
+                      <span id="yield-left">Conservative</span>
+                      <span id="yield-right">Aggressive</span>
+                    </div>
+                    <input class="yield-slider" id="yield-slider" type="range" min="0" max="100" step="1" value="50" aria-label="Yield strategy slider">
+                    <p class="yield-readout" id="yield-readout"><strong>Balanced.</strong> Maximize revenue without sacrificing utilization.</p>
+                    <div class="auto-row" role="group" aria-label="Auto pricing">
+                      <div class="auto-row__text">
+                        <p class="auto-row__title">Auto-pricing</p>
+                        <p class="auto-row__sub" id="auto-sub">Applies recommended rates across enabled channels.</p>
+                      </div>
+                      <button type="button" class="toggle" id="auto-toggle" role="switch" aria-checked="false" aria-label="Toggle auto pricing"></button>
+                    </div>
+                    <div class="confidence" aria-label="Auto pricing confidence">
+                      <span id="confidence-label">Confidence</span>
+                      <div class="confidence-bar" aria-hidden="true"><span id="confidence-fill"></span></div>
+                      <span id="confidence-pct">—</span>
+                    </div>
+                    <div class="matrix-toast" id="dist-toast" role="status" aria-live="polite" aria-atomic="true"></div>
+                  </div>
+                </section>
+
+                <section class="dist-card" aria-labelledby="dist-cal-title">
+                  <div class="dist-card__head">
+                    <h3 class="dist-card__title" id="dist-cal-title">Unified availability</h3>
+                    <p class="dist-card__sub">Cross-platform calendar (seeded)</p>
+                  </div>
+                  <div style="overflow:auto;">
+                    <table class="cal-grid" aria-label="Availability by channel for upcoming days">
+                      <thead>
+                        <tr>
+                          <th scope="col">Day</th>
+                          <th scope="col">SHIFT</th>
+                          <th scope="col">Turo</th>
+                          <th scope="col">Getaround</th>
+                          <th scope="col">Kayak</th>
+                        </tr>
+                      </thead>
+                      <tbody id="dist-cal-body"></tbody>
+                    </table>
+                  </div>
+                </section>
+              </div>
+              <p id="dist-error" class="kanban-empty" hidden style="color: var(--critical);"></p>
+            </div>
+          </section>
+        </div>
+      </main>
+
+      <main class="content" id="vehicles-main" hidden aria-label="Fleet vehicles" aria-busy="false">
+        <p class="placeholder-strip">
+          <strong>Live fleet inventory.</strong> Rows from <code>/api/v1/fleet/vehicles</code> (SQLite). Click <strong>Vehicles</strong> again or <strong>Dashboard</strong> to return to the command view.
+        </p>
+        <section class="panel" aria-labelledby="vehicles-registry-heading">
+          <div class="panel__head">
+            <h2 class="panel__title" id="vehicles-registry-heading">All vehicles</h2>
+            <span class="panel__meta" id="vehicles-main-count">—</span>
+          </div>
+          <div class="panel__body">
+            <div class="vehicles-main-table-wrap">
+              <table class="vehicles-table" aria-label="Vehicles from database">
+                <thead>
+                  <tr>
+                    <th scope="col">ID</th>
+                    <th scope="col">Vehicle</th>
+                    <th scope="col">Status</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Plate</th>
+                    <th scope="col">Daily</th>
+                  </tr>
+                </thead>
+                <tbody id="vehicles-main-tbody"></tbody>
+              </table>
+            </div>
+            <p id="vehicles-main-error" class="matrix-toast" hidden style="color: var(--critical); margin-top: 12px;"></p>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <div id="vehicle-modal" class="vehicle-modal" role="dialog" aria-modal="true" aria-labelledby="vmodal-title" hidden>
+    <div class="vehicle-modal__card">
+      <h2 id="vmodal-title">Vehicle</h2>
+      <dl id="vmodal-dl"></dl>
+      <button type="button" class="vehicle-modal__close" id="vmodal-close">Close</button>
+    </div>
+  </div>
+
+  <script>
+    (function () {
+      var STORAGE_KEY = 'shift-fleet-sidebar-collapsed';
+      var sidebar = document.getElementById('sidebar');
+      var btn = document.getElementById('btn-collapse');
+      var brand = document.getElementById('sidebar-brand');
+      var mqMobile = window.matchMedia('(max-width: 767px)');
+      var backdrop = document.getElementById('drawer-backdrop');
+      var menuToggle = document.getElementById('menu-toggle');
+
+      function applyCollapsed(collapsed) {
+        sidebar.classList.toggle('sidebar--collapsed', collapsed);
+        if (btn) btn.setAttribute('aria-expanded', collapsed ? 'false' : 'true');
+        if (brand) brand.textContent = collapsed ? 'S' : 'SHIFT';
+      }
+
+      function initSidebarWidth() {
+        if (mqMobile.matches) {
+          sidebar.classList.remove('sidebar--collapsed');
+          if (brand) brand.textContent = 'SHIFT';
+          return;
+        }
+        try {
+          applyCollapsed(localStorage.getItem(STORAGE_KEY) === '1');
+        } catch (e) {
+          applyCollapsed(false);
+        }
+      }
+      initSidebarWidth();
+
+      if (btn) {
+        btn.addEventListener('click', function () {
+          if (mqMobile.matches) return;
+          var next = !sidebar.classList.contains('sidebar--collapsed');
+          applyCollapsed(next);
+          try {
+            localStorage.setItem(STORAGE_KEY, next ? '1' : '0');
+          } catch (err) {}
+        });
+      }
+
+      function setDrawerOpen(open) {
+        sidebar.classList.toggle('is-drawer-open', open);
+        backdrop.classList.toggle('is-open', open);
+        backdrop.setAttribute('aria-hidden', open ? 'false' : 'true');
+        menuToggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      }
+
+      if (menuToggle) {
+        menuToggle.addEventListener('click', function () {
+          setDrawerOpen(!sidebar.classList.contains('is-drawer-open'));
+        });
+      }
+      backdrop.addEventListener('click', function () { setDrawerOpen(false); });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === 'Escape' && sidebar.classList.contains('is-drawer-open')) setDrawerOpen(false);
+      });
+
+      mqMobile.addEventListener('change', function (e) {
+        if (!e.matches) {
+          setDrawerOpen(false);
+          initSidebarWidth();
+        } else {
+          setDrawerOpen(false);
+          sidebar.classList.remove('sidebar--collapsed');
+          if (brand) brand.textContent = 'SHIFT';
+        }
+      });
+
+      /* Stub telemetry: alternate idle / syncing unless reduced motion */
+      var pill = document.getElementById('sync-pill');
+      var pillLabel = document.getElementById('sync-pill-label');
+      var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+      function setSyncState(syncing) {
+        pill.classList.toggle('sync-pill--syncing', syncing);
+        pill.classList.toggle('sync-pill--idle', !syncing);
+        pillLabel.textContent = syncing ? 'Syncing' : 'Live · Idle';
+      }
+
+      if (!reduceMotion) {
+        var syncing = false;
+        setInterval(function () {
+          syncing = !syncing;
+          setSyncState(syncing);
+        }, 7000);
+      }
+    })();
+  </script>
+  <script>
+    (function () {
+      var DATA_URL = 'data/fleet/vehicles.json';
+      var matrixEl = document.getElementById('vehicle-matrix');
+      var matrixToast = document.getElementById('matrix-toast');
+      var matrixError = document.getElementById('matrix-error');
+      var btnSelectMode = document.getElementById('btn-select-mode');
+      var matrixBulk = document.getElementById('matrix-bulk');
+      var btnAll = document.getElementById('btn-select-all');
+      var btnClear = document.getElementById('btn-select-clear');
+      var btnMaint = document.getElementById('btn-batch-maint');
+      var btnPrice = document.getElementById('btn-batch-price');
+      var modal = document.getElementById('vehicle-modal');
+      var vmodalTitle = document.getElementById('vmodal-title');
+      var vmodalDl = document.getElementById('vmodal-dl');
+      var vmodalClose = document.getElementById('vmodal-close');
+
+      var vehicles = [];
+      var selectMode = false;
+      var lastFocus = null;
+      var revenueEls = [];
+      var revenueRaf = 0;
+
+      function toast(msg) {
+        if (matrixToast) matrixToast.textContent = msg || '';
+      }
+
+      function shapeClass(state) {
+        if (state === 'active') return 'vcard__mark--circle';
+        if (state === 'maintenance') return 'vcard__mark--square';
+        if (state === 'idle') return 'vcard__mark--ring';
+        return 'vcard__mark--triangle';
+      }
+
+      function statusWords(state) {
+        if (state === 'active') return 'active, generating revenue';
+        if (state === 'maintenance') return 'in maintenance';
+        if (state === 'idle') return 'idle, docked';
+        return 'offline';
+      }
+
+      function ariaLabel(v) {
+        var parts = ['Vehicle ' + v.name + ', status ' + statusWords(v.state)];
+        if (v.state === 'active' && v.revenueHourlyUsd)
+          parts.push('approximately ' + v.revenueHourlyUsd + ' U S dollars per hour');
+        if (v.state === 'offline' && v.lastSeen)
+          parts.push('last seen ' + formatTime(v.lastSeen));
+        parts.push('Press Enter for details');
+        return parts.join('. ') + '.';
+      }
+
+      function formatTime(iso) {
+        try {
+          var d = new Date(iso);
+          return d.toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' });
+        } catch (e) {
+          return iso;
+        }
+      }
+
+      function openModal(v) {
+        lastFocus = document.activeElement;
+        vmodalTitle.textContent = v.name;
+        vmodalDl.innerHTML = '';
+        function row(label, val) {
+          var dt = document.createElement('dt');
+          dt.textContent = label;
+          var dd = document.createElement('dd');
+          dd.textContent = val;
+          vmodalDl.appendChild(dt);
+          vmodalDl.appendChild(dd);
+        }
+        row('Status', v.state);
+        if (v.state === 'active') {
+          row('Revenue (est. / hr)', '$' + v.revenueHourlyUsd);
+          row('Telemetry rate', '$' + v.revenuePerSec.toFixed(3) + '/sec');
+        }
+        if (v.fuelPct != null) row(v.energyLabel || 'Level', v.fuelPct + '%');
+        row('Coordinates', v.lat + ', ' + v.lng);
+        if (v.booking) row('Booking', v.booking.renterInitials + ' · ' + v.booking.remainingMin + ' min left');
+        if (v.lastSeen) row('Last seen', formatTime(v.lastSeen));
+        if (v.maintenanceNote) row('Note', v.maintenanceNote);
+        modal.hidden = false;
+        vmodalClose.focus();
+      }
+
+      function closeModal() {
+        modal.hidden = true;
+        if (lastFocus && typeof lastFocus.focus === 'function') lastFocus.focus();
+      }
+
+      vmodalClose.addEventListener('click', closeModal);
+      modal.addEventListener('click', function (e) {
+        if (e.target === modal) closeModal();
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key !== 'Escape') return;
+        if (!modal.hidden) {
+          e.preventDefault();
+          closeModal();
+        }
+      });
+
+      function getSelectedIds() {
+        var boxes = matrixEl.querySelectorAll('.vcard__select:checked');
+        return Array.prototype.map.call(boxes, function (c) { return c.dataset.id; });
+      }
+
+      function setSelectMode(on) {
+        selectMode = on;
+        btnSelectMode.setAttribute('aria-pressed', on ? 'true' : 'false');
+        btnSelectMode.textContent = on ? 'Cancel selection' : 'Select vehicles';
+        matrixBulk.hidden = !on;
+        matrixEl.classList.toggle('vehicle-matrix--select', on);
+        matrixEl.querySelectorAll('.vcard').forEach(function (card) {
+          var cb = card.querySelector('.vcard__select');
+          if (!cb) return;
+          cb.hidden = !on;
+          if (!on) cb.checked = false;
+          card.tabIndex = on ? -1 : 0;
+          cb.tabIndex = on ? 0 : -1;
+        });
+        if (!on) toast('');
+      }
+
+      btnSelectMode.addEventListener('click', function () {
+        setSelectMode(!selectMode);
+      });
+
+      btnAll.addEventListener('click', function () {
+        matrixEl.querySelectorAll('.vcard__select').forEach(function (cb) { cb.checked = true; });
+        toast('All vehicles selected');
+      });
+
+      btnClear.addEventListener('click', function () {
+        matrixEl.querySelectorAll('.vcard__select').forEach(function (cb) { cb.checked = false; });
+        toast('Selection cleared');
+      });
+
+      function stubBatch(kind) {
+        var ids = getSelectedIds();
+        if (!ids.length) {
+          toast('Select at least one vehicle');
+          return;
+        }
+        toast(kind + ' (demo): ' + ids.join(', ') + ' — API not wired');
+      }
+
+      btnMaint.addEventListener('click', function () { stubBatch('Batch schedule maintenance'); });
+      btnPrice.addEventListener('click', function () { stubBatch('Dynamic price adjust'); });
+
+      function buildOverlay(v) {
+        var ov = document.createElement('div');
+        ov.className = 'vcard__overlay';
+        ov.setAttribute('aria-hidden', 'true');
+
+        if (v.fuelPct != null) {
+          var lab = document.createElement('div');
+          lab.style.cssText = 'font-size:11px;font-family:var(--mono);text-transform:uppercase;letter-spacing:0.08em;color:rgba(255,255,255,0.45);';
+          lab.textContent = (v.energyLabel || 'Level') + ' · ' + v.fuelPct + '%';
+          var meter = document.createElement('div');
+          meter.className = 'vcard__meter';
+          var fill = document.createElement('span');
+          fill.style.width = v.fuelPct + '%';
+          meter.appendChild(fill);
+          ov.appendChild(lab);
+          ov.appendChild(meter);
+        }
+
+        var map = document.createElement('div');
+        map.className = 'vcard__map';
+        map.title = 'Map preview placeholder';
+        ov.appendChild(map);
+
+        var book = document.createElement('div');
+        book.className = 'vcard__book';
+        if (v.booking) {
+          var av = document.createElement('span');
+          av.className = 'vcard__avatar';
+          av.textContent = v.booking.renterInitials.replace(/\./g, '');
+          var t = document.createElement('span');
+          t.textContent = 'Booking · ' + v.booking.remainingMin + ' min remaining';
+          book.appendChild(av);
+          book.appendChild(t);
+        } else {
+          book.textContent = 'No active booking';
+        }
+        ov.appendChild(book);
+        return ov;
+      }
+
+      function buildCard(v) {
+        var art = document.createElement('article');
+        art.className = 'vcard vcard--' + v.state;
+        art.tabIndex = 0;
+        art.dataset.vehicleId = v.id;
+        art.setAttribute('aria-label', ariaLabel(v));
+
+        var cb = document.createElement('input');
+        cb.type = 'checkbox';
+        cb.className = 'vcard__select';
+        cb.dataset.id = v.id;
+        cb.hidden = true;
+        cb.tabIndex = -1;
+        cb.setAttribute('aria-label', 'Select ' + v.name);
+        cb.addEventListener('click', function (e) { e.stopPropagation(); });
+
+        var top = document.createElement('div');
+        top.className = 'vcard__top';
+        var mark = document.createElement('span');
+        mark.className = 'vcard__mark ' + shapeClass(v.state);
+        mark.setAttribute('aria-hidden', 'true');
+        var title = document.createElement('h3');
+        title.className = 'vcard__name';
+        title.textContent = v.name;
+        top.appendChild(mark);
+        top.appendChild(title);
+
+        var st = document.createElement('p');
+        st.className = 'vcard__status';
+        st.textContent = v.state;
+
+        art.appendChild(cb);
+        art.appendChild(top);
+        art.appendChild(st);
+
+        if (v.state === 'active') {
+          var wrap = document.createElement('div');
+          wrap.className = 'vcard__revline';
+          var rev = document.createElement('span');
+          rev.className = 'vcard__rev';
+          var base = typeof v.revenueTodayUsd === 'number' ? v.revenueTodayUsd : 0;
+          rev.dataset.base = String(base);
+          rev.dataset.rate = String(v.revenuePerSec || 0);
+          rev.textContent = '$' + base.toFixed(2);
+          revenueEls.push(rev);
+          var sub = document.createElement('span');
+          sub.className = 'vcard__revsub';
+          sub.textContent = 'today · ~$' + v.revenueHourlyUsd + '/hr';
+          wrap.appendChild(rev);
+          wrap.appendChild(sub);
+          art.appendChild(wrap);
+        } else if (v.state === 'maintenance') {
+          var wr = document.createElement('div');
+          wr.className = 'vcard__wrench';
+          wr.innerHTML = '<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>';
+          var wt = document.createElement('span');
+          wt.textContent = v.maintenanceNote || 'Service scheduled';
+          wr.appendChild(wt);
+          art.appendChild(wr);
+        } else if (v.state === 'idle') {
+          var dep = document.createElement('button');
+          dep.type = 'button';
+          dep.className = 'vcard__deploy';
+          dep.textContent = 'Deploy';
+          dep.addEventListener('click', function (e) {
+            e.stopPropagation();
+            toast('Deploy (demo): ' + v.name);
+          });
+          art.appendChild(dep);
+        } else if (v.state === 'offline') {
+          var off = document.createElement('div');
+          off.className = 'vcard__offline';
+          var dot = document.createElement('span');
+          dot.className = 'vcard__offline-dot';
+          var tx = document.createElement('span');
+          tx.textContent = 'Last seen ' + (v.lastSeen ? formatTime(v.lastSeen) : 'unknown');
+          off.appendChild(dot);
+          off.appendChild(tx);
+          art.appendChild(off);
+        }
+
+        art.appendChild(buildOverlay(v));
+
+        art.addEventListener('keydown', function (e) {
+          if (e.key === 'Enter' && e.target === art) {
+            e.preventDefault();
+            openModal(v);
+          }
+          if (selectMode && e.key === ' ' && e.target === art) {
+            e.preventDefault();
+            cb.checked = !cb.checked;
+          }
+        });
+
+        art.addEventListener('click', function (e) {
+          if (e.target === cb || (e.target.closest && e.target.closest('.vcard__deploy'))) return;
+          if (selectMode) {
+            cb.checked = !cb.checked;
+            return;
+          }
+          openModal(v);
+        });
+
+        return art;
+      }
+
+      function startRevenueLoop() {
+        if (revenueRaf) cancelAnimationFrame(revenueRaf);
+        var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        if (reduceMotion) return;
+        var t0 = performance.now();
+        function frame() {
+          var elapsed = (performance.now() - t0) / 1000;
+          revenueEls.forEach(function (el) {
+            var base = parseFloat(el.dataset.base, 10) || 0;
+            var rate = parseFloat(el.dataset.rate, 10) || 0;
+            el.textContent = '$' + (base + elapsed * rate).toFixed(2);
+          });
+          revenueRaf = requestAnimationFrame(frame);
+        }
+        revenueRaf = requestAnimationFrame(frame);
+      }
+
+      function render(list) {
+        matrixEl.innerHTML = '';
+        revenueEls = [];
+        list.forEach(function (v) {
+          matrixEl.appendChild(buildCard(v));
+        });
+        startRevenueLoop();
+      }
+
+      function load() {
+        matrixError.hidden = true;
+        fetch(DATA_URL)
+          .then(function (r) {
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            return r.json();
+          })
+          .then(function (data) {
+            vehicles = data.vehicles || [];
+            render(vehicles);
+            toast(vehicles.length + ' vehicles loaded');
+          })
+          .catch(function () {
+            matrixError.textContent = '';
+            var msg = document.createElement('span');
+            msg.textContent = 'Could not load vehicle data. Serve via node server.js (not file://), then retry. ';
+            matrixError.appendChild(msg);
+            var retry = document.createElement('button');
+            retry.type = 'button';
+            retry.className = 'btn-matrix';
+            retry.style.marginTop = '8px';
+            retry.style.marginLeft = '4px';
+            retry.textContent = 'Retry';
+            retry.addEventListener('click', load);
+            matrixError.appendChild(retry);
+            matrixError.hidden = false;
+          });
+      }
+
+      load();
+    })();
+  </script>
+  <script>
+    (function () {
+      var API_URL = '/api/v1/fleet/vehicles';
+      var FALLBACK_URL = 'data/fleet/vehicles.json';
+      var btn = document.getElementById('nav-vehicles');
+      var dashboardMain = document.getElementById('dashboard-main');
+      var vehiclesMain = document.getElementById('vehicles-main');
+      var tbody = document.getElementById('vehicles-main-tbody');
+      var mainCountEl = document.getElementById('vehicles-main-count');
+      var mainErr = document.getElementById('vehicles-main-error');
+      var topTitle = document.getElementById('top-page-title');
+      var fleetContext = document.getElementById('fleet-context');
+      var navDashboard = document.getElementById('nav-dashboard');
+      if (!btn || !dashboardMain || !vehiclesMain || !tbody || !mainCountEl || !topTitle || !fleetContext) return;
+
+      var loaded = false;
+      var cached = [];
+
+      var TITLE_DASH = 'Unified command';
+      var CTX_DASH = 'Demo fleet · North region · Owner view';
+      var TITLE_VEH = 'Fleet vehicles';
+      var CTX_VEH = 'SQLite · live inventory';
+
+      function normalizedState(v) {
+        if (v && v.state) return v.state;
+        if (!v || !v.status) return 'offline';
+        if (v.status === 'Rented') return 'active';
+        if (v.status === 'Maintenance') return 'maintenance';
+        if (v.status === 'Available') return 'idle';
+        return 'offline';
+      }
+
+      function setVehiclesMode(on) {
+        dashboardMain.hidden = !!on;
+        vehiclesMain.hidden = !on;
+        topTitle.textContent = on ? TITLE_VEH : TITLE_DASH;
+        fleetContext.textContent = on ? CTX_VEH : CTX_DASH;
+        btn.setAttribute('aria-pressed', on ? 'true' : 'false');
+        btn.setAttribute('aria-expanded', on ? 'true' : 'false');
+        if (navDashboard) {
+          if (on) navDashboard.removeAttribute('aria-current');
+          else navDashboard.setAttribute('aria-current', 'page');
+        }
+      }
+
+      function td(text) {
+        var cell = document.createElement('td');
+        cell.textContent = text != null ? String(text) : '—';
+        return cell;
+      }
+
+      function renderMainTable(vehicles) {
+        tbody.innerHTML = '';
+        mainCountEl.textContent = String(vehicles.length) + ' units';
+        if (mainErr) {
+          mainErr.hidden = true;
+          mainErr.textContent = '';
+        }
+
+        if (!vehicles.length) {
+          var tr = document.createElement('tr');
+          var empty = document.createElement('td');
+          empty.colSpan = 6;
+          empty.style.padding = '24px';
+          empty.style.color = 'var(--text-tertiary)';
+          empty.textContent = 'No vehicles in response.';
+          tr.appendChild(empty);
+          tbody.appendChild(tr);
+          return;
+        }
+
+        vehicles.forEach(function (v) {
+          var tr = document.createElement('tr');
+          tr.appendChild(td(v.id));
+          tr.appendChild(td(v.name));
+          tr.appendChild(td(v.status || normalizedState(v)));
+          tr.appendChild(td(v.category));
+          tr.appendChild(td(v.license_plate));
+          var rate = v.daily_rate != null ? '$' + Number(v.daily_rate).toFixed(0) : '—';
+          tr.appendChild(td(rate));
+          tbody.appendChild(tr);
+        });
+      }
+
+      function applyFleetData(vehicles) {
+        cached = vehicles || [];
+        renderMainTable(cached);
+      }
+
+      function load() {
+        vehiclesMain.setAttribute('aria-busy', 'true');
+        mainCountEl.textContent = '…';
+        fetch(API_URL)
+          .then(function (r) {
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            return r.json();
+          })
+          .catch(function () {
+            return fetch(FALLBACK_URL).then(function (r) {
+              if (!r.ok) throw new Error('HTTP ' + r.status);
+              return r.json();
+            });
+          })
+          .then(function (data) {
+            loaded = true;
+            applyFleetData((data && data.vehicles) || []);
+          })
+          .catch(function () {
+            loaded = true;
+            cached = [];
+            tbody.innerHTML = '';
+            mainCountEl.textContent = 'Error';
+            if (mainErr) {
+              mainErr.textContent = 'Could not load vehicles. Run shift-rental-support with node server.js so /api/v1/fleet/vehicles is available.';
+              mainErr.hidden = false;
+            }
+          })
+          .finally(function () {
+            vehiclesMain.setAttribute('aria-busy', 'false');
+          });
+      }
+
+      btn.addEventListener('click', function () {
+        var goingToVehicles = !dashboardMain.hidden;
+        if (goingToVehicles) {
+          setVehiclesMode(true);
+          if (!loaded) load();
+          else applyFleetData(cached);
+        } else {
+          setVehiclesMode(false);
+        }
+      });
+
+      if (navDashboard) {
+        navDashboard.addEventListener('click', function (e) {
+          if (!vehiclesMain.hidden) {
+            e.preventDefault();
+            setVehiclesMode(false);
+          }
+        });
+      }
+
+      setVehiclesMode(false);
+    })();
+  </script>
+  <script>
+    (function () {
+      var DATA_URL = 'data/fleet/maintenance.json';
+      var root = document.getElementById('maint-kanban');
+      var errEl = document.getElementById('maint-error');
+      if (!root || !errEl) return;
+
+      function render(data) {
+        root.innerHTML = '';
+        (data.columns || []).forEach(function (col) {
+          var items = col.items || [];
+          var count = items.length;
+          var section = document.createElement('section');
+          section.className = 'kanban-col';
+          var headId = 'kanban-col-' + col.id;
+          section.setAttribute('aria-labelledby', headId);
+
+          var head = document.createElement('div');
+          head.className = 'kanban-col__head';
+          var ht = document.createElement('h3');
+          ht.className = 'kanban-col__title';
+          ht.id = headId;
+          ht.textContent = col.title || col.id;
+          var badge = document.createElement('span');
+          badge.className = 'kanban-col__count';
+          badge.textContent = String(count);
+          badge.setAttribute('aria-label', count + ' in this column');
+          head.appendChild(ht);
+          head.appendChild(badge);
+
+          var body = document.createElement('div');
+          body.className = 'kanban-col__body';
+          if (count === 0) {
+            var empty = document.createElement('p');
+            empty.className = 'kanban-empty';
+            empty.textContent = 'No work orders in this column.';
+            body.appendChild(empty);
+          } else {
+            items.forEach(function (item) {
+              var card = document.createElement('article');
+              card.className = 'kanban-card';
+              card.tabIndex = 0;
+              card.setAttribute(
+                'aria-label',
+                item.workType + ' for ' + item.vehicleName + ', due ' + item.dueLabel + '. ' + col.title + ' column.'
+              );
+              var vn = document.createElement('p');
+              vn.className = 'kanban-card__vehicle';
+              vn.textContent = item.vehicleName || '—';
+              var wt = document.createElement('p');
+              wt.className = 'kanban-card__work';
+              wt.textContent = item.workType || '—';
+              var du = document.createElement('p');
+              du.className = 'kanban-card__due';
+              du.textContent = 'Due · ' + (item.dueLabel || '—');
+              card.appendChild(vn);
+              card.appendChild(wt);
+              card.appendChild(du);
+              body.appendChild(card);
+            });
+          }
+          section.appendChild(head);
+          section.appendChild(body);
+          root.appendChild(section);
+        });
+      }
+
+      function load() {
+        errEl.hidden = true;
+        errEl.innerHTML = '';
+        fetch(DATA_URL)
+          .then(function (r) {
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            return r.json();
+          })
+          .then(render)
+          .catch(function () {
+            errEl.textContent = '';
+            var msg = document.createTextNode('Could not load maintenance queue. Serve via server (not file://). ');
+            errEl.appendChild(msg);
+            var retry = document.createElement('button');
+            retry.type = 'button';
+            retry.className = 'btn-matrix';
+            retry.textContent = 'Retry';
+            retry.addEventListener('click', load);
+            errEl.appendChild(retry);
+            errEl.hidden = false;
+          });
+      }
+
+      load();
+    })();
+  </script>
+  <script>
+    (function () {
+      var DATA_URL = 'data/fleet/distribution.json';
+      var channelsEl = document.getElementById('dist-channels');
+      var syncSummary = document.getElementById('dist-sync-summary');
+      var yieldSlider = document.getElementById('yield-slider');
+      var yieldLeft = document.getElementById('yield-left');
+      var yieldRight = document.getElementById('yield-right');
+      var yieldReadout = document.getElementById('yield-readout');
+      var autoToggle = document.getElementById('auto-toggle');
+      var confFill = document.getElementById('confidence-fill');
+      var confPct = document.getElementById('confidence-pct');
+      var distToast = document.getElementById('dist-toast');
+      var calBody = document.getElementById('dist-cal-body');
+      var distErr = document.getElementById('dist-error');
+
+      if (!channelsEl || !yieldSlider || !autoToggle || !calBody || !distErr) return;
+
+      var state = {
+        channels: [],
+        yieldMode: 50,
+        yieldLabels: { left: 'Conservative', right: 'Aggressive' },
+        autoPricing: { enabled: false, confidencePct: 0 },
+        calendarDays: []
+      };
+
+      function toast(msg) {
+        if (!distToast) return;
+        distToast.textContent = msg || '';
+      }
+
+      function setSwitch(el, on) {
+        el.setAttribute('aria-checked', on ? 'true' : 'false');
+      }
+
+      function setDisabled(el, disabled) {
+        el.setAttribute('aria-disabled', disabled ? 'true' : 'false');
+        el.tabIndex = disabled ? -1 : 0;
+      }
+
+      function syncText(ch) {
+        if (ch.sync === 'desync') return 'Desync';
+        return 'Synced';
+      }
+
+      function renderChannels() {
+        channelsEl.innerHTML = '';
+        var desyncCount = state.channels.filter(function (c) { return c.sync === 'desync' && c.enabled; }).length;
+        var enabledCount = state.channels.filter(function (c) { return c.enabled; }).length;
+        if (syncSummary) {
+          syncSummary.textContent = desyncCount ? (desyncCount + ' alert(s) · ' + enabledCount + ' enabled') : ('Parity OK · ' + enabledCount + ' enabled');
+        }
+
+        state.channels.forEach(function (ch) {
+          var row = document.createElement('div');
+          row.className = 'channel-row';
+
+          var left = document.createElement('div');
+          left.className = 'channel-row__left';
+
+          var sync = document.createElement('span');
+          sync.className = 'sync-ico' + (ch.sync === 'desync' && ch.enabled ? ' sync-ico--bad' : '');
+          sync.setAttribute('aria-hidden', 'true');
+
+          var nameWrap = document.createElement('div');
+          nameWrap.style.minWidth = '0';
+          var name = document.createElement('div');
+          name.className = 'channel-name';
+          name.textContent = ch.label;
+          var meta = document.createElement('div');
+          meta.className = 'channel-meta';
+          meta.textContent = syncText(ch) + (ch.lockedOn ? ' · Locked' : '');
+          nameWrap.appendChild(name);
+          nameWrap.appendChild(meta);
+
+          left.appendChild(sync);
+          left.appendChild(nameWrap);
+
+          var toggle = document.createElement('button');
+          toggle.type = 'button';
+          toggle.className = 'toggle';
+          toggle.setAttribute('role', 'switch');
+          toggle.setAttribute('aria-label', ch.label + ' toggle');
+          setSwitch(toggle, !!ch.enabled);
+          setDisabled(toggle, !!ch.lockedOn);
+
+          toggle.addEventListener('click', function () {
+            if (ch.lockedOn) return;
+            ch.enabled = !ch.enabled;
+            setSwitch(toggle, ch.enabled);
+            toast((ch.enabled ? 'Enabled ' : 'Disabled ') + ch.label + ' (demo)');
+            renderChannels();
+          });
+
+          row.appendChild(left);
+          row.appendChild(toggle);
+          channelsEl.appendChild(row);
+        });
+      }
+
+      function yieldNarrative(v) {
+        if (v >= 75) return { title: 'Aggressive.', body: 'Maximize revenue; utilization may soften on price-sensitive days.' };
+        if (v >= 55) return { title: 'Revenue-leaning.', body: 'Push rates where demand is strong; keep fleet responsive.' };
+        if (v >= 45) return { title: 'Balanced.', body: 'Maximize revenue without sacrificing utilization.' };
+        if (v >= 25) return { title: 'Utilization-leaning.', body: 'Keep cars deployed; accept tighter margins to reduce idle time.' };
+        return { title: 'Conservative.', body: 'Prioritize utilization; stabilize throughput and minimize downtime.' };
+      }
+
+      function renderYield() {
+        yieldSlider.value = String(state.yieldMode);
+        yieldLeft.textContent = state.yieldLabels.left || 'Conservative';
+        yieldRight.textContent = state.yieldLabels.right || 'Aggressive';
+        var n = yieldNarrative(state.yieldMode);
+        yieldReadout.innerHTML = '<strong>' + n.title + '</strong> ' + n.body;
+      }
+
+      function renderAutoPricing() {
+        setSwitch(autoToggle, !!state.autoPricing.enabled);
+        var pct = Math.max(0, Math.min(100, Number(state.autoPricing.confidencePct) || 0));
+        confFill.style.width = pct + '%';
+        confPct.textContent = pct ? (pct + '%') : '—';
+      }
+
+      function renderCalendar() {
+        calBody.innerHTML = '';
+        state.calendarDays.forEach(function (d) {
+          var tr = document.createElement('tr');
+
+          function td(text, booked) {
+            var cell = document.createElement('td');
+            var pill = document.createElement('span');
+            pill.className = 'cal-pill' + (booked ? ' cal-pill--booked' : '');
+            pill.textContent = text || '—';
+            cell.appendChild(pill);
+            return cell;
+          }
+
+          var day = document.createElement('td');
+          day.textContent = d.date;
+          tr.appendChild(day);
+          tr.appendChild(td(d.shift, d.shift && d.shift !== '—'));
+          tr.appendChild(td(d.turo, d.turo && d.turo !== '—'));
+          tr.appendChild(td(d.getaround, d.getaround && d.getaround !== '—'));
+          tr.appendChild(td(d.kayak, d.kayak && d.kayak !== '—'));
+          calBody.appendChild(tr);
+        });
+      }
+
+      yieldSlider.addEventListener('input', function () {
+        state.yieldMode = Number(yieldSlider.value) || 0;
+        renderYield();
+        toast('Yield strategy set to ' + state.yieldMode + ' (demo)');
+      });
+
+      autoToggle.addEventListener('click', function () {
+        state.autoPricing.enabled = !state.autoPricing.enabled;
+        renderAutoPricing();
+        toast('Auto-pricing ' + (state.autoPricing.enabled ? 'enabled' : 'disabled') + ' (demo)');
+      });
+
+      function load() {
+        distErr.hidden = true;
+        distErr.textContent = '';
+        fetch(DATA_URL)
+          .then(function (r) {
+            if (!r.ok) throw new Error('HTTP ' + r.status);
+            return r.json();
+          })
+          .then(function (data) {
+            state.channels = data.channels || [];
+            state.yieldMode = (data.yield && typeof data.yield.mode === 'number') ? data.yield.mode : 50;
+            state.yieldLabels = {
+              left: data.yield && data.yield.labelLeft,
+              right: data.yield && data.yield.labelRight
+            };
+            state.autoPricing = data.autoPricing || { enabled: false, confidencePct: 0 };
+            state.calendarDays = (data.calendar && data.calendar.days) || [];
+            renderChannels();
+            renderYield();
+            renderAutoPricing();
+            renderCalendar();
+            toast('Distribution controls loaded');
+          })
+          .catch(function () {
+            distErr.textContent = 'Could not load distribution config. Serve via server (not file://).';
+            distErr.hidden = false;
+          });
+      }
+
+      load();
+    })();
+  </script>
+</body>
+</html>

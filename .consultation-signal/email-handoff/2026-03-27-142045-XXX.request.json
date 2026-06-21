@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "kind": "consultation-email-draft",
+  "jobFile": "/Users/oktos/.openclaw/workspace/.consultation-signal/jobs/2026-03-27-142045-XXX.json",
+  "clientName": "XXX",
+  "transcript": "OOO:\n\"Hello!\"\n\nXXX:\n\"Yes, hi.\"\n\nOOO:\n\"I feel sick.\"\n\nXXX:\n\"What's wrong?\"\n\nOOO:\n\"My stomach hurts.\"\n\nXXX:\n\"Why?\"\n\nOOO:\n\"I think I need something bad.\"\n\nXXX:\n\"Take these pills, it'll make you feel better.\"",
+  "requestedAt": "2026-03-27T14:22:22.609249"
+}

@@ -1,0 +1,146 @@
+========================================
+Daily Lead Gen — 2026-06-15
+Category: electricians
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: electricians
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - DMACK Electrix Group Pty Ltd | Electrician Frankston: http://dmackelectrix.com.au/
+  - Millerwatts Electricians: https://www.millerwatts.com.au/
+  - Melbourne General Electrical Services: https://www.melbelectricalservices.com.au/
+  - Melbourne Wide Electrical & Plumbing: https://www.melbournewide.com.au/
+  - Near Me Electrical: https://www.nearmeelectrical.com.au/
+  - SBH Electrical Melbourne: https://sbhelectrical.com.au/
+  - Eastern Melbourne Electricians: https://www.easternmelbourneelectricians.com/
+  - All Electrics Melbourne: https://allelectrics.com.au/
+  - Allan Electrics Melbourne: https://allanelectricsmelbourne.com/
+  - O'Shea Electrical - Electrician Melbourne: https://osheaelectrical.com.au/?utm_source=GMBlisting&utm_medium=organic
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: DMACK Electrix Group Pty Ltd | Electrician Frankston...
+  [2/10] Enriching: Millerwatts Electricians...
+  [3/10] Enriching: Melbourne General Electrical Services...
+  [4/10] Enriching: Melbourne Wide Electrical & Plumbing...
+  [5/10] Enriching: Near Me Electrical...
+  [6/10] Enriching: SBH Electrical Melbourne...
+  [7/10] Enriching: Eastern Melbourne Electricians...
+  [8/10] Enriching: All Electrics Melbourne...
+  [9/10] Enriching: Allan Electrics Melbourne...
+  [10/10] Enriching: O'Shea Electrical - Electrician Melbourne...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 DMACK Electrix Group Pty Ltd | Electrician Frankston: score=100, opportunities=['click_to_call', 'ai_chatbot', 'online_booking', 'reputation_management', 'seo_optimization']
+  🔥 Millerwatts Electricians: score=100, opportunities=['click_to_call', 'ai_chatbot', 'online_booking', 'reputation_management', 'seo_optimization']
+  🔥 Melbourne General Electrical Services: score=100, opportunities=['click_to_call', 'ai_chatbot', 'online_booking', 'reputation_management', 'seo_optimization']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 119 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_electricians_2026-06-15.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-15
+Category: electricians
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: electricians
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - DMACK Electrix Group Pty Ltd | Electrician Frankston: http://dmackelectrix.com.au/
+  - Taskforce - Electrical, Gas and Smoke Alarm Safety Checks: https://www.taskforce.com.au/
+  - Millerwatts Electricians: https://www.millerwatts.com.au/
+  - Melbourne General Electrical Services: https://www.melbelectricalservices.com.au/
+  - Melbourne Wide Electrical & Plumbing: https://www.melbournewide.com.au/
+  - Near Me Electrical: https://www.nearmeelectrical.com.au/
+  - Allan Electrics Melbourne: https://allanelectricsmelbourne.com/
+  - SBH Electrical Melbourne: https://sbhelectrical.com.au/
+  - Eastern Melbourne Electricians: https://www.easternmelbourneelectricians.com/
+  - All Electrics Melbourne: https://allelectrics.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: DMACK Electrix Group Pty Ltd | Electrician Frankston...
+  [2/10] Enriching: Taskforce - Electrical, Gas and Smoke Alarm Safety Checks...
+  [3/10] Enriching: Millerwatts Electricians...
+  [4/10] Enriching: Melbourne General Electrical Services...
+  [5/10] Enriching: Melbourne Wide Electrical & Plumbing...
+  [6/10] Enriching: Near Me Electrical...
+  [7/10] Enriching: Allan Electrics Melbourne...
+  [8/10] Enriching: SBH Electrical Melbourne...
+  [9/10] Enriching: Eastern Melbourne Electricians...
+  [10/10] Enriching: All Electrics Melbourne...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 DMACK Electrix Group Pty Ltd | Electrician Frankston: score=100, opportunities=['click_to_call', 'reputation_management', 'ai_chatbot', 'online_booking', 'seo_optimization']
+  🔥 Taskforce - Electrical, Gas and Smoke Alarm Safety Checks: score=100, opportunities=['click_to_call', 'reputation_management', 'ai_chatbot', 'online_booking', 'seo_optimization']
+  🔥 Millerwatts Electricians: score=100, opportunities=['click_to_call', 'reputation_management', 'ai_chatbot', 'online_booking', 'seo_optimization']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 121 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_electricians_2026-06-15.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================

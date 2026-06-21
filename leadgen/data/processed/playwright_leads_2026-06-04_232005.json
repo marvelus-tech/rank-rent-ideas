@@ -1,0 +1,50 @@
+{
+  "category": "mechanics",
+  "location": "Victoria, Australia",
+  "generated_at": "2026-06-04T23:20:05.485033+00:00",
+  "count": 3,
+  "leads": [
+    {
+      "name": "Ace Mechanics",
+      "category": "mechanics",
+      "location": "Victoria, Australia",
+      "phone": "1800 223 263",
+      "address": "Mechanic \u00b7 G F/430 Little Collins St",
+      "rating": "4.6",
+      "is_open": true,
+      "score": 90,
+      "priority": "HOT",
+      "missing": [],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-04T23:20:05.410548+00:00"
+    },
+    {
+      "name": "Ace Mechanics",
+      "category": "mechanics",
+      "location": "Victoria, Australia",
+      "phone": "1800 223 263",
+      "address": "Mechanic \u00b7 G F/430 Little Collins St",
+      "rating": "4.6",
+      "is_open": true,
+      "score": 90,
+      "priority": "HOT",
+      "missing": [],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-04T23:20:05.410885+00:00"
+    },
+    {
+      "name": "Team MPE #1 \"Mike's Performance Exhaust & Mechanical\"",
+      "category": "mechanics",
+      "location": "Victoria, Australia",
+      "phone": "(323) 752-1737",
+      "address": "Muffler shop \u00b7 \ue934 \u00b7 221 W Florence Ave",
+      "rating": "4.7",
+      "is_open": true,
+      "score": 90,
+      "priority": "HOT",
+      "missing": [],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-04T23:20:05.410896+00:00"
+    }
+  ]
+}

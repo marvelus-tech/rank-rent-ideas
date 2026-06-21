@@ -1,0 +1,28 @@
+{
+  "id": "lead-report-2026-05-27",
+  "template": "lead-report",
+  "durationInSeconds": 15,
+  "format": "short",
+  "props": {
+    "title": "Lead Generation Report",
+    "kicker": "Marvelus Intelligence",
+    "date": "May 27, 2026",
+    "durationInSeconds": 15,
+    "metrics": [
+      {"label": "Qualified Leads", "value": 48},
+      {"label": "Booked Calls", "value": 17},
+      {"label": "Pipeline Value", "value": 124000, "suffix": "$"}
+    ],
+    "leads": [
+      {"name": "Alyssa Reed", "company": "Ridge Dental Group", "score": 93, "priority": "Critical"},
+      {"name": "Devon Patel", "company": "Harbor Auto Imports", "score": 88, "priority": "High"},
+      {"name": "Mina Choi", "company": "Northpoint Law", "score": 84, "priority": "Medium"}
+    ],
+    "bigNumber": {"value": "37%", "label": "Higher close rate than last week"},
+    "actions": [
+      {"title": "Call hot leads by noon", "detail": "Prioritize scores above 90 and no-shows from yesterday.", "urgency": "High"},
+      {"title": "Launch retargeting ad", "detail": "Use testimonial creative + booking incentive.", "urgency": "Medium"},
+      {"title": "Update CRM notes", "detail": "Tag objections and next-step commitments by team.", "urgency": "Low"}
+    ]
+  }
+}

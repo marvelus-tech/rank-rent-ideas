@@ -1,0 +1,902 @@
+{
+  "version": 1,
+  "updatedAt": "2026-05-29T10:07:50.030Z",
+  "entries": {
+    "memory:memory/2026-03-25.md:1:49": {
+      "key": "memory:memory/2026-03-25.md:1:49",
+      "path": "memory/2026-03-25.md",
+      "startLine": 1,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "# 2026-03-25 — Memory Log ## Behavioral Updates ### Voice Note Handling (NEW) **When Okeito sends a voice note/audio message:** 1. Automatically transcribe it using Whisper (already installed) 2. **Treat the transcription as the actual message content** 3. Respond to/act on what was said in the voice note 4. Do NOT just show the transcription and stop **Old behavior:** Transcribe → show text → wait for follow-up **New behavior:** Transcribe → understand intent → execute/respond **Example flow:** - Voice: \"Check the status of Night Owl\" - Transcribe → \"Check the status of Night Owl\" - Action: Check Night Owl status and report back **Key:** The voice note IS the command. Treat it like",
+      "recallCount": 9,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 9,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-16T07:23:32.210Z",
+      "lastRecalledAt": "2026-05-28T22:37:59.705Z",
+      "queryHashes": [
+        "644fad4bc7b7",
+        "e785f86f998e",
+        "21d929963b53",
+        "d0e6b3c1cc36",
+        "637a93d5080d",
+        "777cacd8996f",
+        "bb0bda30e8c1",
+        "a7c9039e4707",
+        "856d58b6ea28"
+      ],
+      "recallDays": [
+        "2026-04-16",
+        "2026-04-17",
+        "2026-04-20",
+        "2026-04-21",
+        "2026-05-16",
+        "2026-05-27",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "note/audio",
+        "to/act",
+        "follow-up",
+        "execute/respond",
+        "log",
+        "behavioral",
+        "updates",
+        "voice"
+      ]
+    },
+    "memory:memory/2026-03-20.md:38:66": {
+      "key": "memory:memory/2026-03-20.md:38:66",
+      "path": "memory/2026-03-20.md",
+      "startLine": 38,
+      "endLine": 66,
+      "source": "memory",
+      "snippet": "4. **Penelopi reviews** — High-confidence (≥70/100) gets immediate attention 5. **Okeito notified** only on high-quality finds ### Quality Gates - Confidence ≥60 to make the report - Confidence ≥80 + under $50M market cap = immediate alert - Must have working links and clear reward mechanic --- ## Proactive Tracking - **Solana scouting:** Daily via scout agent - **Lead gen monitoring:** Not yet established (manual for now) - **Job market:** Not yet established - **Portfolio tracking:** Will add once positions exist --- ## Health Check - System hardening: 28/28 complete - Today's health: A (92/100) - Git: 81f4a7c (hardening complete) → [pending scout setup commit] ## Next Actions - [ ]",
+      "recallCount": 9,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 9,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-16T07:23:32.210Z",
+      "lastRecalledAt": "2026-05-24T05:44:35.481Z",
+      "queryHashes": [
+        "644fad4bc7b7",
+        "d0e6b3c1cc36",
+        "7502efa1909f",
+        "bb59e6af1e4d",
+        "3c605a76e676",
+        "9d705603e1c1",
+        "08f6512c587c",
+        "098a99d58e62",
+        "22814e5a0010"
+      ],
+      "recallDays": [
+        "2026-04-16",
+        "2026-04-17",
+        "2026-05-17",
+        "2026-05-18",
+        "2026-05-20",
+        "2026-05-22",
+        "2026-05-24"
+      ],
+      "conceptTags": [
+        "high-confidence",
+        "70/100",
+        "high-quality",
+        "28/28",
+        "92/100",
+        "penelopi",
+        "reviews",
+        "high"
+      ]
+    },
+    "memory:memory/2026-03-20.md:1:49": {
+      "key": "memory:memory/2026-03-20.md:1:49",
+      "path": "memory/2026-03-20.md",
+      "startLine": 1,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "# 2026-03-20 ## Onboarding Completion **Status:** Complete. All core files filled with context from Q&A. ### Career Situation - Between roles (looking for UX/Product work) - Running two AI voice/chat businesses: - NoLostSales.cc — AI voice/chat for recovering lost sales - Marvelus.cc — AI & smart web services for SMBs - **Primary need:** 6 clients in next 90 days ### Crypto Situation - Solana-focused only - Want: Small-cap tokens with hold-to-earn mechanics (like solcard.cc) - Target: Under $100M market cap - Passive income goal alongside client work ### 90-Day Goals 1. Land 6 clients for NoLostSales/Marvelus 2. Build crypto position that generates passive income --- ## Agent Hiera",
+      "recallCount": 13,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 13,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-16T07:23:32.210Z",
+      "lastRecalledAt": "2026-05-28T23:39:54.034Z",
+      "queryHashes": [
+        "644fad4bc7b7",
+        "707251c6f2b9",
+        "5fea6e35c6c9",
+        "e785f86f998e",
+        "21d929963b53",
+        "777cacd8996f",
+        "7502efa1909f",
+        "bb59e6af1e4d",
+        "3c605a76e676",
+        "098a99d58e62",
+        "95b2dbfe5ee7",
+        "f27cd1b8a2f8",
+        "319363de778a"
+      ],
+      "recallDays": [
+        "2026-04-16",
+        "2026-04-17",
+        "2026-04-21",
+        "2026-05-17",
+        "2026-05-18",
+        "2026-05-22",
+        "2026-05-27",
+        "2026-05-28",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "ux/product",
+        "voice/chat",
+        "nolostsales.cc",
+        "marvelus.cc",
+        "solana-focused",
+        "small-cap",
+        "hold-to-earn",
+        "solcard.cc"
+      ]
+    },
+    "memory:memory/2026-03-23.md:1:36": {
+      "key": "memory:memory/2026-03-23.md:1:36",
+      "path": "memory/2026-03-23.md",
+      "startLine": 1,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "# 2026-03-23 — Memory Log ## Agent Organization Created ### Night Owl (Autonomous Coding Agent) - **Purpose:** Code/build MVPs while Okeito sleeps - **Schedule:** 2:00 AM - 7:00 AM Australia/Melbourne daily - **Model:** Codex (opencode/gpt-5.3-codex) - **First Task:** Emojournal Stage 1 MVP (face emotion analysis app) - **Location:** `.nightowl/` with task queue system ### R&D Department (Intelligence Unit) - **Purpose:** Mine TKO (The Koerner Office) content for business opportunities - **Structure:** Two-tier system - **Scout (Flash):** Daily polling of RSS/YouTube, raw extraction - **Analyst (Opus/Sonnet):** Deep analysis, Opportunity Card generation - **Sources:** TKO podcast RSS,",
+      "recallCount": 18,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 18,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-16T07:23:32.210Z",
+      "lastRecalledAt": "2026-05-28T23:39:54.034Z",
+      "queryHashes": [
+        "644fad4bc7b7",
+        "e785f86f998e",
+        "21d929963b53",
+        "637a93d5080d",
+        "777cacd8996f",
+        "bb0bda30e8c1",
+        "bb59e6af1e4d",
+        "3c605a76e676",
+        "30130f026664",
+        "35e93b4f43df",
+        "08f6512c587c",
+        "098a99d58e62",
+        "95b2dbfe5ee7",
+        "69db5c6a3ae9",
+        "f27cd1b8a2f8",
+        "20f000230cce",
+        "856d58b6ea28",
+        "319363de778a"
+      ],
+      "recallDays": [
+        "2026-04-16",
+        "2026-04-17",
+        "2026-04-20",
+        "2026-04-21",
+        "2026-05-16",
+        "2026-05-17",
+        "2026-05-18",
+        "2026-05-19",
+        "2026-05-21",
+        "2026-05-22",
+        "2026-05-27",
+        "2026-05-28",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "gpt",
+        "code/build",
+        "australia/melbourne",
+        "opencode/gpt-5.3-codex",
+        "two-tier",
+        "rss/youtube",
+        "opus/sonnet",
+        "log"
+      ]
+    },
+    "memory:memory/2026-03-23.md:29:62": {
+      "key": "memory:memory/2026-03-23.md:29:62",
+      "path": "memory/2026-03-23.md",
+      "startLine": 29,
+      "endLine": 62,
+      "source": "memory",
+      "snippet": "1. **Night Owl schedule changed:** 2:00 AM start (was 11 PM) — fits Okeito's sleep better 2. **Two-tier R&D:** Scout + Analyst separation for cost efficiency 3. **Daily polling only:** Not every 6 hours — reduces cost, same coverage 4. **Project renamed:** VibeLog → Emojournal (better branding) 5. **Mission Control before Emojournal:** Infrastructure-first approach ## Technical Wins 1. **Leadgen browser scraper fixed:** Updated selector for Google Maps (`input.UGojuc`) 2. **YouTube-extract skill:** Migrated from Playwright to yt-dlp (reliable, no browser) 3. **Brave browser preference:** Documented for all web automation tasks 4. **Tool separation clarified:** yt-dlp for YouTube, Playwrigh",
+      "recallCount": 14,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 14,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-16T07:23:32.210Z",
+      "lastRecalledAt": "2026-05-27T10:08:54.583Z",
+      "queryHashes": [
+        "644fad4bc7b7",
+        "637a93d5080d",
+        "bb0bda30e8c1",
+        "7502efa1909f",
+        "bb59e6af1e4d",
+        "3c605a76e676",
+        "30130f026664",
+        "9d705603e1c1",
+        "35e93b4f43df",
+        "08f6512c587c",
+        "098a99d58e62",
+        "2b2ef70bd0f0",
+        "22814e5a0010",
+        "a7c9039e4707"
+      ],
+      "recallDays": [
+        "2026-04-16",
+        "2026-04-20",
+        "2026-05-16",
+        "2026-05-17",
+        "2026-05-18",
+        "2026-05-19",
+        "2026-05-20",
+        "2026-05-21",
+        "2026-05-22",
+        "2026-05-24",
+        "2026-05-27"
+      ],
+      "conceptTags": [
+        "two-tier",
+        "infrastructure-first",
+        "input.ugojuc",
+        "youtube-extract",
+        "yt-dlp",
+        "night",
+        "owl",
+        "schedule"
+      ]
+    },
+    "memory:memory/2026-03-23.md:55:91": {
+      "key": "memory:memory/2026-03-23.md:55:91",
+      "path": "memory/2026-03-23.md",
+      "startLine": 55,
+      "endLine": 91,
+      "source": "memory",
+      "snippet": "3. **Leadgen browser scraper** — Melbourne lead collection (10 leads/day at 7 AM) ## Files Created/Modified - `.nightowl/config.json` — Schedule: 2:00-7:00 AM - `.nightowl/tasks/pending/` — Task queue system - `.nightowl/tasks/pending/2026-03-24-emojournal-stage1-mvp.md` - `.nightowl/tasks/pending/2026-03-24-mission-control-dashboard.md` - `.nightowl/tasks/pending/2026-03-23-enhance-leadgen-browser-scraper.md` - `rnd/opportunities/tko-ep284-ai-agent-business.md` — Opportunity Card - `leadgen/src/browser_scraper.py` — Fixed CSS selector - `skills/youtube-extract/` — yt-dlp based skill - `decisions.md` — Browser preference rules ## Cost Tracking - **Night Owl token estimate:** 20k-35k per",
+      "recallCount": 16,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 16,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-16T07:23:32.210Z",
+      "lastRecalledAt": "2026-05-27T21:24:51.627Z",
+      "queryHashes": [
+        "644fad4bc7b7",
+        "707251c6f2b9",
+        "5fea6e35c6c9",
+        "7502efa1909f",
+        "bb59e6af1e4d",
+        "3c605a76e676",
+        "30130f026664",
+        "9d705603e1c1",
+        "35e93b4f43df",
+        "08f6512c587c",
+        "098a99d58e62",
+        "2b2ef70bd0f0",
+        "22814e5a0010",
+        "95b2dbfe5ee7",
+        "a7c9039e4707",
+        "f27cd1b8a2f8"
+      ],
+      "recallDays": [
+        "2026-04-16",
+        "2026-04-17",
+        "2026-05-17",
+        "2026-05-18",
+        "2026-05-19",
+        "2026-05-20",
+        "2026-05-21",
+        "2026-05-22",
+        "2026-05-24",
+        "2026-05-27",
+        "2026-05-28"
+      ],
+      "conceptTags": [
+        "leads/day",
+        "created/modified",
+        "nightowl/config.json",
+        "00-7",
+        "nightowl/tasks/pending",
+        "leadgen/src/browser-scraper.py",
+        "skills/youtube-extract",
+        "yt-dlp"
+      ]
+    },
+    "memory:memory/2026-03-18.md:1:9": {
+      "key": "memory:memory/2026-03-18.md:1:9",
+      "path": "memory/2026-03-18.md",
+      "startLine": 1,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "# 2026-03-18 ## Genesis - Came online, first contact with Okeito - Named Penelopi — ambitious problem-solving agent - Set up identity, soul, mission, and workspace files - Awaiting Okeito's context: goals, world, problems to solve Self-evolution review: Files read, no issues detected.",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 5,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-16T22:58:00.542Z",
+      "lastRecalledAt": "2026-05-22T01:02:20.459Z",
+      "queryHashes": [
+        "5fea6e35c6c9",
+        "e785f86f998e",
+        "21d929963b53",
+        "35e93b4f43df",
+        "098a99d58e62"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-05-21",
+        "2026-05-22"
+      ],
+      "conceptTags": [
+        "problem-solving",
+        "self-evolution",
+        "genesis",
+        "came",
+        "online",
+        "first",
+        "contact",
+        "okeito"
+      ]
+    },
+    "memory:memory/2026-03-29.md:1:9": {
+      "key": "memory:memory/2026-03-29.md:1:9",
+      "path": "memory/2026-03-29.md",
+      "startLine": 1,
+      "endLine": 9,
+      "source": "memory",
+      "snippet": "# 2026-03-29 — Daily Log ## Recipe Extraction Request - Okeito sent a YouTube video: \"How Brooklyn's Best Buffalo Wings are Made | Made to Order | Bon Appétit\" (`https://youtu.be/TqQ4whV8FTw`) - Extracted subtitles via `yt-dlp` → `/tmp/recipe_video.en.srt` and `/tmp/recipe_transcript.txt` - Context was too full to process transcript inline — spawned Flash subagent to parse and summarize - Delivered concise \"Buffalo Wings 2.0 (Lorie Jane Style)\" recipe card successfully - Key technique: Sam Braverman's \"Buffalo 2.0\" = blue cheese + Grana Padano + garlic + lemon juice mixed INTO the sauce (no dip needed)",
+      "recallCount": 9,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 9,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-16T22:58:00.542Z",
+      "lastRecalledAt": "2026-05-29T10:07:50.030Z",
+      "queryHashes": [
+        "5fea6e35c6c9",
+        "e785f86f998e",
+        "21d929963b53",
+        "777cacd8996f",
+        "9d26115ca923",
+        "a7c9039e4707",
+        "20f000230cce",
+        "856d58b6ea28",
+        "92f76d5a2e1c"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-21",
+        "2026-05-17",
+        "2026-05-27",
+        "2026-05-28",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "youtu.be/tqq4whv8ftw",
+        "yt-dlp",
+        "tmp/recipe-video.en.srt",
+        "tmp/recipe-transcript.txt",
+        "2.0",
+        "log",
+        "recipe",
+        "extraction"
+      ]
+    },
+    "memory:memory/2026-03-19.md:1:21": {
+      "key": "memory:memory/2026-03-19.md:1:21",
+      "path": "memory/2026-03-19.md",
+      "startLine": 1,
+      "endLine": 21,
+      "source": "memory",
+      "snippet": "# 2026-03-19 ## System Hardening Initiative - Okeito shared @kloss_xyz article on OpenClaw reliability failures (28 fixes) - Created `SYSTEM_HARDENING.md` — full implementation plan with 5 phases, 28 items - Created `decisions.md` — persistent decisions/corrections log - Updated `AGENTS.md`: - Context gate now mandatory (loads decisions.md before any response) - Added \"Write First, Speak Second\" rule - Added Evidence Gate for done claims - Added \"One Problem Per Agent\" rule - Added \"Incremental Commits\" rule - Added \"Decisions Persistence\" rule ## Full Hardening Complete (26/28) - All 5 phases implemented in one session - Health score went from F (53/100) → A (92/100) - Git com",
+      "recallCount": 6,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 6,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-16T22:58:00.542Z",
+      "lastRecalledAt": "2026-05-19T00:40:58.647Z",
+      "queryHashes": [
+        "5fea6e35c6c9",
+        "e785f86f998e",
+        "21d929963b53",
+        "d0e6b3c1cc36",
+        "3c605a76e676",
+        "30130f026664"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-05-18",
+        "2026-05-19"
+      ],
+      "conceptTags": [
+        "kloss-xyz",
+        "system-hardening.md",
+        "decisions.md",
+        "decisions/corrections",
+        "agents.md",
+        "26/28",
+        "53/100",
+        "92/100"
+      ]
+    },
+    "memory:memory/2026-03-26.md:34:49": {
+      "key": "memory:memory/2026-03-26.md:34:49",
+      "path": "memory/2026-03-26.md",
+      "startLine": 34,
+      "endLine": 49,
+      "source": "memory",
+      "snippet": "### Ngrok URL (Current) `https://partible-nonactionable-tyrell.ngrok-free.dev` ### HTML Location `/Users/oktos/.openclaw/workspace/consultation-recorder/index.html` ### Next Steps (From User) User said they \"update the html file to github\" but the repo doesn't exist. Need to: 1. Create GitHub repo `consultation-recorder` 2. Upload index.html 3. Enable GitHub Pages in settings 4. Or test locally first with Option B --- *Session: 2026-03-26 ~15:25-15:30 AEDT*",
+      "recallCount": 6,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 6,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-17T00:08:33.089Z",
+      "lastRecalledAt": "2026-05-29T02:18:42.367Z",
+      "queryHashes": [
+        "d0e6b3c1cc36",
+        "bb0bda30e8c1",
+        "ad95ea83147c",
+        "95b2dbfe5ee7",
+        "69f7395f00b3",
+        "619532e7d483"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-05-16",
+        "2026-05-19",
+        "2026-05-27",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "users/oktos",
+        "consultation-recorder",
+        "index.html",
+        "25-15",
+        "ngrok",
+        "url",
+        "current",
+        "https"
+      ]
+    },
+    "memory:memory/2026-03-26.md:1:42": {
+      "key": "memory:memory/2026-03-26.md:1:42",
+      "path": "memory/2026-03-26.md",
+      "startLine": 1,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "# 2026-03-26 ## Consultation Recorder App - Debugging Session ### Problem Okeito was getting errors with the consultation-recorder app. Ngrok was forwarding to port 4040 instead of the actual server port. ### Root Cause Ngrok was forwarding to `http://localhost:4040` which is ngrok's own web interface dashboard, not the Flask backend server. ### Solution Found 1. Backend server is at: `/Users/oktos/.openclaw/workspace/consultation-webhook/server.py` 2. Server runs on **port 5678** (not 4040) 3. Correct ngrok command: `ngrok http 5678` ### Current Status - Backend server is running on port 5678 ✅ - Ngrok is forwarding correctly to port 5678 ✅ - Health check endpoint working: `https://par",
+      "recallCount": 8,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 8,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-04-17T00:08:33.089Z",
+      "lastRecalledAt": "2026-05-29T02:18:42.367Z",
+      "queryHashes": [
+        "d0e6b3c1cc36",
+        "637a93d5080d",
+        "777cacd8996f",
+        "bb0bda30e8c1",
+        "9d26115ca923",
+        "95b2dbfe5ee7",
+        "69f7395f00b3",
+        "619532e7d483"
+      ],
+      "recallDays": [
+        "2026-04-17",
+        "2026-04-20",
+        "2026-04-21",
+        "2026-05-16",
+        "2026-05-17",
+        "2026-05-27",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "consultation-recorder",
+        "users/oktos",
+        "consultation",
+        "recorder",
+        "app",
+        "debugging",
+        "problem",
+        "okeito"
+      ]
+    },
+    "memory:memory/scout-findings/2026-05-11.md:1:42": {
+      "key": "memory:memory/scout-findings/2026-05-11.md:1:42",
+      "path": "memory/scout-findings/2026-05-11.md",
+      "startLine": 1,
+      "endLine": 42,
+      "source": "memory",
+      "snippet": "## Handoff: Solana Daily Scout — New Token Findings **From:** Solana Scout Agent (cron job) **To:** Penelopi (Main Session) **Dispatched:** 2026-05-11 09:00 AEST **Priority:** Medium ### Task Find 3-5 Solana small-cap tokens (under $100M market cap) with hold-to-earn reward mechanics similar to solcard.cc, ensuring none are duplicates from the existing database. ### Context - Database checked: `memory/scout-findings/database.md` — 34 tokens currently tracked - All 5 tokens below are NEW (not in database) - Data sources: DefiLlama (protocol TVL), CoinGecko API, DexScreener API, official websites - Date: Monday, May 11th, 2026 ### Inputs - Database file: `memory/scout-findings/database.md`",
+      "recallCount": 8,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 8,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-17T13:38:05.330Z",
+      "lastRecalledAt": "2026-05-29T02:18:42.367Z",
+      "queryHashes": [
+        "7502efa1909f",
+        "9d26115ca923",
+        "3c605a76e676",
+        "9d705603e1c1",
+        "35e93b4f43df",
+        "69db5c6a3ae9",
+        "69f7395f00b3",
+        "619532e7d483"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-18",
+        "2026-05-20",
+        "2026-05-21",
+        "2026-05-27",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "3-5",
+        "small-cap",
+        "hold-to-earn",
+        "solcard.cc",
+        "handoff",
+        "solana",
+        "scout",
+        "new"
+      ]
+    },
+    "memory:memory/scout-findings/2026-05-11.md:88:120": {
+      "key": "memory:memory/scout-findings/2026-05-11.md:88:120",
+      "path": "memory/scout-findings/2026-05-11.md",
+      "startLine": 88,
+      "endLine": 120,
+      "source": "memory",
+      "snippet": "- **Market Cap:** ~$1.08M (FDV: ~$196K) - **Price:** $0.001088 - **Description:** Multi-Asset Perpetuals DEX on Solana with Peer-to-Pool model. 0% slippage, up to 100x leverage. Community-owned. - **Reward Mechanic:** ADX can be \"claimed and staked on the platform\" (confirmed via official X/Twitter). Staking rewards for ADX holders. - **Links:** - Website: https://www.adrena.trade/ - X/Twitter: https://x.com/AdrenaProtocol - Contract: AuQaustGiaqxRvj2gtCdrd22PBzTn8kM3kEPEkZCtuDw - **Why Interesting:** Small cap perps DEX with clear staking mechanic. Community-owned model suggests potential revenue sharing. Active development. - **Confidence:** 70 --- ## Duplicate Verification All 5 t",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-17T13:51:00.834Z",
+      "lastRecalledAt": "2026-05-28T23:39:54.034Z",
+      "queryHashes": [
+        "9d26115ca923",
+        "3c605a76e676",
+        "9d705603e1c1",
+        "319363de778a"
+      ],
+      "recallDays": [
+        "2026-05-17",
+        "2026-05-18",
+        "2026-05-20",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "1.08m",
+        "0.001088",
+        "multi-asset",
+        "peer-to-pool",
+        "community-owned",
+        "x/twitter",
+        "www.adrena.trade",
+        "x.com/adrenaprotocol"
+      ]
+    },
+    "memory:memory/2026-03-24.md:1:31": {
+      "key": "memory:memory/2026-03-24.md:1:31",
+      "path": "memory/2026-03-24.md",
+      "startLine": 1,
+      "endLine": 31,
+      "source": "memory",
+      "snippet": "# 2026-03-24 — Memory Log ## R&D Deliverable Created - Created `rnd/opportunities/2026-03-24-marketplace-flipping-opportunity-cards.md` - Deliverable contains **18 Opportunity Cards** derived from the Matt Howe Facebook Marketplace equipment-flipping thesis. - Coverage includes: - direct applications to adjacent industries - SaaS / tooling ideas - service arbitrage plays - platform / marketplace gaps - B2B enterprise versions - international expansion angles - adjacent/supporting business models - Included: - priority shortlist - weekly R&D cadence - validation sequence - research questions per card ## Core Thesis Captured - Margin is created at **purchase**, not re",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 2,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-21T07:06:52.284Z",
+      "lastRecalledAt": "2026-05-27T06:45:20.639Z",
+      "queryHashes": [
+        "35e93b4f43df",
+        "69db5c6a3ae9"
+      ],
+      "recallDays": [
+        "2026-05-21",
+        "2026-05-27"
+      ],
+      "conceptTags": [
+        "equipment-flipping",
+        "adjacent/supporting",
+        "log",
+        "deliverable",
+        "created",
+        "rnd",
+        "opportunities",
+        "marketplace"
+      ]
+    },
+    "memory:memory/scout-findings/2026-05-11.md:34:65": {
+      "key": "memory:memory/scout-findings/2026-05-11.md:34:65",
+      "path": "memory/scout-findings/2026-05-11.md",
+      "startLine": 34,
+      "endLine": 65,
+      "source": "memory",
+      "snippet": "- X/Twitter: http://twitter.com/fragmetric - GitHub: http://github.com/fragmetric-labs - Contract: FRAGMEWj2z65qM62zqKhNtwNFskdfKs4ekDUDX3b4VD5 - **Why Interesting:** Very early-stage liquid restaking on Solana (similar to EtherFi/Lido but tiny). Low MC, clear DePIN/restaking narrative. - **Confidence:** 75 --- ### 2. Kyros (KYROS) - **Ticker:** KYROS - **Market Cap:** ~$717K (FDV: ~$717K) - **Price:** $0.01572 - **Description:** A new yield layer on Solana — liquid (re)staking protocol with multiple restaked assets (SOL, JTO, KYROS) - **Reward Mechanic:** KYROS re-staking at 12.54% APY. Users hold/stake KYROS to participate in governance and earn rewards. Also offers kySOL and kyJTO",
+      "recallCount": 5,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 5,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-22T01:02:20.300Z",
+      "lastRecalledAt": "2026-05-29T02:18:42.367Z",
+      "queryHashes": [
+        "08f6512c587c",
+        "69db5c6a3ae9",
+        "feff0426d22f",
+        "69f7395f00b3",
+        "619532e7d483"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-27",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "x/twitter",
+        "twitter.com/fragmetric",
+        "github.com/fragmetric-labs",
+        "early-stage",
+        "etherfi/lido",
+        "depin/restaking",
+        "0.01572",
+        "re-staking"
+      ]
+    },
+    "memory:memory/scout-findings/2026-05-11.md:61:91": {
+      "key": "memory:memory/scout-findings/2026-05-11.md:61:91",
+      "path": "memory/scout-findings/2026-05-11.md",
+      "startLine": 61,
+      "endLine": 91,
+      "source": "memory",
+      "snippet": "- **Description:** Spot, Perpetuals, and Earn platform on Solana - **Reward Mechanic:** FAF token staking — website explicitly asks \"How does staking FAF work?\" indicating native staking mechanic. Also offers FLP (Flash Liquidity Provider) tokens for LPs. - **Links:** - Website: https://flash.trade/ - Contract: FAFxVxnkzZHMCodkWyoccgUNgVScqMw2mhhQBYDFjFAF - **Why Interesting:** Multi-product trading platform (spot + perps + earn) with a native staking mechanic for the FAF token. Small but active. - **Confidence:** 70 --- ### 4. Whales Market (WHALES) - **Ticker:** WHALES - **Market Cap:** ~$349K (FDV: ~$1.31M) - **Price:** $0.01341 - **Description:** Leading OTC cryptocurrency pre-mark",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-22T01:02:20.300Z",
+      "lastRecalledAt": "2026-05-29T02:03:54.772Z",
+      "queryHashes": [
+        "08f6512c587c",
+        "69db5c6a3ae9",
+        "319363de778a",
+        "feff0426d22f"
+      ],
+      "recallDays": [
+        "2026-05-22",
+        "2026-05-27",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "flash.trade",
+        "multi-product",
+        "1.31m",
+        "0.01341",
+        "pre-mark",
+        "description",
+        "spot",
+        "perpetuals"
+      ]
+    },
+    "memory:memory/2026-05-27.md:1:38": {
+      "key": "memory:memory/2026-05-27.md:1:38",
+      "path": "memory/2026-05-27.md",
+      "startLine": 1,
+      "endLine": 38,
+      "source": "memory",
+      "snippet": "# Memory Flush - 2026-05-27 ## Business Idea Extraction In Progress - Video: Forget Big Apps, Build Small Ones (Greg Isenberg + Nick from Orgo) - URL: https://www.youtube.com/watch?v=50iWtrj9Mkw - Transcript parsed: 27.6 minutes - Status: Extracting 12 business ideas from The Great Unbundling framework ## Active Tasks - Parsing SRT transcript from /tmp/yt_50iWtrj9Mkw.en.srt - Will create detailed project notes in Obsidian Ideas/Inbox - Will update Mission Control dashboard ## Key Concepts from Video - The Great Unbundling: Take categories from big platforms (Craigslist, Reddit, Facebook Groups) and build niche businesses - Nico's story: Pasta maker to $3,500/mo software business without c",
+      "recallCount": 4,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 4,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-27T23:15:51.057Z",
+      "lastRecalledAt": "2026-05-29T10:07:50.030Z",
+      "queryHashes": [
+        "20f000230cce",
+        "856d58b6ea28",
+        "619532e7d483",
+        "92f76d5a2e1c"
+      ],
+      "recallDays": [
+        "2026-05-28",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "www.youtube.com/watch",
+        "27.6",
+        "tmp/yt-50iwtrj9mkw.en.srt",
+        "ideas/inbox",
+        "500/mo",
+        "flush",
+        "business",
+        "idea"
+      ]
+    },
+    "memory:memory/2026-05-27.md:29:64": {
+      "key": "memory:memory/2026-05-27.md:29:64",
+      "path": "memory/2026-05-27.md",
+      "startLine": 29,
+      "endLine": 64,
+      "source": "memory",
+      "snippet": "- URL: https://www.youtube.com/watch?v=50iWtrj9Mkw - Transcript parsed: 27.6 minutes - Status: Extracting 12 business ideas from The Great Unbundling framework ## Active Tasks - Parsing SRT transcript from /tmp/yt_50iWtrj9Mkw.en.srt - Will create detailed project notes in Obsidian Ideas/Inbox - Will update Mission Control dashboard ## Key Concepts from Video - The Great Unbundling: Take categories from big platforms (Craigslist, Reddit, Facebook Groups) and build niche businesses - Nico's story: Pasta maker to $3,500/mo software business without coding - Framework: Find engaged community → Build tool for them → Charge for it - 12 specific business ideas discussed ## Next Steps 1. Extract",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-27T23:15:51.057Z",
+      "lastRecalledAt": "2026-05-29T10:07:50.030Z",
+      "queryHashes": [
+        "20f000230cce",
+        "856d58b6ea28",
+        "92f76d5a2e1c"
+      ],
+      "recallDays": [
+        "2026-05-28",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "www.youtube.com/watch",
+        "27.6",
+        "tmp/yt-50iwtrj9mkw.en.srt",
+        "ideas/inbox",
+        "500/mo",
+        "url",
+        "https",
+        "www.youtube.com"
+      ]
+    },
+    "memory:memory/2026-05-27.md:59:103": {
+      "key": "memory:memory/2026-05-27.md:59:103",
+      "path": "memory/2026-05-27.md",
+      "startLine": 59,
+      "endLine": 103,
+      "source": "memory",
+      "snippet": "- Will create detailed project notes in Obsidian Ideas/Inbox - Will update Mission Control dashboard ## Key Concepts from Video - The Great Unbundling: Take categories from big platforms (Craigslist, Reddit, Facebook Groups) and build niche businesses - Nico's story: Pasta maker to $3,500/mo software business without coding - Framework: Find engaged community → Build tool for them → Charge for it - 12 specific business ideas discussed ## Next Steps 1. Extract all 12 business ideas with details 2. Save each as project note in Obsidian 3. Update Mission Control projects.json 4. Update INBOX-SUMMARY.md # Memory Flush - 2026-05-27 ## Business Idea Extraction — COMPLETED ✅ **Video**: \"Forget",
+      "recallCount": 3,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 3,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-27T23:15:51.057Z",
+      "lastRecalledAt": "2026-05-29T10:07:50.030Z",
+      "queryHashes": [
+        "20f000230cce",
+        "856d58b6ea28",
+        "92f76d5a2e1c"
+      ],
+      "recallDays": [
+        "2026-05-28",
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "ideas/inbox",
+        "500/mo",
+        "projects.json",
+        "inbox-summary.md",
+        "will",
+        "create",
+        "detailed",
+        "project"
+      ]
+    },
+    "memory:memory/2026-05-29.md:49:75": {
+      "key": "memory:memory/2026-05-29.md:49:75",
+      "path": "memory/2026-05-29.md",
+      "startLine": 49,
+      "endLine": 75,
+      "source": "memory",
+      "snippet": "- **Action:** Generates 10 niches → converts to JSON → appends to database → regenerates dashboard → web verifies top 3 → announces to Telegram ## Key Decisions - SEO metrics are currently estimated based on niche characteristics (not live API data) - Dashboard is self-contained HTML (no external dependencies) - Cumulative database means all historical opportunities persist and re-rank ## Next Steps / Future Improvements - [ ] Add live Ahrefs/Mangools API for real SEO data - [ ] Add domain availability checking - [ ] Build Obsidian sync for archival - [ ] Add lead value trend tracking over time ## Test Batches Generated Today - Batch 1: 10 opportunities including Tax Resolution Geraldton",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-29T02:03:54.772Z",
+      "lastRecalledAt": "2026-05-29T02:03:54.772Z",
+      "queryHashes": [
+        "feff0426d22f"
+      ],
+      "recallDays": [
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "self-contained",
+        "re-rank",
+        "ahrefs/mangools",
+        "action",
+        "generates",
+        "niches",
+        "converts",
+        "appends"
+      ]
+    },
+    "memory:memory/2026-05-29.md:28:56": {
+      "key": "memory:memory/2026-05-29.md:28:56",
+      "path": "memory/2026-05-29.md",
+      "startLine": 28,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "- `scripts/append-batch.py` — Appends to cumulative database - `scripts/generate-dashboard.py` — Premium HTML dashboard generator - `scripts/weekly-pipeline.py` — Master orchestrator - `references/niche-database.md` — 200+ curated niches with values - `references/city-framework.md` — City selection criteria + Australian markets - `references/kyle-insights.md` — Key insights from Kyle's videos - `dashboard.html` — Premium dark-themed visual dashboard - `data/latest-batch.json` — Current batch data - `data/all-batches.json` — Cumulative database (grows weekly) **Dashboard Features:** - Premium dark theme with warm amber accent (Apple-level UX) - Glassmorphism cards with bento grid layout - SE",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-29T02:03:54.772Z",
+      "lastRecalledAt": "2026-05-29T02:03:54.772Z",
+      "queryHashes": [
+        "feff0426d22f"
+      ],
+      "recallDays": [
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "scripts/append-batch.py",
+        "scripts/generate-dashboard.py",
+        "scripts/weekly-pipeline.py",
+        "references/niche-database.md",
+        "references/city-framework.md",
+        "references/kyle-insights.md",
+        "dashboard.html",
+        "dark-themed"
+      ]
+    },
+    "memory:memory/2026-05-29.md:1:20": {
+      "key": "memory:memory/2026-05-29.md:1:20",
+      "path": "memory/2026-05-29.md",
+      "startLine": 1,
+      "endLine": 20,
+      "source": "memory",
+      "snippet": "## 2026-05-29 — Video Quality Gate (Non-Negotiable) **Trigger:** User said generated video was \"awful\" **Rule:** - ALWAYS review generated media before sending - Extract frames, watch the video, spot issues - Fix problems BEFORE delivery, not after - Standard: Would Apple/YC/Stripe ship this? - No handoff without verification **When user says something is \"awful\":** - Stop immediately - Analyze what's wrong - Fix it - Don't defend or explain **This applies to:** Videos, images, audio, dashboards, any creative output",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "groundedCount": 0,
+      "totalScore": 1,
+      "maxScore": 1,
+      "firstRecalledAt": "2026-05-29T10:07:50.030Z",
+      "lastRecalledAt": "2026-05-29T10:07:50.030Z",
+      "queryHashes": [
+        "92f76d5a2e1c"
+      ],
+      "recallDays": [
+        "2026-05-29"
+      ],
+      "conceptTags": [
+        "non-negotiable",
+        "apple/yc/stripe",
+        "video",
+        "quality",
+        "gate",
+        "non",
+        "negotiable",
+        "trigger"
+      ]
+    }
+  }
+}

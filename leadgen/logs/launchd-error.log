@@ -1,0 +1,600 @@
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 10, in <module>
+    from src.maps_client import SerpApiMapsClient
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/maps_client.py", line 4, in <module>
+    from datetime import datetime, UTC
+ImportError: cannot import name 'UTC' from 'datetime' (/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/datetime.py)
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 42, in build_dedupe_key
+    LeadStore._normalize(phone),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 42, in build_dedupe_key
+    LeadStore._normalize(phone),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 338, in <module>
+    run_pipeline(args.config, mode=args.mode)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/main.py", line 246, in run_pipeline
+    new_candidates, stats = store.filter_new_leads(discovered.to_dict(orient="records"))
+                            ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 60, in filter_new_leads
+    key = self.build_dedupe_key(record.get("name"), record.get("address"), record.get("phone"))
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 41, in build_dedupe_key
+    LeadStore._normalize(address),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/lead_store.py", line 49, in _normalize
+    return " ".join((value or "").strip().lower().split())
+                    ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'strip'

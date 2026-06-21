@@ -1,0 +1,75 @@
+{
+  "type": "new-consultation",
+  "jobId": "0843af08-464a-4a6f-8c27-9aad29218fb1",
+  "timestamp": "2026-03-27-142045",
+  "clientName": "XXX",
+  "therapistName": "OOO",
+  "duration": "00:24",
+  "audioFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-142045-XXX.webm",
+  "noteFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-142045-XXX.md",
+  "status": "done",
+  "receivedAt": "2026-03-27T14:20:45.605732",
+  "recordingFilename": "2026-03-27-142045-XXX.webm",
+  "processingStarted": "2026-03-27T14:20:46.008419",
+  "completedAt": "2026-03-27T14:22:22.614922",
+  "results": {
+    "clientName": "XXX",
+    "therapistName": "OOO",
+    "transcript": "OOO:\n\"Hello!\"\n\nXXX:\n\"Yes, hi.\"\n\nOOO:\n\"I feel sick.\"\n\nXXX:\n\"What's wrong?\"\n\nOOO:\n\"My stomach hurts.\"\n\nXXX:\n\"Why?\"\n\nOOO:\n\"I think I need something bad.\"\n\nXXX:\n\"Take these pills, it'll make you feel better.\"",
+    "email": "Subject: Thank you for our consultation - March 27, 2026\n\nHi XXX,\n\nThank you for taking the time to speak with me today. I appreciate the opportunity to discuss your needs.\n\nKey points from our conversation:\n- We covered the main topics you wanted to discuss\n- Next steps were outlined during our call\n\nPlease let me know if you have any questions or need clarification on anything we discussed.\n\nBest regards,\n[Your name]",
+    "emailSource": "template",
+    "obsidianUpdated": true,
+    "processedAt": "2026-03-27T14:22:22.614602",
+    "transcriptionEngine": "whisperx",
+    "transcriptSegments": [
+      {
+        "speaker": "OOO",
+        "text": "Hello!",
+        "start": 4.648,
+        "end": 4.808
+      },
+      {
+        "speaker": "XXX",
+        "text": "Yes, hi.",
+        "start": 5.768,
+        "end": 6.649
+      },
+      {
+        "speaker": "OOO",
+        "text": "I feel sick.",
+        "start": 6.669,
+        "end": 10.211
+      },
+      {
+        "speaker": "XXX",
+        "text": "What's wrong?",
+        "start": 10.711,
+        "end": 11.492
+      },
+      {
+        "speaker": "OOO",
+        "text": "My stomach hurts.",
+        "start": 12.352,
+        "end": 13.813
+      },
+      {
+        "speaker": "XXX",
+        "text": "Why?",
+        "start": 15.154,
+        "end": 15.614
+      },
+      {
+        "speaker": "OOO",
+        "text": "I think I need something bad.",
+        "start": 15.634,
+        "end": 19.156
+      },
+      {
+        "speaker": "XXX",
+        "text": "Take these pills, it'll make you feel better.",
+        "start": 21.557,
+        "end": 23.979
+      }
+    ]
+  }
+}

@@ -1,0 +1,139 @@
+In Space, Under the Ocean
+
+Jun 9, 2026
+
+The answer to Earth’s energy bottleneck isn’t an ‘either/or.’ It is an ‘all the above.’
+
+Editor’s Note:On Wednesday, June 17, our colleague Larry Benedict will reveal what he calls the biggest trading opportunity he’s seen in 40 years. And believe it or not, it has nothing to do with options, stocks, forex, or cryptocurrencies. Instead, it’s a market where experienced traders can have a serious edge. And Larry’s team has been able to find gains like 519%, 450%, and 614% in mere days. To learn more, be sure to reserve your spot to the event,The Last Unrigged Market in America,right here.
+
+Some things seem impossible…until somebody does it.
+
+The cloud services industry didn’t exist until Amazon (AMZN) launched Amazon Web Services (AWS) in 2006. It showed the entire market how cloud services could be a remarkably profitable business.
+
+Everybody got the message.
+
+Google (GOOGL) followed on with Google Cloud. Microsoft (MSFT) with its Azure cloud services offering. Oracle (ORCL) eventually launched its competing Oracle Cloud Infrastructure a decade after AWS and still became a major player. And there is a long list of others.
+
+That’s the benefit of having a major tech company with a well-established track record announce a multi-billion-dollar commitment into a new field. It immediately lends credibility to that emerging market.
+
+It always results in billions of dollars of new investment into companies that aim to compete for market share in the emerging market.
+
+Venture capital investors prefer markets or sectors that are experiencing exponential growth. It provides the opportunity for multiple players to grow into massive companies.
+
+That’s what we’ve seen with artificial intelligence the last several years. It has been an unstoppable bullet train of exponential growth. And it’s already created trillions of dollars of economic activity.
+
+But the growth has been so fast and furious that an unexpected bottleneck caught the entire industry off guard—energy production.
+
+The availability of electricity to power these AI data centers is the number one issue facing the industry.
+
+The International Energy Agency (IEA) projects electricity consumption from data centers to double by 2030. Electricity consumption is expected to grow four times faster than consumption from all other sectors.
+
+This is precisely why many leading AI tech companies have been investing in fourth-generation nuclear fission companies, nuclear fusion companies, and putting power purchase agreements in place years in advance to lock in new future power generation scheduled to come online. It’s a race to secure future energy production for data centers.
+
+Somewhere between 30 – 50% of all AI data center projects have been delayed in the U.S., with a few even being canceled. A study from earlier this month found that more than 60% of all planned new data center construction for 2027 isn’t currently under construction yet.
+
+And yet, Meta (META), Microsoft (MSFT), Alphabet (GOOGL) and Amazon (AMZN) are now spending more than $125 billiona quarteron AI-related capital expenditures with CAPEX forecasts continuing to increase.
+
+These companies need to put this capital to use. And they need to bring new AI computational resources online.
+
+That has been the catalyst for another solution that many assume is impossible…until somebody inevitably does it—orbital AI data center satellites.
+
+SpaceX (SPCX) wasn’t the first to enter the market and announce its plans for AI data center satellites. A much smaller startup was. SpaceX’s entrance into the industry was originally announced by xAI early this year prior to its acquisition by SpaceX. Yesterday, inThe Bleeding Edge, we had a look atSpaceX’s just announced AI1 satellite.
+
+But it was SpaceX’s announcement in early February this year that gave super credibility to the idea of data center satellites in space and their economic feasibility.
+
+From that moment on, there was no question that the business model made sense.
+
+Limitless, free energy from the sun, free cooling provided compliments of the near absolute zero vacuum of space, all enabled by the SpaceX Starship and its superior economics of launching satellites into orbit.
+
+Starcloud was actually the first to announce the vision of putting gigawatts of AI compute in orbit in September of 2024. That was enough for it to raise about $27 million by early 2025. That enabled it to launch its Starcloud-1 prototype into orbit on a SpaceX Falcon 9 last November.
+
+Starcloud-1 Deployment to Orbit, November 2025 |Source: Starcloud
+
+The Starcloud-1 is just the size of a small refrigerator, but it was enough to demonstrate a proof of concept.
+
+Coupled with the xAI/SpaceX announcement to deploy a 1 million AI satellite constellation, Starcloud was able to raise $170 million this May. As a result, its valuation skyrocketed from $100 million to $1.1 billion in just about a year.
+
+Around the time that Starcloud was generating interest, another startup, Sophia Space, entered the market. The company brought an even more elegant solution for AI data center satellite design with “tiles” of integrated compute that can be attached together and scaled easily.
+
+Sophia Space Tiles |Source: Sophia Space
+
+The tiles, shown above, are designed with a solar array on one side and the radiators on the other side. The computational resources are sandwiched in between.
+
+Entirely logical. Elegant. It’s easy to imagine massive Sophia Space arrays in sun-synchronous orbit running AI applications around the clock — at a fraction of what it costs on Earth.
+
+Sophia Space has partnered with NVIDIA, and the NVIDIA Alumni Network has invested heavily because they know what’s coming. The pie is growing exponentially.
+
+The SpaceX announcement about its AI1 and its IPO will almost certainly result in a massive funding round for Sophia Space in the coming months.
+
+Over a recent two-week period, Jeff's colleague Larry Benedict and his team closed real money trades with gains of...
+
+In fact, Larry showed Jeff a list of 77 real money trades – including 63 winners – with gains as high as 519%, 567%, and 614% in as little as five hours!  How is it possible?  Join Jeff at Larry’s home for a private interview broadcast onWednesday, June 17, at 8 p.m. ETto get all the details...Click to Register Your Details and Reserve Your Access to Make Sure You Don’t Miss a Thing.
+
+The New York Timescalled the SpaceX IPO “A generational moneymaking event.”  But buying shares of SpaceX when it goes public on June 12 is NOT the best way to cash in on this historic event.Click hereand Jeff will tell you about an early stage investment that’s directly tied to the growth of SpaceX… But that has the potential to return 10 times, 20 times, and even 50 times more money than the IPO itself.
+
+It’s not just the early stage tech companies. Google (GOOGL) entered the fray with its November 2025 announcement of Project Suncatcher. It’s the same concept except that the AI data center satellites will be powered by Google’s TPUs (Tensor Processing Units) instead of NVIDIA GPUs.
+
+You’d think Google would have learned its lesson after being beaten to the cloud services market by Amazon years ago. History has now repeated. Only this time, it is SpaceX that will take the lead with scale thanks to its AI1 satellites and establish the orbital web services (OWS) industry.
+
+What’s ironic is that past Chairman and CEO of Google, Eric Schmidt, literally acquired an aerospace company, Relativity Space, for the sole purpose of launching AI data centers into orbit to compete with SpaceX.
+
+And yet, Google is still fiddling with prototypes.
+
+Google’s late entry notwithstanding, these are heavy hitters with access to extraordinary amounts of capital to execute on their visions.
+
+The size of the pie continues to grow.
+
+And extraterrestrial deployments aren’t the only solutions under development. Often overlooked is what lies beneath our oceans. While not nearly as cold as the vacuum of space, the cooling is free, as is the energy.
+
+Panthalassa is a name that is getting a lot of attention now. The company raised $140 million in May at a $1 billion valuation for precisely the same reasons that Starcloud had such a successful raise.
+
+Panthalassa is building ocean nodes that are self-propelled and fully autonomous. The final design will be 85 meters tall and designed to operate in the most energy-dense wave regions of the Pacific Ocean.
+
+Panthalassa Ocean-2 Prototype |Source: Panthalassa
+
+After deployment, each Ocean-3 will invert to stand straight with most of the node submerged. Panthalassa developed a proprietary hydraulic system that converts wave motion into electricity to power onboard AI computational resources. And the cold waters of the Pacific Ocean help to keep the systems cool.
+
+Panthalassa Ocean-2 Prototype |Source: Panthalassa
+
+Panthalassa aims to have 3 gigawatts of AI compute operational by 2030. That would add a material amount of computational resources needed to meet demand.
+
+The answer to Earth’s energy bottleneck isn’t an ‘either/or.’ It is an ‘all the above.’
+
+The answer is accelerating fourth-generation nuclear fission reactors in the form of small modular reactors (SMRs) and nuclear fusion reactors. The answer is also AI satellites in space and AI data centers under the ocean.
+
+SpaceX’s commitment to this new industry is the spark that has lit the fire.
+
+The company’s visionary, larger-than-life, entry into the industry has become the catalyst for billions of dollars to be raised by others to grow the size of the pie.
+
+To Musk’s credit, that’s what he wants to happen as well.
+
+He isn’t using his current monopoly of SpaceX to drive launch costs higher. He is doing the opposite.
+
+He and his teams are working night and day to drive launch costs lower and democratize access to space.
+
+It’s not a zero-sum game.
+
+Everybody wins if SpaceX helps to grow the size of the pie.
+
+And that creates incredible investment opportunities outside of SpaceX.
+
+Ad astra,
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+When most people think about SpaceX, they probably think that rockets and launch services are the largest part of...
+
+By boxing Starlink out with their JV, they will force SpaceX’s hand to offer services directly to consumers...
+
+Starbase, Texas, isn’t exactly the easiest place to get to unless you live in South Texas.
+
+Read the latest insights from the world of high technology.
+
+When most people think about SpaceX, they probably think that rockets and launch services are the largest part of...
+
+By boxing Starlink out with their JV, they will force SpaceX’s hand to offer services directly to consumers...
+
+Starbase, Texas, isn’t exactly the easiest place to get to unless you live in South Texas.

@@ -1,0 +1,29 @@
+{
+  "name": "Nolostsales",
+  "category": "AI Sales Recovery",
+  "description": "AI voice and chat agents for recovering lost sales. White-label platform.",
+  "website": "https://nolostsales.cc",
+  "email": "contact@nolostsales.cc",
+  "phone": "+1-555-555-5555",
+  "address": {
+    "street": "123 Business Ave",
+    "city": "San Antonio",
+    "state": "TX",
+    "postcode": "78205",
+    "country": "USA"
+  },
+  "social": {
+    "twitter": "",
+    "linkedin": "",
+    "facebook": ""
+  },
+  "hours": {
+    "monday": "8:00 AM - 6:00 PM",
+    "tuesday": "8:00 AM - 6:00 PM",
+    "wednesday": "8:00 AM - 6:00 PM",
+    "thursday": "8:00 AM - 6:00 PM",
+    "friday": "8:00 AM - 6:00 PM",
+    "saturday": "9:00 AM - 3:00 PM",
+    "sunday": "Closed"
+  }
+}

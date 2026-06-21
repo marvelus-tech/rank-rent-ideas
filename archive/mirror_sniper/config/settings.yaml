@@ -1,0 +1,57 @@
+app_name: MirrorSniper
+environment: development
+
+database:
+  url: sqlite+aiosqlite:///./mirror_sniper.db
+  echo: false
+
+rpc:
+  primary: https://api.mainnet-beta.solana.com
+  backup: null
+  http_url: https://api.mainnet-beta.solana.com
+  ws_url: wss://api.mainnet-beta.solana.com
+  timeout_seconds: 15
+
+helius:
+  base_url: https://api.helius.xyz
+  webhook_path: /webhook/helius
+
+risk:
+  execution_mode: paper
+  max_position_size_sol: 1.0
+  max_daily_loss_sol: 2.0
+  stop_loss_percent: 15
+  take_profit_percent: 35
+  min_target_wallet_win_rate: 0.50
+  min_target_wallet_profit_factor: 1.20
+
+trading:
+  execution_mode: paper # Keep default paper for safety
+  trading_enabled: true
+  slippage_bps: 150
+  default_buy_size_sol: 0.25
+  max_parallel_trades: 5
+  poll_interval_seconds: 1.0
+
+wallet:
+  min_sol_balance: 0.01
+
+execution:
+  max_slippage_bps: 100
+  priority_fee_multiplier: 1.5
+  simulation_required: true
+  confirmation_timeout: 60
+  max_retries: 3
+
+alerts:
+  telegram:
+    enabled: false
+    bot_token: "${TELEGRAM_BOT_TOKEN}"
+    chat_id: "${TELEGRAM_CHAT_ID}"
+  discord:
+    enabled: false
+    webhook_url: "${DISCORD_WEBHOOK_URL}"
+
+tracked_wallets:
+  - address: "ExampleWallet111111111111111111111111111111111"
+    nickname: "sample_whale"

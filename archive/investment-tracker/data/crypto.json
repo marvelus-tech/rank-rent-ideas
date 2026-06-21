@@ -1,0 +1,26 @@
+{
+  "items": [
+    {
+      "id": "sol-001",
+      "name": "Solana",
+      "ticker": "SOL",
+      "status": "invested",
+      "price": "$145.20",
+      "tags": ["layer-1", "defi", "nft"],
+      "obsidianNote": "Investments/Crypto/SOL.md",
+      "added": "2026-04-20",
+      "notes": "High throughput, low fees. Strong ecosystem growth."
+    },
+    {
+      "id": "jup-001",
+      "name": "Jupiter",
+      "ticker": "JUP",
+      "status": "tracking",
+      "price": "$0.85",
+      "tags": ["dex", "aggregator", "solana"],
+      "obsidianNote": "Investments/Crypto/JUP.md",
+      "added": "2026-06-01",
+      "notes": "Solana DEX aggregator. Watch for volume growth."
+    }
+  ]
+}

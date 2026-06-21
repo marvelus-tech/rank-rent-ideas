@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>SHIFT — Concierge</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --bg-elevated: #12121a;
+            --bg-card: #1a1a24;
+            --accent: #ff6b35;
+            --accent-light: #ff8f5c;
+            --accent-glow: rgba(255, 107, 53, 0.3);
+            --text: #ffffff;
+            --text-secondary: rgba(255, 255, 255, 0.6);
+            --text-muted: rgba(255, 255, 255, 0.4);
+            --text-subtle: rgba(255, 255, 255, 0.2);
+            --border: rgba(255, 255, 255, 0.08);
+            --border-hover: rgba(255, 255, 255, 0.15);
+            --success: #30d158;
+            --warning: #ff9f0a;
+            --danger: #ff453a;
+            --radius-sm: 8px;
+            --radius-md: 12px;
+            --radius-lg: 16px;
+            --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+            --shadow-md: 0 8px 24px rgba(0, 0, 0, 0.4);
+            --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* Ambient background */
+        .ambient {
+            position: fixed;
+            inset: 0;
+            z-index: 0;
+            pointer-events: none;
+            overflow: hidden;
+        }
+
+        .ambient-orb {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(100px);
+            opacity: 0.1;
+            animation: orbFloat 20s ease-in-out infinite;
+        }
+
+        .ambient-orb-1 {
+            width: 400px;
+            height: 400px;
+            background: var(--accent);
+            top: -100px;
+            right: -50px;
+        }
+
+        .ambient-orb-2 {
+            width: 300px;
+            height: 300px;
+            background: #ff9f0a;
+            bottom: -50px;
+            left: -50px;
+            animation-delay: -5s;
+            opacity: 0.08;
+        }
+
+        @keyframes orbFloat {
+            0%, 100% { transform: translate(0, 0) scale(1); }
+            25% { transform: translate(20px, -20px) scale(1.1); }
+            50% { transform: translate(-10px, 15px) scale(0.95); }
+            75% { transform: translate(15px, 10px) scale(1.05); }
+        }
+
+        /* Layout */
+        .app {
+            position: relative;
+            z-index: 1;
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            width: 320px;
+            background: var(--bg-elevated);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            transition: var(--transition);
+        }
+
+        .sidebar-header {
+            padding: 20px;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .sidebar-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-weight: 800;
+            font-size: 18px;
+            color: var(--text);
+            text-decoration: none;
+        }
+
+        .sidebar-brand-icon {
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+        }
+
+        .sidebar-stats {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1px;
+            background: var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .sidebar-stat {
+            background: var(--bg-elevated);
+            padding: 12px;
+            text-align: center;
+        }
+
+        .sidebar-stat-value {
+            font-size: 18px;
+            font-weight: 700;
+            display: block;
+        }
+
+        .sidebar-stat-value.active { color: var(--success); }
+        .sidebar-stat-value.upcoming { color: var(--warning); }
+        .sidebar-stat-value.past { color: var(--text-muted); }
+
+        .sidebar-stat-label {
+            font-size: 10px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-top: 2px;
+        }
+
+        .sidebar-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 12px;
+        }
+
+        .sidebar-empty {
+            text-align: center;
+            padding: 32px 16px;
+            color: var(--text-muted);
+            font-size: 13px;
+        }
+
+        .booking-item {
+            padding: 12px;
+            border-radius: var(--radius-sm);
+            margin-bottom: 8px;
+            cursor: pointer;
+            transition: var(--transition);
+            border: 1px solid transparent;
+        }
+
+        .booking-item:hover {
+            background: rgba(255, 255, 255, 0.03);
+            border-color: var(--border);
+        }
+
+        .booking-item.active {
+            background: rgba(255, 107, 53, 0.08);
+            border-color: rgba(255, 107, 53, 0.2);
+        }
+
+        .booking-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 4px;
+        }
+
+        .booking-id {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .booking-status {
+            font-size: 10px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            padding: 2px 8px;
+            border-radius: 100px;
+        }
+
+        .booking-status.active {
+            background: rgba(48, 209, 88, 0.15);
+            color: var(--success);
+        }
+
+        .booking-status.confirmed {
+            background: rgba(255, 159, 10, 0.15);
+            color: var(--warning);
+        }
+
+        .booking-status.completed {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text-muted);
+        }
+
+        .booking-status.cancelled {
+            background: rgba(255, 69, 58, 0.15);
+            color: var(--danger);
+        }
+
+        .booking-name {
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin-bottom: 2px;
+        }
+
+        .booking-car {
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        .sidebar-footer {
+            padding: 16px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .sidebar-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 600;
+            flex-shrink: 0;
+        }
+
+        .sidebar-user {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .sidebar-user-name {
+            font-size: 13px;
+            font-weight: 600;
+            color: var(--text);
+        }
+
+        .sidebar-user-status {
+            font-size: 11px;
+            color: var(--text-muted);
+        }
+
+        .sidebar-online {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--success);
+            flex-shrink: 0;
+            box-shadow: 0 0 0 2px var(--bg-elevated);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
+        }
+
+        /* Main Chat Area */
+        .main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            background: var(--bg);
+        }
+
+        .main-header {
+            padding: 16px 24px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(10, 10, 15, 0.8);
+            backdrop-filter: blur(20px);
+        }
+
+        .main-header-left {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .main-header-title {
+            font-size: 16px;
+            font-weight: 700;
+        }
+
+        .main-header-status {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 12px;
+            color: var(--text-muted);
+        }
+
+        .main-header-status-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--success);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .main-header-actions {
+            display: flex;
+            gap: 8px;
+        }
+
+        .header-btn {
+            padding: 8px 16px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-secondary);
+            font-family: inherit;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .header-btn:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text);
+            border-color: var(--border-hover);
+        }
+
+        .header-btn-primary {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        .header-btn-primary:hover {
+            background: var(--accent-light);
+            border-color: var(--accent-light);
+        }
+
+        /* Chat Messages */
+        .chat-container {
+            flex: 1;
+            overflow-y: auto;
+            padding: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .message {
+            display: flex;
+            gap: 12px;
+            max-width: 80%;
+            animation: messageSlide 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+        }
+
+        .message.user {
+            flex-direction: row-reverse;
+            align-self: flex-end;
+        }
+
+        @keyframes messageSlide {
+            from {
+                opacity: 0;
+                transform: translateY(20px) scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        .message-avatar {
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 16px;
+            flex-shrink: 0;
+        }
+
+        .message-avatar.bot {
+            background: linear-gradient(135deg, var(--accent), var(--accent-light));
+        }
+
+        .message-avatar.user {
+            background: linear-gradient(135deg, #6366f1, #8b5cf6);
+        }
+
+        .message-content {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+            padding: 16px;
+            font-size: 14px;
+            line-height: 1.6;
+            color: var(--text-secondary);
+        }
+
+        .message.user .message-content {
+            background: var(--accent);
+            color: white;
+            border-color: var(--accent);
+        }
+
+        .message-content strong {
+            color: var(--text);
+            font-weight: 600;
+        }
+
+        .message.user .message-content strong {
+            color: white;
+        }
+
+        .message-content code {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: 'SF Mono', ui-monospace, monospace;
+            font-size: 0.9em;
+            color: var(--accent-light);
+        }
+
+        .message.user .message-content code {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+        }
+
+        .message-time {
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 6px;
+        }
+
+        .message.user .message-time {
+            text-align: right;
+        }
+
+        /* Welcome Card */
+        .welcome-card {
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 24px;
+            margin-bottom: 8px;
+        }
+
+        .welcome-card h3 {
+            font-size: 18px;
+            font-weight: 700;
+            margin-bottom: 8px;
+            color: var(--text);
+        }
+
+        .welcome-card p {
+            color: var(--text-secondary);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 16px;
+        }
+
+        .quick-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .quick-btn {
+            padding: 8px 16px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text-secondary);
+            font-family: inherit;
+            font-size: 13px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+        .quick-btn:hover {
+            background: rgba(255, 107, 53, 0.1);
+            border-color: rgba(255, 107, 53, 0.3);
+            color: var(--accent-light);
+        }
+
+        /* Typing Indicator */
+        .typing {
+            display: none;
+            align-items: center;
+            gap: 12px;
+            padding: 0 24px;
+            margin-bottom: 16px;
+        }
+
+        .typing.active {
+            display: flex;
+        }
+
+        .typing-dots {
+            display: flex;
+            gap: 4px;
+            align-items: center;
+            padding: 12px 16px;
+            background: var(--bg-elevated);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-md);
+        }
+
+        .typing-dot {
+            width: 6px;
+            height: 6px;
+            border-radius: 50%;
+            background: var(--text-muted);
+            animation: typingBounce 1.4s ease-in-out infinite;
+        }
+
+        .typing-dot:nth-child(1) { animation-delay: -0.32s; }
+        .typing-dot:nth-child(2) { animation-delay: -0.16s; }
+
+        @keyframes typingBounce {
+            0%, 80%, 100% { transform: scale(0.6); opacity: 0.4; }
+            40% { transform: scale(1); opacity: 1; }
+        }
+
+        /* Input Area */
+        .input-area {
+            padding: 16px 24px;
+            border-top: 1px solid var(--border);
+            background: var(--bg-elevated);
+        }
+
+        .input-wrapper {
+            display: flex;
+            align-items: flex-end;
+            gap: 12px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: var(--radius-lg);
+            padding: 12px;
+            transition: var(--transition);
+        }
+
+        .input-wrapper:focus-within {
+            border-color: var(--accent);
+            box-shadow: 0 0 0 3px var(--accent-glow);
+        }
+
+        .input-field {
+            flex: 1;
+            background: transparent;
+            border: none;
+            color: var(--text);
+            font-family: inherit;
+            font-size: 14px;
+            line-height: 1.5;
+            resize: none;
+            outline: none;
+            max-height: 120px;
+            min-height: 24px;
+        }
+
+        .input-field::placeholder {
+            color: var(--text-muted);
+        }
+
+        .input-actions {
+            display: flex;
+            gap: 8px;
+            align-items: center;
+        }
+
+        .input-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius-sm);
+            border: none;
+            background: transparent;
+            color: var(--text-muted);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+            font-size: 18px;
+        }
+
+        .input-btn:hover {
+            background: rgba(255, 255, 255, 0.05);
+            color: var(--text);
+        }
+
+        .input-btn.send {
+            background: var(--accent);
+            color: white;
+        }
+
+        .input-btn.send:hover {
+            background: var(--accent-light);
+        }
+
+        .input-btn.send:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        .input-hint {
+            text-align: center;
+            font-size: 11px;
+            color: var(--text-muted);
+            margin-top: 8px;
+        }
+
+        .input-hint kbd {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 10px;
+        }
+
+        /* Mobile */
+        .mobile-header {
+            display: none;
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+            background: var(--bg-elevated);
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .mobile-menu-btn {
+            width: 36px;
+            height: 36px;
+            border-radius: var(--radius-sm);
+            border: 1px solid var(--border);
+            background: transparent;
+            color: var(--text);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .mobile-sidebar-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 50;
+            backdrop-filter: blur(4px);
+        }
+
+        .mobile-sidebar-overlay.active {
+            display: block;
+        }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                position: fixed;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                z-index: 100;
+                transform: translateX(-100%);
+                transition: transform 0.3s ease;
+            }
+
+            .sidebar.open {
+                transform: translateX(0);
+            }
+
+            .mobile-header {
+                display: flex;
+            }
+
+            .main-header {
+                display: none;
+            }
+
+            .chat-container {
+                padding: 16px;
+            }
+
+            .message {
+                max-width: 90%;
+            }
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border-hover);
+            border-radius: 3px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--text-subtle);
+        }
+    </style>
+</head>
+<body>
+    <div class="ambient">
+        <div class="ambient-orb ambient-orb-1"></div>
+        <div class="ambient-orb ambient-orb-2"></div>
+    </div>
+
+    <div class="mobile-sidebar-overlay" id="mobile-overlay" onclick="toggleSidebar()"></div>
+
+    <div class="app">
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <a href="/" class="sidebar-brand">
+                    <div class="sidebar-brand-icon">🔥</div>
+                    SHIFT Concierge
+                </a>
+            </div>
+
+            <div class="sidebar-stats">
+                <div class="sidebar-stat">
+                    <span class="sidebar-stat-value active" id="stat-active">—</span>
+                    <span class="sidebar-stat-label">Active</span>
+                </div>
+                <div class="sidebar-stat">
+                    <span class="sidebar-stat-value upcoming" id="stat-upcoming">—</span>
+                    <span class="sidebar-stat-label">Upcoming</span>
+                </div>
+                <div class="sidebar-stat">
+                    <span class="sidebar-stat-value past" id="stat-past">—</span>
+                    <span class="sidebar-stat-label">Past</span>
+                </div>
+            </div>
+
+            <div class="sidebar-content" id="booking-list">
+                <div class="sidebar-empty">Bookings appear here after you look up a reservation.</div>
+            </div>
+
+            <div class="sidebar-footer">
+                <div class="sidebar-avatar">G</div>
+                <div class="sidebar-user">
+                    <div class="sidebar-user-name">Guest</div>
+                    <div class="sidebar-user-status">Signed in via chat</div>
+                </div>
+                <div class="sidebar-online"></div>
+            </div>
+        </aside>
+
+        <!-- Main Chat -->
+        <main class="main">
+            <div class="mobile-header">
+                <button class="mobile-menu-btn" onclick="toggleSidebar()">☰</button>
+                <div style="font-weight: 700;">SHIFT Concierge</div>
+                <div style="width: 36px;"></div>
+            </div>
+
+            <div class="main-header">
+                <div class="main-header-left">
+                    <div>
+                        <div class="main-header-title">Rental Support</div>
+                        <div class="main-header-status">
+                            <span class="main-header-status-dot"></span>
+                            <span>Online — Typically responds in 2 minutes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-header-actions">
+                    <a href="/" class="header-btn">🏠 Home</a>
+                    <button class="header-btn" onclick="resetChat()">🔄 New Chat</button>
+                    <div style="display: flex; align-items: center; gap: 6px; padding: 6px 12px; border-radius: var(--radius-sm); background: rgba(48, 209, 88, 0.1); border: 1px solid rgba(48, 209, 88, 0.2); font-size: 12px; color: var(--success); font-weight: 500;">
+                        🛡️ Secure
+                    </div>
+                </div>
+            </div>
+
+            <div class="chat-container" id="chat-container">
+                <div class="message">
+                    <div class="message-avatar bot">🔥</div>
+                    <div>
+                        <div class="welcome-card">
+                            <h3>Welcome to SHIFT Concierge</h3>
+                            <p>I'm your personal rental assistant. I can help you manage bookings, check fleet availability, extend rentals, or answer any questions about your reservation.</p>
+                            <div class="quick-actions">
+                                <button class="quick-btn" onclick="sendQuick('Show my bookings')">📋 My Bookings</button>
+                                <button class="quick-btn" onclick="sendQuick('Fleet availability')">🚗 Fleet</button>
+                                <button class="quick-btn" onclick="sendQuick('Extend rental')">⏰ Extend</button>
+                            </div>
+                        </div>
+                        <div class="message-time">Just now</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="typing" id="typing-indicator">
+                <div class="message-avatar bot">🔥</div>
+                <div class="typing-dots">
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                    <div class="typing-dot"></div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <div class="input-wrapper">
+                    <textarea
+                        class="input-field"
+                        id="message-input"
+                        rows="1"
+                        placeholder="Ask about your booking, fleet, or request an extension..."
+                        oninput="autoResize(this)"
+                        onkeydown="handleKeyDown(event)"
+                    ></textarea>
+                    <div class="input-actions">
+                        <button class="input-btn" title="Attachments coming soon" aria-label="Attach file">📎</button>
+                        <button class="input-btn send" id="send-btn" onclick="sendMessage()" disabled aria-label="Send message">⬆️</button>
+                    </div>
+                </div>
+                <div class="input-hint">
+                    Press <kbd>Enter</kbd> to send · <kbd>Shift+Enter</kbd> for new line
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script>
+        let sessionId = 'shift_' + Math.random().toString(36).slice(2, 11);
+        let currentBookings = [];
+        let isTyping = false;
+        let selectedBookingId = null;
+
+        function autoResize(textarea) {
+            textarea.style.height = 'auto';
+            textarea.style.height = Math.min(textarea.scrollHeight, 128) + 'px';
+            const sendBtn = document.getElementById('send-btn');
+            const ok = !!textarea.value.trim();
+            sendBtn.disabled = !ok || isTyping;
+        }
+
+        function handleKeyDown(e) {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                sendMessage();
+            }
+        }
+
+        function sendQuick(text) {
+            const input = document.getElementById('message-input');
+            input.value = text;
+            autoResize(input);
+            sendMessage();
+            if (window.innerWidth < 768) toggleSidebar();
+        }
+
+        function formatMessage(text) {
+            const esc = (s) => {
+                const d = document.createElement('div');
+                d.textContent = s;
+                return d.innerHTML;
+            };
+            return esc(text)
+                .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
+                .replace(/`(.*?)`/g, '<code>$1</code>')
+                .replace(/\n/g, '<br>')
+                .replace(/🟢|🔵|⚪|🔴|🟡|✅|❌/g, (m) => `<span style="font-size: 1.2em;">${m}</span>`)
+                .replace(/(📅|🚗|📍|💰|🛡️|⏰|📝|✅|📋|💳|🛠️|🙌)/g, '<span style="font-size: 1.2em; margin-right: 4px;">$1</span>');
+        }
+
+        function renderActions(actions) {
+            if (!actions || !actions.length) return '';
+            return `
+                <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid var(--border); display: flex; flex-wrap: wrap; gap: 8px;">
+                    ${actions.map((action) => `
+                        <button type="button" onclick="sendQuick(${JSON.stringify(action)})" class="quick-btn">
+                            ${escapeHtml(action)}
+                        </button>
+                    `).join('')}
+                </div>
+            `;
+        }
+
+        function addMessage(text, isUser = false, metadata = null) {
+            const container = document.getElementById('chat-container');
+            const div = document.createElement('div');
+            div.className = `message ${isUser ? 'user' : ''}`;
+
+            const time = new Date().toLocaleTimeString('en-US', {
+                hour: 'numeric',
+                minute: '2-digit',
+                hour12: true
+            });
+
+            if (isUser) {
+                div.innerHTML = `
+                    <div class="message-avatar user">G</div>
+                    <div>
+                        <div class="message-content">
+                            <p>${escapeHtml(text)}</p>
+                        </div>
+                        <div class="message-time">${time}</div>
+                    </div>
+                `;
+            } else {
+                const formattedText = formatMessage(text);
+                div.innerHTML = `
+                    <div class="message-avatar bot">🔥</div>
+                    <div style="max-width: 100%; min-width: 0;">
+                        <div class="message-content">
+                            <div class="rich-text">${formattedText}</div>
+                            ${metadata?.actions ? renderActions(metadata.actions) : ''}
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 12px; margin-top: 6px;">
+                            <span class="message-time">${time}</span>
+                            <button type="button" onclick="copyMessage(this)" style="font-size: 11px; color: var(--text-muted); background: none; border: none; cursor: pointer; display: flex; align-items: center; gap: 4px;">
+                                📋 Copy
+                            </button>
+                        </div>
+                    </div>
+                `;
+            }
+
+            container.appendChild(div);
+            scrollToBottom();
+
+            if (metadata?.bookings) {
+                updateBookingList(metadata.bookings);
+            }
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        function copyMessage(btn) {
+            const wrap = btn.closest('div').parentElement;
+            const rt = wrap && wrap.querySelector('.rich-text');
+            if (!rt) return;
+            const text = rt.innerText;
+            navigator.clipboard.writeText(text).then(() => {
+                const original = btn.innerHTML;
+                btn.innerHTML = '✅ Copied';
+                setTimeout(() => { btn.innerHTML = original; }, 2000);
+            });
+        }
+
+        function scrollToBottom() {
+            const container = document.getElementById('chat-container');
+            container.scrollTo({ top: container.scrollHeight, behavior: 'smooth' });
+        }
+
+        function showTyping() {
+            document.getElementById('typing-indicator').classList.add('active');
+            scrollToBottom();
+        }
+
+        function hideTyping() {
+            document.getElementById('typing-indicator').classList.remove('active');
+        }
+
+        function updateStatsFromBookings(bookings) {
+            if (!bookings || !bookings.length) return;
+            const active = bookings.filter((b) => b.status === 'Active').length;
+            const upcoming = bookings.filter((b) => b.status === 'Confirmed').length;
+            const past = bookings.filter((b) => b.status === 'Completed' || b.status === 'Cancelled').length;
+            document.getElementById('stat-active').textContent = String(active);
+            document.getElementById('stat-upcoming').textContent = String(upcoming);
+            document.getElementById('stat-past').textContent = String(past);
+        }
+
+        function updateBookingList(bookings) {
+            const list = document.getElementById('booking-list');
+            if (!bookings || !bookings.length) return;
+            currentBookings = bookings;
+            updateStatsFromBookings(bookings);
+            list.innerHTML = bookings
+                .map((b) => {
+                    const active = selectedBookingId === b.booking_id ? 'active' : '';
+                    const statusClass = b.status.toLowerCase();
+                    return `
+                        <div class="booking-item ${active}" data-booking-id="${escapeHtml(b.booking_id)}" onclick="selectBooking(${JSON.stringify(b.booking_id)})">
+                            <div class="booking-item-header">
+                                <span class="booking-id">${escapeHtml(b.booking_id)}</span>
+                                <span class="booking-status ${statusClass}">${escapeHtml(b.status)}</span>
+                            </div>
+                            <div class="booking-name">${escapeHtml(b.customer_name)}</div>
+                            <div class="booking-car">${escapeHtml(b.make)} ${escapeHtml(b.model)} · ${escapeHtml(b.category || '')}</div>
+                        </div>
+                    `;
+                })
+                .join('');
+        }
+
+        function selectBooking(bookingId) {
+            selectedBookingId = bookingId;
+            document.querySelectorAll('.booking-item').forEach((el) => {
+                el.classList.toggle('active', el.getAttribute('data-booking-id') === bookingId);
+            });
+            sendQuick(`What's my booking ${bookingId}?`);
+        }
+
+        function toggleSidebar() {
+            const sidebar = document.getElementById('sidebar');
+            const overlay = document.getElementById('mobile-overlay');
+            sidebar.classList.toggle('open');
+            overlay.classList.toggle('active');
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById('message-input');
+            const text = input.value.trim();
+            if (!text || isTyping) return;
+
+            addMessage(text, true);
+            input.value = '';
+            input.style.height = 'auto';
+            const sendBtn = document.getElementById('send-btn');
+            sendBtn.disabled = true;
+
+            isTyping = true;
+            autoResize(input);
+            showTyping();
+
+            try {
+                const res = await fetch('/api/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        message: text,
+                        session_id: sessionId
+                    })
+                });
+                const data = await res.json();
+                hideTyping();
+
+                const reply = data.reply || data.message || data.error || 'No response.';
+                const actions = data.action === 'extension_requested' ? ['Confirm Extension', 'Cancel'] : null;
+
+                setTimeout(() => {
+                    addMessage(reply, false, {
+                        bookings: data.bookings,
+                        actions
+                    });
+                    isTyping = false;
+                    autoResize(input);
+                }, 400);
+            } catch (error) {
+                hideTyping();
+                addMessage('Connection error. Please check your connection and try again.', false);
+                isTyping = false;
+                autoResize(input);
+            }
+        }
+
+        function resetChat() {
+            sessionId = 'shift_' + Math.random().toString(36).slice(2, 11);
+            selectedBookingId = null;
+            currentBookings = [];
+            location.reload();
+        }
+
+        document.getElementById('message-input').focus();
+        autoResize(document.getElementById('message-input'));
+
+        (function renterBookingDeepLink() {
+            var bid = new URLSearchParams(location.search).get('booking');
+            if (!bid) return;
+            setTimeout(function () {
+                sendQuick("What's my booking " + bid + "?");
+            }, 400);
+        })();
+    </script>
+</body>
+</html>

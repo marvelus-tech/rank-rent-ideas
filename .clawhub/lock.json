@@ -4,6 +4,46 @@
     "playwright-mcp": {
       "version": "1.0.0",
       "installedAt": 1773805534448
+    },
+    "remotion": {
+      "version": "1.0.1",
+      "installedAt": 1780044257644
+    },
+    "frontend-design-3": {
+      "version": "0.1.0",
+      "installedAt": 1780026399940
+    },
+    "elite-frontend-design": {
+      "version": "1.0.0",
+      "installedAt": 1780026400301
+    },
+    "ffmpeg": {
+      "version": "1.0.0",
+      "installedAt": 1780044255301
+    },
+    "lh-video-gen": {
+      "version": "1.0.0",
+      "installedAt": 1780044255530
+    },
+    "demo-video": {
+      "version": "1.0.0",
+      "installedAt": 1780044255534
+    },
+    "remotion-video-generator": {
+      "version": "1.0.0",
+      "installedAt": 1780044255538
+    },
+    "video-producer": {
+      "version": "2.2.1",
+      "installedAt": 1780044255983
+    },
+    "viral-hook-weaponizer": {
+      "version": "1.0.0",
+      "installedAt": 1780044418958
+    },
+    "hyperframes": {
+      "version": "1.0.0",
+      "installedAt": 1780048974075
     }
   }
 }

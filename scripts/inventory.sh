@@ -6,10 +6,10 @@
 set -euo pipefail
 WORKSPACE="/Users/oktos/.openclaw/workspace"
 
-echo "========================================="
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "  WORKSPACE INVENTORY"
 echo "  Timestamp: $(date -u +"%Y-%m-%dT%H:%M:%SZ")"
-echo "========================================="
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 
 echo ""
 echo "📁 Core Files:"
@@ -68,4 +68,4 @@ echo ""
 echo "⏰ Cron Jobs: (use 'cron list' tool for details)"
 
 echo ""
-echo "========================================="
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"

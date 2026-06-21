@@ -1,0 +1,15 @@
+{
+  "type": "new-consultation",
+  "jobId": "a66defde-5100-4248-aac0-e5a7ded1117c",
+  "timestamp": "2026-03-27-110921",
+  "clientName": "E2E-Curl-Test",
+  "duration": "00:00",
+  "audioFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.webm",
+  "noteFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.md",
+  "status": "error",
+  "receivedAt": "2026-03-27T11:09:21.848133",
+  "recordingFilename": "2026-03-27-110921-E2E-Curl-Test.webm",
+  "processingStarted": "2026-03-27T11:17:11.491008",
+  "error": "Transcription subprocess failed: 2026-03-27 11:17:11 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.webm\nAudio file not found: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.webm",
+  "completedAt": "2026-03-27T11:17:11.634778"
+}

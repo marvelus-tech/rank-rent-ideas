@@ -1,0 +1,171 @@
+The $22.7 Trillion Opportunity
+
+Jun 12, 2026
+
+When most people think about SpaceX, they probably think that rockets and launch services are the largest part of its business and the largest future business opportunity. But that’s not the case…
+
+The SpaceX (SPCX) IPO is scheduled for this Friday.
+
+In the days leading up to it, Elon Musk is sharing new developments about SpaceX and its future – designed to get both institutional and retail investors excited.
+
+The SpaceX IPO will price on Thursday afternoon and start trading sometime on Friday.
+
+This is the largest IPO in history and will probably remain so for my lifetime.
+
+Some will think this will be symbolic of the peak, but that would be a gross misunderstanding of what’s happening right now.
+
+It’s just the beginning of what will become the largest period of economic growth in history, specifically in the U.S.
+
+The SpaceX IPO is just opening the floodgates.
+
+On June 1, frontier AI model developer Anthropic confidentially filed for its IPO. And just yesterday, OpenAI confidentially filed for its IPO.
+
+Hundreds more will follow.
+
+The IPOs are liquidity events.
+
+Tens of thousands of people will become millionaires overnight.
+
+Venture capital firms will make hundreds of billions.
+
+And a good chunk of that capital will be released and ultimately reinvested into the next generation of tech companies that will transform the world.
+
+The SpaceX IPO is symbolic ofacceleration.
+
+For those interested in seeing the SpaceX IPO roadshow presentation,you can find it right here.
+
+It’s an easy way to understand the big picture of how Elon Musk and SpaceX think about the business.
+
+SpaceX is divided into three distinct pillars:
+
+When most people think about SpaceX, they probably think that rockets and launch services are the largest part of its business and the largest future business opportunity.
+
+I wouldn’t fault anyone for that.
+
+But it’s not the case.
+
+Today, Starlink’s connectivity solutions make up the majority of SpaceX’s revenue and free cash flow.
+
+But connectivity isn’t the largest future business opportunity, either.
+
+That belongs to AI.
+
+Source: SpaceX
+
+Looking ahead with SpaceX’s existing business lines, the addressable market for SpaceX’s AI business is $3.8 trillion out of a total of $5.7 trillion.
+
+That means about two-thirds of SpaceX’s business will quickly become AI-related, primarily AI infrastructure.
+
+And when SpaceX adds in the enterprise AI market, which it sizes as a $22.7 trillion market, launch services and connectivity become almost insignificant.
+
+The most interesting announcements this week from SpaceX were about more details around SpaceX’s future AI data center satellites.
+
+Prior to this week, we were left to our imaginations. Now we have some perspective from SpaceX about the details and scale of what the company will be building.
+
+Needless to say, it is incredible and exciting.
+
+The AI1 satellite, shown below, gives us some perspective on the size of these satellites.
+
+The wingspan of the solar panels is 70 meters.
+
+And the radiators span 20 meters.
+
+The smallest part of the satellites is the “racks” of compute shown at the very center as “centralized compute.”
+
+Source: SpaceX
+
+Each AI1 satellite will have:
+
+The design specifications are backed out from the optimal payload size of the AI1 satellite when stacked into a Starship for launch and specified in energy production because the computational technology is actually interchangeable.
+
+Musk said they’ll start with NVIDIA GPUs initially for the AI1 satellite but will also have reference designs for Google’s TPU (Tensor Processing Unit) and others, including its own manufactured semiconductors.
+
+Musk also mentioned that they will need a “whole lot of memory,” which SpaceX will not manufacture but procure.
+
+To frame the AI1 satellite, Musk made a simple point: The AI1 satellite is actually much simpler than a Starlink satellite.
+
+It is primarily a large solar cell array, a large radiator (which makes up most of the mass of the satellite), and the rest is much smaller in comparison.
+
+The “rest” refers to the computational resources and laser optical links.
+
+The optical links are used to connect with the Starlink constellation of satellites.
+
+Starlink satellites have complex Ka- and Ku-band antennas that can send data payloads to anywhere on Earth in a mere 3 milliseconds.
+
+This is a point I’ve been making for years.
+
+AI satellites are computational resources. Starlink is a literal worldwide web – a space-based internet infrastructure that blankets the entire planet.
+
+Combined, it enables SpaceX to define an entirely new category of orbital web services (OWS).
+
+Now, to make this future a reality, SpaceX needs to radically ramp up its manufacturing capability.
+
+And that’s one thing that SpaceX, and for that matter Tesla (TSLA), is the best in the world at doing.
+
+SpaceX outlined its new plans for its Gigasat factory in Bastrop, Texas, where I visited last year.
+
+The building that exists today is shown in the picture below as “User terminals Gateways PCB/Silicon.”
+
+Source: SpaceX
+
+This will quickly be expanded with four new manufacturing buildings that includesolar ingots and wafers, solar cells, warehouse AI sat dev, and AI sat production, which are all shown above.
+
+Full production is scheduled for AI1 satellites before the end of next year (2027).
+
+And to get there, SpaceX needs to build the Terafab, which is designed to be 100 million square feet, which will be 10-times the scale of Tesla’s Gigafactory in Austin, Texas.
+
+For anyone who has driven by the Gigafactory, you’ll probably be shaking your head right now in disbelief.
+
+The Gigafactory is 1.2 kilometers long – roughly the length of 72 football fields.
+
+When you drive past it, it just keeps on going and going.
+
+Now imagine a Terafab that is 10-times larger…
+
+SpaceX’s goal is to get to an annualized rate of manufacturing of 1 gigawatt of AI semiconductors per year in about a year and a half from now… and then scale that by an order of magnitude each year.
+
+In two and a half years, the expectation is to manufacture 100 gigawatts of compute a year.
+
+And a year after that, a terawatt (1,000 gigawatts).
+
+Hence the name, the Terafab.
+
+And if that isn’t enough to get you excited, SpaceX’s longer-term plans are to establish a lunar manufacturing outpost, where solar panel production and radiator production will take place, mostly using the resources available on the moon.
+
+The significance of this is that the solar panels and radiators make up the vast majority of the weight of the AI1 satellites.
+
+SpaceX will send the computational units up to the moon using a Starship… and then assemble the final AI1 satellite on the lunar surface.
+
+Then a mass driver – an electromagnetic launch system that accelerates payloads off the lunar surface – will send AI1 satellites into space. No rockets are required, as shown in the short animation below.
+
+Source: SpaceX
+
+AI will quickly become the majority of SpaceX’s business, and it is only possible because SpaceX solved the most difficult problem first…
+
+Reusable rockets, resulting in a collapse of launch costs to low Earth orbit.
+
+SpaceX Falcon Heavy launch costs per kilogram are 92.4% cheaper than the average launch costs from the 1970-2000 aerospace era.
+
+And the Starship will result in a further decline of another 92% compared to today’s Falcon Heavy.
+
+And that is what is making SpaceX’s entire business economically possible… and why SpaceX will quickly become the most valuable company in history.
+
+Ad astra,
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+SpaceX has gone public, making Elon Musk the world’s first trillionaire. That should be celebrated…
+
+The SpaceX IPO is set to shatter records as the largest in history – here's what investors need to...
+
+The answer to Earth’s energy bottleneck isn’t an ‘either/or.’ It is an ‘all the above.’
+
+Read the latest insights from the world of high technology.
+
+SpaceX has gone public, making Elon Musk the world’s first trillionaire. That should be celebrated…
+
+The SpaceX IPO is set to shatter records as the largest in history – here's what investors need to...
+
+The answer to Earth’s energy bottleneck isn’t an ‘either/or.’ It is an ‘all the above.’

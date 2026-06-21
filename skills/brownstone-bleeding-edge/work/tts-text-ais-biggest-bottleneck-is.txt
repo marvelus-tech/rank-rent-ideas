@@ -1,0 +1,71 @@
+AI’s Biggest Bottleneck Is…
+
+May 6, 2026
+
+For the last two years, the AI story has been dominated by compute. Today, the constraint is different. We are now limited by how fast AI canremember.
+
+Managing Editor’s Note:Today, we’re handing the reins to our friend and colleague Jason Bodner.
+
+Longtime Brownstone Research members may remember Jason as a regular contributor from years past. With a Wall Street resume that spans decades, Jason specializes in quantitative strategies that identify high upside, “outlier” stocks.
+
+Today, he shows why the AI trade is becoming multi-faceted. The big question now isn’t how fast an AI can “think,” but how quickly it can “remember.”
+
+Read on…
+
+For the last two years, the AI story has been dominated by compute. Faster chips, bigger clusters, more GPUs.
+
+That made sense. More intelligence requires more processing power. As Jeff has discussed inThe Bleeding Edgebefore, AI compute is currentlydoubling roughly every six months– a pattern that is accelerating.
+
+But something has changed. The focus is no longer solely on how fast AI can think. That problem is being addressed by photonics, fiber optics, and systems moving data near the speed of light.
+
+The constraint today is different. We are now also limited by how fast AI canremember.
+
+AI systems don’t just compute. They constantly retrieve data. Every prompt, every model output, every training run depends on moving enormous amounts of information into the chip at the right time. That’s where things start to break.
+
+Even the most advanced AI chips spend a meaningful amount of time idle, not because they lack power, but because they are waiting for data. That delay comes from memory, not compute.
+
+A major driver is the rise of neoclouds. These are a new generation of specialized cloud providers built specifically for AI workloads, compared to traditional hyperscaler cloud solutions. Instead of running general applications, they are building massive GPU clusters for training and inference.
+
+Think of them as factories for intelligence. And these factories require memory at every layer – fast memory to feed the chip, working memory for active datasets, and large-scale storage for everything else.
+
+As these systems scale, memory demand does not grow gradually. It accelerates.
+
+Memory is not one thing. It’s a hierarchy. At the top sits SRAM, or Static Random Access Memory. This is on-chip memory. It is effectively instant, but extremely small.
+
+Next is DRAM and HBM. DRAM, or Dynamic Random Access Memory, sits close to the processor and delivers data quickly. HBM, or High Bandwidth Memory, goes further by stacking memory next to the chip to move large amounts of data at once.
+
+Beyond that is NAND flash. This is non-volatile memory that retains data without power. SSDs use NAND to store active datasets and models. It is fast, but not immediate.
+
+Further out are HDDs or Hard Disk Drives. These prioritize capacity over speed and store large volumes of data at lower cost.
+
+Controllers manage how data moves between these layers, so the system does not stall.
+
+Each layer has a role, and each runs at a different speed. The further the data is from the chip, the longer it takes to arrive. Data can now move at extraordinary speeds. The problem is getting it to the right place at the right time.
+
+Memory does not deliver data in a steady stream. It arrives in bursts, at different speeds, from different layers. It resembles a workforce commuting from different parts of a city, all arriving at different times.
+
+That is why performance does not scale perfectly. The chip is only as effective as the system feeding it.
+
+Memory has always been cyclical.
+
+Jeff Brown knows this better than anybody. Here’s how he described the phenomenon in the August 2020 edition ofThe Near Future Report:
+
+Most forms of memory are considered to be commodities. If you can get the same density, processing rates, and power consumption, manufacturers typically go with the cheapest provider prices when supply is greater than demand.
+
+When demand is high and supply is low, memory manufacturers enjoy high margins through higher pricing. The semiconductor industry then tends to overbuild production capacity, attracted by the high margin. Over time, supply exceeds demand, and margins drop.
+
+That was true historically, but AI is introducing a new kind of memory demand shock. Building new capacity takes years and billions of dollars. Supply is concentrated among a small number of players. In memory, the big three are Micron (MU), Samsung, and SK Hynix.
+
+Demand can surge within quarters. When that imbalance appears, prices do not gradually rise. They spike. We are already seeing it. DRAM prices rose approximately 50% in 2025. NAND pricing is recovering. Margins are expanding across the industry. Some executives are already signaling shortages extending years into the future.
+
+Recent earnings tell the story.
+
+When Micron reported Q2 earnings in March, the results were downright shocking. The company reported .20 earnings-per share (EPS). In Q2 of the previous year, that figure was .56. That’s nearly 7X growth… inoneyear.
+
+Revenue is beating expectations, growth rates are accelerating, and guidance is aggressive and may still prove conservative. This is not a short-term bump. It is the early stage of a structural shift.
+
+AI is increasing demand not just for compute, but for everything that supports it. Now, the focus is shifting to bottlenecks. And memory is one of the most critical.
+
+Regards,
+
+Jason BodnerContributing Editor,The Bleeding Edge

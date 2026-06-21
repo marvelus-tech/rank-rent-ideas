@@ -1,0 +1,22 @@
+{
+  "name": "shift-rental-support",
+  "version": "2.0.0",
+  "description": "SHIFT Car Rental customer support with 40-vehicle fleet database",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seed-database.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "keywords": ["openclaw", "car-rental", "customer-support", "chatbot"],
+  "author": "SHIFT Systems",
+  "license": "MIT"
+}

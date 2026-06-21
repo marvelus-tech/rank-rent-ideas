@@ -1,0 +1,26 @@
+{
+  "type": "new-consultation",
+  "jobId": "2d60a574-a144-4cbe-98f9-1899ca3b2654",
+  "timestamp": "2026-03-27-133433",
+  "clientName": "Mona",
+  "therapistName": "REED RICHARD",
+  "duration": "00:47",
+  "audioFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-133433-Mona.webm",
+  "noteFile": "/Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-133433-Mona.md",
+  "status": "done",
+  "receivedAt": "2026-03-27T13:34:34.144883",
+  "recordingFilename": "2026-03-27-133433-Mona.webm",
+  "processingStarted": "2026-03-27T13:34:34.157662",
+  "completedAt": "2026-03-27T13:35:23.757127",
+  "results": {
+    "clientName": "Mona",
+    "therapistName": "REED RICHARD",
+    "transcript": "Hi, Josh. How are you? I'm doing very well. How are you doing? I'm glad. I'm good to meet with you. Yeah, thanks for meeting with me. Welcome. I heard a rumor that you were in Boulder, Boulder this weekend. I did. Yeah. Thanks for asking. I ran it. Yeah. Oh, you're done. It was okay. You know, I could have done better. But, no, it was really great. Yeah. Thanks. Cool. Fantastic. I've actually been, you know, real looking forward to working with your team. Since I heard that you moved to a new position. Yeah. I've been thinking, oh, it's going to be fun to work with you guys. Yeah. Well, that's so great to hear. Yeah. I can't wait to get started. Cool.",
+    "email": "Subject: Thank you for our consultation - March 27, 2026\n\nHi Mona,\n\nThank you for taking the time to speak with me today. I appreciate the opportunity to discuss your needs.\n\nKey points from our conversation:\n- We covered the main topics you wanted to discuss\n- Next steps were outlined during our call\n\nPlease let me know if you have any questions or need clarification on anything we discussed.\n\nBest regards,\n[Your name]",
+    "emailSource": "template",
+    "obsidianUpdated": true,
+    "processedAt": "2026-03-27T13:35:23.756642",
+    "transcriptionEngine": "faster-whisper",
+    "transcriptSegments": null
+  }
+}

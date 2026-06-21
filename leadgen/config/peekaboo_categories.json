@@ -1,0 +1,37 @@
+{
+  "categories": [
+    "cleaning services",
+    "commercial cleaning",
+    "lawyers",
+    "solicitors",
+    "accountants",
+    "electricians",
+    "plumbers",
+    "dentists",
+    "hairdressers",
+    "landscapers",
+    "pest control",
+    "removalists",
+    "concreters",
+    "tilers",
+    "roofers",
+    "painters",
+    "builders",
+    "mechanics",
+    "physiotherapists",
+    "chiropractors"
+  ],
+  "avoid": [
+    "coffee shops",
+    "cafe",
+    "cafes",
+    "restaurants",
+    "bars",
+    "pubs",
+    "nightclubs"
+  ],
+  "location": "Victoria, Australia",
+  "limit": 10,
+  "delay": 5,
+  "current_index": 5
+}

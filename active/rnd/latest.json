@@ -1,0 +1,37 @@
+{
+  "memoPath": "/Users/oktos/.openclaw/workspace/rnd/memos/2026-06-04-10-03.md",
+  "timestamp": "2026-06-04-10-03",
+  "categories": [
+    "code"
+  ],
+  "agents": [
+    {
+      "id": "research-analyst",
+      "name": "Research Analyst",
+      "role": "research",
+      "provider": "google",
+      "model": "gemini-3-flash",
+      "personality": "Deep-dive researcher. Scans web, finds data, surfaces facts, trends, and competitive intelligence. No opinions, just signal.",
+      "avatar": "🔬"
+    },
+    {
+      "id": "systems-builder",
+      "name": "Systems Builder",
+      "role": "build",
+      "provider": "openclaw",
+      "model": "opencode/gpt-5.3-codex",
+      "personality": "Engineering pragmatist. Builds scripts, automations, APIs, and integrations. Focuses on working code over perfect architecture.",
+      "avatar": "⚙️"
+    },
+    {
+      "id": "strategic-director",
+      "name": "Strategic Director",
+      "role": "direct",
+      "provider": "openclaw",
+      "model": "kimi/k2p5",
+      "personality": "First-principles strategist. Synthesizes research and build output into bold, actionable decisions. Challenges weak logic, demands clarity.",
+      "avatar": "🎯"
+    }
+  ],
+  "status": "success"
+}

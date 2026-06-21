@@ -1,0 +1,3 @@
+The video loaded - I can see the title starts with "In a very free open source way really do deep rese...". This appears to be about deep research/open source AI. Let me now access the transcript by finding the menu button.
+
+Based on the UI elements detected, let me try to find transcript-related buttons or scroll to find the description area.

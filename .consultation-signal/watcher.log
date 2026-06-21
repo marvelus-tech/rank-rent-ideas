@@ -1,0 +1,479 @@
+2026-03-26 15:53:07 | INFO | Consultation watcher started
+2026-03-26 15:53:07 | INFO | Watching signal file: /Users/oktos/.openclaw/workspace/.consultation-signal/new-recording.json
+2026-03-26 15:53:10 | ERROR | Watcher already running (PID: 56185)
+2026-03-26 15:53:30 | INFO | Received signal 15; shutting down watcher
+2026-03-26 15:53:30 | INFO | Consultation watcher started
+2026-03-26 15:53:30 | INFO | Watching signal file: /Users/oktos/.openclaw/workspace/.consultation-signal/new-recording.json
+2026-03-26 15:53:45 | INFO | Received signal 15; shutting down watcher
+2026-03-26 15:53:45 | INFO | Consultation watcher started
+2026-03-26 15:53:45 | INFO | Watching signal file: /Users/oktos/.openclaw/workspace/.consultation-signal/new-recording.json
+2026-03-26 15:53:45 | WARNING | Startup detected status=processing; resetting to pending for recovery
+2026-03-26 15:53:45 | INFO | Starting processing for client: 69th recording
+2026-03-26 15:53:45 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-155038-69th-recording.webm
+2026-03-26 15:53:58 | INFO | Transcription complete (68 chars)
+2026-03-26 15:53:58 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-155038-69th-recording.md
+2026-03-26 15:53:58 | INFO | Processing complete for 69th recording
+2026-03-26 15:56:26 | INFO | Starting processing for client: codex
+2026-03-26 15:56:26 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-155626-codex.webm
+2026-03-26 15:56:34 | INFO | Transcription complete (59 chars)
+2026-03-26 15:56:34 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-155626-codex.md
+2026-03-26 15:56:34 | INFO | Processing complete for codex
+2026-03-26 16:10:56 | INFO | Starting processing for client: full-throttle
+2026-03-26 16:10:56 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-161056-full-throttle.webm
+2026-03-26 16:11:07 | INFO | Transcription complete (107 chars)
+2026-03-26 16:11:07 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-161056-full-throttle.md
+2026-03-26 16:11:07 | INFO | Processing complete for full-throttle
+2026-03-26 16:20:17 | INFO | Starting processing for client: uploaded
+2026-03-26 16:20:17 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-162017-uploaded.webm
+2026-03-26 16:20:27 | INFO | Transcription complete (58 chars)
+2026-03-26 16:20:27 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-162017-uploaded.md
+2026-03-26 16:20:27 | INFO | Processing complete for uploaded
+2026-03-26 16:39:48 | ERROR | Watcher already running (PID: 56204)
+2026-03-26 16:40:36 | INFO | Starting processing for client: susan
+2026-03-26 16:40:36 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-164035-susan.webm
+2026-03-26 16:40:45 | INFO | Transcription complete (48 chars)
+2026-03-26 16:40:45 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-164035-susan.md
+2026-03-26 16:40:45 | INFO | Processing complete for susan
+2026-03-26 16:42:15 | INFO | Starting processing for client: NSFW
+2026-03-26 16:42:15 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-164215-NSFW.webm
+2026-03-26 16:42:23 | INFO | Transcription complete (49 chars)
+2026-03-26 16:42:23 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-164215-NSFW.md
+2026-03-26 16:42:23 | INFO | Processing complete for NSFW
+2026-03-26 16:57:27 | ERROR | Watcher already running (PID: 56204)
+2026-03-26 16:57:34 | ERROR | Watcher already running (PID: 56204)
+2026-03-26 16:59:04 | INFO | Received signal 15; shutting down watcher
+2026-03-26 16:59:31 | INFO | Consultation watcher started
+2026-03-26 16:59:31 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-26 16:59:31 | INFO | Starting processing for client: susan
+2026-03-26 16:59:31 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-164035-susan.webm
+2026-03-26 16:59:40 | INFO | Transcription complete (48 chars)
+2026-03-26 16:59:40 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-164035-susan.md
+2026-03-26 16:59:40 | INFO | Processing complete for susan (2026-03-26-164035-susan.json)
+2026-03-26 16:59:40 | INFO | Starting processing for client: NSFW
+2026-03-26 16:59:40 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-164215-NSFW.webm
+2026-03-26 16:59:47 | INFO | Transcription complete (49 chars)
+2026-03-26 16:59:47 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-164215-NSFW.md
+2026-03-26 16:59:47 | INFO | Processing complete for NSFW (2026-03-26-164215-NSFW.json)
+2026-03-26 17:00:25 | INFO | Starting processing for client: 444
+2026-03-26 17:00:25 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-170024-444.webm
+2026-03-26 17:00:32 | INFO | Transcription complete (64 chars)
+2026-03-26 17:00:32 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-170024-444.md
+2026-03-26 17:00:32 | INFO | Processing complete for 444 (2026-03-26-170024-444.json)
+2026-03-26 17:01:18 | INFO | Starting processing for client: from the web 444
+2026-03-26 17:01:18 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-170117-from-the-web-444.webm
+2026-03-26 17:01:28 | INFO | Transcription complete (108 chars)
+2026-03-26 17:01:28 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-170117-from-the-web-444.md
+2026-03-26 17:01:28 | INFO | Processing complete for from the web 444 (2026-03-26-170117-from-the-web-444.json)
+2026-03-26 17:03:33 | INFO | Starting processing for client: web 555
+2026-03-26 17:03:33 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-170333-web-555.webm
+2026-03-26 17:03:40 | INFO | Transcription complete (40 chars)
+2026-03-26 17:03:40 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-170333-web-555.md
+2026-03-26 17:03:40 | INFO | Processing complete for web 555 (2026-03-26-170333-web-555.json)
+2026-03-26 17:13:36 | INFO | Starting processing for client: 666
+2026-03-26 17:13:36 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-171336-666.webm
+2026-03-26 17:13:46 | INFO | Transcription complete (32 chars)
+2026-03-26 17:13:46 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-171336-666.md
+2026-03-26 17:13:46 | INFO | Processing complete for 666 (2026-03-26-171336-666.json)
+2026-03-26 17:37:11 | INFO | Received signal 2; shutting down watcher
+2026-03-26 17:37:15 | INFO | Consultation watcher started
+2026-03-26 17:37:15 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-26 17:50:59 | INFO | Received signal 2; shutting down watcher
+2026-03-26 20:38:12 | INFO | Consultation watcher started
+2026-03-26 20:38:12 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-26 20:40:05 | INFO | Starting processing for client: susie
+2026-03-26 20:40:05 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-203947-susie.webm
+2026-03-26 20:40:36 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 09:48:21 | INFO | Consultation watcher started
+2026-03-27 09:48:21 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 09:48:21 | WARNING | Startup: processing -> pending for recovery: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs/2026-03-26-203947-susie.json
+2026-03-27 09:48:21 | INFO | Starting processing for client: susie
+2026-03-27 09:48:21 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-203947-susie.webm
+2026-03-27 09:48:21 | INFO | Received signal 15; shutting down watcher
+2026-03-27 10:18:54 | INFO | Consultation watcher started
+2026-03-27 10:18:54 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 10:18:54 | WARNING | Startup: processing -> pending for recovery: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs/2026-03-26-203947-susie.json
+2026-03-27 10:18:54 | INFO | Starting processing for client: susie
+2026-03-27 10:18:54 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-203947-susie.webm
+2026-03-27 10:18:56 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:29:52 | INFO | Consultation watcher started
+2026-03-27 10:29:52 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 10:29:52 | INFO | Starting processing for client: fake
+2026-03-27 10:29:52 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-210306-fake.webm
+2026-03-27 10:29:52 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-210306-fake.webm
+2026-03-27 10:29:54 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:32:44 | INFO | Transcription complete (49 chars, 3.8s audio)
+2026-03-27 10:32:45 | INFO | Transcription complete (338 chars)
+2026-03-27 10:32:45 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-210306-fake.md
+2026-03-27 10:32:45 | INFO | Processing complete for fake (2026-03-26-210306-fake.json)
+2026-03-27 10:32:45 | INFO | Starting processing for client: faker
+2026-03-27 10:32:45 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-210809-faker.webm
+2026-03-27 10:32:46 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-210809-faker.webm
+2026-03-27 10:32:47 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:32:51 | INFO | Transcription complete (100 chars, 9.0s audio)
+2026-03-27 10:32:52 | INFO | Transcription complete (391 chars)
+2026-03-27 10:32:52 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-210809-faker.md
+2026-03-27 10:32:52 | INFO | Processing complete for faker (2026-03-26-210809-faker.json)
+2026-03-27 10:32:52 | INFO | Starting processing for client: big boobs
+2026-03-27 10:32:52 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-211743-big-boobs.webm
+2026-03-27 10:32:52 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-211743-big-boobs.webm
+2026-03-27 10:32:53 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:32:58 | INFO | Transcription complete (155 chars, 20.6s audio)
+2026-03-27 10:32:58 | INFO | Transcription complete (451 chars)
+2026-03-27 10:32:58 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-211743-big-boobs.md
+2026-03-27 10:32:58 | INFO | Processing complete for big boobs (2026-03-26-211743-big-boobs.json)
+2026-03-27 10:32:59 | INFO | Starting processing for client: lusie
+2026-03-27 10:32:59 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-212457-lusie.webm
+2026-03-27 10:32:59 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-212457-lusie.webm
+2026-03-27 10:33:00 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:33:04 | INFO | Transcription complete (197 chars, 20.3s audio)
+2026-03-27 10:33:04 | INFO | Transcription complete (489 chars)
+2026-03-27 10:33:04 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-212457-lusie.md
+2026-03-27 10:33:04 | INFO | Processing complete for lusie (2026-03-26-212457-lusie.json)
+2026-03-27 10:33:05 | INFO | Starting processing for client: bertha
+2026-03-27 10:33:05 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-213456-bertha.webm
+2026-03-27 10:33:05 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-213456-bertha.webm
+2026-03-27 10:33:06 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:33:11 | INFO | Transcription complete (128 chars, 21.3s audio)
+2026-03-27 10:33:11 | INFO | Transcription complete (421 chars)
+2026-03-27 10:33:11 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-213456-bertha.md
+2026-03-27 10:33:11 | INFO | Processing complete for bertha (2026-03-26-213456-bertha.json)
+2026-03-27 10:33:12 | INFO | Starting processing for client: MILF
+2026-03-27 10:33:12 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-214129-MILF.webm
+2026-03-27 10:33:12 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-214129-MILF.webm
+2026-03-27 10:33:13 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:33:18 | INFO | Transcription complete (255 chars, 38.3s audio)
+2026-03-27 10:33:18 | INFO | Transcription complete (546 chars)
+2026-03-27 10:33:18 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-214129-MILF.md
+2026-03-27 10:33:18 | INFO | Processing complete for MILF (2026-03-26-214129-MILF.json)
+2026-03-27 10:33:18 | INFO | Starting processing for client: Luzy
+2026-03-27 10:33:18 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-222533-Luzy.webm
+2026-03-27 10:33:19 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-222533-Luzy.webm
+2026-03-27 10:33:20 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:33:24 | INFO | Transcription complete (61 chars, 10.1s audio)
+2026-03-27 10:33:25 | INFO | Transcription complete (351 chars)
+2026-03-27 10:33:25 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-222533-Luzy.md
+2026-03-27 10:33:25 | INFO | Processing complete for Luzy (2026-03-26-222533-Luzy.json)
+2026-03-27 10:33:25 | INFO | Starting processing for client: dasfa
+2026-03-27 10:33:25 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-230512-dasfa.webm
+2026-03-27 10:33:25 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-230512-dasfa.webm
+2026-03-27 10:33:26 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:33:31 | INFO | Transcription complete (114 chars, 16.0s audio)
+2026-03-27 10:33:31 | INFO | Transcription complete (406 chars)
+2026-03-27 10:33:31 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-26-230512-dasfa.md
+2026-03-27 10:33:31 | INFO | Processing complete for dasfa (2026-03-26-230512-dasfa.json)
+2026-03-27 10:33:31 | INFO | Starting processing for client: lola
+2026-03-27 10:33:31 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-092207-lola.webm
+2026-03-27 10:33:31 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-092207-lola.webm
+2026-03-27 10:33:32 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:33:38 | INFO | Transcription complete (198 chars, 20.5s audio)
+2026-03-27 10:33:39 | INFO | Transcription complete (489 chars)
+2026-03-27 10:33:39 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-092207-lola.md
+2026-03-27 10:33:39 | INFO | Processing complete for lola (2026-03-27-092207-lola.json)
+2026-03-27 10:33:39 | INFO | Starting processing for client: inhome
+2026-03-27 10:33:39 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-093127-inhome.webm
+2026-03-27 10:33:39 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-093127-inhome.webm
+2026-03-27 10:33:40 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:33:45 | INFO | Transcription complete (114 chars, 15.4s audio)
+2026-03-27 10:33:45 | INFO | Transcription complete (407 chars)
+2026-03-27 10:33:45 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-093127-inhome.md
+2026-03-27 10:33:45 | INFO | Processing complete for inhome (2026-03-27-093127-inhome.json)
+2026-03-27 10:33:46 | INFO | Starting processing for client: Patience
+2026-03-27 10:33:46 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-093446-Patience.webm
+2026-03-27 10:33:46 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-093446-Patience.webm
+2026-03-27 10:33:47 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:33:55 | INFO | Transcription complete (324 chars, 34.7s audio)
+2026-03-27 10:33:55 | INFO | Transcription complete (619 chars)
+2026-03-27 10:33:55 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-093446-Patience.md
+2026-03-27 10:33:55 | INFO | Processing complete for Patience (2026-03-27-093446-Patience.json)
+2026-03-27 10:33:56 | INFO | Starting processing for client: patty
+2026-03-27 10:33:56 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-094013-patty.webm
+2026-03-27 10:33:56 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-094013-patty.webm
+2026-03-27 10:33:57 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:34:06 | INFO | Transcription complete (341 chars, 42.1s audio)
+2026-03-27 10:34:07 | INFO | Transcription complete (633 chars)
+2026-03-27 10:34:07 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-094013-patty.md
+2026-03-27 10:34:07 | INFO | Processing complete for patty (2026-03-27-094013-patty.json)
+2026-03-27 10:34:07 | INFO | Starting processing for client: betty
+2026-03-27 10:34:07 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-095009-betty.webm
+2026-03-27 10:34:07 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-095009-betty.webm
+2026-03-27 10:34:09 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:34:15 | INFO | Transcription complete (133 chars, 12.6s audio)
+2026-03-27 10:34:15 | INFO | Transcription complete (425 chars)
+2026-03-27 10:34:15 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-095009-betty.md
+2026-03-27 10:34:15 | INFO | Processing complete for betty (2026-03-27-095009-betty.json)
+2026-03-27 10:34:15 | INFO | Starting processing for client: 69th recording
+2026-03-27 10:34:15 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-102145-69th-recording.webm
+2026-03-27 10:34:16 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-102145-69th-recording.webm
+2026-03-27 10:34:17 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:34:25 | INFO | Transcription complete (280 chars, 21.4s audio)
+2026-03-27 10:34:25 | INFO | Transcription complete (581 chars)
+2026-03-27 10:34:25 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-102145-69th-recording.md
+2026-03-27 10:34:25 | INFO | Processing complete for 69th recording (2026-03-27-102145-69th-recording.json)
+2026-03-27 10:37:31 | INFO | Starting processing for client: webber
+2026-03-27 10:37:31 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-103630-webber.webm
+2026-03-27 10:37:32 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-103630-webber.webm
+2026-03-27 10:37:32 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 10:37:38 | INFO | Transcription complete (146 chars, 39.2s audio)
+2026-03-27 10:37:38 | INFO | Transcription complete (439 chars)
+2026-03-27 10:37:38 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-103630-webber.md
+2026-03-27 10:37:38 | INFO | Processing complete for webber (2026-03-27-103630-webber.json)
+2026-03-27 10:46:33 | ERROR | Watcher already running (PID: 22758)
+2026-03-27 10:47:21 | INFO | Received signal 15; shutting down watcher
+2026-03-27 10:47:24 | INFO | Consultation watcher started
+2026-03-27 10:47:24 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 10:47:25 | INFO | Received signal 15; shutting down watcher
+2026-03-27 10:48:26 | INFO | Consultation watcher started
+2026-03-27 10:48:26 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 10:48:27 | INFO | Received signal 15; shutting down watcher
+2026-03-27 10:49:55 | INFO | Consultation watcher started
+2026-03-27 10:49:55 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 10:49:55 | INFO | Received signal 15; shutting down watcher
+2026-03-27 11:08:43 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/test-e2e-handoff.request.json
+2026-03-27 11:08:43 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/test-e2e-handoff.request.json
+2026-03-27 11:08:43 | INFO | Waiting up to 8s for test-e2e-handoff.reply.json (OpenClaw email handoff)
+2026-03-27 11:08:44 | INFO | Email draft from handoff reply file (35 chars)
+2026-03-27 11:08:44 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/test-e2e-handoff.request.json
+2026-03-27 11:08:44 | INFO | Email draft from EMAIL_DRAFT_HOOK (34 chars)
+2026-03-27 11:09:02 | INFO | Transcribing audio: /tmp/e2e-consultation.wav
+2026-03-27 11:09:02 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 11:09:05 | INFO | Transcription complete (3 chars, 2.0s audio)
+2026-03-27 11:10:29 | INFO | Consultation watcher started
+2026-03-27 11:10:29 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 11:10:29 | INFO | Migrating legacy signal to job file: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs/2026-03-27-110921-E2E-Curl-Test.json
+2026-03-27 11:10:29 | INFO | Starting processing for client: E2E-Curl-Test
+2026-03-27 11:10:29 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.webm
+2026-03-27 11:10:29 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.webm
+2026-03-27 11:10:29 | ERROR | Processing failed for /Users/oktos/.openclaw/workspace/.consultation-signal/jobs/2026-03-27-110921-E2E-Curl-Test.json
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/consultation-webhook/watcher.py", line 627, in main
+    results = process_consultation(processing_data, path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/consultation-webhook/watcher.py", line 510, in process_consultation
+    transcript = transcribe_audio(audio_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/consultation-webhook/watcher.py", line 331, in transcribe_audio
+    raise RuntimeError(f"Transcription subprocess failed: {err or f'exit {proc.returncode}'}")
+RuntimeError: Transcription subprocess failed: 2026-03-27 11:10:29 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.webm
+Audio file not found: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.webm
+2026-03-27 11:10:29 | INFO | Received signal 15; shutting down watcher
+2026-03-27 11:17:11 | INFO | Consultation watcher started
+2026-03-27 11:17:11 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 11:17:11 | INFO | Migrating legacy signal to job file: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs/2026-03-27-110921-E2E-Curl-Test.json
+2026-03-27 11:17:11 | INFO | Starting processing for client: E2E-Curl-Test
+2026-03-27 11:17:11 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.webm
+2026-03-27 11:17:11 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.webm
+2026-03-27 11:17:11 | ERROR | Processing failed for /Users/oktos/.openclaw/workspace/.consultation-signal/jobs/2026-03-27-110921-E2E-Curl-Test.json
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/consultation-webhook/watcher.py", line 627, in main
+    results = process_consultation(processing_data, path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/consultation-webhook/watcher.py", line 510, in process_consultation
+    transcript = transcribe_audio(audio_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/consultation-webhook/watcher.py", line 331, in transcribe_audio
+    raise RuntimeError(f"Transcription subprocess failed: {err or f'exit {proc.returncode}'}")
+RuntimeError: Transcription subprocess failed: 2026-03-27 11:17:11 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.webm
+Audio file not found: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-110921-E2E-Curl-Test.webm
+2026-03-27 11:17:12 | INFO | Received signal 15; shutting down watcher
+2026-03-27 11:25:23 | INFO | Consultation watcher started
+2026-03-27 11:25:23 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 11:25:23 | INFO | Starting processing for client: LILA
+2026-03-27 11:25:23 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-111901-LILA.webm
+2026-03-27 11:25:23 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-111901-LILA.webm
+2026-03-27 11:25:24 | INFO | Received signal 15; shutting down watcher
+2026-03-27 11:29:53 | INFO | Consultation watcher started
+2026-03-27 11:29:53 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 11:29:53 | WARNING | Startup: processing -> pending for recovery: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs/2026-03-27-111901-LILA.json
+2026-03-27 11:29:53 | INFO | Starting processing for client: LILA
+2026-03-27 11:29:53 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-111901-LILA.webm
+2026-03-27 11:29:53 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-111901-LILA.webm
+2026-03-27 11:29:53 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 11:29:59 | INFO | Transcription complete (255 chars, 36.3s audio)
+2026-03-27 11:29:59 | INFO | Transcription complete (255 chars)
+2026-03-27 11:29:59 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-111901-LILA.request.json
+2026-03-27 11:29:59 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-111901-LILA.md
+2026-03-27 11:29:59 | INFO | Processing complete for LILA (2026-03-27-111901-LILA.json)
+2026-03-27 11:30:48 | INFO | Starting processing for client: xxx
+2026-03-27 11:30:48 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-113047-xxx.webm
+2026-03-27 11:30:48 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-113047-xxx.webm
+2026-03-27 11:30:49 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 11:30:53 | INFO | Transcription complete (154 chars, 19.3s audio)
+2026-03-27 11:30:53 | INFO | Transcription complete (154 chars)
+2026-03-27 11:30:53 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-113047-xxx.request.json
+2026-03-27 11:30:53 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-113047-xxx.md
+2026-03-27 11:30:53 | INFO | Processing complete for xxx (2026-03-27-113047-xxx.json)
+2026-03-27 11:40:00 | INFO | Starting processing for client: abby 
+2026-03-27 11:40:00 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-113959-abby.webm
+2026-03-27 11:40:00 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-113959-abby.webm
+2026-03-27 11:40:02 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 11:40:31 | WARNING | faster-whisper unavailable/failed; falling back to whisper CLI: Transcript is empty
+2026-03-27 11:44:05 | ERROR | Processing failed for /Users/oktos/.openclaw/workspace/.consultation-signal/jobs/2026-03-27-113959-abby.json
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/consultation-webhook/watcher.py", line 627, in main
+    results = process_consultation(processing_data, path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/consultation-webhook/watcher.py", line 510, in process_consultation
+    transcript = transcribe_audio(audio_file)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/consultation-webhook/watcher.py", line 331, in transcribe_audio
+    raise RuntimeError(f"Transcription subprocess failed: {err or f'exit {proc.returncode}'}")
+RuntimeError: Transcription subprocess failed: 2026-03-27 11:40:00 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-113959-abby.webm
+2026-03-27 11:40:02 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8)
+2026-03-27 11:40:31 | WARNING | faster-whisper unavailable/failed; falling back to whisper CLI: Transcript is empty
+Transcript is empty
+2026-03-27 11:50:50 | INFO | Starting processing for client: him
+2026-03-27 11:50:50 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115049-him.webm
+2026-03-27 11:50:51 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115049-him.webm
+2026-03-27 11:50:54 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8 vad_filter=False)
+2026-03-27 11:51:03 | INFO | Transcription complete (10 chars, 25.5s audio)
+2026-03-27 11:51:03 | INFO | Transcription complete (10 chars)
+2026-03-27 11:51:03 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-115049-him.request.json
+2026-03-27 11:51:03 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115049-him.md
+2026-03-27 11:51:03 | INFO | Processing complete for him (2026-03-27-115049-him.json)
+2026-03-27 11:53:17 | INFO | Starting processing for client: chaffer
+2026-03-27 11:53:17 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115315-chaffer.webm
+2026-03-27 11:53:18 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115315-chaffer.webm
+2026-03-27 11:53:20 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8 vad_filter=False)
+2026-03-27 11:53:35 | INFO | Transcription complete (43 chars, 54.5s audio)
+2026-03-27 11:53:35 | INFO | Transcription complete (43 chars)
+2026-03-27 11:53:35 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-115315-chaffer.request.json
+2026-03-27 11:53:35 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115315-chaffer.md
+2026-03-27 11:53:35 | INFO | Processing complete for chaffer (2026-03-27-115315-chaffer.json)
+2026-03-27 11:55:00 | INFO | Starting processing for client: my butt
+2026-03-27 11:55:00 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115459-my-butt.webm
+2026-03-27 11:55:00 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115459-my-butt.webm
+2026-03-27 11:55:01 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8 vad_filter=False)
+2026-03-27 11:55:10 | INFO | Transcription complete (315 chars, 35.2s audio)
+2026-03-27 11:55:10 | INFO | Transcription complete (315 chars)
+2026-03-27 11:55:10 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-115459-my-butt.request.json
+2026-03-27 11:55:10 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115459-my-butt.md
+2026-03-27 11:55:10 | INFO | Processing complete for my butt (2026-03-27-115459-my-butt.json)
+2026-03-27 11:57:35 | INFO | Starting processing for client: EMILY
+2026-03-27 11:57:35 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115734-EMILY.webm
+2026-03-27 11:57:36 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115734-EMILY.webm
+2026-03-27 11:57:36 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8 vad_filter=False)
+2026-03-27 11:57:50 | INFO | Transcription complete (775 chars, 50.1s audio)
+2026-03-27 11:57:50 | INFO | Transcription complete (775 chars)
+2026-03-27 11:57:50 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-115734-EMILY.request.json
+2026-03-27 11:57:50 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-115734-EMILY.md
+2026-03-27 11:57:50 | INFO | Processing complete for EMILY (2026-03-27-115734-EMILY.json)
+2026-03-27 12:20:28 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/test-e2e-handoff.request.json
+2026-03-27 12:20:28 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/test-e2e-handoff.request.json
+2026-03-27 12:20:28 | INFO | Waiting up to 8s for test-e2e-handoff.reply.json (OpenClaw email handoff)
+2026-03-27 12:20:28 | INFO | Email draft from handoff reply file (35 chars)
+2026-03-27 12:20:28 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/test-e2e-handoff.request.json
+2026-03-27 12:20:28 | INFO | Email draft from EMAIL_DRAFT_HOOK (34 chars)
+2026-03-27 12:37:10 | INFO | Starting processing for client: SUGARBABY
+2026-03-27 12:37:10 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-123709-SUGARBABY.webm
+2026-03-27 12:37:10 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-123709-SUGARBABY.webm
+2026-03-27 12:39:20 | WARNING | WhisperX failed (No module named 'requests'); falling back to faster-whisper
+2026-03-27 12:39:20 | WARNING | faster-whisper not installed; falling back to whisper CLI: No module named 'requests'
+2026-03-27 12:40:00 | INFO | Transcription complete (800 chars)
+2026-03-27 12:40:01 | INFO | Transcription complete (896 chars)
+2026-03-27 12:40:01 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-123709-SUGARBABY.request.json
+2026-03-27 12:40:01 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-123709-SUGARBABY.md
+2026-03-27 12:40:01 | INFO | Processing complete for SUGARBABY (2026-03-27-123709-SUGARBABY.json)
+2026-03-27 12:43:59 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/test-e2e-handoff.request.json
+2026-03-27 12:43:59 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/test-e2e-handoff.request.json
+2026-03-27 12:43:59 | INFO | Waiting up to 8s for test-e2e-handoff.reply.json (OpenClaw email handoff)
+2026-03-27 12:44:00 | INFO | Email draft from handoff reply file (35 chars)
+2026-03-27 12:44:00 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/test-e2e-handoff.request.json
+2026-03-27 12:44:00 | INFO | Email draft from EMAIL_DRAFT_HOOK (34 chars)
+2026-03-27 13:09:06 | INFO | Starting processing for client: Billy-Jean
+2026-03-27 13:09:06 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-130904-Billy-Jean.webm
+2026-03-27 13:09:06 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-130904-Billy-Jean.webm
+2026-03-27 13:09:19 | WARNING | WhisperX failed (No module named 'requests'); falling back to faster-whisper
+2026-03-27 13:09:19 | WARNING | faster-whisper not installed; falling back to whisper CLI: No module named 'requests'
+2026-03-27 13:11:47 | INFO | Transcription complete (1131 chars)
+2026-03-27 13:11:49 | INFO | Transcription complete (1241 chars)
+2026-03-27 13:11:49 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-130904-Billy-Jean.request.json
+2026-03-27 13:11:49 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-130904-Billy-Jean.md
+2026-03-27 13:11:49 | INFO | Processing complete for Billy-Jean (2026-03-27-130904-Billy-Jean.json)
+2026-03-27 13:23:11 | INFO | Received signal 2; shutting down watcher
+2026-03-27 13:23:15 | INFO | Consultation watcher started
+2026-03-27 13:23:15 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 13:24:59 | INFO | Starting processing for client: Beavis
+2026-03-27 13:24:59 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-132457-Beavis.webm
+2026-03-27 13:24:59 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-132457-Beavis.webm
+2026-03-27 13:25:16 | INFO | Using WhisperX (model=base device=cpu compute_type=int8)
+2026-03-27 13:25:24 | ERROR | Processing failed for /Users/oktos/.openclaw/workspace/.consultation-signal/jobs/2026-03-27-132457-Beavis.json
+Traceback (most recent call last):
+  File "/Users/oktos/.openclaw/workspace/consultation-webhook/watcher.py", line 968, in main
+    results = process_consultation(processing_data, path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/consultation-webhook/watcher.py", line 847, in process_consultation
+    tdata = transcribe_audio(audio_file)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/consultation-webhook/watcher.py", line 632, in transcribe_audio
+    raise RuntimeError(f"Transcription subprocess failed: {err or f'exit {proc.returncode}'}")
+RuntimeError: Transcription subprocess failed: 2026-03-27 13:24:59 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-132457-Beavis.webm
+2026-03-27 13:25:16 | INFO | Using WhisperX (model=base device=cpu compute_type=int8)
+Lightning automatically upgraded your loaded checkpoint from v1.5.4 to v2.6.1. To apply the upgrade to your files permanently, run `python -m pytorch_lightning.utilities.upgrade_checkpoint venv/lib/python3.12/site-packages/whisperx/assets/pytorch_model.bin`
+/usr/local/Cellar/python@3.12/3.12.13/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/resource_tracker.py:279: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+2026-03-27 13:26:40 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-132457-Beavis.webm
+2026-03-27 13:26:55 | INFO | Using WhisperX (model=base device=cpu compute_type=int8)
+2026-03-27 13:27:35 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-132457-Beavis.webm
+2026-03-27 13:27:51 | INFO | Using WhisperX (model=base device=cpu compute_type=int8)
+2026-03-27 13:27:58 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-132457-Beavis.webm
+2026-03-27 13:28:04 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8 vad_filter=False)
+2026-03-27 13:28:29 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-132457-Beavis.webm
+2026-03-27 13:28:55 | INFO | Using WhisperX (model=base device=cpu compute_type=int8)
+2026-03-27 13:29:08 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-132457-Beavis.webm
+2026-03-27 13:29:20 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8 vad_filter=False)
+2026-03-27 13:29:57 | INFO | Transcription complete (1196 chars, 87.2s audio)
+2026-03-27 13:32:18 | INFO | Received signal 2; shutting down watcher
+2026-03-27 13:32:22 | INFO | Consultation watcher started
+2026-03-27 13:32:22 | INFO | Watching job directory: /Users/oktos/.openclaw/workspace/.consultation-signal/jobs
+2026-03-27 13:34:34 | INFO | Starting processing for client: Mona
+2026-03-27 13:34:34 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-133433-Mona.webm
+2026-03-27 13:34:34 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-133433-Mona.webm
+2026-03-27 13:34:50 | INFO | Using WhisperX (model=base device=cpu compute_type=int8)
+2026-03-27 13:34:55 | WARNING | Transcription child exited -11; retrying with faster-whisper fallback
+2026-03-27 13:34:55 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-133433-Mona.webm
+2026-03-27 13:35:00 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8 vad_filter=False)
+2026-03-27 13:35:22 | INFO | Transcription complete (659 chars, 47.3s audio)
+2026-03-27 13:35:23 | INFO | Transcription complete (659 chars, engine=faster-whisper)
+2026-03-27 13:35:23 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-133433-Mona.request.json
+2026-03-27 13:35:23 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-133433-Mona.md
+2026-03-27 13:35:23 | INFO | Processing complete for Mona (2026-03-27-133433-Mona.json)
+2026-03-27 13:39:06 | INFO | Starting processing for client: Emily
+2026-03-27 13:39:06 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-133904-Emily.webm
+2026-03-27 13:39:06 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-133904-Emily.webm
+2026-03-27 13:39:32 | INFO | Using WhisperX (model=base device=cpu compute_type=int8)
+2026-03-27 13:40:18 | WARNING | WhisperX failed (<urlopen error [Errno 8] nodename nor servname provided, or not known>); falling back to faster-whisper
+2026-03-27 13:40:18 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8 vad_filter=False)
+2026-03-27 13:41:34 | INFO | Transcription complete (734 chars, 51.0s audio)
+2026-03-27 13:41:37 | INFO | Transcription complete (734 chars, engine=faster-whisper)
+2026-03-27 13:41:37 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-133904-Emily.request.json
+2026-03-27 13:41:37 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-133904-Emily.md
+2026-03-27 13:41:37 | INFO | Processing complete for Emily (2026-03-27-133904-Emily.json)
+2026-03-27 13:46:55 | INFO | Starting processing for client: emily
+2026-03-27 13:46:55 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-134654-emily.webm
+2026-03-27 13:46:55 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-134654-emily.webm
+2026-03-27 13:47:12 | INFO | Using WhisperX (model=base device=cpu compute_type=int8)
+2026-03-27 13:48:15 | WARNING | WhisperX failed (PytorchStreamReader failed reading zip archive: failed finding central directory); falling back to faster-whisper
+2026-03-27 13:48:15 | INFO | Using faster-whisper (model=base device=cpu compute_type=int8 vad_filter=False)
+2026-03-27 13:48:29 | INFO | Transcription complete (683 chars, 40.0s audio)
+2026-03-27 13:48:31 | INFO | Transcription complete (683 chars, engine=faster-whisper)
+2026-03-27 13:48:31 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-134654-emily.request.json
+2026-03-27 13:48:31 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-134654-emily.md
+2026-03-27 13:48:31 | INFO | Processing complete for emily (2026-03-27-134654-emily.json)
+2026-03-27 14:09:47 | INFO | Starting processing for client: GER
+2026-03-27 14:09:47 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-140946-GER.webm
+2026-03-27 14:09:47 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-140946-GER.webm
+2026-03-27 14:10:02 | INFO | Using WhisperX (model=base device=cpu compute_type=int8)
+2026-03-27 14:13:33 | INFO | WhisperX transcription complete (720 chars, diarized=True)
+2026-03-27 14:13:34 | INFO | Transcription complete (720 chars, engine=whisperx)
+2026-03-27 14:13:34 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-140946-GER.request.json
+2026-03-27 14:13:34 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-140946-GER.md
+2026-03-27 14:13:34 | INFO | Processing complete for GER (2026-03-27-140946-GER.json)
+2026-03-27 14:20:46 | INFO | Starting processing for client: XXX
+2026-03-27 14:20:46 | INFO | Transcribing in subprocess (timeout=7200s): /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-142045-XXX.webm
+2026-03-27 14:20:46 | INFO | Transcribing audio: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-142045-XXX.webm
+2026-03-27 14:21:02 | INFO | Using WhisperX (model=base device=cpu compute_type=int8)
+2026-03-27 14:22:20 | INFO | WhisperX transcription complete (204 chars, diarized=True)
+2026-03-27 14:22:22 | INFO | Transcription complete (204 chars, engine=whisperx)
+2026-03-27 14:22:22 | INFO | Email handoff written: /Users/oktos/.openclaw/workspace/.consultation-signal/email-handoff/2026-03-27-142045-XXX.request.json
+2026-03-27 14:22:22 | INFO | Updated Obsidian note: /Users/oktos/Obsidian/Consultations/Incoming/2026-03-27-142045-XXX.md
+2026-03-27 14:22:22 | INFO | Processing complete for XXX (2026-03-27-142045-XXX.json)

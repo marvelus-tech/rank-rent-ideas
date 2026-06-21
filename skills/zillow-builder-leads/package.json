@@ -1,0 +1,30 @@
+{
+  "name": "zillow-builder-leads",
+  "version": "1.0.0",
+  "description": "Find home builders who have completed and sold homes in the past year",
+  "main": "lib/scraper.js",
+  "scripts": {
+    "find-builders": "node scripts/find-builders.js",
+    "test": "node scripts/demo-firecrawl.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "keywords": [
+    "zillow",
+    "builder",
+    "leads",
+    "real-estate",
+    "scraping",
+    "firecrawl"
+  ],
+  "author": "MarvelUs",
+  "license": "MIT"
+}

@@ -1,0 +1,30 @@
+@import url('https://api.fontshare.com/v2/css?f[]=clash-display@700,600&f[]=general-sans@400,500,600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #e0e0e0;
+  background: #090916;
+  font-family: 'General Sans', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 18% 8%, rgba(0, 212, 255, 0.16), transparent 32%),
+    radial-gradient(circle at 85% 22%, rgba(95, 57, 204, 0.25), transparent 40%),
+    #090916;
+  color: #e0e0e0;
+}
+
+::selection {
+  background: rgba(0, 212, 255, 0.35);
+  color: #f6f8ff;
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Marvelus",
+  "category": "AI & Smart Web Services",
+  "description": "AI voice and chat agents for small businesses. White-label platform.",
+  "website": "https://marvelus.cc",
+  "email": "okeito@marvelus.cc",
+  "phone": "+61-XXX-XXX-XXX",
+  "address": {
+    "street": "TBD",
+    "city": "Melbourne",
+    "state": "VIC",
+    "postcode": "3000",
+    "country": "Australia"
+  },
+  "social": {
+    "twitter": "",
+    "linkedin": "",
+    "facebook": ""
+  },
+  "hours": {
+    "monday": "9:00 AM - 5:00 PM",
+    "tuesday": "9:00 AM - 5:00 PM",
+    "wednesday": "9:00 AM - 5:00 PM",
+    "thursday": "9:00 AM - 5:00 PM",
+    "friday": "9:00 AM - 5:00 PM",
+    "saturday": "Closed",
+    "sunday": "Closed"
+  }
+}
