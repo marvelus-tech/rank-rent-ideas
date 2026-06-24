@@ -1,0 +1,17 @@
+{
+  "run_date": "2026-06-24",
+  "captured_from": "nc-wake-buybox-2026-06-24-no-price.txt",
+  "target_zips": ["27607", "27604", "27502"],
+  "criteria_applied": {
+    "acres": "0.18-0.33",
+    "price": "REMOVED",
+    "filters": ["no_flood_100yr", "minimal_slope", "no_utility_easements_stream_buffers", "off_main_streets"]
+  },
+  "results": [],
+  "notes": "Strict run (price removed) returned 0 matches. Inventory extremely thin in target inside-beltline/downtown ZIPs for narrow 0.18-0.33ac band that also clears flood/slope/easement filters on public data. Marginal historical 0.2ac in 27604 noted but unverified.",
+  "status": "captured_no_matches_strict",
+  "builders": [
+    {"name": "Loyd Builders", "phone": "919-387-1455", "location": "Apex", "notes": "custom luxury BOYL"},
+    {"name": "Fuller Land & Development", "phone": "919-417-0057", "location": "Raleigh", "notes": "land dev + homebuilding"}
+  ]
+}
