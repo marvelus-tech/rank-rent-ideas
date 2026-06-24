@@ -1064,23 +1064,23 @@
         </div>
         
         <div class="stats-bar" id="statsBar">
-            <div class="stat-card">
+            <div class="stat-card" title="Total number of opportunities in the database">
                 <div class="stat-number" id="statTotal">0</div>
                 <div class="stat-label">Opportunities</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" title="Average monthly rental fee across all opportunities">
                 <div class="stat-number" id="statFee">$0</div>
                 <div class="stat-label">Avg Monthly Fee</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" title="Average opportunity score (0-10). Higher = better opportunity.">
                 <div class="stat-number" id="statScore">0</div>
                 <div class="stat-label">Avg Score</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" title="Average SEO composite score (0-100). Higher = easier to rank.">
                 <div class="stat-number" id="statSEO">0</div>
                 <div class="stat-label">Avg SEO Score</div>
             </div>
-            <div class="stat-card">
+            <div class="stat-card" title="Number of opportunities marked as 'Start Now' priority">
                 <div class="stat-number" id="statStart">0</div>
                 <div class="stat-label">Start Now</div>
             </div>
@@ -1174,6 +1174,11 @@
                     ${op.city}
                 </div>
                 
+                <div class="keyword-row" style="margin: 8px 0; padding: 6px 10px; background: rgba(0,0,0,0.3); border-radius: 6px; border-left: 3px solid #3b82f6;">
+                    <div style="font-size: 10px; text-transform: uppercase; color: #888; margin-bottom: 2px;">Target Keyword</div>
+                    <div style="font-size: 13px; font-weight: 600; color: #e0e0e0; font-family: 'SF Mono', monospace;">"${op.main_keyword || op.niche + ' ' + op.city}"</div>
+                </div>
+                
                 <div class="location-confidence" title="Location fit: ${(op.location_fit || 1.0).toFixed(2)}">
                     <span class="confidence-label ${confidence.class}">${confidence.label}</span>
                     <div class="confidence-bar">
@@ -1210,21 +1215,62 @@
                 </div>
                 
                 <div class="metrics">
-                    <div class="metric">
+                    <div class="metric" title="Estimated monthly rental fee you can charge">
                         <div class="metric-label">Monthly Fee</div>
                         <div class="metric-value gold">$${(op.monthly_fee || 0).toLocaleString()}</div>
                     </div>
-                    <div class="metric">
+                    <div class="metric" title="Average value of one job/sale">
                         <div class="metric-label">Avg Job Value</div>
                         <div class="metric-value">$${(op.avg_job_value || 0).toLocaleString()}</div>
                     </div>
-                    <div class="metric">
+                    <div class="metric" title="Value of a single lead to the business">
                         <div class="metric-label">Lead Value</div>
                         <div class="metric-value">$${(op.lead_value || 0).toLocaleString()}</div>
                     </div>
-                    <div class="metric">
+                    <div class="metric" title="Is this a recurring service (monthly) or one-time?">
                         <div class="metric-label">Recurring</div>
                         <div class="metric-value recurring-indicator">${recurring}</div>
+                    </div>
+                </div>
+                
+                <div class="score-breakdown" style="margin: 12px 0; padding: 10px; background: rgba(0,0,0,0.25); border-radius: 8px; border: 1px solid rgba(255,255,255,0.05);">
+                    <div style="font-size: 10px; text-transform: uppercase; color: #888; margin-bottom: 8px; display: flex; justify-content: space-between; align-items: center;">
+                        <span>Score Breakdown</span>
+                        <span style="color: #666;">Total: ${(op.adjusted_score || op.opportunity_score || 0).toFixed(1)}/10</span>
+                    </div>
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 6px;">
+                        <div class="score-item" title="Base opportunity score before adjustments">
+                            <span style="color: #888; font-size: 11px;">Base Score</span>
+                            <span style="color: #e0e0e0; font-size: 12px; font-weight: 600;">${(op.opportunity_score || 0).toFixed(1)}</span>
+                        </div>
+                        <div class="score-item" title="Location match quality (1.0 = perfect)">
+                            <span style="color: #888; font-size: 11px;">Location Fit</span>
+                            <span style="color: #e0e0e0; font-size: 12px; font-weight: 600;">${(op.location_fit || 1.0).toFixed(2)}</span>
+                        </div>
+                        <div class="score-item" title="How quickly customers need this service (10 = emergency)">
+                            <span style="color: #888; font-size: 11px;">Urgency</span>
+                            <span style="color: ${urgencyColor}; font-size: 12px; font-weight: 600;">${urgency}/10</span>
+                        </div>
+                        <div class="score-item" title="Monthly searches for main keyword">
+                            <span style="color: #888; font-size: 11px;">Search Volume</span>
+                            <span style="color: #e0e0e0; font-size: 12px; font-weight: 600;">${(seo.search_volume || 0).toLocaleString()}/mo</span>
+                        </div>
+                        <div class="score-item" title="How hard to rank (0-100, lower is easier)">
+                            <span style="color: #888; font-size: 11px;">Keyword Difficulty</span>
+                            <span style="color: ${seoColor}; font-size: 12px; font-weight: 600;">${seo.keyword_difficulty || 'N/A'}</span>
+                        </div>
+                        <div class="score-item" title="Competitor Domain Authority (lower = easier to beat)">
+                            <span style="color: #888; font-size: 11px;">Competitor DA</span>
+                            <span style="color: #e0e0e0; font-size: 12px; font-weight: 600;">${seo.competitor_da || 'N/A'}</span>
+                        </div>
+                        <div class="score-item" title="Content gap opportunity (higher = more room to win)">
+                            <span style="color: #888; font-size: 11px;">Content Gap</span>
+                            <span style="color: #e0e0e0; font-size: 12px; font-weight: 600;">${seo.content_gap_score || 'N/A'}</span>
+                        </div>
+                        <div class="score-item" title="Google Maps competition level">
+                            <span style="color: #888; font-size: 11px;">Competition</span>
+                            <span style="color: #e0e0e0; font-size: 12px; font-weight: 600;">${seo.competition_level || 'N/A'}</span>
+                        </div>
                     </div>
                 </div>
                 
@@ -1240,30 +1286,30 @@
                 <div class="seo-section">
                     <div class="seo-header">
                         <span class="seo-title">SEO Metrics</span>
-                        <span class="seo-badge" style="background: ${seoColor}15; color: ${seoColor}; border: 1px solid ${seoColor}40;">Score: ${seoScore}</span>
+                        <span class="seo-badge" style="background: ${seoColor}15; color: ${seoColor}; border: 1px solid ${seoColor}40;" title="Composite score based on keyword difficulty, search volume, competitor strength, content gap, and competition level. Higher = easier to rank.">Score: ${seoScore}</span>
                     </div>
                     <div class="seo-grid">
-                        <div class="seo-metric">
+                        <div class="seo-metric" title="How hard it is to rank for the main keyword (0-100). Lower is easier.">
                             <div class="seo-metric-value">${seo.keyword_difficulty || 'N/A'}</div>
                             <div class="seo-metric-label">Keyword Difficulty</div>
                         </div>
-                        <div class="seo-metric">
+                        <div class="seo-metric" title="Estimated monthly searches for the main keyword. Higher = more potential leads.">
                             <div class="seo-metric-value">${seo.search_volume || 'N/A'}</div>
                             <div class="seo-metric-label">Search Volume</div>
                         </div>
-                        <div class="seo-metric">
+                        <div class="seo-metric" title="Domain Authority of top competitors. Lower = easier to outrank.">
                             <div class="seo-metric-value">${seo.competitor_da || 'N/A'}</div>
                             <div class="seo-metric-label">Competitor DA</div>
                         </div>
-                        <div class="seo-metric">
+                        <div class="seo-metric" title="How much content is missing from competitors. Higher = more opportunity to create valuable content.">
                             <div class="seo-metric-value">${seo.content_gap_score || 'N/A'}</div>
                             <div class="seo-metric-label">Content Gap</div>
                         </div>
                     </div>
                     <div class="seo-details">
-                        <div class="seo-detail"><span class="seo-detail-label">Competition:</span> ${seo.competition_level || 'N/A'}</div>
-                        <div class="seo-detail"><span class="seo-detail-label">Backlinks:</span> ${seo.backlink_estimate || 'N/A'}</div>
-                        <div class="seo-detail"><span class="seo-detail-label">Map Pack:</span> ${seo.map_pack_status || 'N/A'}</div>
+                        <div class="seo-detail" title="How saturated the Google Maps results are"><span class="seo-detail-label">Competition:</span> ${seo.competition_level || 'N/A'}</div>
+                        <div class="seo-detail" title="Estimated backlinks needed to rank"><span class="seo-detail-label">Backlinks:</span> ${seo.backlink_estimate || 'N/A'}</div>
+                        <div class="seo-detail" title="Number of businesses in Google Maps pack"><span class="seo-detail-label">Map Pack:</span> ${seo.map_pack_status || 'N/A'}</div>
                     </div>
                     <div class="seo-verification">⚠️ Estimated metrics — verify with Ahrefs/Mangools</div>
                 </div>
