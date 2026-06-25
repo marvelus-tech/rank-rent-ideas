@@ -1,0 +1,61 @@
+{
+  "state": "GA",
+  "stateName": "Georgia",
+  "notes": "Georgia requires attorney-led closings. All 159 counties covered by major providers.",
+  "companies": [
+    {
+      "name": "Georgia Title & Escrow Company",
+      "phone": "(678) 448-4148",
+      "address": "945 E Paces Ferry Rd, Atlanta, GA 30326",
+      "website": "https://georgiatitle.com",
+      "coverage": "All 159 GA counties",
+      "specialties": ["Raw Land & Farmland", "Commercial & Residential", "Investor-Owned Property", "REO", "Hard Money Lending", "1031 Exchanges"],
+      "notes": "Attorney-led closings. LOTI™ instant closing cost calculator. 10+ years experience."
+    },
+    {
+      "name": "Southeast Closing Services",
+      "phone": "770-268-3030",
+      "address": "1201 Peachtree Street, Suite 200, Atlanta, GA 30361",
+      "website": "https://www.southeastclosing.com",
+      "coverage": "GA, FL, NY, TN, VA",
+      "specialties": ["Remote Closings", "After Hours Closings", "Mobile Attorney Closings", "Investor Properties"],
+      "notes": "Attorneys will travel to you. Online closing progress tracking."
+    },
+    {
+      "name": "Armour Title Company",
+      "phone": "",
+      "address": "",
+      "website": "https://www.armourtitlecompany.com",
+      "coverage": "Nationwide (GA served)",
+      "specialties": ["Investor-Friendly", "1031 Exchanges", "Title Search & Insurance", "Realtor & Lender Services"],
+      "notes": "Flexible, quick turnaround, works with investors nationwide."
+    },
+    {
+      "name": "Eastern Title & Settlement",
+      "phone": "(240) 403-1285",
+      "address": "6100 Executive Blvd Suite 410, Rockville, MD 20852",
+      "website": "https://easterntitle.com/georgia",
+      "coverage": "Nationwide (GA served)",
+      "specialties": ["Title Search & Insurance", "Escrow & Settlement", "Investor-Focused"],
+      "notes": "Serves all major GA cities: Atlanta, Augusta, Columbus, Macon, Savannah, Athens, etc."
+    },
+    {
+      "name": "CLOSED Title",
+      "phone": "",
+      "address": "Fort Lauderdale, FL (nationwide)",
+      "website": "https://closedtitle.com",
+      "coverage": "Nationwide",
+      "specialties": ["Online Closings", "Remote Closings", "Tech-Forward"],
+      "notes": "Real-time title updates, online closing platform."
+    },
+    {
+      "name": "Partnership Title Company",
+      "phone": "",
+      "address": "2921 Piedmont Rd, Buckhead, Atlanta",
+      "website": "",
+      "coverage": "Atlanta metro",
+      "specialties": ["Residential Closings", "Buckhead/Atlanta"],
+      "notes": "4.8 rating on Yelp. Personal service."
+    }
+  ]
+}
