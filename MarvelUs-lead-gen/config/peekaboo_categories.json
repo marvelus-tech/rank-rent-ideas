@@ -1,0 +1,36 @@
+{
+  "categories": [
+    "med spa",
+    "beauty clinic",
+    "skin clinic",
+    "plumbers",
+    "electricians",
+    "hvac",
+    "roofers",
+    "dental clinic",
+    "chiropractic",
+    "physiotherapists",
+    "lawyers",
+    "accountants",
+    "cleaning services",
+    "pest control",
+    "locksmiths",
+    "builders",
+    "landscapers"
+  ],
+  "avoid": [
+    "coffee shops",
+    "cafe",
+    "cafes",
+    "restaurants",
+    "bars",
+    "pubs",
+    "nightclubs"
+  ],
+  "location": "Melbourne, VIC, Australia",
+  "limit": 10,
+  "delay": 5,
+  "current_index": 0,
+  "full_service_bias": true,
+  "notes": "Phase 3: Prioritized for multi-opportunity leads (AI Voice + SEO + Reputation + Booking). Updated 2026-06-24."
+}

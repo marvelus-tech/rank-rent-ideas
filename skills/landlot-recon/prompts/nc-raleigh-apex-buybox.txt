@@ -1,0 +1,37 @@
+Run landlot-recon for Wake County NC only (ZIPs 27604, 27607 Raleigh and 27502 Apex).
+
+Buyers-first: find 3-5 active local builders + their buy boxes.
+
+Source 5-8 tax-delinquent/vacant lots **only** if they strictly match this buy box:
+
+- Size: 0.18 - 0.33 acres
+- 27607 Inside beltline Raleigh: target < $550k per 0.25 acres
+- 27604 Mordecai/Belvedere Park Raleigh: target $350k-$500k per 0.25 acres
+- 27502 Downtown Apex: target $400k per 0.25 acres
+- Topography + easements: no flood zones, minimal slope, no utility easements or stream buffers
+- Streets: off main/busy streets
+- Bonus: walking distance to park
+
+Enrich phones via truepeoplesearch.com.
+
+Apply full 7-point underwriting.
+
+In notes explicitly state: acres, ZIP + price target fit, flood status, slope/easements, street type + park proximity, buy-box match.
+
+Return ONLY a clean JS array. Use exact fields:
+{
+  id: number,
+  address: string,
+  county: "Wake County",
+  state: "north-carolina",
+  city: string,
+  zip: string,
+  acres: number,
+  price: number,
+  status: "identified",
+  date: "2026-06-24",
+  notes: string,
+  source: string
+}
+
+No prose. No extra text. Just the array.

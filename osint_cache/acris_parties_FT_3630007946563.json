@@ -1,0 +1,68 @@
+[
+  {
+    "document_id": "FT_3630007946563",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "DIME SAVINGS BANK OFNEW YORK FSB",
+    "address_1": "589  5TH AVE",
+    "country": "US",
+    "city": "NY",
+    "state": "NY",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3630007946563",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "BART, ARTHUR",
+    "address_1": "1280  E 105TH ST",
+    "country": "US",
+    "city": "BKLYN",
+    "state": "NY",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3630007946563",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "BART, KAREN",
+    "address_1": "1280  E 105TH ST",
+    "country": "US",
+    "city": "BKLYN",
+    "state": "NY",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3630007946563",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "DIME SAVINGS BANK OFNEW YORK FSB",
+    "address_1": "589  5TH AVE",
+    "country": "US",
+    "city": "NY",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3630007946563",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "BART, ARTHUR",
+    "address_1": "1280  E 105TH ST",
+    "country": "US",
+    "city": "BKLYN",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3630007946563",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "BART, KAREN",
+    "address_1": "1280  E 105TH ST",
+    "country": "US",
+    "city": "BKLYN",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

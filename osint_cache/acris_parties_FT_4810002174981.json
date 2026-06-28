@@ -1,0 +1,74 @@
+[
+  {
+    "document_id": "FT_4810002174981",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "LASERNA, HUGO",
+    "address_1": "47  HEMLOCK RD",
+    "country": "US",
+    "city": "MANHASSET",
+    "state": "NY",
+    "zip": "00000",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4810002174981",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "LASERNA, GUSTAVO",
+    "address_1": "47  HEMLOCK RD",
+    "country": "US",
+    "city": "MANHASSET",
+    "state": "NY",
+    "zip": "00000",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4810002174981",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "GREEN, POINT B",
+    "address_1": "807  MANHATTAN AVE",
+    "country": "US",
+    "city": "BKLYN",
+    "state": "NY",
+    "zip": "00000",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4810002174981",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "GREEN POINT SAV BK",
+    "address_1": "807  MANHATTAN AVE",
+    "country": "US",
+    "city": "BKLYN",
+    "state": "NY",
+    "zip": "00000",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4810002174981",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "LASERNA, HUGO",
+    "address_1": "47  HEMLOCK RD",
+    "country": "US",
+    "city": "MANHASSET",
+    "state": "NY",
+    "zip": "00000",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4810002174981",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "LASERNA, GUSTAVO",
+    "address_1": "47  HEMLOCK RD",
+    "country": "US",
+    "city": "MANHASSET",
+    "state": "NY",
+    "zip": "00000",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

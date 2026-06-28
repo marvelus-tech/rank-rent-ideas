@@ -1,0 +1,46 @@
+[
+  {
+    "document_id": "FT_4280006321528",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "LONG ISLAND CITY CORP",
+    "address_1": "110-0 4 15 AVE",
+    "country": "US",
+    "city": "COLLEGE PT",
+    "state": "NY",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4280006321528",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "CANALE, MICHAEL A",
+    "address_1": "801  OAK VIEW AVE",
+    "country": "US",
+    "city": "WANTAGH",
+    "state": "NY",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4280006321528",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "CANALE, MICHAEL A",
+    "address_1": "801  OAK VIEW AVE",
+    "country": "US",
+    "city": "WANTAGH",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4280006321528",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "LONG ISLAND CITY CORP",
+    "address_1": "110-0 4 15 AVE",
+    "country": "US",
+    "city": "COLLEGE PT",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

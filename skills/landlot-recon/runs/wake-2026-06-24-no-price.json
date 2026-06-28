@@ -1,0 +1,15 @@
+{
+  "run_date": "2026-06-24",
+  "prompt": "nc-wake-buybox-2026-06-24-no-price.txt",
+  "target_zips": ["27607", "27604", "27502"],
+  "criteria": {
+    "acres": "0.18-0.33",
+    "prices": "REMOVED (per user request)",
+    "filters": ["no_flood", "minimal_slope", "no_easements", "off_main_streets"]
+  },
+  "sources_checked": ["wake.gov_realestate", "wake_foreclosures", "imaps", "zillow_land_27604", "zillow_land_27607", "zillow_land_27502", "redfin", "landsearch"],
+  "builders_contacted": ["Loyd Builders (919-387-1455)", "Fuller Land & Development (919-417-0057)"],
+  "results": [],
+  "notes": "Pricing filters removed. Still extremely limited inventory of 0.18–0.33 acre vacant lots in target ZIPs on public sites. One marginal candidate noted in 27604 (~0.2ac listed around $425k previously) but requires verification on flood/slope/easements via iMAPS and current status. No lots passed full strict criteria without deep per-parcel manual underwriting. Dashboard unchanged.",
+  "status": "no_strict_matches_even_without_price"
+}

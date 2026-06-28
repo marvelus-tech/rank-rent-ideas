@@ -1,0 +1,17 @@
+=== Brownstone Bleeding Edge Monitor ===
+Started: Thu Jun 25 07:14:37 AEST 2026
+Fetching articles...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Signs of Recovery in the Biotech Industry
+URL: https://www.brownstoneresearch.com/bleeding-edge/signs-of-recovery-in-the-biotech-industry/
+  Fetching content...
+  Content: 1533 words
+  Generating TTS audio...
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-signs-of-recovery-in-the-biotech-industry.mp3
+  Publishing to GitHub Pages...
+  ✓ Published + marked as processed
+=== Done ===
+Published: 1 | Failed: 0
+Finished: Thu Jun 25 07:15:05 AEST 2026

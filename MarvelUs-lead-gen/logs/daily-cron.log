@@ -1,0 +1,1558 @@
+========================================
+Daily Lead Gen — 2026-05-24
+Category: plumbers
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: plumbers
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Plumb Medic - Emergency Plumber Melbourne: https://www.plumbmedic.com.au/
+  - Your Pro Plumber - Blocked Drain & Emergency Plumber | Melbourne: http://www.yourproplumber.com.au/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing&utm_content=website_button
+  - 24 Hour Melbourne Plumber: https://24hourmelbourneplumbers.com.au/
+  - Melbourne Plumbing Co: http://www.melbourneplumbingco.com.au/
+  - Your Choice Plumbers: https://www.yourchoiceplumbers.com.au/
+  - Melbourne Metro Plumbing Group: https://mmpg.melbourne/
+  - Maintenance Plumbing Melbourne: https://www.mpmplumber.com.au/
+  - Neighborhood Plumbers Melbourne | Blocked Drains | Gas leak | Water Leak | Hot Water Unit | Emergency Plumber: http://www.neighborhoodplumbers.com.au/
+  - Velaqua Plumbing: https://velaquaplumbing.com.au/
+  - Service Today Plumber Melbourne: https://www.servicetoday.com.au/plumbers/plumber-melbourne/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Plumb Medic - Emergency Plumber Melbourne...
+  [2/10] Enriching: Your Pro Plumber - Blocked Drain & Emergency Plumber | Melbourne...
+  [3/10] Enriching: 24 Hour Melbourne Plumber...
+  [4/10] Enriching: Melbourne Plumbing Co...
+  [5/10] Enriching: Your Choice Plumbers...
+  [6/10] Enriching: Melbourne Metro Plumbing Group...
+  [7/10] Enriching: Maintenance Plumbing Melbourne...
+  [8/10] Enriching: Neighborhood Plumbers Melbourne | Blocked Drains | Gas leak | Water Leak | Hot Water Unit | Emergency Plumber...
+  [9/10] Enriching: Velaqua Plumbing...
+  [10/10] Enriching: Service Today Plumber Melbourne...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Plumb Medic - Emergency Plumber Melbourne: score=100, opportunities=['ai_chatbot', 'online_booking', 'seo_optimization', 'reputation_management', 'click_to_call']
+  🔥 Your Pro Plumber - Blocked Drain & Emergency Plumber | Melbourne: score=100, opportunities=['ai_chatbot', 'online_booking', 'seo_optimization', 'reputation_management', 'click_to_call']
+  🔥 24 Hour Melbourne Plumber: score=100, opportunities=['ai_chatbot', 'online_booking', 'seo_optimization', 'reputation_management', 'click_to_call']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 29 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_plumbers_2026-05-24.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-05-26
+Category: dentists
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: dentists
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Seddon Dental, Victoria St Clinic: http://www.seddondental.com.au/
+  - Million Smiles Dental | Altona Meadows Dentist: http://millionsmilesdental.com.au/
+  - Gorgeous Smiles Dentist Melbourne: https://www.gorgeoussmiles.com.au/
+  - Smile Solutions - Dentist Melbourne: https://www.smilesolutions.com.au/
+  - Australian Dentists Clinic: https://dentistsclinic.com.au/locations/melbourne-cbd/index.html
+  - Art De Dente - Dentist Melbourne CBD: https://artdedente.com.au/
+  - Collins Street Dental: https://www.collinsstreetdental.net.au/?utm_source=gmb&utm_medium=organic
+  - Melbourne Dentist Clinic: https://melbourne.dentist-clinic.com/
+  - The Affordable Dentist Melbourne: https://affordabledentistcbd.melbourne/?utm_source=GMB&utm_medium=GMBprofile&utm_campaign=GMBprofile
+  - Dentist Melbourne Clinic: https://www.dentistmelbourneclinic.com.au/index.php
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Seddon Dental, Victoria St Clinic...
+  [2/10] Enriching: Million Smiles Dental | Altona Meadows Dentist...
+  [3/10] Enriching: Gorgeous Smiles Dentist Melbourne...
+  [4/10] Enriching: Smile Solutions - Dentist Melbourne...
+  [5/10] Enriching: Australian Dentists Clinic...
+  [6/10] Enriching: Art De Dente - Dentist Melbourne CBD...
+  [7/10] Enriching: Collins Street Dental...
+  [8/10] Enriching: Melbourne Dentist Clinic...
+  [9/10] Enriching: The Affordable Dentist Melbourne...
+  [10/10] Enriching: Dentist Melbourne Clinic...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Seddon Dental, Victoria St Clinic: score=100, opportunities=['seo_optimization', 'online_booking', 'click_to_call', 'reputation_management', 'ai_chatbot']
+  🔥 Million Smiles Dental | Altona Meadows Dentist: score=100, opportunities=['seo_optimization', 'online_booking', 'click_to_call', 'reputation_management', 'ai_chatbot']
+  🔥 Gorgeous Smiles Dentist Melbourne: score=100, opportunities=['seo_optimization', 'online_booking', 'click_to_call', 'reputation_management', 'ai_chatbot']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 36 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_dentists_2026-05-26.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-05-27
+Category: hvac
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: hvac
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Melbourne HVAC Services: https://www.melbournehvacservices.com.au/
+  - Air Elite: https://www.airelite.com.au/
+  - Reliance Heating and Cooling: https://easyair.com.au/
+  - Gridless Heating and Cooling: http://gridless.com.au/
+  - Hamilton Heating and Cooling: https://hamiltonheatingandcooling.com.au/
+  - Airmax Melbourne: https://airmaxmelbourne.com.au/
+  - HomeFirst Services: https://www.homefirstservices.com.au/melbourne-hvac-heating-cooling-near-you?utm_source=google&utm_medium=organic&utm_campaign=gbp-melbourne-heating-cooling&utm_content=website
+  - XRCC: https://xrcc.com.au/
+  - Rise & Cool Group Aus: https://www.riseandcoolaus.group/
+  - MD Tradeworks - Air Conditioner Services Melbourne | HVAC Systems: https://mdtradeworks.com.au/?utm_source=Google&utm_medium=GMB&utm_campaign=GMB
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Melbourne HVAC Services...
+  [2/10] Enriching: Air Elite...
+  [3/10] Enriching: Reliance Heating and Cooling...
+  [4/10] Enriching: Gridless Heating and Cooling...
+  [5/10] Enriching: Hamilton Heating and Cooling...
+  [6/10] Enriching: Airmax Melbourne...
+  [7/10] Enriching: HomeFirst Services...
+  [8/10] Enriching: XRCC...
+  [9/10] Enriching: Rise & Cool Group Aus...
+  [10/10] Enriching: MD Tradeworks - Air Conditioner Services Melbourne | HVAC Systems...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Melbourne HVAC Services: score=100, opportunities=['seo_optimization', 'click_to_call', 'ai_chatbot', 'reputation_management', 'online_booking']
+  🔥 Air Elite: score=100, opportunities=['seo_optimization', 'click_to_call', 'ai_chatbot', 'reputation_management', 'online_booking']
+  🔥 Reliance Heating and Cooling: score=100, opportunities=['seo_optimization', 'click_to_call', 'ai_chatbot', 'reputation_management', 'online_booking']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 44 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_hvac_2026-05-27.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-05-28
+Category: locksmiths
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: locksmiths
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - MB Locksmiths Melbourne: http://www.mblocksmiths.com.au/
+  - Central Melbourne 24H Locksmiths: https://centralmelbourne24hlocksmiths.com/
+  - Wynns Locksmiths Melbourne: https://wynnslocksmiths.com.au/
+  - Paragon Locksmiths Richmond: http://www.paragonlocksmiths.com.au/
+  - ASAP Locksmiths Melbourne: http://www.asaplocksmiths.com.au/
+  - Port Melbourne Locksmiths: http://www.portmelbournelocksmiths.com.au/
+  - John Barnes & Co Pty Ltd: https://www.johnbarneslocksmiths.com.au/
+  - Precision Locksmiths Melbourne: https://precisionlocksmiths.com.au/
+  - On Call Locksmith: https://oncalllocksmiths.com.au/auto-locksmith
+  - Southern Cross Locksmiths & Auto Keys: http://southerncrosslocksmiths.com/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: MB Locksmiths Melbourne...
+  [2/10] Enriching: Central Melbourne 24H Locksmiths...
+  [3/10] Enriching: Wynns Locksmiths Melbourne...
+  [4/10] Enriching: Paragon Locksmiths Richmond...
+  [5/10] Enriching: ASAP Locksmiths Melbourne...
+  [6/10] Enriching: Port Melbourne Locksmiths...
+  [7/10] Enriching: John Barnes & Co Pty Ltd...
+  [8/10] Enriching: Precision Locksmiths Melbourne...
+  [9/10] Enriching: On Call Locksmith...
+  [10/10] Enriching: Southern Cross Locksmiths & Auto Keys...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 MB Locksmiths Melbourne: score=100, opportunities=['seo_optimization', 'ai_chatbot', 'click_to_call', 'reputation_management', 'online_booking']
+  🔥 Central Melbourne 24H Locksmiths: score=100, opportunities=['seo_optimization', 'ai_chatbot', 'click_to_call', 'reputation_management', 'online_booking']
+  🔥 Wynns Locksmiths Melbourne: score=100, opportunities=['seo_optimization', 'ai_chatbot', 'click_to_call', 'reputation_management', 'online_booking']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 54 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_locksmiths_2026-05-28.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-05-29
+Category: roofers
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: roofers
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Metropolitan Roof Repairs: https://metropolitanroofrepair.com.au/
+  - Melbourne Quality Roofing: https://www.melbournequalityroofing.com.au/
+  - Central Roofing and Repairs: https://centralroofingrepairs.com.au/
+  - Melbourne Roof Repairs: http://www.melbourneroofrepair.com.au/
+  - First Class Roofing: https://www.firstclassroofing.com.au/
+  - Captain Roof Repair: https://captainroofrepair.com.au/?utm_source=google&utm_medium=business_profile&utm_campaign=tradius&utm_content=website_button
+  - Exclusive Roofing & Home Improvements: https://www.exclusiveroofingandhomeimprovements.com.au/
+  - New Look Roofing & Home Improvements: https://www.newlookroofingau.com/
+  - BRP Roof Repair Melbourne: https://brproofrepairmelbourne.com/
+  - All Seasons Roofing and Repairs: https://allseasonsroofrepair.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Metropolitan Roof Repairs...
+  [2/10] Enriching: Melbourne Quality Roofing...
+  [3/10] Enriching: Central Roofing and Repairs...
+  [4/10] Enriching: Melbourne Roof Repairs...
+  [5/10] Enriching: First Class Roofing...
+  [6/10] Enriching: Captain Roof Repair...
+  [7/10] Enriching: Exclusive Roofing & Home Improvements...
+  [8/10] Enriching: New Look Roofing & Home Improvements...
+  [9/10] Enriching: BRP Roof Repair Melbourne...
+  [10/10] Enriching: All Seasons Roofing and Repairs...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Metropolitan Roof Repairs: score=100, opportunities=['seo_optimization', 'ai_chatbot', 'click_to_call', 'reputation_management', 'online_booking']
+  🔥 Melbourne Quality Roofing: score=100, opportunities=['seo_optimization', 'ai_chatbot', 'click_to_call', 'reputation_management', 'online_booking']
+  🔥 Central Roofing and Repairs: score=100, opportunities=['seo_optimization', 'ai_chatbot', 'click_to_call', 'reputation_management', 'online_booking']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 64 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_roofers_2026-05-29.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-05-30
+Category: cleaning
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: cleaning
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Clean House Melbourne: https://cleanhousemelbourne.com.au/?utm_source=google&utm_medium=organic&utm_campaign=google+my+business
+  - CLEANING MELBOURNE SERVICES PTY LTD: http://cleaningmelbourneservices.com.au/
+  - Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne: https://boostcleaningmelbourne.com.au/?utm_source=gmb_google&utm_medium=organic&utm_campaign=gmb
+  - Calibre Cleaning Melbourne: https://www.calibrecleaning.com.au/house-cleaning/melbourne/?utm_source=GMB_Melb
+  - Yes Cleaning - Commercial and Office Cleaning Melbourne: http://yescleaning.com.au/?utm_source=GBP&utm_medium=organic&utm_campaign=office
+  - Simply Spotless Melbourne: https://www.simplyspotless.com.au/cleaning-services-melbourne/?utm_source=GMB
+  - Fantastic Cleaners: https://fantasticcleaners.com.au/melbourne/?ot=4&utm_source=google&utm_medium=organic&utm_campaign=gmb-website-melbourne
+  - VCare’s End of lease cleaning Melbourne - Bond cleaning Melbourne | Vacate cleaning Melbourne: https://vcarecleaning.com.au/
+  - Spiffy Clean - Commercial and Office Cleaning Services Melbourne: https://www.spiffyclean.com.au/commercial-cleaning-melbourne/
+  - Inner City Maids: https://innercitymaids.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Clean House Melbourne...
+  [2/10] Enriching: CLEANING MELBOURNE SERVICES PTY LTD...
+  [3/10] Enriching: Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne...
+  [4/10] Enriching: Calibre Cleaning Melbourne...
+  [5/10] Enriching: Yes Cleaning - Commercial and Office Cleaning Melbourne...
+  [6/10] Enriching: Simply Spotless Melbourne...
+  [7/10] Enriching: Fantastic Cleaners...
+  [8/10] Enriching: VCare’s End of lease cleaning Melbourne - Bond cleaning Melbourne | Vacate cleaning Melbourne...
+  [9/10] Enriching: Spiffy Clean - Commercial and Office Cleaning Services Melbourne...
+  [10/10] Enriching: Inner City Maids...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Clean House Melbourne: score=100, opportunities=['seo_optimization', 'click_to_call', 'online_booking', 'reputation_management', 'ai_chatbot']
+  🔥 CLEANING MELBOURNE SERVICES PTY LTD: score=100, opportunities=['seo_optimization', 'click_to_call', 'online_booking', 'reputation_management', 'ai_chatbot']
+  🔥 Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne: score=100, opportunities=['seo_optimization', 'click_to_call', 'online_booking', 'reputation_management', 'ai_chatbot']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 71 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_cleaning_2026-05-30.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-05-31
+Category: plumbers
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: plumbers
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+    leads = browser_search_with_retry(scraper, 'plumbers', 'Melbourne, Australia', max_retries=2)
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/browser_scraper.py", line 281, in browser_search_with_retry
+    return scraper.search_businesses(category=category, location=location)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/browser_scraper.py", line 60, in search_businesses
+    self._navigate_and_search(page, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/browser_scraper.py", line 71, in _navigate_and_search
+    page.goto("https://www.google.com/maps", wait_until="domcontentloaded", timeout=60000)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/sync_api/_generated.py", line 9362, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+            url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+========================================
+Daily Lead Gen — 2026-06-01
+Category: electricians
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: electricians
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Millerwatts Electricians: https://www.millerwatts.com.au/
+  - Melbourne General Electrical Services: https://www.melbelectricalservices.com.au/
+  - Melbourne Wide Electrical & Plumbing: https://www.melbournewide.com.au/
+  - SBH Electrical Melbourne: https://sbhelectrical.com.au/
+  - All Electrics Melbourne: https://allelectrics.com.au/
+  - Eastern Melbourne Electricians: https://www.easternmelbourneelectricians.com/
+  - O'Shea Electrical - Electrician Melbourne: https://osheaelectrical.com.au/?utm_source=GMBlisting&utm_medium=organic
+  - 24 Hour Power Melbourne: https://24hrpower.net.au/
+  - Melbourne Electrical Co: https://melbourneelectricalco.com.au/?utm_source=google&utm_medium=gmb&utm_campaign=m1
+  - Electrx: https://electrx.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Millerwatts Electricians...
+  [2/10] Enriching: Melbourne General Electrical Services...
+  [3/10] Enriching: Melbourne Wide Electrical & Plumbing...
+  [4/10] Enriching: SBH Electrical Melbourne...
+  [5/10] Enriching: All Electrics Melbourne...
+  [6/10] Enriching: Eastern Melbourne Electricians...
+  [7/10] Enriching: O'Shea Electrical - Electrician Melbourne...
+  [8/10] Enriching: 24 Hour Power Melbourne...
+  [9/10] Enriching: Melbourne Electrical Co...
+  [10/10] Enriching: Electrx...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Millerwatts Electricians: score=100, opportunities=['ai_chatbot', 'seo_optimization', 'click_to_call', 'online_booking', 'reputation_management']
+  🔥 Melbourne General Electrical Services: score=100, opportunities=['ai_chatbot', 'seo_optimization', 'click_to_call', 'online_booking', 'reputation_management']
+  🔥 Melbourne Wide Electrical & Plumbing: score=100, opportunities=['ai_chatbot', 'seo_optimization', 'click_to_call', 'online_booking', 'reputation_management']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 81 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_electricians_2026-06-01.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-02
+Category: dentists
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: dentists
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Gorgeous Smiles Dentist Melbourne: https://www.gorgeoussmiles.com.au/
+  - Smile Solutions - Dentist Melbourne: https://www.smilesolutions.com.au/
+  - Australian Dentists Clinic: https://dentistsclinic.com.au/locations/melbourne-cbd/index.html
+  - Collins Street Dental: https://www.collinsstreetdental.net.au/?utm_source=gmb&utm_medium=organic
+  - Art De Dente - Dentist Melbourne CBD: https://artdedente.com.au/
+  - The Affordable Dentist Melbourne: https://affordabledentistcbd.melbourne/?utm_source=GMB&utm_medium=GMBprofile&utm_campaign=GMBprofile
+  - Melbourne Dentist Clinic: https://melbourne.dentist-clinic.com/
+  - Dentist Melbourne Clinic: https://www.dentistmelbourneclinic.com.au/index.php
+  - MC Dental Melbourne Central Shopping Centre: https://www.mcdental.com.au/
+  - Pacific Smiles Dental Melbourne: https://www.pacificsmilesdental.com.au/locations/victoria/melbourne-cbd/?utm_source=google_my_business&utm_medium=yext
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Gorgeous Smiles Dentist Melbourne...
+  [2/10] Enriching: Smile Solutions - Dentist Melbourne...
+  [3/10] Enriching: Australian Dentists Clinic...
+  [4/10] Enriching: Collins Street Dental...
+  [5/10] Enriching: Art De Dente - Dentist Melbourne CBD...
+  [6/10] Enriching: The Affordable Dentist Melbourne...
+  [7/10] Enriching: Melbourne Dentist Clinic...
+  [8/10] Enriching: Dentist Melbourne Clinic...
+  [9/10] Enriching: MC Dental Melbourne Central Shopping Centre...
+  [10/10] Enriching: Pacific Smiles Dental Melbourne...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Gorgeous Smiles Dentist Melbourne: score=100, opportunities=['click_to_call', 'seo_optimization', 'reputation_management', 'ai_chatbot', 'online_booking']
+  🔥 Smile Solutions - Dentist Melbourne: score=100, opportunities=['click_to_call', 'seo_optimization', 'reputation_management', 'ai_chatbot', 'online_booking']
+  🔥 Australian Dentists Clinic: score=100, opportunities=['click_to_call', 'seo_optimization', 'reputation_management', 'ai_chatbot', 'online_booking']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 85 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_dentists_2026-06-02.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-03
+Category: hvac
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: hvac
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Melbourne HVAC Services: https://www.melbournehvacservices.com.au/
+  - Air Elite: https://www.airelite.com.au/
+  - Reliance Heating and Cooling: https://easyair.com.au/
+  - Gridless Heating and Cooling: http://gridless.com.au/
+  - Hamilton Heating and Cooling: https://hamiltonheatingandcooling.com.au/
+  - HomeFirst Services: https://www.homefirstservices.com.au/melbourne-hvac-heating-cooling-near-you?utm_source=google&utm_medium=organic&utm_campaign=gbp-melbourne-heating-cooling&utm_content=website
+  - Airmax Melbourne: https://airmaxmelbourne.com.au/
+  - Yarra Air | Melbourne Air Conditioning: http://www.yarraair.com.au/
+  - Rise & Cool Group Aus: https://www.riseandcoolaus.group/
+  - MD Tradeworks - Air Conditioner Services Melbourne | HVAC Systems: https://mdtradeworks.com.au/?utm_source=Google&utm_medium=GMB&utm_campaign=GMB
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Melbourne HVAC Services...
+  [2/10] Enriching: Air Elite...
+  [3/10] Enriching: Reliance Heating and Cooling...
+  [4/10] Enriching: Gridless Heating and Cooling...
+  [5/10] Enriching: Hamilton Heating and Cooling...
+  [6/10] Enriching: HomeFirst Services...
+  [7/10] Enriching: Airmax Melbourne...
+  [8/10] Enriching: Yarra Air | Melbourne Air Conditioning...
+  [9/10] Enriching: Rise & Cool Group Aus...
+  [10/10] Enriching: MD Tradeworks - Air Conditioner Services Melbourne | HVAC Systems...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Melbourne HVAC Services: score=100, opportunities=['ai_chatbot', 'reputation_management', 'seo_optimization', 'online_booking', 'click_to_call']
+  🔥 Air Elite: score=100, opportunities=['ai_chatbot', 'reputation_management', 'seo_optimization', 'online_booking', 'click_to_call']
+  🔥 Reliance Heating and Cooling: score=100, opportunities=['ai_chatbot', 'reputation_management', 'seo_optimization', 'online_booking', 'click_to_call']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 88 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_hvac_2026-06-03.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-04
+Category: locksmiths
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: locksmiths
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - MB Locksmiths Melbourne: http://www.mblocksmiths.com.au/
+  - Central Melbourne 24H Locksmiths: https://centralmelbourne24hlocksmiths.com/
+  - Wynns Locksmiths Melbourne: https://wynnslocksmiths.com.au/
+  - Paragon Locksmiths Richmond: http://www.paragonlocksmiths.com.au/
+  - ASAP Locksmiths Melbourne: http://www.asaplocksmiths.com.au/
+  - Port Melbourne Locksmiths: http://www.portmelbournelocksmiths.com.au/
+  - Precision Locksmiths Melbourne: https://precisionlocksmiths.com.au/
+  - John Barnes & Co Pty Ltd: https://www.johnbarneslocksmiths.com.au/
+  - On Call Locksmith: https://oncalllocksmiths.com.au/auto-locksmith
+  - Southern Cross Locksmiths & Auto Keys: http://southerncrosslocksmiths.com/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: MB Locksmiths Melbourne...
+  [2/10] Enriching: Central Melbourne 24H Locksmiths...
+  [3/10] Enriching: Wynns Locksmiths Melbourne...
+  [4/10] Enriching: Paragon Locksmiths Richmond...
+  [5/10] Enriching: ASAP Locksmiths Melbourne...
+  [6/10] Enriching: Port Melbourne Locksmiths...
+  [7/10] Enriching: Precision Locksmiths Melbourne...
+  [8/10] Enriching: John Barnes & Co Pty Ltd...
+  [9/10] Enriching: On Call Locksmith...
+  [10/10] Enriching: Southern Cross Locksmiths & Auto Keys...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 MB Locksmiths Melbourne: score=100, opportunities=['seo_optimization', 'online_booking', 'ai_chatbot', 'click_to_call', 'reputation_management']
+  🔥 Central Melbourne 24H Locksmiths: score=100, opportunities=['seo_optimization', 'online_booking', 'ai_chatbot', 'click_to_call', 'reputation_management']
+  🔥 Wynns Locksmiths Melbourne: score=100, opportunities=['seo_optimization', 'online_booking', 'ai_chatbot', 'click_to_call', 'reputation_management']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 90 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_locksmiths_2026-06-04.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-05
+Category: roofers
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: roofers
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Metropolitan Roof Repairs: https://metropolitanroofrepair.com.au/
+  - Melbourne Quality Roofing: https://www.melbournequalityroofing.com.au/
+  - Melbourne Roof Repairs: http://www.melbourneroofrepair.com.au/
+  - First Class Roofing: https://www.firstclassroofing.com.au/
+  - Central Roofing and Repairs: https://centralroofingrepairs.com.au/
+  - Captain Roof Repair: https://captainroofrepair.com.au/?utm_source=google&utm_medium=business_profile&utm_campaign=tradius&utm_content=website_button
+  - Exclusive Roofing & Home Improvements: https://www.exclusiveroofingandhomeimprovements.com.au/
+  - BRP Roof Repair Melbourne: https://brproofrepairmelbourne.com/
+  - New Look Roofing & Home Improvements: https://www.newlookroofingau.com/
+  - Correct Roofing Melbourne: https://correctroofing.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Metropolitan Roof Repairs...
+  [2/10] Enriching: Melbourne Quality Roofing...
+  [3/10] Enriching: Melbourne Roof Repairs...
+  [4/10] Enriching: First Class Roofing...
+  [5/10] Enriching: Central Roofing and Repairs...
+  [6/10] Enriching: Captain Roof Repair...
+  [7/10] Enriching: Exclusive Roofing & Home Improvements...
+  [8/10] Enriching: BRP Roof Repair Melbourne...
+  [9/10] Enriching: New Look Roofing & Home Improvements...
+  [10/10] Enriching: Correct Roofing Melbourne...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Metropolitan Roof Repairs: score=100, opportunities=['online_booking', 'click_to_call', 'seo_optimization', 'reputation_management', 'ai_chatbot']
+  🔥 Melbourne Quality Roofing: score=100, opportunities=['online_booking', 'click_to_call', 'seo_optimization', 'reputation_management', 'ai_chatbot']
+  🔥 Melbourne Roof Repairs: score=100, opportunities=['online_booking', 'click_to_call', 'seo_optimization', 'reputation_management', 'ai_chatbot']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 95 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_roofers_2026-06-05.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-06
+Category: cleaning
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: cleaning
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne: https://boostcleaningmelbourne.com.au/?utm_source=gmb_google&utm_medium=organic&utm_campaign=gmb
+  - Clean House Melbourne: https://cleanhousemelbourne.com.au/?utm_source=google&utm_medium=organic&utm_campaign=google+my+business
+  - CLEANING MELBOURNE SERVICES PTY LTD: http://cleaningmelbourneservices.com.au/
+  - Calibre Cleaning Melbourne: https://www.calibrecleaning.com.au/house-cleaning/melbourne/?utm_source=GMB_Melb
+  - Yes Cleaning - Commercial and Office Cleaning Melbourne: http://yescleaning.com.au/?utm_source=GBP&utm_medium=organic&utm_campaign=office
+  - Simply Spotless Melbourne: https://www.simplyspotless.com.au/cleaning-services-melbourne/?utm_source=GMB
+  - Fantastic Cleaners: https://fantasticcleaners.com.au/melbourne/?ot=4&utm_source=google&utm_medium=organic&utm_campaign=gmb-website-melbourne
+  - VCare’s End of lease cleaning Melbourne - Bond cleaning Melbourne | Vacate cleaning Melbourne: https://vcarecleaning.com.au/
+  - Spiffy Clean - Commercial and Office Cleaning Services Melbourne: https://www.spiffyclean.com.au/commercial-cleaning-melbourne/
+  - Inner City Maids: https://innercitymaids.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne...
+  [2/10] Enriching: Clean House Melbourne...
+  [3/10] Enriching: CLEANING MELBOURNE SERVICES PTY LTD...
+  [4/10] Enriching: Calibre Cleaning Melbourne...
+  [5/10] Enriching: Yes Cleaning - Commercial and Office Cleaning Melbourne...
+  [6/10] Enriching: Simply Spotless Melbourne...
+  [7/10] Enriching: Fantastic Cleaners...
+  [8/10] Enriching: VCare’s End of lease cleaning Melbourne - Bond cleaning Melbourne | Vacate cleaning Melbourne...
+  [9/10] Enriching: Spiffy Clean - Commercial and Office Cleaning Services Melbourne...
+  [10/10] Enriching: Inner City Maids...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne: score=100, opportunities=['online_booking', 'click_to_call', 'reputation_management', 'ai_chatbot', 'seo_optimization']
+  🔥 Clean House Melbourne: score=100, opportunities=['online_booking', 'click_to_call', 'reputation_management', 'ai_chatbot', 'seo_optimization']
+  🔥 CLEANING MELBOURNE SERVICES PTY LTD: score=100, opportunities=['online_booking', 'click_to_call', 'reputation_management', 'ai_chatbot', 'seo_optimization']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 96 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_cleaning_2026-06-06.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-07
+Category: plumbers
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: plumbers
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Plumb Medic - Emergency Plumber Melbourne: https://www.plumbmedic.com.au/
+  - Your Pro Plumber - Blocked Drain & Emergency Plumber | Melbourne: http://www.yourproplumber.com.au/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing&utm_content=website_button
+  - 24 Hour Melbourne Plumber: https://24hourmelbourneplumbers.com.au/
+  - Melbourne Plumbing Co: http://www.melbourneplumbingco.com.au/
+  - Your Choice Plumbers: https://www.yourchoiceplumbers.com.au/
+  - Melbourne Metro Plumbing Group: https://mmpg.melbourne/
+  - Fix It Right Plumbing Melbourne: https://www.fixitrightplumbing.com.au/?utm_source=GBPlisting&utm_medium=organic
+  - Neighborhood Plumbers Melbourne | Blocked Drains | Gas leak | Water Leak | Hot Water Unit | Emergency Plumber: http://www.neighborhoodplumbers.com.au/
+  - Maintenance Plumbing Melbourne: https://www.mpmplumber.com.au/
+  - Velaqua Plumbing: https://velaquaplumbing.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Plumb Medic - Emergency Plumber Melbourne...
+  [2/10] Enriching: Your Pro Plumber - Blocked Drain & Emergency Plumber | Melbourne...
+  [3/10] Enriching: 24 Hour Melbourne Plumber...
+  [4/10] Enriching: Melbourne Plumbing Co...
+  [5/10] Enriching: Your Choice Plumbers...
+  [6/10] Enriching: Melbourne Metro Plumbing Group...
+  [7/10] Enriching: Fix It Right Plumbing Melbourne...
+  [8/10] Enriching: Neighborhood Plumbers Melbourne | Blocked Drains | Gas leak | Water Leak | Hot Water Unit | Emergency Plumber...
+  [9/10] Enriching: Maintenance Plumbing Melbourne...
+  [10/10] Enriching: Velaqua Plumbing...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Plumb Medic - Emergency Plumber Melbourne: score=100, opportunities=['reputation_management', 'ai_chatbot', 'click_to_call', 'seo_optimization', 'online_booking']
+  🔥 Your Pro Plumber - Blocked Drain & Emergency Plumber | Melbourne: score=100, opportunities=['reputation_management', 'ai_chatbot', 'click_to_call', 'seo_optimization', 'online_booking']
+  🔥 24 Hour Melbourne Plumber: score=100, opportunities=['reputation_management', 'ai_chatbot', 'click_to_call', 'seo_optimization', 'online_booking']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 99 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_plumbers_2026-06-07.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-08
+Category: electricians
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: electricians
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Millerwatts Electricians: https://www.millerwatts.com.au/
+  - Melbourne General Electrical Services: https://www.melbelectricalservices.com.au/
+  - SBH Electrical Melbourne: https://sbhelectrical.com.au/
+  - Eastern Melbourne Electricians: https://www.easternmelbourneelectricians.com/
+  - All Electrics Melbourne: https://allelectrics.com.au/
+  - Melbourne Wide Electrical & Plumbing: https://www.melbournewide.com.au/
+  - O'Shea Electrical - Electrician Melbourne: https://osheaelectrical.com.au/?utm_source=GMBlisting&utm_medium=organic
+  - 24 Hour Power Melbourne: https://24hrpower.net.au/
+  - Melbourne Electrical Co: https://melbourneelectricalco.com.au/?utm_source=google&utm_medium=gmb&utm_campaign=m1
+  - Electrx: https://electrx.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Millerwatts Electricians...
+  [2/10] Enriching: Melbourne General Electrical Services...
+  [3/10] Enriching: SBH Electrical Melbourne...
+  [4/10] Enriching: Eastern Melbourne Electricians...
+  [5/10] Enriching: All Electrics Melbourne...
+  [6/10] Enriching: Melbourne Wide Electrical & Plumbing...
+  [7/10] Enriching: O'Shea Electrical - Electrician Melbourne...
+  [8/10] Enriching: 24 Hour Power Melbourne...
+  [9/10] Enriching: Melbourne Electrical Co...
+  [10/10] Enriching: Electrx...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Millerwatts Electricians: score=100, opportunities=['reputation_management', 'ai_chatbot', 'click_to_call', 'seo_optimization', 'online_booking']
+  🔥 Melbourne General Electrical Services: score=100, opportunities=['reputation_management', 'ai_chatbot', 'click_to_call', 'seo_optimization', 'online_booking']
+  🔥 SBH Electrical Melbourne: score=100, opportunities=['reputation_management', 'ai_chatbot', 'click_to_call', 'seo_optimization', 'online_booking']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 100 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_electricians_2026-06-08.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-09
+Category: dentists
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: dentists
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Balaclava Dental Care: https://www.balaclavadentalcare.com.au/
+  - Seddon Dental, Victoria St Clinic: http://www.seddondental.com.au/
+  - Gorgeous Smiles Dentist Melbourne: https://www.gorgeoussmiles.com.au/
+  - Smile Solutions - Dentist Melbourne: https://www.smilesolutions.com.au/
+  - Australian Dentists Clinic: https://dentistsclinic.com.au/locations/melbourne-cbd/index.html
+  - Art De Dente - Dentist Melbourne CBD: https://artdedente.com.au/
+  - Collins Street Dental: https://www.collinsstreetdental.net.au/?utm_source=gmb&utm_medium=organic
+  - The Affordable Dentist Melbourne: https://affordabledentistcbd.melbourne/?utm_source=GMB&utm_medium=GMBprofile&utm_campaign=GMBprofile
+  - Melbourne Dentist Clinic: https://melbourne.dentist-clinic.com/
+  - MC Dental Melbourne Central Shopping Centre: https://www.mcdental.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Balaclava Dental Care...
+  [2/10] Enriching: Seddon Dental, Victoria St Clinic...
+  [3/10] Enriching: Gorgeous Smiles Dentist Melbourne...
+  [4/10] Enriching: Smile Solutions - Dentist Melbourne...
+  [5/10] Enriching: Australian Dentists Clinic...
+  [6/10] Enriching: Art De Dente - Dentist Melbourne CBD...
+  [7/10] Enriching: Collins Street Dental...
+  [8/10] Enriching: The Affordable Dentist Melbourne...
+  [9/10] Enriching: Melbourne Dentist Clinic...
+  [10/10] Enriching: MC Dental Melbourne Central Shopping Centre...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Balaclava Dental Care: score=100, opportunities=['reputation_management', 'online_booking', 'click_to_call', 'ai_chatbot', 'seo_optimization']
+  🔥 Seddon Dental, Victoria St Clinic: score=100, opportunities=['reputation_management', 'online_booking', 'click_to_call', 'ai_chatbot', 'seo_optimization']
+  🔥 Gorgeous Smiles Dentist Melbourne: score=100, opportunities=['reputation_management', 'online_booking', 'click_to_call', 'ai_chatbot', 'seo_optimization']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 102 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_dentists_2026-06-09.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-10
+Category: hvac
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: hvac
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+    leads = browser_search_with_retry(scraper, 'hvac', 'Melbourne, Australia', max_retries=2)
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/browser_scraper.py", line 281, in browser_search_with_retry
+    return scraper.search_businesses(category=category, location=location)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/browser_scraper.py", line 60, in search_businesses
+    self._navigate_and_search(page, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/browser_scraper.py", line 71, in _navigate_and_search
+    page.goto("https://www.google.com/maps", wait_until="domcontentloaded", timeout=60000)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/sync_api/_generated.py", line 9362, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+            url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+========================================
+Daily Lead Gen — 2026-06-11
+Category: locksmiths
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: locksmiths
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - MB Locksmiths Melbourne: http://www.mblocksmiths.com.au/
+  - Central Melbourne 24H Locksmiths: https://centralmelbourne24hlocksmiths.com/
+  - Wynns Locksmiths Melbourne: https://wynnslocksmiths.com.au/
+  - ASAP Locksmiths Melbourne: http://www.asaplocksmiths.com.au/
+  - Paragon Locksmiths Richmond: http://www.paragonlocksmiths.com.au/
+  - Port Melbourne Locksmiths: http://www.portmelbournelocksmiths.com.au/
+  - Precision Locksmiths Melbourne: https://precisionlocksmiths.com.au/
+  - John Barnes & Co Pty Ltd: https://www.johnbarneslocksmiths.com.au/
+  - On Call Locksmith: https://oncalllocksmiths.com.au/auto-locksmith
+  - Southern Cross Locksmiths & Auto Keys: http://southerncrosslocksmiths.com/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: MB Locksmiths Melbourne...
+  [2/10] Enriching: Central Melbourne 24H Locksmiths...
+  [3/10] Enriching: Wynns Locksmiths Melbourne...
+  [4/10] Enriching: ASAP Locksmiths Melbourne...
+  [5/10] Enriching: Paragon Locksmiths Richmond...
+  [6/10] Enriching: Port Melbourne Locksmiths...
+  [7/10] Enriching: Precision Locksmiths Melbourne...
+  [8/10] Enriching: John Barnes & Co Pty Ltd...
+  [9/10] Enriching: On Call Locksmith...
+  [10/10] Enriching: Southern Cross Locksmiths & Auto Keys...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 MB Locksmiths Melbourne: score=100, opportunities=['seo_optimization', 'online_booking', 'reputation_management', 'click_to_call', 'ai_chatbot']
+  🔥 Central Melbourne 24H Locksmiths: score=100, opportunities=['seo_optimization', 'online_booking', 'reputation_management', 'click_to_call', 'ai_chatbot']
+  🔥 Wynns Locksmiths Melbourne: score=100, opportunities=['seo_optimization', 'online_booking', 'reputation_management', 'click_to_call', 'ai_chatbot']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 104 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_locksmiths_2026-06-11.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-12
+Category: roofers
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: roofers
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - ApexX Roof Plumbing Services: https://apexxroofplumbing.com.au/
+  - Metropolitan Roof Repairs: https://metropolitanroofrepair.com.au/
+  - Melbourne Quality Roofing: https://www.melbournequalityroofing.com.au/
+  - Central Roofing and Property Repairs: https://centralroofingrepairs.com.au/
+  - Melbourne Roof Repairs: http://www.melbourneroofrepair.com.au/
+  - First Class Roofing: https://www.firstclassroofing.com.au/
+  - BRP Roof Repair Melbourne: https://brproofrepairmelbourne.com/
+  - Captain Roof Repair: https://captainroofrepair.com.au/?utm_source=google&utm_medium=business_profile&utm_campaign=tradius&utm_content=website_button
+  - New Look Roofing & Home Improvements: https://www.newlookroofingau.com/
+  - Exclusive Roofing & Home Improvements: https://www.exclusiveroofingandhomeimprovements.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: ApexX Roof Plumbing Services...
+  [2/10] Enriching: Metropolitan Roof Repairs...
+  [3/10] Enriching: Melbourne Quality Roofing...
+  [4/10] Enriching: Central Roofing and Property Repairs...
+  [5/10] Enriching: Melbourne Roof Repairs...
+  [6/10] Enriching: First Class Roofing...
+  [7/10] Enriching: BRP Roof Repair Melbourne...
+  [8/10] Enriching: Captain Roof Repair...
+  [9/10] Enriching: New Look Roofing & Home Improvements...
+  [10/10] Enriching: Exclusive Roofing & Home Improvements...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 ApexX Roof Plumbing Services: score=100, opportunities=['ai_chatbot', 'click_to_call', 'reputation_management', 'seo_optimization', 'online_booking']
+  🔥 Metropolitan Roof Repairs: score=100, opportunities=['ai_chatbot', 'click_to_call', 'reputation_management', 'seo_optimization', 'online_booking']
+  🔥 Melbourne Quality Roofing: score=100, opportunities=['ai_chatbot', 'click_to_call', 'reputation_management', 'seo_optimization', 'online_booking']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 109 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_roofers_2026-06-12.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-13
+Category: cleaning
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: cleaning
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Integral Commercial Cleaning: https://www.integralcleaning.com.au/
+  - Clean House Melbourne: https://cleanhousemelbourne.com.au/?utm_source=google&utm_medium=organic&utm_campaign=google+my+business
+  - Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne: https://boostcleaningmelbourne.com.au/?utm_source=gmb_google&utm_medium=organic&utm_campaign=gmb
+  - CLEANING MELBOURNE SERVICES PTY LTD: http://cleaningmelbourneservices.com.au/
+  - Calibre Cleaning Melbourne: https://www.calibrecleaning.com.au/house-cleaning/melbourne/?utm_source=GMB_Melb
+  - Simply Spotless Melbourne: https://www.simplyspotless.com.au/cleaning-services-melbourne/?utm_source=GMB
+  - Yes Cleaning - Commercial and Office Cleaning Melbourne: http://yescleaning.com.au/?utm_source=GBP&utm_medium=organic&utm_campaign=office
+  - Fantastic Cleaners: https://fantasticcleaners.com.au/melbourne/?ot=4&utm_source=google&utm_medium=organic&utm_campaign=gmb-website-melbourne
+  - Spiffy Clean - Commercial and Office Cleaning Services Melbourne: https://www.spiffyclean.com.au/commercial-cleaning-melbourne/
+  - VCare’s End of lease cleaning Melbourne - Bond cleaning Melbourne | Vacate cleaning Melbourne: https://vcarecleaning.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Integral Commercial Cleaning...
+  [2/10] Enriching: Clean House Melbourne...
+  [3/10] Enriching: Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne...
+  [4/10] Enriching: CLEANING MELBOURNE SERVICES PTY LTD...
+  [5/10] Enriching: Calibre Cleaning Melbourne...
+  [6/10] Enriching: Simply Spotless Melbourne...
+  [7/10] Enriching: Yes Cleaning - Commercial and Office Cleaning Melbourne...
+  [8/10] Enriching: Fantastic Cleaners...
+  [9/10] Enriching: Spiffy Clean - Commercial and Office Cleaning Services Melbourne...
+  [10/10] Enriching: VCare’s End of lease cleaning Melbourne - Bond cleaning Melbourne | Vacate cleaning Melbourne...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Integral Commercial Cleaning: score=100, opportunities=['click_to_call', 'online_booking', 'seo_optimization', 'reputation_management', 'ai_chatbot', 'review_recovery']
+  🔥 Clean House Melbourne: score=100, opportunities=['click_to_call', 'online_booking', 'seo_optimization', 'reputation_management', 'ai_chatbot']
+  🔥 Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne: score=100, opportunities=['click_to_call', 'online_booking', 'seo_optimization', 'reputation_management', 'ai_chatbot']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 112 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_cleaning_2026-06-13.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+========================================
+Daily Lead Gen — 2026-06-14
+Category: plumbers
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: plumbers
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+    leads = browser_search_with_retry(scraper, 'plumbers', 'Melbourne, Australia', max_retries=2)
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/browser_scraper.py", line 281, in browser_search_with_retry
+    return scraper.search_businesses(category=category, location=location)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/browser_scraper.py", line 60, in search_businesses
+    self._navigate_and_search(page, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/browser_scraper.py", line 71, in _navigate_and_search
+    page.goto("https://www.google.com/maps", wait_until="domcontentloaded", timeout=60000)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/sync_api/_generated.py", line 9362, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+            url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+========================================
+Daily Lead Gen — 2026-06-15
+Category: electricians
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: electricians
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - DMACK Electrix Group Pty Ltd | Electrician Frankston: http://dmackelectrix.com.au/
+  - Millerwatts Electricians: https://www.millerwatts.com.au/
+  - Melbourne General Electrical Services: https://www.melbelectricalservices.com.au/
+  - Melbourne Wide Electrical & Plumbing: https://www.melbournewide.com.au/
+  - Near Me Electrical: https://www.nearmeelectrical.com.au/
+  - SBH Electrical Melbourne: https://sbhelectrical.com.au/
+  - Eastern Melbourne Electricians: https://www.easternmelbourneelectricians.com/
+  - All Electrics Melbourne: https://allelectrics.com.au/
+  - Allan Electrics Melbourne: https://allanelectricsmelbourne.com/
+  - O'Shea Electrical - Electrician Melbourne: https://osheaelectrical.com.au/?utm_source=GMBlisting&utm_medium=organic
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: DMACK Electrix Group Pty Ltd | Electrician Frankston...
+  [2/10] Enriching: Millerwatts Electricians...
+  [3/10] Enriching: Melbourne General Electrical Services...
+  [4/10] Enriching: Melbourne Wide Electrical & Plumbing...
+  [5/10] Enriching: Near Me Electrical...
+  [6/10] Enriching: SBH Electrical Melbourne...
+  [7/10] Enriching: Eastern Melbourne Electricians...
+  [8/10] Enriching: All Electrics Melbourne...
+  [9/10] Enriching: Allan Electrics Melbourne...
+  [10/10] Enriching: O'Shea Electrical - Electrician Melbourne...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 DMACK Electrix Group Pty Ltd | Electrician Frankston: score=100, opportunities=['click_to_call', 'ai_chatbot', 'online_booking', 'reputation_management', 'seo_optimization']
+  🔥 Millerwatts Electricians: score=100, opportunities=['click_to_call', 'ai_chatbot', 'online_booking', 'reputation_management', 'seo_optimization']
+  🔥 Melbourne General Electrical Services: score=100, opportunities=['click_to_call', 'ai_chatbot', 'online_booking', 'reputation_management', 'seo_optimization']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 119 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_electricians_2026-06-15.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================

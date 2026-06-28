@@ -1,0 +1,155 @@
+The Other D.C. Cage Match
+
+Jun 24, 2026
+
+There is another type of cage match playing out in Washington right now… The bare-knuckle fight between CFTC Chairman Mike Selig and Chicago Mercantile Exchange’s CEO Terry Duffy.
+
+Managing Editor’s Note:Today’s issue is from senior blockchain analyst Ben Lilly over at hisChain of Thoughte-letter. It concerns the crypto cage match happening in D.C. right now and what it says about where regulators stand.
+
+But first, a reminder that next week is Jeff’s bigBiotech Momentevent…
+
+He’ll be getting into the historic convergence happening in the industry that is set to usher in the next “golden age of biotech.” When we’ve seen similar “golden” periods in the past, you could have doubled and tripled your money over and over again.
+
+Now, as we approach this next golden age – possibly the biggest one yet – Jeff has developed an AI trading system designed to spot big moves in biotech before they occur. Justgo here to automatically add your name to the guest list to join himnext Wednesday, July 1, at 8 p.m. ET.
+
+On June 14, the South Lawn of the White House was transformed into an arena…
+
+That evening, the section of the White House typically used for official state arrival ceremonies held a caged octagon where fighters duked it out in UFC Freedom 250.
+
+Even if you didn’t watch the event, you probably heard about it.
+
+What’s less known is another type of cage match playing out in Washington… The bare-knuckle fight between CFTC Chairman Mike Selig and Chicago Mercantile Exchange’s (CME) CEO Terry Duffy.
+
+Some background…
+
+The CME is suing the CFTC.
+
+This is a big deal. The CME has been the favorite of the CFTC for years. They often get a say on virtually everything taking place in the markets they touch. It would be like Citadel, an entity known for front-running retail, getting upset at Robinhood, the entity that helps facilitate the front-running.
+
+It’s a “cutting off the nose to spite the face” type of feeling.
+
+And you can almost hear it with Terry’s comments…
+
+“If you know me, I’m always up for a good battle. I’ve never shied away from one, and I won’t shy away from this.”
+
+Source: CNBC
+
+He’s clearly not backing down.
+
+But not backing down from what?
+
+Well, from this…
+
+The CME is enraged over the CFTC’s recent ruling on Kalshi and Coinbase’s new offering.
+
+It started with a May 29 decision by the CFTC to allow the prediction platform Kalshi and crypto exchange Coinbase to offer perpetual futures to retail investors.
+
+Perpetual futures or “perps” are derivatives without an expiration date. They maintain their price relative to spot through a mechanism called “funding rate.” It’s a rate that traders who are long the asset pay to those who are short to keep their positions open. During bearish conditions, the opposite may occur.
+
+This also enables traders to use greater leverage in the market, with some venues offering more than 100x leverage.
+
+Perps have been incredibly popular in the cryptocurrency market. There’s about $90 trillion in annual volume, far eclipsing what happens on spot markets.
+
+It also represents 90% of all derivative volume. And, at least until recently, it was unavailable to U.S. traders.
+
+That was until Kalshi and Coinbase were given the green light by the CFTC.
+
+Kalshi wasted no time in making up for lost time. The platform realized more than $100 million in volume within the first 24 hours, and approximately $1 billion in volume in just over a week into June.
+
+Kalshi is now doing about $250 million per day on just the Bitcoin market alone. That’s about $45 million per year in fee capture based on a competitive 0.05% average fee.
+
+This is a major revenue stream that opened up at Kalshi.
+
+And Terry Duffy is not happy about it.
+
+On July 23, a historic convergence is set to usher in “the golden age of biotech.” Jeff’s created an AI trading system to help you spot the next generation of winners before they shoot up 25%, 77%, 108%, 432%, and more – in as little as a day. He’s sharing everything duringThe Biotech MomentonWednesday, July 1, at 8 p.m. ET.Register right here.
+
+In 2022, the last time the Fed made a major shift, the 60/40 portfolio had one of its worst years on record. Bonds collapsed, stocks fell... there was nowhere to hide. Larry Benedict saw it coming. He went 11-for-11 while most investors had no idea what hit them. He says the same pattern is setting up now – on a much bigger scale.Click here to hear his warning and find out the one move he's making instead.
+
+At least publicly, CME’s CEO is concerned about the risk perps pose to market stability and the well-being of retail traders.
+
+Here he is on CNBC two weeks ago:
+
+We are creating a regulatory framework for leverage. This is 2007 for retail. So, think of 2007 for homes. This is 2007 for retail. They have so many products that they’re going to have leverage to – the auto liquidation process that works for perpetuals that could trip over and cause cascading effects going down exponentially.
+
+[…]
+
+This is not self-dealing. I don’t want to have casinos in exchanges. I want to have products that people need to trade.
+
+Maybe he really believes that – that perps are risky for retail, that they could spill over and have “cascading effects.”
+
+But my gut says something else: Terry is jealous.
+
+He’s doing the math and realizes these new financial products are going to make serious revenue for the companies that can offer customers the best trading experience.
+
+The CME Group generated $6.5 billion last year. And Kalshi just opened a new market and saw what amounts to $45 million of annualized revenue walk into the door…
+
+And that’s just one market.
+
+Crypto has thousands of assets and a global user base. CME Group is late to a market opportunity that is significantly bigger than its entire business.
+
+For CME, it looks like an attempt to protect its regulatory moat. It’s the oldest game in town.
+
+But here’s the thing…
+
+Terry’s argument seems to fall short.
+
+Terry and the CME argued that the approved perpetual futures should be classified as swaps under the Dodd-Frank Act. If that’s the case, then entities like Kalshi and Coinbase would need to become swap dealers to offer perps.
+
+This would also mean greater regulatory scrutiny and likely costs.
+
+Now, I’m not a lawyer. Weighing the merits of CME Group’s case against the CFTC is out of my wheelhouse.
+
+But I do understand how perps work. And if we just look at the function of perps versus swaps, it’s hard to feel like this lawsuit was done in good faith.
+
+The perps market uses an order book with central clearing. Even its funding rate is a formula, not negotiated. Which is to say, trades are standardized throughout.
+
+Swaps, on the other hand, involve two parties negotiating on terms. They can be customized.
+
+These are not one and the same.
+
+And I wouldn’t be surprised if Terry and company know this. But this playbook is becoming common.
+
+Wall Street banks are doing everything they can to delay legislation that will give digital asset markets greater clarity.
+
+After all, greater clarity means new tooling and infrastructure are given the green light. That tooling promises to remove the middleman activity in finance. And there go the juicy fees Wall Street can’t imagine living without.
+
+It’s a threat to their bottom line. Readers will remember this from essays likeRing the BellandThe Gloves Are Coming Off.
+
+CME is one example, but it’s not alone.
+
+There’s the New York Stock Exchange and the Nasdaq. Two of arguably the most important stock markets in the world pushed back against the SEC’s proposed innovation exemption. The exemption was set to allow digital platforms to trade tokenized securities. RegularChain of Thoughtreaders will remember this story fromA Selfish Motto Returns.
+
+It’s the same playbook…
+
+Delay the disruptors and innovators from offering new products by causing regulatory uncertainty, and protect your moat through regulatory capture.
+
+But the incumbents are losing their cool now.
+
+JPMorgan Chase CEO Jamie Dimon was cursing live on-air over the yield issue that has been a central sticking point on the CLARITY Act… something I have covered at lengthhere atChain of Thought.Terry Duffy is talking like he’s listening to Eye of the Tiger before a cage match.
+
+These situations tend to happen when your back is against the wall, and you don’t see a way out. Frustration is boiling over.
+
+This tells us the pro-crypto stance of regulators is not weakening. They are steadfast in their view of making America the crypto capital of the world. This friendlier stance towards innovation will only continue.
+
+The disruptors and innovators are winning.
+
+Your Pulse on Crypto,
+
+Ben LillySenior Blockchain Analyst,Chain of Thought
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+The biotechnology sector has shown clear signs of recovery over the past six months…
+
+History suggests that transformative technologies rarely eliminate entire industries. More often, they reshape them. Software is no exception…
+
+Bitcoin is down more than 50% from its highs. Ether is down more than 60%. And the entire market...
+
+Read the latest insights from the world of high technology.
+
+The biotechnology sector has shown clear signs of recovery over the past six months…
+
+History suggests that transformative technologies rarely eliminate entire industries. More often, they reshape them. Software is no exception…
+
+Bitcoin is down more than 50% from its highs. Ether is down more than 60%. And the entire market...

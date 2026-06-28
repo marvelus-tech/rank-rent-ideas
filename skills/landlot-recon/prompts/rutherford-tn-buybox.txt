@@ -1,0 +1,35 @@
+Run landlot-recon for Rutherford County TN only.
+
+Buyers-first: find 3-5 active local builders + their buy boxes.
+
+Source 5-8 tax-delinquent/vacant lots only if they match this strict buy box:
+- Size: 0.18-0.33 acres
+- Topography: flat/minimal slope
+- Flood: none or 500yr max (no 100yr)
+- Easements: no utility easements or stream buffers
+- Streets: off main/busy roads
+- Bonus: walking distance to park
+
+Enrich owner phones via truepeoplesearch.
+
+Apply full 7-point underwriting.
+
+Return ONLY a clean JS array. Use exact fields:
+{
+  id: number,
+  address: string,
+  county: "Rutherford County",
+  state: "tennessee",
+  city: string,
+  zip: string,
+  acres: number,
+  price: number,
+  status: "identified",
+  date: "2026-06-24",
+  notes: string,
+  source: string
+}
+
+In notes include: exact acres, flood status, slope/easements, street type, park proximity, buy-box fit.
+
+No prose. No extra text. Just the array.

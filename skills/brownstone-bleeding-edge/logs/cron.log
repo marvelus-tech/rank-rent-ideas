@@ -1333,3 +1333,175 @@ Fetching articles from brownstoneresearch.com...
 Found 10 articles on the page
 New articles to process: 0
 No new articles. Exiting.
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Found 10 articles on the page
+New articles to process: 3
+
+Processing: Signs of Recovery in the Biotech Industry
+URL: https://www.brownstoneresearch.com/bleeding-edge/signs-of-recovery-in-the-biotech-industry/
+  Fetching content...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  Content: 1533 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-signs-of-recovery-in-the-biotech-industry.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-signs-of-recovery-in-the-biotech-industry.mp3
+  Publishing to GitHub Pages...
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+fatal: Cannot rebase onto multiple branches.
+[main a4ecb95] Add Brownstone audio: Signs of Recovery in the Biotech Industry
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+fatal: could not read Username for 'https://github.com': Device not configured
+  ✗ Failed to publish
+
+Processing: Software Isn’t Dead
+URL: https://www.brownstoneresearch.com/bleeding-edge/software-isnt-dead/
+  Fetching content...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  Content: 1032 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-software-isnt-dead.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-software-isnt-dead.mp3
+  Publishing to GitHub Pages...
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already on 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main a0c955a] Add Brownstone audio: Software Isn’t Dead
+ 2 files changed, 15 insertions(+), 15 deletions(-)
+fatal: could not read Username for 'https://github.com': Device not configured
+  ✗ Failed to publish
+
+Processing: Déjà Vu in the Crypto Market
+URL: https://www.brownstoneresearch.com/bleeding-edge/deja-vu-in-the-crypto-market/
+  Fetching content...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  Content: 1330 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-deja-vu-in-the-crypto-market.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-deja-vu-in-the-crypto-market.mp3
+  Publishing to GitHub Pages...
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already on 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Current branch main is up to date.
+[main 97de674] Add Brownstone audio: Déjà Vu in the Crypto Market
+ 2 files changed, 15 insertions(+), 15 deletions(-)
+fatal: could not read Username for 'https://github.com': Device not configured
+  ✗ Failed to publish
+=== Done ===
+Published: 0 | Failed: 3
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Found 10 articles on the page
+New articles to process: 2
+
+Processing: The Other D.C. Cage Match
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-other-d-c-cage-match/
+  Fetching content...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  Content: 1609 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-other-d-c-cage-match.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-other-d-c-cage-match.mp3
+  Publishing to GitHub Pages...
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main 0bc62fb] Add Brownstone audio: The Other D.C. Cage Match
+ 3 files changed, 15 insertions(+)
+ create mode 100644 audio/the-other-d-c-cage-match.mp3
+fatal: could not read Username for 'https://github.com': Device not configured
+  ✗ Failed to publish
+
+Processing: Déjà Vu in the Crypto Market
+URL: https://www.brownstoneresearch.com/bleeding-edge/deja-vu-in-the-crypto-market/
+  Fetching content...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  Content: 1336 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-deja-vu-in-the-crypto-market.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-deja-vu-in-the-crypto-market.mp3
+  Publishing to GitHub Pages...
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main 674e3c4] Add Brownstone audio: Déjà Vu in the Crypto Market
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+fatal: could not read Username for 'https://github.com': Device not configured
+  ✗ Failed to publish
+=== Done ===
+Published: 0 | Failed: 2
+=== Brownstone Bleeding Edge Monitor ===
+Fetching articles from brownstoneresearch.com...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Will Musk Turn to Small Modular Reactors?
+URL: https://www.brownstoneresearch.com/bleeding-edge/will-musk-turn-to-small-modular-reactors/
+  Fetching content...
+/Users/oktos/Library/Python/3.9/lib/python/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+  Content: 2930 words
+  Generating TTS audio...
+ffmpeg conversion failed: /bin/sh: ffmpeg: command not found
+
+/Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-will-musk-turn-to-small-modular-reactors.aiff
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-will-musk-turn-to-small-modular-reactors.mp3
+  Publishing to GitHub Pages...
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+From https://github.com/marvelus-tech/brownstone-audio
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+[main f5d8f78] Add Brownstone audio: Will Musk Turn to Small Modular Reactors?
+ 3 files changed, 15 insertions(+)
+ create mode 100644 audio/will-musk-turn-to-small-modular-reactors.mp3
+fatal: could not read Username for 'https://github.com': Device not configured
+  ✗ Failed to publish
+=== Done ===
+Published: 0 | Failed: 1

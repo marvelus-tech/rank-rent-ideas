@@ -1,0 +1,30 @@
+[
+  {
+    "document_id": "FT_1430004466643",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "PEDRO RODRIGUEZ",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1430004466643",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "DE JESUS, MELVIN",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1430004466643",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "ESTRADA, ELLIOT",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1430004466643",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "2248 2ND AVENUE CORP.",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

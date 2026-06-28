@@ -1,0 +1,50 @@
+[
+  {
+    "document_id": "FT_2830000678183",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "SPENCER, WIL E",
+    "address_1": "1242  TINTON AVENUE",
+    "country": "US",
+    "city": "BRONX",
+    "state": "NY",
+    "zip": "10456",
+    "good_through_date": "2026-03-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_2830000678183",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "NYC/HPD, NYC/HPD",
+    "address_1": "100  GOLD STREET",
+    "country": "US",
+    "city": "NY",
+    "state": "NY",
+    "zip": "10038",
+    "good_through_date": "2026-03-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_2830000678183",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "NYC/HPD",
+    "address_1": "100  GOLD STREET",
+    "country": "US",
+    "city": "NY",
+    "state": "NY",
+    "zip": "10038",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_2830000678183",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "SPENCER, WIL E.",
+    "address_1": "1242  TINTON AVENUE",
+    "country": "US",
+    "city": "BRONX",
+    "state": "NY",
+    "zip": "10456",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

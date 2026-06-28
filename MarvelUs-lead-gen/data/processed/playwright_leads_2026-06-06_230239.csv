@@ -1,0 +1,9 @@
+name,category,location,phone,address,rating,is_open,score,priority,missing,source,scraped_at
+The Melbourne Chiropractor,chiropractors,"Victoria, Australia",,Chiropractor ·  · Unit 1/1 Paris Rd,5.0,True,75,HOT,['phone'],google_maps_playwright,2026-06-06T23:02:38.920691+00:00
+Melbourne City Chiropractic,chiropractors,"Victoria, Australia",,"Chiropractor ·  · Suite 1112, Level 11/530 Little Collins St",5.0,False,70,WARM,['phone'],google_maps_playwright,2026-06-06T23:02:38.921210+00:00
+The Melbourne Chiropractor Mill Park,chiropractors,"Victoria, Australia",,Chiropractor ·  · 51 Pindari Ave,5.0,True,75,HOT,['phone'],google_maps_playwright,2026-06-06T23:02:38.921228+00:00
+The Melbourne Chiropractor Westmeadows,chiropractors,"Victoria, Australia",,Chiropractor ·  · 1 Hopetoun Ct,5.0,True,75,HOT,['phone'],google_maps_playwright,2026-06-06T23:02:38.921242+00:00
+Port Melbourne Chiropractic (previously Life Chiropractic Port Melbourne),chiropractors,"Victoria, Australia",,Chiropractor ·  · 377 Bay St,4.9,False,70,WARM,['phone'],google_maps_playwright,2026-06-06T23:02:38.921256+00:00
+The Melbourne Chiropractor Fawkner,chiropractors,"Victoria, Australia",,Chiropractor · Unit 1/58 Lynch Rd,5.0,True,75,HOT,['phone'],google_maps_playwright,2026-06-06T23:02:38.921275+00:00
+Errol Street Chiropractic Centre,chiropractors,"Victoria, Australia",,Chiropractor · 222 Errol St,5.0,False,70,WARM,['phone'],google_maps_playwright,2026-06-06T23:02:38.921288+00:00
+Diskin Life,chiropractors,"Victoria, Australia",,,4.9,False,60,WARM,"['phone', 'address']",google_maps_playwright,2026-06-06T23:02:38.921300+00:00

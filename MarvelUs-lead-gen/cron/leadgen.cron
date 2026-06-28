@@ -1,0 +1,1 @@
+0 7 * * * TZ=Australia/Melbourne cd /Users/oktos/.openclaw/workspace/leadgen && /usr/bin/env python3 main.py run --config config/config.yaml --mode browser >> /Users/oktos/.openclaw/workspace/leadgen/logs/daily-run.log 2>&1

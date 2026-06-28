@@ -1,0 +1,460 @@
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+  Enriching contacts for: Robinson Gill Lawyers...
+  Enriching contacts for: Nevett Ford Lawyers Melbourne...
+  Enriching contacts for: AJH LAWYERS...
+  Enriching contacts for: Melbourne Law Offices...
+  Enriching contacts for: Go To Court Lawyers Melbourne...
+  Enriching contacts for: Carbone Lawyers Melbourne...
+  Enriching contacts for: Best Hooper Lawyers...
+  Enriching contacts for: Pentana Stanton Lawyers...
+  Enriching contacts for: Weinberg Lawyers...
+  Enriching contacts for: Nevile & Co. Lawyers...
+Done.
+Mode: browser
+Daily lead limit: 10
+Total leads scanned: 30
+New leads found: 10
+Duplicates skipped: 20
+Pipeline stage counts: {'cold': 10}
+Leads DB: data/processed/leads_db.json
+CSV: data/processed/leads_master.csv
+JSON: data/processed/leads_master.json
+Daily delta CSV: data/reports/daily_delta.csv
+Daily complete CSV (new leads): output/daily_complete.csv
+Daily report: data/reports/daily_report_2026-05-27.md
+Daily for review (Markdown): output/daily_for_review.md
+Daily for review (JSON): output/daily_for_review.json
+Dashboard: output/dashboard.html
+Daily limit of 10 leads reached. Stopping.
+  Enriching contacts for: Botanica Wellness Spa and Clinic...
+  Enriching contacts for: V Hotel Spa - Luxury Day Spa...
+  Enriching contacts for: Wellness Beauty & Head Spa (Day Spa, Facials, IPL, HIFU, Sound Healing, Hair Growth, Body Contouring)...
+  Enriching contacts for: Sensu Spa...
+  Enriching contacts for: Body Freedom Spa & Clinic...
+  Enriching contacts for: Medical Aesthetic - The Science of Good Skin...
+  Enriching contacts for: RELAX DAY SPA...
+  Enriching contacts for: Sakura Lounge...
+  Enriching contacts for: Five Elements Spa...
+  Enriching contacts for: Crown Spa Melbourne...
+Done.
+Mode: browser
+Daily lead limit: 10
+Total leads scanned: 30
+New leads found: 10
+Duplicates skipped: 20
+Pipeline stage counts: {'cold': 20}
+Leads DB: data/processed/leads_db.json
+CSV: data/processed/leads_master.csv
+JSON: data/processed/leads_master.json
+Daily delta CSV: data/reports/daily_delta.csv
+Daily complete CSV (new leads): output/daily_complete.csv
+Daily report: data/reports/daily_report_2026-05-28.md
+Daily for review (Markdown): output/daily_for_review.md
+Daily for review (JSON): output/daily_for_review.json
+Dashboard: output/dashboard.html
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+  Enriching contacts for: Seddon Dental, Victoria St Clinic...
+  Enriching contacts for: Malvern Family Dental & Implant Centre...
+  Enriching contacts for: Melbourne Dentist Clinic...
+  Enriching contacts for: Australian Dentists Clinic...
+  Enriching contacts for: Gorgeous Smiles Dentist Melbourne...
+  Enriching contacts for: MC Dental Melbourne Central Shopping Centre...
+  Enriching contacts for: Dentist Melbourne Clinic...
+  Enriching contacts for: Smile Solutions - Dentist Melbourne...
+  Enriching contacts for: Art De Dente - Dentist Melbourne CBD...
+  Enriching contacts for: The Affordable Dentist Melbourne...
+Done.
+Mode: browser
+Daily lead limit: 10
+Total leads scanned: 30
+New leads found: 10
+Duplicates skipped: 20
+Pipeline stage counts: {'cold': 30}
+Leads DB: data/processed/leads_db.json
+CSV: data/processed/leads_master.csv
+JSON: data/processed/leads_master.json
+Daily delta CSV: data/reports/daily_delta.csv
+Daily complete CSV (new leads): output/daily_complete.csv
+Daily report: data/reports/daily_report_2026-05-30.md
+Daily for review (Markdown): output/daily_for_review.md
+Daily for review (JSON): output/daily_for_review.json
+Dashboard: output/dashboard.html
+Browser scrape failed for 'chiropractic in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'auto repair in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'electrical contractor in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'pest control in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'garage door repair in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'locksmith in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'hvac in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'plumbing in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'law firm in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'dental clinic in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'roofing in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'med spa in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+No leads discovered.
+Daily limit of 10 leads reached. Stopping.
+  Enriching contacts for: Sanctuary Lakes Chiropractic...
+  Enriching contacts for: Melbourne City Chiropractic...
+  Enriching contacts for: Errol Street Chiropractic Centre...
+  Enriching contacts for: Wellbeing Chiropractic Melbourne CBD...
+  Enriching contacts for: Shannon Clinic Melbourne Chiropractic and Sports Care...
+  Enriching contacts for: Port Melbourne Chiropractic (previously Life Chiropractic Port Melbourne)...
+  Enriching contacts for: The Melbourne Chiropractor...
+  Enriching contacts for: Back In Line Chiropractic...
+  Enriching contacts for: Adaptive Chiropractic Melbourne CBD...
+  Enriching contacts for: Complete City Health Chiropractor Melbourne City...
+Done.
+Mode: browser
+Daily lead limit: 10
+Total leads scanned: 30
+New leads found: 10
+Duplicates skipped: 20
+Pipeline stage counts: {'cold': 40}
+Leads DB: data/processed/leads_db.json
+CSV: data/processed/leads_master.csv
+JSON: data/processed/leads_master.json
+Daily delta CSV: data/reports/daily_delta.csv
+Daily complete CSV (new leads): output/daily_complete.csv
+Daily report: data/reports/daily_report_2026-06-01.md
+Daily for review (Markdown): output/daily_for_review.md
+Daily for review (JSON): output/daily_for_review.json
+Dashboard: output/dashboard.html
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+  Enriching contacts for: Gordon Legal Melbourne...
+  Enriching contacts for: Maurice Blackburn Personal Injury Lawyers Melbourne...
+  Enriching contacts for: Doogue + George Defence Lawyers...
+  Enriching contacts for: Lord Commercial Lawyers...
+  Enriching contacts for: EAS Legal Melbourne...
+  Enriching contacts for: Aston Legal Group...
+  Enriching contacts for: DCM Lawyers...
+  Enriching contacts for: Dribbin & Brown Criminal Lawyers...
+  Enriching contacts for: TNS Lawyers...
+  Enriching contacts for: Hicks Oakley Chessell Williams Lawyers - Melbourne CBD...
+Done.
+Mode: browser
+Daily lead limit: 10
+Total leads scanned: 30
+New leads found: 10
+Duplicates skipped: 20
+Pipeline stage counts: {'cold': 50}
+Leads DB: data/processed/leads_db.json
+CSV: data/processed/leads_master.csv
+JSON: data/processed/leads_master.json
+Daily delta CSV: data/reports/daily_delta.csv
+Daily complete CSV (new leads): output/daily_complete.csv
+Daily report: data/reports/daily_report_2026-06-09.md
+Daily for review (Markdown): output/daily_for_review.md
+Daily for review (JSON): output/daily_for_review.json
+Dashboard: output/dashboard.html
+Browser scrape failed for 'med spa in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'chiropractic in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'auto repair in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'electrical contractor in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'pest control in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'garage door repair in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'locksmith in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'hvac in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'plumbing in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'law firm in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'dental clinic in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'roofing in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+No leads discovered.
+Daily limit of 10 leads reached. Stopping.
+  Enriching contacts for: Sense Of Self (SOS)...
+  Enriching contacts for: Saltair Day Spa Port Melbourne...
+  Enriching contacts for: Aurora Spa & Bathhouse...
+  Enriching contacts for: Blanc Spa...
+  Enriching contacts for: M Kami Japanese Head Spa...
+  Enriching contacts for: Orchid Day Spa...
+  Enriching contacts for: M Kami Japanese Head Spa ( CBD )...
+  Enriching contacts for: You Day Spa...
+  Enriching contacts for: endota spa South Melbourne...
+  Enriching contacts for: IOMI Spa at Sheraton Hotel...
+Done.
+Mode: browser
+Daily lead limit: 10
+Total leads scanned: 30
+New leads found: 10
+Duplicates skipped: 20
+Pipeline stage counts: {'cold': 60}
+Leads DB: data/processed/leads_db.json
+CSV: data/processed/leads_master.csv
+JSON: data/processed/leads_master.json
+Daily delta CSV: data/reports/daily_delta.csv
+Daily complete CSV (new leads): output/daily_complete.csv
+Daily report: data/reports/daily_report_2026-06-11.md
+Daily for review (Markdown): output/daily_for_review.md
+Daily for review (JSON): output/daily_for_review.json
+Dashboard: output/dashboard.html
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+  Enriching contacts for: Balaclava Dental Care...
+  Enriching contacts for: Melbourne Dental Clinic...
+  Enriching contacts for: Collins Street Dental...
+  Enriching contacts for: Genesis Dentists Melbourne...
+  Enriching contacts for: South Melbourne Dental Group...
+  Enriching contacts for: Dental On Flinders...
+  Enriching contacts for: City Smiles Dental Clinic...
+  Enriching contacts for: Melbourne Dentist...
+  Enriching contacts for: Verve Dental Melbourne...
+  Enriching contacts for: East Melbourne Dental Group...
+Done.
+Mode: browser
+Daily lead limit: 10
+Total leads scanned: 30
+New leads found: 10
+Duplicates skipped: 20
+Pipeline stage counts: {'cold': 70}
+Leads DB: data/processed/leads_db.json
+CSV: data/processed/leads_master.csv
+JSON: data/processed/leads_master.json
+Daily delta CSV: data/reports/daily_delta.csv
+Daily complete CSV (new leads): output/daily_complete.csv
+Daily report: data/reports/daily_report_2026-06-13.md
+Daily for review (Markdown): output/daily_for_review.md
+Daily for review (JSON): output/daily_for_review.json
+Dashboard: output/dashboard.html
+Browser scrape failed for 'chiropractic in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'auto repair in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'electrical contractor in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'pest control in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'garage door repair in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'locksmith in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'hvac in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'plumbing in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'law firm in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'dental clinic in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'roofing in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+Browser scrape failed for 'med spa in Melbourne, VIC, Australia'. Skipping. Details: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+No leads discovered.
+Daily limit of 10 leads reached. Stopping.
+  Enriching contacts for: Physio Inq Victoria...
+  Enriching contacts for: Wellbeing Chiropractic Melbourne...
+  Enriching contacts for: OK Chiropractic Clinic...
+  Enriching contacts for: City Health...
+  Enriching contacts for: Flynn Chiro - Melbourne CBD Chiropractor...
+  Enriching contacts for: Melbourne Chiropractic...
+  Enriching contacts for: ISAK CHIROPRACTIC CLINIC...
+  Enriching contacts for: Melbourne Chiropractor...
+  Enriching contacts for: The Melbourne Chiropractor Westmeadows...
+  Enriching contacts for: Back In Care Chiropractic...
+Done.
+Mode: browser
+Daily lead limit: 10
+Total leads scanned: 30
+New leads found: 10
+Duplicates skipped: 20
+Pipeline stage counts: {'cold': 80}
+Leads DB: data/processed/leads_db.json
+CSV: data/processed/leads_master.csv
+JSON: data/processed/leads_master.json
+Daily delta CSV: data/reports/daily_delta.csv
+Daily complete CSV (new leads): output/daily_complete.csv
+Daily report: data/reports/daily_report_2026-06-15.md
+Daily for review (Markdown): output/daily_for_review.md
+Daily for review (JSON): output/daily_for_review.json
+Dashboard: output/dashboard.html
+Daily limit of 10 leads reached. Stopping.
+  Enriching contacts for: JAX Tyres & Auto Prahran...
+  Enriching contacts for: Akira Motorworks...
+  Enriching contacts for: Cox Auto Service Centre...
+  Enriching contacts for: Richmond Auto Service...
+  Enriching contacts for: Care Plus Auto Services...
+  Enriching contacts for: City Service Mechanics...
+  Enriching contacts for: Ace Mechanics...
+  Enriching contacts for: Valiance...
+  Enriching contacts for: Midas South Melbourne Tyre & Auto Service...
+  Enriching contacts for: Advance Automotive...
+Done.
+Mode: browser
+Daily lead limit: 10
+Total leads scanned: 30
+New leads found: 10
+Duplicates skipped: 20
+Pipeline stage counts: {'cold': 90}
+Leads DB: data/processed/leads_db.json
+CSV: data/processed/leads_master.csv
+JSON: data/processed/leads_master.json
+Daily delta CSV: data/reports/daily_delta.csv
+Daily complete CSV (new leads): output/daily_complete.csv
+Daily report: data/reports/daily_report_2026-06-16.md
+Daily for review (Markdown): output/daily_for_review.md
+Daily for review (JSON): output/daily_for_review.json
+Dashboard: output/dashboard.html
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+Daily limit of 10 leads reached. Stopping.
+  Enriching contacts for: Gallant Law Criminal Lawyers Melbourne...
+  Enriching contacts for: Boutique Lawyers, Building & Construction Lawyers...
+  Enriching contacts for: Armstrong Legal...
+  Enriching contacts for: Roberts Gray Lawyers...
+  Enriching contacts for: Stary Norton Halphen & Galbally Criminal Lawyers Melbourne...
+  Enriching contacts for: OpenLegal - Commercial & Employment Lawyers Melbourne...
+  Enriching contacts for: Velos & Velos Lawyers...
+  Enriching contacts for: Ghothane Lawyers...
+  Enriching contacts for: Slater and Gordon Lawyers...
+  Enriching contacts for: Madison Marcus Victoria...
+Done.
+Mode: browser
+Daily lead limit: 10
+Total leads scanned: 30
+New leads found: 10
+Duplicates skipped: 20
+Pipeline stage counts: {'cold': 100}
+Leads DB: data/processed/leads_db.json
+CSV: data/processed/leads_master.csv
+JSON: data/processed/leads_master.json
+Daily delta CSV: data/reports/daily_delta.csv
+Daily complete CSV (new leads): output/daily_complete.csv
+Daily report: data/reports/daily_report_2026-06-23.md
+Daily for review (Markdown): output/daily_for_review.md
+Daily for review (JSON): output/daily_for_review.json
+Dashboard: output/dashboard.html
+Daily limit of 10 leads reached. Stopping.
+  Enriching contacts for: Lapeau Medi Spa...
+  Enriching contacts for: Chuan Spa...
+  Enriching contacts for: Body Catalyst...
+  Enriching contacts for: IZUMI Japanese Massage and Day Spa...
+  Enriching contacts for: HealMe Beauty & Health Centre – Melbourne CBD Skin Clinic & Wellness...
+  Enriching contacts for: M1 Med Beauty...
+  Enriching contacts for: Le Beau Monde spa & massage...
+  Enriching contacts for: Peninsula Hot Springs...
+  Enriching contacts for: Park Club Health & Day Spa...
+  Enriching contacts for: Comma...
+Done.
+Mode: browser
+Daily lead limit: 10
+Total leads scanned: 30
+New leads found: 10
+Duplicates skipped: 20
+Pipeline stage counts: {'cold': 110}
+Leads DB: data/processed/leads_db.json
+CSV: data/processed/leads_master.csv
+JSON: data/processed/leads_master.json
+Daily delta CSV: data/reports/daily_delta.csv
+Daily complete CSV (new leads): output/daily_complete.csv
+Daily report: data/reports/daily_report_2026-06-24.md
+Daily for review (Markdown): output/daily_for_review.md
+Daily for review (JSON): output/daily_for_review.json
+Dashboard: output/dashboard.html

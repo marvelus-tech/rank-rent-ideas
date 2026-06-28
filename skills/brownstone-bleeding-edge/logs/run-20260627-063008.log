@@ -1,0 +1,26 @@
+=== Brownstone Bleeding Edge Monitor ===
+Started: Sat Jun 27 06:30:08 AEST 2026
+Fetching articles...
+Found 10 articles on the page
+New articles to process: 2
+
+Processing: The Other D.C. Cage Match
+URL: https://www.brownstoneresearch.com/bleeding-edge/the-other-d-c-cage-match/
+  Fetching content...
+  Content: 1609 words
+  Generating TTS audio...
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-the-other-d-c-cage-match.mp3
+  Publishing to GitHub Pages...
+  ✓ Published + marked as processed
+
+Processing: Déjà Vu in the Crypto Market
+URL: https://www.brownstoneresearch.com/bleeding-edge/deja-vu-in-the-crypto-market/
+  Fetching content...
+  Content: 1336 words
+  Generating TTS audio...
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-deja-vu-in-the-crypto-market.mp3
+  Publishing to GitHub Pages...
+  ✓ Published + marked as processed
+=== Done ===
+Published: 2 | Failed: 0
+Finished: Sat Jun 27 06:30:46 AEST 2026

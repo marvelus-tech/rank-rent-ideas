@@ -1,0 +1,68 @@
+[
+  {
+    "document_id": "FT_4830008848983",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "GARCIA, RICHARD",
+    "address_1": "104-0 3 NORTHERN BLVD",
+    "country": "US",
+    "city": "CORONA",
+    "state": "NY",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4830008848983",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "ARZENO, RAFAEL",
+    "address_1": "96-14  34TH AVE",
+    "country": "US",
+    "city": "CORONA",
+    "state": "NY",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4830008848983",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "FERNANDEZ, LUIS",
+    "address_1": "104-0 3 NORTHERN BLVD",
+    "country": "US",
+    "city": "CORONA",
+    "state": "NY",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4830008848983",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "GARCIA, RICHARD",
+    "address_1": "104-0 3 NORTHERN BLVD",
+    "country": "US",
+    "city": "CORONA",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4830008848983",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "FERNANDEZ, LUIS",
+    "address_1": "104-0 3 NORTHERN BLVD",
+    "country": "US",
+    "city": "CORONA",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4830008848983",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "ARZENO, RAFAEL",
+    "address_1": "96-14  34TH AVE",
+    "country": "US",
+    "city": "CORONA",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

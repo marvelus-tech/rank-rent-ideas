@@ -1,0 +1,17 @@
+=== Brownstone Bleeding Edge Monitor ===
+Started: Sun Jun 28 06:30:09 AEST 2026
+Fetching articles...
+Found 10 articles on the page
+New articles to process: 1
+
+Processing: Will Musk Turn to Small Modular Reactors?
+URL: https://www.brownstoneresearch.com/bleeding-edge/will-musk-turn-to-small-modular-reactors/
+  Fetching content...
+  Content: 2930 words
+  Generating TTS audio...
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-will-musk-turn-to-small-modular-reactors.mp3
+  Publishing to GitHub Pages...
+  ✓ Published + marked as processed
+=== Done ===
+Published: 1 | Failed: 0
+Finished: Sun Jun 28 06:30:56 AEST 2026

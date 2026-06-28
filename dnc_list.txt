@@ -1,0 +1,12 @@
+# National Do Not Call Registry List
+# Download from: https://telemarketing.donotcall.gov
+# 
+# Format: One 10-digit phone number per line
+# Example:
+# 5551234567
+# 5559876543
+#
+# This file is checked by osint_enrich.py before marking leads as "safe to call"
+# Empty or missing file = no DNC checking (all leads flagged for manual review)
+#
+# Alternative: Use BatchData.io or SmartSkip.io which include DNC scrubbing

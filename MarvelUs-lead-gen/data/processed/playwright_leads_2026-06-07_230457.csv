@@ -1,0 +1,11 @@
+name,category,location,phone,address,rating,is_open,score,priority,missing,source,scraped_at
+Maid to Clean,cleaning services,"Victoria, Australia",+61 3 8391 7026,House cleaning service · 202 Blyth St,4.8,True,90,HOT,[],google_maps_playwright,2026-06-07T23:04:57.581757+00:00
+Whistle Clean Australia | Office Cleaning Melbourne | Commercial Cleaning Melbourne,cleaning services,"Victoria, Australia",+61 3 8007 3133,"Cleaners · Suite 65, Level 4/80 Market St",5.0,True,90,HOT,[],google_maps_playwright,2026-06-07T23:04:57.582155+00:00
+Simones Domestic and Commercial Cleaning,cleaning services,"Victoria, Australia",,House cleaning service · Office 121/222 Ferris Rd,4.9,True,75,HOT,['phone'],google_maps_playwright,2026-06-07T23:04:57.582168+00:00
+Calibre Cleaning Melbourne,cleaning services,"Victoria, Australia",1300 991 368,House cleaning service · 805/805/220 Collins St,4.5,True,90,HOT,[],google_maps_playwright,2026-06-07T23:04:57.582180+00:00
+Clean With Care,cleaning services,"Victoria, Australia",1300 300 769,House cleaning service ·  · 29/195 Wellington Rd,4.7,True,90,HOT,[],google_maps_playwright,2026-06-07T23:04:57.582190+00:00
+Yes Cleaning - Commercial and Office Cleaning Melbourne,cleaning services,"Victoria, Australia",+61 3 9088 3088,House cleaning service · 8 Sutherland St,5.0,True,90,HOT,[],google_maps_playwright,2026-06-07T23:04:57.582196+00:00
+Cleaning Services Melbourne,cleaning services,"Victoria, Australia",+61 3 9000 4891,House cleaning service · 22 Koroit St,4.7,True,90,HOT,[],google_maps_playwright,2026-06-07T23:04:57.582203+00:00
+Inner City Maids,cleaning services,"Victoria, Australia",+61 3 9088 7525,House cleaning service · G01 53/55 Homer St,5.0,True,90,HOT,[],google_maps_playwright,2026-06-07T23:04:57.582210+00:00
+Victoria Cleaning Services,cleaning services,"Victoria, Australia",,,5.0,True,65,WARM,"['phone', 'address']",google_maps_playwright,2026-06-07T23:04:57.582216+00:00
+Cheap And Best Cleaning,cleaning services,"Victoria, Australia",,House cleaning service ·  · Level 2/700 Swanston St,4.7,True,75,HOT,['phone'],google_maps_playwright,2026-06-07T23:04:57.582222+00:00

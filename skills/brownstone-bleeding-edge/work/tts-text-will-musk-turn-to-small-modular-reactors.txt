@@ -1,0 +1,219 @@
+Will Musk Turn to Small Modular Reactors?
+
+Jun 25, 2026
+
+There has certainly been no shortage of excitement in growth assets and the tech industry…
+
+Managing Editor’s Note:We have a lot to cover in today’s AMA, so before we get into it, I just want to quickly remind everyone that Jeff’sBiotech Momentevent is airing next week…
+
+He’s diving into the details behind a historic convergence that’s happening right now and how it’ll usher in a golden age of biotech – the biggest one we’ve seen yet…
+
+It’s a long-awaited shift after years of “biotech winter”… and Jeff has just the strategy in mind to make the most of this incredible shift.
+
+You cango here to sign up to join him with one clicknext Wednesday, July 1, at 8 p.m. ET.
+
+Before we jump into today’s AMA, my apologies for my brief absence in writingThe Bleeding Edgethis week and last…
+
+I was still working but had heavy travel in both the U.S. and Japan, which made it difficult to research and writeThe Bleeding Edge.I hope that you all found my team’s contributions from Larry Benedict, Jason Bodner, Ben Lilly, and Nick Rokke interesting.
+
+There was certainly no shortage of excitement in growth assets and the tech industry. This week, the biggest development was the blockbuster earnings announcement from Micron Technology (MU), which provided yet another slap in the face to those crying aboutus being in an “AI bubble.”
+
+Complete nonsense.
+
+Micron reported fiscal third quarter results (ending May 28, 2026) of:
+
+The results caught Wall Street completely off guard, forcing them all to upgrade their price targets on the stock to as high as $2,000.
+
+Brownstone Research subscribers who acted on my research on Micron in October 2024 arenow up 1,081% on their investment. Congratulations to all who did.
+
+We’re going higher.
+
+I’ll leave it at that.
+
+Have a great weekend,
+
+Jeff
+
+Jeff,
+
+Will Elon be partnering with energy companies like X-Energy (soon to be public) to power these mega factories he’s building to support SpaceX and xAI?
+
+– Rick S.
+
+Hi Rick,
+
+I think many have been surprised that Musk, SpaceX, or xAI haven’t announced any partnership like the one that you suggested. X-Energy (XE) is a nuclear fission technology company that has been developing small modular reactors in the form of a pebble bed reactor.
+
+X-Energy raised about $1 billion in its IPO and started trading on April 24. It priced at $23 a share and is now trading around $18.48.
+
+Amazon (AMZN) is actually the largest shareholder of X-Energy with about 23% of outstanding shares. Its holdings in X-Energy are a result of a large investment that the company made in X-Energy in its Series C1 round in July of last year.
+
+The reason for Amazon’s investment speaks directly to your question. Amazon is interested in X-Energy’s technology to fuel its data centers as a possible solution to the energy bottleneck to support AI training and inference.
+
+I wrote about X-Energy and the subject of hyperscalers partnering with SMR companies in October 2024 inThe Bleeding Edge – Capitulation of the Greenwashers.
+
+So why no major announcements from Musk or one of his companies? Seems like a reasonable thing to do…
+
+While I can’t say with 100% certainty that it won’t happen, I can say that Musk’s approach to solving the energy bottleneck has been quite different. And I know why…
+
+Musk and his teams at xAI and SpaceX – and Tesla, for that matter – are moving so quickly that they don’t have time to wait for SMR technology to mature and deliver the megawatts or gigawatts of power needed to achieve these companies’ goals within their targeted timeframes.
+
+Because of this, Musk’s solution has been to procure as much of the available supply of natural gas turbines as he possibly can to support his terrestrial data center buildout. Musk and his teams are capable of building AI data centers faster and at a scale larger than anyone else in the industry, which is why he simply doesn’t have the time to wait for SMR technology to be commercialized.
+
+I remember last summer when Musk acquired an entire power plant overseas and had it shipped to Memphis to support the buildout of Colossus. How’s that for first principles thinking?
+
+Can’t get the electricity for the grid? Can’t get enough turbines? Just buy a power plant so that xAI can become its own utility.
+
+With all that said, my expectation is for Musk to continue using this strategy with natural gas, paired with Tesla’s Megapacks for energy storage, as a solution for the terrestrial data centers that he is building.
+
+And we should remember that Musk’s focus will shift to orbital AI datacenters within about 30 months, so his current strategy for energy production is certainly viable as a bridge to when SpaceX leans in heavily to building out orbital infrastructure.
+
+Some experts are calling it the “silent surge.” Biotech stocks have started soaring 25%... 108%... 256%... 453%... and even 850%...in a matter of hours.  As long as you act now – before July 23 – Jeff Brown says you could average $4,000 a month, for the next four years. He’s sharing all the details in.The Biotech MomentonWednesday, July 1, at 8 p.m. ET.Click here to register.
+
+Elon Musk’s new patent protects a new invention that could rewrite the future of wealth forever. It’s a radical new form of AI Jeff Brown calls “M.A.G.I…” One so revolutionary that Elon called it an “infinite money glitch.”Click here to see the detailsbecause he believes this is a once-in-a-generation opportunity to potentially create wealth on a scale most people can’t even comprehend.
+
+Dear Jeff,
+
+I highly appreciate your excellent services, including the quite detailed explanations of what is going on in the tech sector of the U.S., as well as calling your subscribers’ attention to investment opportunities. These represent very valuable information, particularly regarding SpaceX and its IPO.
+
+However, in my view, it would also be very nice to share your view of a special aspect of this IPO, which I have just learned. It is the potential impact of the magnitude of the SpaceX IPO and soon [the impact] of the Anthropic IPO.
+
+As far as I understand, due to the huge demand for SpaceX stock, even many such companies will be impacted negatively – even as their fundamentals remain excellent – simply because of the limited amount of available financial resources.
+
+In addition, the rising inflation and the coming midterm election may limit the Fed’s potential measures to support investments. Such expected developments will most probably have a negative impact on the stock market within 6 to 12 months.
+
+Would it be possible to comprehensively address these issues and explain all such market developments, including the suggested protective steps?
+
+Thanks in advance, and best regards.
+
+– Attila K.
+
+Hello Attila,
+
+Thanks for writing in. This is certainly a popular topic of discussion right now with all that is happening.
+
+And I’m happy to say that my outlook is far more optimistic.
+
+I was very happy to see the new Fed Chair Kevin Warsh hold the fed funds rate at current levels in his first FOMC meeting, despite some inflationary pressures.
+
+Inflation had been brought under control by the Trump administration in the year that followed after his return to office. But the inflationary pressures returned after the conflict with Iran started, as a result of the rapid increase in oil prices, for obvious reasons.
+
+This was a bold gambit to rein in the nuclear weapon and terrorist objectives of the IRGC in the year of the midterm elections. Clearly, the resolution of the conflict has turned positive quickly, and we can now see a return of oil prices very near to February prices.
+
+1-Year Chart of Brent Crude Oil
+
+Assuming the U.S.–IRGC resolution holds, I do expect oil will fall further and the inflationary pressures will subside. At the moment, this looks positive.
+
+And as I look out through the rest of this year, my prediction is that in the worst case, the Fed Funds rate is held at the current level. My best case is that Warsh finds a way to be more accommodative and will lower the Fed Funds rate by another 25–50 basis points.
+
+Warsh correctly sees that the impact of AI on the economy is strongly deflationary, and he has long been of the position that rates should be low, or lowered, to offset the deflationary impact of technology.
+
+The adoption rates of agentic AI are happening on a double exponential curve right now. Very few comprehend the scale and speed of what is happening. Six months to a year from now, this will become mainstream news.
+
+And to your other concern that the SpaceX and Anthropic IPOs will basically suck up so much of the financial resources that there won’t be enough left for other investments, I have no concerns whatsoever.
+
+Believe it or not, there are trillions of dollars of capital available for investment at the moment. The SpaceX IPO was about four times oversubscribed. The company could have raised four times as much capital if it had needed it. Incredible.
+
+The market is so hungry for these new names, for these next-generation tech companies that have been private for years, sometimes decades. And I am confident that there is far more demand for new investment than these companies are willing to sell in their upcoming IPOs.
+
+This AI infrastructure capex cycle is more concrete, more real than anything I’ve ever seen in my 40 years of investing, and it has still not shown any signs of slowing down.
+
+While we can expect market volatility in the next six to 12 months, the overall trend continues to accelerate, and I remain very bullish for at least the next two to three years given the current investment cycle and the now pro-energy, pro-innovation, pro-economy, pro-technology leadership regulatory environment that we find ourselves in.
+
+Good afternoon,
+
+Could you ask Jeff whether he has any thoughts to share on the upcoming IPOs of Deep Fission and Quantinuum? Thanks.
+
+– Matthew K.
+
+Hi Matthew,
+
+There was a bit of a time gap between you writing in with your question and my getting to review it, as both companies have since gone public. Hopefully, I can still provide some useful context on both companies.
+
+Deep Fission (FISN) went public on June 18, priced at $16, and is now trading around $10.80 today.
+
+Deep Fission, as the name implies, is a nuclear fission technology company developing a form of small modular reactor. The origin of Deep Fission is actually interesting. A father-daughter team founded Deep Isolation in 2016.
+
+The father, Rich Muller, is a UC Berkeley physicist, and Deep Isolation’s objective was to come up with solutions for nuclear waste disposal by using deep borehole drilling typically used in the oil and gas industry.
+
+Their work at Deep Isolation is what led to the realization that placing and operating a small nuclear fission reactor at a depth of 1 mile could be an ideal place to operate a reactor. This is what led to the creation of Deep Fission.
+
+The idea is to drill a borehole 1 mile deep and use a pressurized water reactor (PWR) at depth. Deep Fission refers to it as aGravity Nuclear Reactorbecause the hydrostatic pressure of a 1-mile-deep column of water results in a pressure of 160 atmospheres.
+
+Source: Deep Fission
+
+The heat from the nuclear reaction is transferred to a secondary system above the PWR and then is pumped up to the surface, where the heat can be converted to electricity.
+
+PWR technology has existed for decades, and so the company positions its approach as being largely derisked from an engineering/technical standpoint. And because the reactor is a mile underground, the footprint above ground is quite small. Deep Fission envisions multiple reactors at a single site to create meaningful electricity.
+
+Source: Deep Fission
+
+With all that said, what Deep Fission is doing now is highly speculative and unproven. It hopes to demonstrate a 2,500-foot borehole later this year and then get Department of Energy (DOE) authorization in 2027 so that it can move towards a pilot reactor and eventually commercialization.
+
+I have to say that Deep Fission’s route to the public markets was highly unconventional. In September 2025, it completed a reverse merger into Surfside Acquisition, a SPAC, thus becoming a public company.
+
+I believe it only raised $30 million in that transaction, and it was so small that it could have only been listed over the counter, which it never was. Deep Fission, despite being a public company, never traded publicly.
+
+Then, in April this year, it filed for a secondary offering to raise more capital, which it chose not to pursue. And then earlier this month, it conducted an IPO in an effort to gain legitimacy and raise additional capital.
+
+Deep Fission raised $40 million in the IPO and is trading thinly at roughly a $600 million market capitalization. It basically has zero revenues, is burning cash, and will need a lot more money if it ever hopes of getting a pilot reactor approved and operational.
+
+While the idea is interesting, I am very skeptical of the company’s ability to raise the capital needed to commercialize its technology.
+
+My gut says that their management team struggled to raise large amounts of capital from the venture capital community, so they hoped to do so by going public and taking advantage of the pro-nuclear regulatory environment that we have today.
+
+While I don’t have direct knowledge, I suspect that the reason that Deep Fission struggled to raise capital from the venture capital community was because of skepticism that it could get a license from the Nuclear Regulatory Commission (NRC) for commercial operations.
+
+After all, if you drop a nuclear fission reactor 1 mile deep into a borehole and something goes wrong, it’s not like you can go down to repair it. That has to be a tough sell, regardless of whatever story they might tell the DOE & NRC about how safe their design is.
+
+As for Quantinuum (QNT), this is a strikingly different story from Deep Fission.
+
+I have been tracking both Deep Fission and Quantinuum since their founding. Quantinuum was created in 2021 when Honeywell combined its quantum computing division, Honeywell Quantum Solutions, with the acquisition of Cambridge Quantum.
+
+I actually wrote about this transaction in June 2021 inThe Bleeding Edge – This Merger Will Bring Quantum Computers to the Mainstream.With the benefit of hindsight, that prediction proved to be quite prophetic.
+
+The transaction at that time was interesting to me because Honeywell had developed the trapped-ion quantum computing system (i.e., the hardware) and Cambridge Quantum had developed the software and control systems for quantum computers.
+
+It was a great match to combine the two, and it has now resulted in the most valuable pure-play publicly traded quantum computing company.
+
+Quantinuum was priced at $60 and went public on June 4. It raised $1.71 billion and currently sports a $24 billion valuation, significantly more than its next closest peer, IonQ (IONQ), which currently trades at a $16.4 billion valuation.
+
+Both Quantinuum and IonQ are pursuing a trapped-ion approach to quantum computing.
+
+Unlike Deep Fission, Quantinuum raised a lot of capital and had some major investors when it was private. Quantinuum was backed by NVIDIA, Quanta Computer, Honeywell (of course), JPMorgan, and others. All in, it raised $835 million before going public.
+
+Quantinuum’s timing for its IPO was pretty fantastic considering that the Trump administration announced in late May that it would beproviding $2 billion in federal incentives to two quantum foundries and seven other quantum computing companiesin the U.S.
+
+One of those companies is Quantinuum, which will receive $100 million in funding to advance its quantum computing system.
+
+And then, just a few days ago, President Trump signed not one buttwoexecutive orders in support of quantum computing technology.
+
+Quantum computing is seen as a national strategic priority, and it has been deemed critically important that the U.S. lead the industry in developing both a universal fault-tolerant quantum computer and in implementingpost-quantum encryption standards, whichhave already been determined by the National Institute of Standards and Technology (NIST).
+
+Now, with all that said, Quantinuum has nominal revenues and is currently trading at a $24 billion valuation. The numbers make no sense at all, and the company is trading on pure quantum hype right now.
+
+I really like Quantinuum’s technology and approach, but I could never recommend it at these valuations.
+
+Quantinuum’s lockup expiration is on December 1 this year, and I can all but guarantee that the company’s stock will be trading significantly lower – my guess would be more than 50% lower – than current levels leading into the lockup expiration.
+
+I hope the context helps.
+
+Your universal fault-tolerant analyst,
+
+Jeff
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+There is another type of cage match playing out in Washington right now… The bare-knuckle fight between CFTC Chairman...
+
+The biotechnology sector has shown clear signs of recovery over the past six months…
+
+History suggests that transformative technologies rarely eliminate entire industries. More often, they reshape them. Software is no exception…
+
+Read the latest insights from the world of high technology.
+
+There is another type of cage match playing out in Washington right now… The bare-knuckle fight between CFTC Chairman...
+
+The biotechnology sector has shown clear signs of recovery over the past six months…
+
+History suggests that transformative technologies rarely eliminate entire industries. More often, they reshape them. Software is no exception…

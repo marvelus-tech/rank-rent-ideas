@@ -1,0 +1,101 @@
+[
+  {
+    "document_id": "FT_1610004572561",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "SOMSKY, FRANK J",
+    "address_1": "576  WHITENACK RD",
+    "country": "US",
+    "city": "RIVERVALE",
+    "state": "NJ",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1610004572561",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "SOMSKY, CARMEN",
+    "address_1": "576  WHITENACK RD",
+    "country": "US",
+    "city": "RIVERVALE",
+    "state": "NJ",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1610004572561",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "SOMSKY, CARMEN",
+    "address_1": "576  WHITENACK RD",
+    "country": "US",
+    "city": "RIVERVALE",
+    "state": "NJ",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1610004572561",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "SOMSKY, .",
+    "address_1": "576  WHITENACK RD",
+    "country": "US",
+    "city": "RIVERVALE",
+    "state": "NJ",
+    "good_through_date": "2025-12-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1610004572561",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "SOMSKY, CARMEN",
+    "address_1": "576  WHITENACK RD",
+    "country": "US",
+    "city": "RIVERVALE",
+    "state": "NJ",
+    "good_through_date": "2025-12-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1610004572561",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "SOMSKY, FRANK J",
+    "address_1": "576  WHITENACK RD",
+    "country": "US",
+    "city": "RIVERVALE",
+    "state": "NJ",
+    "good_through_date": "2025-12-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1610004572561",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "SOMSKY, CARMEN",
+    "address_1": "576  WHITENACK RD",
+    "country": "US",
+    "city": "RIVERVALE",
+    "state": "NJ",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1610004572561",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "SOMSKY, CARMEN",
+    "address_1": "576  WHITENACK RD",
+    "country": "US",
+    "city": "RIVERVALE",
+    "state": "NJ",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1610004572561",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "SOMSKY, FRANK J.",
+    "address_1": "576  WHITENACK RD",
+    "country": "US",
+    "city": "RIVERVALE",
+    "state": "NJ",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

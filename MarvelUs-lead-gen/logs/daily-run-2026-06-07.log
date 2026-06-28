@@ -1,0 +1,73 @@
+========================================
+Daily Lead Gen — 2026-06-07
+Category: plumbers
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: plumbers
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Plumb Medic - Emergency Plumber Melbourne: https://www.plumbmedic.com.au/
+  - Your Pro Plumber - Blocked Drain & Emergency Plumber | Melbourne: http://www.yourproplumber.com.au/?utm_source=google&utm_medium=organic&utm_campaign=gbp_listing&utm_content=website_button
+  - 24 Hour Melbourne Plumber: https://24hourmelbourneplumbers.com.au/
+  - Melbourne Plumbing Co: http://www.melbourneplumbingco.com.au/
+  - Your Choice Plumbers: https://www.yourchoiceplumbers.com.au/
+  - Melbourne Metro Plumbing Group: https://mmpg.melbourne/
+  - Fix It Right Plumbing Melbourne: https://www.fixitrightplumbing.com.au/?utm_source=GBPlisting&utm_medium=organic
+  - Neighborhood Plumbers Melbourne | Blocked Drains | Gas leak | Water Leak | Hot Water Unit | Emergency Plumber: http://www.neighborhoodplumbers.com.au/
+  - Maintenance Plumbing Melbourne: https://www.mpmplumber.com.au/
+  - Velaqua Plumbing: https://velaquaplumbing.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Plumb Medic - Emergency Plumber Melbourne...
+  [2/10] Enriching: Your Pro Plumber - Blocked Drain & Emergency Plumber | Melbourne...
+  [3/10] Enriching: 24 Hour Melbourne Plumber...
+  [4/10] Enriching: Melbourne Plumbing Co...
+  [5/10] Enriching: Your Choice Plumbers...
+  [6/10] Enriching: Melbourne Metro Plumbing Group...
+  [7/10] Enriching: Fix It Right Plumbing Melbourne...
+  [8/10] Enriching: Neighborhood Plumbers Melbourne | Blocked Drains | Gas leak | Water Leak | Hot Water Unit | Emergency Plumber...
+  [9/10] Enriching: Maintenance Plumbing Melbourne...
+  [10/10] Enriching: Velaqua Plumbing...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Plumb Medic - Emergency Plumber Melbourne: score=100, opportunities=['reputation_management', 'ai_chatbot', 'click_to_call', 'seo_optimization', 'online_booking']
+  🔥 Your Pro Plumber - Blocked Drain & Emergency Plumber | Melbourne: score=100, opportunities=['reputation_management', 'ai_chatbot', 'click_to_call', 'seo_optimization', 'online_booking']
+  🔥 24 Hour Melbourne Plumber: score=100, opportunities=['reputation_management', 'ai_chatbot', 'click_to_call', 'seo_optimization', 'online_booking']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 99 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_plumbers_2026-06-07.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================

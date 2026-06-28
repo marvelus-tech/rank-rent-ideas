@@ -1,0 +1,44 @@
+[
+  {
+    "document_id": "FT_1560008682356",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "GALLERY, PAUL K",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1560008682356",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "BLISS, GEORGE D",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1560008682356",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "US, TRST N",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1560008682356",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "BLISS GEORGE T DEC'D",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1560008682356",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "U.S TRST CO NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_1560008682356",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "GALLERY PAUL K",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

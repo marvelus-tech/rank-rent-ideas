@@ -1,0 +1,46 @@
+[
+  {
+    "document_id": "FT_3010009015201",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "429 SEVENTH AVE OWNERS INC",
+    "address_1": "429  7TH AVE",
+    "country": "US",
+    "city": "BKLYN",
+    "state": "NY",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3010009015201",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "EMIGRANT FUNDING CORPORATION",
+    "address_1": "6  E 43RD ST",
+    "country": "US",
+    "city": "NY",
+    "state": "NY",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3010009015201",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "EMIGRANT SAVINGS BANK",
+    "address_1": "6  E 43RD ST",
+    "country": "US",
+    "city": "NY",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3010009015201",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "429 SEVENTH AVE OWNERS INC",
+    "address_1": "429  7TH AVE",
+    "country": "US",
+    "city": "BKLYN",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

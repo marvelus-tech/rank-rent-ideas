@@ -1,0 +1,73 @@
+========================================
+Daily Lead Gen — 2026-06-04
+Category: locksmiths
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: locksmiths
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - MB Locksmiths Melbourne: http://www.mblocksmiths.com.au/
+  - Central Melbourne 24H Locksmiths: https://centralmelbourne24hlocksmiths.com/
+  - Wynns Locksmiths Melbourne: https://wynnslocksmiths.com.au/
+  - Paragon Locksmiths Richmond: http://www.paragonlocksmiths.com.au/
+  - ASAP Locksmiths Melbourne: http://www.asaplocksmiths.com.au/
+  - Port Melbourne Locksmiths: http://www.portmelbournelocksmiths.com.au/
+  - Precision Locksmiths Melbourne: https://precisionlocksmiths.com.au/
+  - John Barnes & Co Pty Ltd: https://www.johnbarneslocksmiths.com.au/
+  - On Call Locksmith: https://oncalllocksmiths.com.au/auto-locksmith
+  - Southern Cross Locksmiths & Auto Keys: http://southerncrosslocksmiths.com/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: MB Locksmiths Melbourne...
+  [2/10] Enriching: Central Melbourne 24H Locksmiths...
+  [3/10] Enriching: Wynns Locksmiths Melbourne...
+  [4/10] Enriching: Paragon Locksmiths Richmond...
+  [5/10] Enriching: ASAP Locksmiths Melbourne...
+  [6/10] Enriching: Port Melbourne Locksmiths...
+  [7/10] Enriching: Precision Locksmiths Melbourne...
+  [8/10] Enriching: John Barnes & Co Pty Ltd...
+  [9/10] Enriching: On Call Locksmith...
+  [10/10] Enriching: Southern Cross Locksmiths & Auto Keys...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 MB Locksmiths Melbourne: score=100, opportunities=['seo_optimization', 'online_booking', 'ai_chatbot', 'click_to_call', 'reputation_management']
+  🔥 Central Melbourne 24H Locksmiths: score=100, opportunities=['seo_optimization', 'online_booking', 'ai_chatbot', 'click_to_call', 'reputation_management']
+  🔥 Wynns Locksmiths Melbourne: score=100, opportunities=['seo_optimization', 'online_booking', 'ai_chatbot', 'click_to_call', 'reputation_management']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 90 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_locksmiths_2026-06-04.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================

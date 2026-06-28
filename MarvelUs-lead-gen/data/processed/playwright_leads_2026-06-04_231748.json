@@ -1,0 +1,61 @@
+{
+  "category": "mechanics",
+  "location": "Victoria, Australia",
+  "generated_at": "2026-06-04T23:17:48.233101+00:00",
+  "count": 3,
+  "leads": [
+    {
+      "name": "Team MPE #1 \"Mike's Performance Exhaust & Mechanical\"  4.7Muffler shop \u00b7 \ue934 \u00b7 221 W Florence AveOpen \u00b7 Closes 6\u202fPM \u00b7 (323) 752-1737\ue80bWebsite\ue52eDirections",
+      "category": "mechanics",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "",
+      "rating": "",
+      "is_open": true,
+      "score": 55,
+      "priority": "WARM",
+      "missing": [
+        "phone",
+        "address",
+        "rating"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-04T23:17:48.147121+00:00"
+    },
+    {
+      "name": "Team MPE #1 \"Mike's Performance Exhaust & Mechanical\"",
+      "category": "mechanics",
+      "location": "Victoria, Australia",
+      "phone": "",
+      "address": "",
+      "rating": "",
+      "is_open": true,
+      "score": 55,
+      "priority": "WARM",
+      "missing": [
+        "phone",
+        "address",
+        "rating"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-04T23:17:48.147430+00:00"
+    },
+    {
+      "name": "Victorian Auto Services - Car Mechanic | Roadworthy Certificate Melbourne CBD | RWC  3.9Mechanic \u00b7 \ue934 \u00b7 653 Spencer StOpen \u00b7 Closes 5\u202fPM \u00b7 +61 3 9329 6299\ue80bWebsite\ue52eDirections",
+      "category": "mechanics",
+      "location": "Victoria, Australia",
+      "phone": "+61 3 9329 6299",
+      "address": "",
+      "rating": "",
+      "is_open": true,
+      "score": 70,
+      "priority": "WARM",
+      "missing": [
+        "address",
+        "rating"
+      ],
+      "source": "google_maps_playwright",
+      "scraped_at": "2026-06-04T23:17:48.147440+00:00"
+    }
+  ]
+}

@@ -1,0 +1,714 @@
+[
+  {
+    "source_query": "electricians in Melbourne, Australia",
+    "category": "electricians",
+    "location": "Melbourne, Australia",
+    "name": "Taskforce - Electrical, Gas and Smoke Alarm Safety Checks",
+    "address": "3/151 Barkly Ave, Burnley VIC 3121, Australia",
+    "phone": "+61 1300 818 138",
+    "website": "https://www.taskforce.com.au/",
+    "website_missing": false,
+    "rating": 4.8,
+    "reviews": null,
+    "place_id": "0x6ad64261b620eaaf:0",
+    "discovered_at": "2026-06-14T23:15:15.220978+00:00",
+    "business_hours": "Monday9 AM\u20135 PMTuesday9 AM\u20135 PMWednesday9 AM\u20135 PMThursday9 AM\u20135 PMFriday9 AM\u20135 PMSaturdayClosedSundayClosed",
+    "business_type": "Property maintenance",
+    "maps_url": "https://www.google.com/maps/place/Taskforce+-+Electrical,+Gas+and+Smoke+Alarm+Safety+Checks/data=!4m7!3m6!1s0x6ad64261b620eaaf:0xd34820a420903911!8m2!3d-37.830107!4d145.006632!16s%2Fg%2F11b7hgr_t_!19sChIJr-ogtmFC1moRETmQIKQgSNM?authuser=0&hl=en&rclk=1",
+    "email": "jason@taskforce.com.au",
+    "emails_found": [
+      "jason@taskforce.com.au"
+    ],
+    "phones_found": [
+      "0 0 0 1 1 6 6 0",
+      "02-22-03-47-39-",
+      "0 0 1-2 2 1 1 0",
+      "0 0 0 2 2 1 1 0",
+      "01-07-04-14-52-",
+      "02-10-08-33-14-",
+      "+61 1300 818 138"
+    ],
+    "contact_page_url": "https://www.taskforce.com.au/about",
+    "social_links": {
+      "facebook": null,
+      "instagram": null,
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null
+    },
+    "contact_confidence": "high",
+    "has_complete_contact_info": true,
+    "website_scraped_at": "2026-06-15T09:16:54+1000",
+    "website_scrape_success": true,
+    "ai_service_score": 100,
+    "priority": "hot",
+    "opportunities": [
+      "click_to_call",
+      "seo_optimization",
+      "online_booking",
+      "reputation_management",
+      "ai_chatbot"
+    ],
+    "signals": {
+      "no_website": false,
+      "has_call_button": false,
+      "has_chat_widget": false,
+      "has_booking_system": false,
+      "seo": {
+        "seo_score": 0,
+        "has_title": false,
+        "has_meta_desc": false,
+        "has_h1": false
+      },
+      "poor_seo": true,
+      "reviews": {
+        "review_count": 0,
+        "needs_reputation_mgmt": true,
+        "review_urgency": "high",
+        "review_signal": "no_reviews_found"
+      },
+      "service_business": true,
+      "poor_rating": false
+    },
+    "needs_ai_voice": true,
+    "needs_web_presence": true,
+    "needs_reputation_mgmt": true,
+    "needs_call_button": true
+  },
+  {
+    "source_query": "electricians in Melbourne, Australia",
+    "category": "electricians",
+    "location": "Melbourne, Australia",
+    "name": "DMACK Electrix Group Pty Ltd | Electrician Frankston",
+    "address": "17 Thompson St, Frankston VIC 3199, Australia",
+    "phone": "+61 419 430 991",
+    "website": "http://dmackelectrix.com.au/",
+    "website_missing": false,
+    "rating": 5.0,
+    "reviews": null,
+    "place_id": "0xa7180356c4a40a0f:0",
+    "discovered_at": "2026-06-14T23:15:25.210639+00:00",
+    "business_hours": null,
+    "business_type": "Electrician",
+    "maps_url": "https://www.google.com/maps/place/DMACK+Electrix+Group+Pty+Ltd+%7C+Electrician+Frankston/data=!4m7!3m6!1s0xa7180356c4a40a0f:0x3ab716952383d28a!8m2!3d-38.143456!4d145.121965!16s%2Fg%2F11t7p5rd9m!19sChIJDwqkxFYDGKcRitKDI5UWtzo?authuser=0&hl=en&rclk=1",
+    "email": "david@dmackelectrixgroup.com.au",
+    "emails_found": [
+      "david@dmackelectrixgroup.com.au"
+    ],
+    "phones_found": [
+      "+0152-0153",
+      "0419 430 991",
+      "+61 419 430 991"
+    ],
+    "contact_page_url": "http://dmackelectrix.com.au/about",
+    "social_links": {
+      "facebook": "https://www.facebook.com/profile.php?id=100085174507565&amp;mibextid=LQQJ4d",
+      "instagram": "https://www.instagram.com/dmackelectrixgroup/",
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null
+    },
+    "contact_confidence": "high",
+    "has_complete_contact_info": true,
+    "website_scraped_at": "2026-06-15T09:17:11+1000",
+    "website_scrape_success": true,
+    "ai_service_score": 100,
+    "priority": "hot",
+    "opportunities": [
+      "click_to_call",
+      "seo_optimization",
+      "online_booking",
+      "reputation_management",
+      "ai_chatbot"
+    ],
+    "signals": {
+      "no_website": false,
+      "has_call_button": false,
+      "has_chat_widget": false,
+      "has_booking_system": false,
+      "seo": {
+        "seo_score": 0,
+        "has_title": false,
+        "has_meta_desc": false,
+        "has_h1": false
+      },
+      "poor_seo": true,
+      "reviews": {
+        "review_count": 0,
+        "needs_reputation_mgmt": true,
+        "review_urgency": "high",
+        "review_signal": "no_reviews_found"
+      },
+      "service_business": true,
+      "poor_rating": false
+    },
+    "needs_ai_voice": true,
+    "needs_web_presence": true,
+    "needs_reputation_mgmt": true,
+    "needs_call_button": true
+  },
+  {
+    "source_query": "electricians in Melbourne, Australia",
+    "category": "electricians",
+    "location": "Melbourne, Australia",
+    "name": "Millerwatts Electricians",
+    "address": "Office 7/24/26 Francis St, Melbourne VIC 3000, Australia",
+    "phone": "+61 406 053 372",
+    "website": "https://www.millerwatts.com.au/",
+    "website_missing": false,
+    "rating": 4.9,
+    "reviews": null,
+    "place_id": "0x6ad65f8044f5ad29:0",
+    "discovered_at": "2026-06-14T23:15:33.836033+00:00",
+    "business_hours": "Monday7 AM\u20139 PMTuesday7 AM\u20139 PMWednesday7 AM\u20139 PMThursday7 AM\u20139 PMFriday7 AM\u20139 PMSaturday7 AM\u20139 PMSunday7 AM\u20139 PM",
+    "business_type": "Electrician",
+    "maps_url": "https://www.google.com/maps/place/Millerwatts+Electricians/data=!4m7!3m6!1s0x6ad65f8044f5ad29:0x30d04ce2c33c106f!8m2!3d-37.8179547!4d144.9554259!16s%2Fg%2F11f4tz8lt1!19sChIJKa31RIBf1moRbxA8w-JM0DA?authuser=0&hl=en&rclk=1",
+    "email": null,
+    "emails_found": [],
+    "phones_found": [
+      "+61 406 053 372"
+    ],
+    "contact_page_url": null,
+    "social_links": {},
+    "contact_confidence": "low",
+    "has_complete_contact_info": false,
+    "website_scraped_at": null,
+    "website_scrape_success": false,
+    "ai_service_score": 100,
+    "priority": "hot",
+    "opportunities": [
+      "click_to_call",
+      "seo_optimization",
+      "online_booking",
+      "reputation_management",
+      "ai_chatbot"
+    ],
+    "signals": {
+      "no_website": false,
+      "has_call_button": false,
+      "has_chat_widget": false,
+      "has_booking_system": false,
+      "seo": {
+        "seo_score": 0,
+        "has_title": false,
+        "has_meta_desc": false,
+        "has_h1": false
+      },
+      "poor_seo": true,
+      "reviews": {
+        "review_count": 0,
+        "needs_reputation_mgmt": true,
+        "review_urgency": "high",
+        "review_signal": "no_reviews_found"
+      },
+      "service_business": true,
+      "poor_rating": false
+    },
+    "needs_ai_voice": true,
+    "needs_web_presence": true,
+    "needs_reputation_mgmt": true,
+    "needs_call_button": true
+  },
+  {
+    "source_query": "electricians in Melbourne, Australia",
+    "category": "electricians",
+    "location": "Melbourne, Australia",
+    "name": "Melbourne General Electrical Services",
+    "address": "Office 12/24-26 Francis St, Melbourne VIC 3000, Australia",
+    "phone": "+61 474 704 726",
+    "website": "https://www.melbelectricalservices.com.au/",
+    "website_missing": false,
+    "rating": 5.0,
+    "reviews": null,
+    "place_id": "0x6ad65ab0aacb8b31:0",
+    "discovered_at": "2026-06-14T23:15:42.130950+00:00",
+    "business_hours": "MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hours",
+    "business_type": "Electrician",
+    "maps_url": "https://www.google.com/maps/place/Melbourne+General+Electrical+Services/data=!4m7!3m6!1s0x6ad65ab0aacb8b31:0xfc2f98591c6a9f86!8m2!3d-37.8179579!4d144.9554164!16s%2Fg%2F11f3xmn1zh!19sChIJMYvLqrBa1moRhp9qHFmYL_w?authuser=0&hl=en&rclk=1",
+    "email": "info@melbelectricalservices.com.au",
+    "emails_found": [
+      "info@melbelectricalservices.com.au",
+      "name@example.com"
+    ],
+    "phones_found": [
+      "0474704726",
+      "0600000000000005",
+      "+61 474 704 726"
+    ],
+    "contact_page_url": "https://www.melbelectricalservices.com.au/contact",
+    "social_links": {
+      "facebook": null,
+      "instagram": "https://www.instagram.com/melbgeneralelectrical/",
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null
+    },
+    "contact_confidence": "high",
+    "has_complete_contact_info": true,
+    "website_scraped_at": "2026-06-15T09:17:29+1000",
+    "website_scrape_success": true,
+    "ai_service_score": 100,
+    "priority": "hot",
+    "opportunities": [
+      "click_to_call",
+      "seo_optimization",
+      "online_booking",
+      "reputation_management",
+      "ai_chatbot"
+    ],
+    "signals": {
+      "no_website": false,
+      "has_call_button": false,
+      "has_chat_widget": false,
+      "has_booking_system": false,
+      "seo": {
+        "seo_score": 0,
+        "has_title": false,
+        "has_meta_desc": false,
+        "has_h1": false
+      },
+      "poor_seo": true,
+      "reviews": {
+        "review_count": 0,
+        "needs_reputation_mgmt": true,
+        "review_urgency": "high",
+        "review_signal": "no_reviews_found"
+      },
+      "service_business": true,
+      "poor_rating": false
+    },
+    "needs_ai_voice": true,
+    "needs_web_presence": true,
+    "needs_reputation_mgmt": true,
+    "needs_call_button": true
+  },
+  {
+    "source_query": "electricians in Melbourne, Australia",
+    "category": "electricians",
+    "location": "Melbourne, Australia",
+    "name": "Melbourne Wide Electrical & Plumbing",
+    "address": "2/120 Northgate Dr, Thomastown VIC 3087, Australia",
+    "phone": "+61 1300 635 294",
+    "website": "https://www.melbournewide.com.au/",
+    "website_missing": false,
+    "rating": 5.0,
+    "reviews": null,
+    "place_id": "0x6ad649452b199191:0",
+    "discovered_at": "2026-06-14T23:15:49.449244+00:00",
+    "business_hours": "MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hours",
+    "business_type": "Electrician",
+    "maps_url": "https://www.google.com/maps/place/Melbourne+Wide+Electrical+%26+Plumbing/data=!4m7!3m6!1s0x6ad649452b199191:0xa96272df3b9e39cb!8m2!3d-37.6882478!4d145.0304523!16s%2Fg%2F11j4w6kf42!19sChIJkZEZK0VJ1moRyzmeO99yYqk?authuser=0&hl=en&rclk=1",
+    "email": "info@melbournewide.com.au",
+    "emails_found": [
+      "info@melbournewide.com.au"
+    ],
+    "phones_found": [
+      "0 0 320 512",
+      "+61 1300 635 294"
+    ],
+    "contact_page_url": "https://www.melbournewide.com.au/contact",
+    "social_links": {
+      "facebook": null,
+      "instagram": null,
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null
+    },
+    "contact_confidence": "high",
+    "has_complete_contact_info": true,
+    "website_scraped_at": "2026-06-15T09:17:40+1000",
+    "website_scrape_success": true,
+    "ai_service_score": 100,
+    "priority": "hot",
+    "opportunities": [
+      "click_to_call",
+      "seo_optimization",
+      "online_booking",
+      "reputation_management",
+      "ai_chatbot"
+    ],
+    "signals": {
+      "no_website": false,
+      "has_call_button": false,
+      "has_chat_widget": false,
+      "has_booking_system": false,
+      "seo": {
+        "seo_score": 0,
+        "has_title": false,
+        "has_meta_desc": false,
+        "has_h1": false
+      },
+      "poor_seo": true,
+      "reviews": {
+        "review_count": 0,
+        "needs_reputation_mgmt": true,
+        "review_urgency": "high",
+        "review_signal": "no_reviews_found"
+      },
+      "service_business": true,
+      "poor_rating": false
+    },
+    "needs_ai_voice": true,
+    "needs_web_presence": true,
+    "needs_reputation_mgmt": true,
+    "needs_call_button": true
+  },
+  {
+    "source_query": "electricians in Melbourne, Australia",
+    "category": "electricians",
+    "location": "Melbourne, Australia",
+    "name": "Near Me Electrical",
+    "address": null,
+    "phone": "+61 405 592 496",
+    "website": "https://www.nearmeelectrical.com.au/",
+    "website_missing": false,
+    "rating": 5.0,
+    "reviews": null,
+    "place_id": "0x277bd3e117742e1:0",
+    "discovered_at": "2026-06-14T23:15:59.641909+00:00",
+    "business_hours": "MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hours",
+    "business_type": "Electrician",
+    "maps_url": "https://www.google.com/maps/place/Near+Me+Electrical/data=!4m7!3m6!1s0x277bd3e117742e1:0x33ce0bfc2a6dcacd!8m2!3d-36.1511458!4d147.8532392!16s%2Fg%2F11ypdt__42!19sChIJ4UJ3ET69dwIRzcptKvwLzjM?authuser=0&hl=en&rclk=1",
+    "email": "nearme.elec.ac@gmail.com",
+    "emails_found": [
+      "nearme.elec.ac@gmail.com",
+      "example@youremail.com",
+      "newyork@construktion.com"
+    ],
+    "phones_found": [
+      "0405592496",
+      "+61 405 592 496"
+    ],
+    "contact_page_url": "https://www.nearmeelectrical.com.au/contact",
+    "social_links": {
+      "facebook": "https://www.facebook.com/share/1JFUH1XXYr/?mibextid=wwXIfr",
+      "instagram": "https://www.instagram.com/nearme.elec?igsh=bmw5cjlvd2x3NXI5&amp;utm_source=qr",
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null
+    },
+    "contact_confidence": "high",
+    "has_complete_contact_info": true,
+    "website_scraped_at": "2026-06-15T09:17:46+1000",
+    "website_scrape_success": true,
+    "ai_service_score": 100,
+    "priority": "hot",
+    "opportunities": [
+      "click_to_call",
+      "seo_optimization",
+      "online_booking",
+      "reputation_management",
+      "ai_chatbot"
+    ],
+    "signals": {
+      "no_website": false,
+      "has_call_button": false,
+      "has_chat_widget": false,
+      "has_booking_system": false,
+      "seo": {
+        "seo_score": 0,
+        "has_title": false,
+        "has_meta_desc": false,
+        "has_h1": false
+      },
+      "poor_seo": true,
+      "reviews": {
+        "review_count": 0,
+        "needs_reputation_mgmt": true,
+        "review_urgency": "high",
+        "review_signal": "no_reviews_found"
+      },
+      "service_business": true,
+      "poor_rating": false
+    },
+    "needs_ai_voice": true,
+    "needs_web_presence": true,
+    "needs_reputation_mgmt": true,
+    "needs_call_button": true
+  },
+  {
+    "source_query": "electricians in Melbourne, Australia",
+    "category": "electricians",
+    "location": "Melbourne, Australia",
+    "name": "Allan Electrics Melbourne",
+    "address": "Unit 7/323 Ingles St, Port Melbourne VIC 3207, Australia",
+    "phone": "+61 482 093 585",
+    "website": "https://allanelectricsmelbourne.com/",
+    "website_missing": false,
+    "rating": 5.0,
+    "reviews": null,
+    "place_id": "0x2accf6374956a119:0",
+    "discovered_at": "2026-06-14T23:16:09.891226+00:00",
+    "business_hours": "MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hours",
+    "business_type": "Electrician",
+    "maps_url": "https://www.google.com/maps/place/Allan+Electrics+Melbourne/data=!4m7!3m6!1s0x2accf6374956a119:0x78564d5cf519bc9e!8m2!3d-37.8254183!4d144.9357733!16s%2Fg%2F11z0g8n7zh!19sChIJGaFWSTf2zCoRnrwZ9VxNVng?authuser=0&hl=en&rclk=1",
+    "email": null,
+    "emails_found": [],
+    "phones_found": [
+      "+61 482 093 585"
+    ],
+    "contact_page_url": null,
+    "social_links": {},
+    "contact_confidence": "low",
+    "has_complete_contact_info": false,
+    "website_scraped_at": null,
+    "website_scrape_success": false,
+    "ai_service_score": 100,
+    "priority": "hot",
+    "opportunities": [
+      "click_to_call",
+      "seo_optimization",
+      "online_booking",
+      "reputation_management",
+      "ai_chatbot"
+    ],
+    "signals": {
+      "no_website": false,
+      "has_call_button": false,
+      "has_chat_widget": false,
+      "has_booking_system": false,
+      "seo": {
+        "seo_score": 0,
+        "has_title": false,
+        "has_meta_desc": false,
+        "has_h1": false
+      },
+      "poor_seo": true,
+      "reviews": {
+        "review_count": 0,
+        "needs_reputation_mgmt": true,
+        "review_urgency": "high",
+        "review_signal": "no_reviews_found"
+      },
+      "service_business": true,
+      "poor_rating": false
+    },
+    "needs_ai_voice": true,
+    "needs_web_presence": true,
+    "needs_reputation_mgmt": true,
+    "needs_call_button": true
+  },
+  {
+    "source_query": "electricians in Melbourne, Australia",
+    "category": "electricians",
+    "location": "Melbourne, Australia",
+    "name": "SBH Electrical Melbourne",
+    "address": null,
+    "phone": "+61 457 759 723",
+    "website": "https://sbhelectrical.com.au/",
+    "website_missing": false,
+    "rating": 4.9,
+    "reviews": null,
+    "place_id": "0x2227bfcb2720034b:0",
+    "discovered_at": "2026-06-14T23:16:19.965269+00:00",
+    "business_hours": "MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hours",
+    "business_type": "Electrician",
+    "maps_url": "https://www.google.com/maps/place/SBH+Electrical+Melbourne/data=!4m7!3m6!1s0x2227bfcb2720034b:0x2cdaff10994d46aa!8m2!3d-37.9725665!4d145.0531353!16s%2Fg%2F11qc8bq21z!19sChIJSwMgJ8u_JyIRqkZNmRD_2iw?authuser=0&hl=en&rclk=1",
+    "email": "info@sbhelectrical.com.au",
+    "emails_found": [
+      "info@sbhelectrical.com.au"
+    ],
+    "phones_found": [
+      "059 256 71",
+      "0 0 100 100",
+      "0457 759 723",
+      "+61 457 759 723",
+      "0 0 512 512"
+    ],
+    "contact_page_url": "https://sbhelectrical.com.au/contact",
+    "social_links": {
+      "facebook": "https://www.facebook.com/SBHElec/",
+      "instagram": "https://www.instagram.com/sbh_electrical/",
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null
+    },
+    "contact_confidence": "high",
+    "has_complete_contact_info": true,
+    "website_scraped_at": "2026-06-15T09:18:06+1000",
+    "website_scrape_success": true,
+    "ai_service_score": 100,
+    "priority": "hot",
+    "opportunities": [
+      "click_to_call",
+      "seo_optimization",
+      "online_booking",
+      "reputation_management",
+      "ai_chatbot"
+    ],
+    "signals": {
+      "no_website": false,
+      "has_call_button": false,
+      "has_chat_widget": false,
+      "has_booking_system": false,
+      "seo": {
+        "seo_score": 0,
+        "has_title": false,
+        "has_meta_desc": false,
+        "has_h1": false
+      },
+      "poor_seo": true,
+      "reviews": {
+        "review_count": 0,
+        "needs_reputation_mgmt": true,
+        "review_urgency": "high",
+        "review_signal": "no_reviews_found"
+      },
+      "service_business": true,
+      "poor_rating": false
+    },
+    "needs_ai_voice": true,
+    "needs_web_presence": true,
+    "needs_reputation_mgmt": true,
+    "needs_call_button": true
+  },
+  {
+    "source_query": "electricians in Melbourne, Australia",
+    "category": "electricians",
+    "location": "Melbourne, Australia",
+    "name": "Eastern Melbourne Electricians",
+    "address": "98 Allambanan Dr, Bayswater North VIC 3153, Australia",
+    "phone": "+61 1800 851 129",
+    "website": "https://www.easternmelbourneelectricians.com/",
+    "website_missing": false,
+    "rating": 4.9,
+    "reviews": null,
+    "place_id": "0x6ad63065b8ae22cf:0",
+    "discovered_at": "2026-06-14T23:16:27.336503+00:00",
+    "business_hours": "MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hours",
+    "business_type": "Electrician",
+    "maps_url": "https://www.google.com/maps/place/Eastern+Melbourne+Electricians/data=!4m7!3m6!1s0x6ad63065b8ae22cf:0x83c0fc5700f689b0!8m2!3d-37.8323754!4d145.2901883!16s%2Fg%2F11dybf3tyh!19sChIJzyKuuGUw1moRsIn2AFf8wIM?authuser=0&hl=en&rclk=1",
+    "email": "quote@EMElectricians.com",
+    "emails_found": [
+      "quote@EMElectricians.com",
+      "jobs@EMElectricians.com.au",
+      "developer@iformat.com.au"
+    ],
+    "phones_found": [
+      "+61 1800 851 129"
+    ],
+    "contact_page_url": "https://www.easternmelbourneelectricians.com/contact",
+    "social_links": {
+      "facebook": "https://www.facebook.com/EMElectricians/",
+      "instagram": "https://www.instagram.com/emelectricians/",
+      "linkedin": null,
+      "twitter": null,
+      "youtube": null
+    },
+    "contact_confidence": "high",
+    "has_complete_contact_info": true,
+    "website_scraped_at": "2026-06-15T09:18:13+1000",
+    "website_scrape_success": true,
+    "ai_service_score": 100,
+    "priority": "hot",
+    "opportunities": [
+      "click_to_call",
+      "seo_optimization",
+      "online_booking",
+      "reputation_management",
+      "ai_chatbot"
+    ],
+    "signals": {
+      "no_website": false,
+      "has_call_button": false,
+      "has_chat_widget": false,
+      "has_booking_system": false,
+      "seo": {
+        "seo_score": 0,
+        "has_title": false,
+        "has_meta_desc": false,
+        "has_h1": false
+      },
+      "poor_seo": true,
+      "reviews": {
+        "review_count": 0,
+        "needs_reputation_mgmt": true,
+        "review_urgency": "high",
+        "review_signal": "no_reviews_found"
+      },
+      "service_business": true,
+      "poor_rating": false
+    },
+    "needs_ai_voice": true,
+    "needs_web_presence": true,
+    "needs_reputation_mgmt": true,
+    "needs_call_button": true
+  },
+  {
+    "source_query": "electricians in Melbourne, Australia",
+    "category": "electricians",
+    "location": "Melbourne, Australia",
+    "name": "All Electrics Melbourne",
+    "address": "34 Walnut Dr, Kilsyth VIC 3137, Australia",
+    "phone": "+61 3 8719 8776",
+    "website": "https://allelectrics.com.au/",
+    "website_missing": false,
+    "rating": 5.0,
+    "reviews": null,
+    "place_id": "0x6ad63cb65923bdbb:0",
+    "discovered_at": "2026-06-14T23:16:37.665188+00:00",
+    "business_hours": "MondayOpen 24 hoursTuesdayOpen 24 hoursWednesdayOpen 24 hoursThursdayOpen 24 hoursFridayOpen 24 hoursSaturdayOpen 24 hoursSundayOpen 24 hours",
+    "business_type": "Electrician",
+    "maps_url": "https://www.google.com/maps/place/All+Electrics+Melbourne/data=!4m7!3m6!1s0x6ad63cb65923bdbb:0xbd1a89b795bd78d7!8m2!3d-37.8057828!4d145.3354981!16s%2Fg%2F11c2q7kqwc!19sChIJu70jWbY81moR13i9lbeJGr0?authuser=0&hl=en&rclk=1",
+    "email": "contact@allelectrics.com.au",
+    "emails_found": [
+      "contact@allelectrics.com.au"
+    ],
+    "phones_found": [
+      "0976311 10",
+      "0976311 0",
+      "039 0-192-85",
+      "03) 8719 8776",
+      "+61387198776",
+      "0976311 9",
+      "0976311 1",
+      "0976311 4"
+    ],
+    "contact_page_url": "https://allelectrics.com.au/contact",
+    "social_links": {
+      "facebook": "https://www.facebook.com/allelectricsmelbourne",
+      "instagram": "https://www.instagram.com/all_electrics_melbourne/",
+      "linkedin": "https://www.linkedin.com/in/leonard-dibb-388831403/",
+      "twitter": null,
+      "youtube": null
+    },
+    "contact_confidence": "high",
+    "has_complete_contact_info": true,
+    "website_scraped_at": "2026-06-15T09:18:19+1000",
+    "website_scrape_success": true,
+    "ai_service_score": 100,
+    "priority": "hot",
+    "opportunities": [
+      "click_to_call",
+      "seo_optimization",
+      "online_booking",
+      "reputation_management",
+      "ai_chatbot"
+    ],
+    "signals": {
+      "no_website": false,
+      "has_call_button": false,
+      "has_chat_widget": false,
+      "has_booking_system": false,
+      "seo": {
+        "seo_score": 0,
+        "has_title": false,
+        "has_meta_desc": false,
+        "has_h1": false
+      },
+      "poor_seo": true,
+      "reviews": {
+        "review_count": 0,
+        "needs_reputation_mgmt": true,
+        "review_urgency": "high",
+        "review_signal": "no_reviews_found"
+      },
+      "service_business": true,
+      "poor_rating": false
+    },
+    "needs_ai_voice": true,
+    "needs_web_presence": true,
+    "needs_reputation_mgmt": true,
+    "needs_call_button": true
+  }
+]

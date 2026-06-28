@@ -1,0 +1,15 @@
+=== Brownstone Bleeding Edge Monitor ===
+Started: Fri Jun 26 06:36:09 AEST 2026
+Fetching articles...
+Found 10 articles on the page
+New articles to process: 2
+
+Processing: Software Isn’t Dead
+URL: https://www.brownstoneresearch.com/bleeding-edge/software-isnt-dead/
+  Fetching content...
+  Content: 1032 words
+  Generating TTS audio...
+  Audio generated: /Users/oktos/.openclaw/workspace/skills/brownstone-bleeding-edge/scripts/../work/audio-software-isnt-dead.mp3
+  Publishing to GitHub Pages...
+  ✓ Published + marked as processed
+jq: parse error: Invalid numeric literal at line 1, column 4

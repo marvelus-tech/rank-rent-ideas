@@ -1,0 +1,46 @@
+[
+  {
+    "document_id": "FT_3070005964907",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "CHASE MANHATTAN BANK",
+    "address_1": "1  CHASE MANHATTAN PLAZA",
+    "country": "US",
+    "city": "NEW YORK",
+    "state": "NY",
+    "good_through_date": "2026-03-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3070005964907",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "BOCHECCHIO, MICHAEL",
+    "address_1": "121-1 4 KEE CT",
+    "country": "US",
+    "city": "COLLEGBE POINT",
+    "state": "NY",
+    "good_through_date": "2026-03-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3070005964907",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "BOCHECCHIO, MICHAEL",
+    "address_1": "121-1 4 KEE CT",
+    "country": "US",
+    "city": "COLLEGBE POINT",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3070005964907",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "CHASE MANHATTAN BANK",
+    "address_1": "1  CHASE MANHATTAN PLAZA",
+    "country": "US",
+    "city": "NEW YORK",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

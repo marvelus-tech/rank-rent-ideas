@@ -1,0 +1,40 @@
+Run landlot-recon for Rutherford County TN only.
+
+Buyers-first: find 3-5 active local builders in Rutherford/Wilson area + their buy boxes.
+
+Source 5-8 tax-delinquent or motivated vacant lots.
+
+Strict lot criteria (buy box):
+- Size: 0.18 - 0.33 acres only
+- Topography: flat or minimal slope preferred
+- Flood: avoid 100-yr and 500-yr zones
+- Easements: no utility easements or stream buffers
+- Streets: off main/busy roads
+- Bonus: walking distance to park
+
+Enrich phones via truepeoplesearch.com.
+
+Apply full 7-point underwriting. In notes field, explicitly state:
+- Acres
+- Flood status
+- Slope/easements
+- Street type + park proximity
+- How it matches the 0.18-0.33ac buy box
+
+Return ONLY a clean JS array. Each object must use these exact fields for the dashboard:
+{
+  id: number,
+  address: string,
+  county: "Rutherford County",
+  state: "tennessee",
+  city: string,
+  zip: string,
+  acres: number,
+  price: number,
+  status: "identified" | "purchased" | "under contract",
+  date: "2026-06-24",
+  notes: string,   // must include buy-box fit details
+  source: string
+}
+
+No prose. No extra text. No explanations. Just the array.

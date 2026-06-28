@@ -1,0 +1,63 @@
+serpapi:
+  api_key: "YOUR_SERPAPI_API_KEY"
+  google_domain: "google.com"
+  hl: "en"
+
+browser:
+  engine: brave  # Use Brave Browser (not Chrome)
+  headless: true
+  slow_mo: 2000
+  max_results_per_search: 30
+  search_delay_seconds: 5
+
+discovery:
+  categories:
+    - hvac
+    - plumbing
+    - roofing
+    - med spa
+    - law firm
+    - dental clinic
+    - chiropractic
+    - auto repair
+    - electrical contractor
+    - pest control
+    - garage door repair
+    - locksmith
+  locations:
+    # Melbourne only (for now)
+    - "Melbourne, VIC, Australia"
+  max_results_per_query: 20
+
+scoring:
+  weights:
+    no_chatbot: 30
+    no_click_to_call: 25
+    no_booking: 20
+    low_tech_sophistication: 15
+    high_rating_and_reviews: 10
+  thresholds:
+    high_rating: 4.4
+    high_reviews: 80
+
+pipeline:
+  default_followup_days: 3
+  second_followup_days: 7
+  pipeline_stages:
+    - cold
+    - contacted
+    - interested
+    - proposal
+    - closed
+
+limits:
+  daily_lead_limit: 10
+
+storage:
+  leads_db: "data/processed/leads_db.json"
+  leads_csv: "data/processed/leads_master.csv"
+  leads_json: "data/processed/leads_master.json"
+  daily_delta_csv: "data/reports/daily_delta.csv"
+  interactions_csv: "data/processed/interactions.csv"
+  daily_report_dir: "data/reports"
+  dashboard_html: "output/dashboard.html"

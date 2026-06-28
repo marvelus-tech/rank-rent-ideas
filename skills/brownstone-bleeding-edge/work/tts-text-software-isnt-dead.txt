@@ -1,0 +1,133 @@
+Software Isn’t Dead
+
+Jun 24, 2026
+
+History suggests that transformative technologies rarely eliminate entire industries. More often, they reshape them. Software is no exception…
+
+Managing Editor’s Note:Today, we’re handing the reins over to our colleague, Jason Bodner.
+
+Today, we hear his take on the “SaaSpocalypse” that plagued software-as-a-service companies earlier this year as agentic artificial intelligence solutions took root in the space… somethingJeff has discussed in these pagesat length.
+
+Which is why it’ll likely come as no surprise to longtime readers to learn that the reports of software’s death have been exaggerated.
+
+Rather, as Jason points out, this is the beginning of something new for software. Read on for more…
+
+In the early days of the automobile, many people viewed cars as an interesting novelty.
+
+Horses had worked for thousands of years. Roads weren’t built for cars. Fuel stations barely existed. The technology was expensive, unreliable, and impractical.
+
+The skeptics weren’t entirely wrong.
+
+They were simply wrong about what came next.
+
+For example: In 1894, the president of the Michigan Savings Bank reportedly advised Henry Ford’s lawyer not to invest in the Ford Motor Company because “the horse is here to stay, but the automobile is only a novelty.”
+
+Better yet, imagine this: In 1943, IBM Chairman Thomas Watson allegedly said there might be a market for five computers… worldwide.
+
+Today we’re watching a similar debate unfold around software.
+
+Over the past year, software stocks have been taken behind the woodshed. Investors looked at ChatGPT, Claude, Gemini, and a growing army of AI agents and asked a reasonable question: if artificial intelligence can write code, build applications, automate workflows, and answer questions, what happens to the software companies selling those tools?
+
+The market’s answer was swift.
+
+Software was dead.
+
+But it wasn’t. I even said so back in February, when I bought the iShares Expanded Tech-Software Sector ETF (IGV) for my kids:
+
+Source: MoneyFlows.com, End of day data sourced from Tiingo.com
+
+Some people even gave it names: Softmageddon. SaaSpocalypse.
+
+The fear wasn’t completely irrational. Every few weeks seemed to bring another demonstration showing AI performing tasks that previously required skilled professionals.
+
+One week AI was building websites. The next it was writing software. Then it was generating reports, creating presentations, and analyzing data.
+
+The conclusion many investors reached was simple: if AI can do the work, software companies become less valuable.
+
+But history suggests that transformative technologies rarely eliminate entire industries. More often, they reshape them.
+
+We’ve seen this movie before.
+
+After the dot-com crash, investors didn’t simply abandon speculative internet companies. Many concluded the internet itself had been a bubble. Thousands of businesses disappeared, billions of dollars were lost, and countless careers were derailed.
+
+The internet survived.
+
+More importantly, the strongest companies emerged stronger than ever. Amazon, Google, and a handful of other winners became some of the most valuable businesses in history.
+
+The same pattern appeared during the financial crisis. Real estate became untouchable. During the crypto winter, many investors concluded digital assets were finished after the collapses of Terra Luna and FTX.
+
+The weak players disappeared. The strongest platforms survived.
+
+That’s an important distinction.
+
+When investors say an industry is dead, what they often mean is that the weakest participants are dead.
+
+Those are two very different things.
+
+Software may be facing its own version of that test today.
+
+The reality is that AI still needs software.
+
+The easiest way to understand what’s happening is to think in layers.
+
+At the top are AI agents, the digital workers grabbing all the headlines. Beneath them sit the business applications where actual work gets done. Below that is the data layer, because AI without data is useless… then the cloud infrastructure that stores, processes, and delivers information.
+
+And underlying everything is the physical infrastructure: the data centers, GPUs, networking equipment, and power systems that make the entire stack possible.
+
+In other words, AI isn’t eliminating the software ecosystem.
+
+It’s creating a new one.
+
+An AI agent doesn’t magically appear and start creating value. It needs data. It needs workflows. It needs security. It needs cloud infrastructure. It needs systems that connect departments, customers, employees, and information.
+
+In many ways, AI isn’t replacing software.
+
+It’s becoming a new layer on top of software.
+
+Think about how businesses actually operate. Sales teams track customer relationships. Finance departments manage budgets and approvals. Human resources handles hiring and onboarding. Supply chains coordinate inventory and purchasing. Customer service teams resolve problems.
+
+Those functions aren’t disappearing.
+
+They’re being augmented.
+
+The software companies that merely stored information may struggle. The software companies that help organizations make decisions, automate processes, and orchestrate work could become more valuable than ever.
+
+In fact, some of the largest software companies in the world are already moving aggressively in that direction. They’re embedding AI into existing products, turning applications into assistants and workflows into digital labor.
+
+The market often treats disruption as a binary outcome. Either something survives, or it dies.
+
+Reality is usually more nuanced.
+
+The internet didn’t kill retail. Itchangedretail.
+
+Cloud computing didn’t kill software. Itchangedsoftware.
+
+Artificial intelligence may not kill software either. It may simply separate the indispensable from the irrelevant.
+
+And that is where investors should focus their attention.
+
+Not on whether software survives.
+
+But on which software companies become indispensable in an AI-driven world.
+
+Because if history is any guide, the biggest winners of the next decade may emerge from the very industries investors are most eager to write off today.
+
+Regards,
+
+Jason BodnerFounder, Outlier Intel
+
+JoinThe Bleeding Edgefor forward-looking analysis on hot growth stocks, wild new developments, and the inner workings of the high-tech industry.
+
+The biotechnology sector has shown clear signs of recovery over the past six months…
+
+Bitcoin is down more than 50% from its highs. Ether is down more than 60%. And the entire market...
+
+The business of artificial intelligence is real… It’s grounded, and it’s the definition of exponential growth.
+
+Read the latest insights from the world of high technology.
+
+The biotechnology sector has shown clear signs of recovery over the past six months…
+
+Bitcoin is down more than 50% from its highs. Ether is down more than 60%. And the entire market...
+
+The business of artificial intelligence is real… It’s grounded, and it’s the definition of exponential growth.

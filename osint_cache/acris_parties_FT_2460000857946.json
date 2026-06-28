@@ -1,0 +1,74 @@
+[
+  {
+    "document_id": "FT_2460000857946",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "GONZALEZ, GUADALUPE",
+    "address_1": "726  CAULDWELL AVE",
+    "country": "US",
+    "city": "BX",
+    "state": "NY",
+    "zip": "00000",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_2460000857946",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "CITY OF NEW YORK/HPD",
+    "address_1": "100  GOLD ST",
+    "country": "US",
+    "city": "NY",
+    "state": "NY",
+    "zip": "10038",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_2460000857946",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "GONZALEZ, VIRGINIA",
+    "address_1": "726  CAULDWELL AVE",
+    "country": "US",
+    "city": "BX",
+    "state": "NY",
+    "zip": "00000",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_2460000857946",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "CITY OF NEW YORK/HPD",
+    "address_1": "100  GOLD ST",
+    "country": "US",
+    "city": "NY",
+    "state": "NY",
+    "zip": "10038",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_2460000857946",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "GONZALEZ, VIRGINIA",
+    "address_1": "726  CAULDWELL AVE",
+    "country": "US",
+    "city": "BX",
+    "state": "NY",
+    "zip": "00000",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_2460000857946",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "GONZALEZ, GUADALUPE",
+    "address_1": "726  CAULDWELL AVE",
+    "country": "US",
+    "city": "BX",
+    "state": "NY",
+    "zip": "00000",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

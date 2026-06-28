@@ -1,0 +1,40 @@
+Run landlot-recon for Wake County NC only. Target ZIPs: 27607 (inside beltline Raleigh), 27604 (Mordecai/Belvedere Park Raleigh), 27502 (Downtown Apex).
+
+Buyers-first: identify 3-5 active local builders + buy boxes. Known starters: Loyd Builders (Apex, 919-387-1455, custom luxury BOYL), Fuller Land & Development (Raleigh, 919-417-0057, land dev + homebuilding).
+
+Source tax-delinquent or motivated vacant lots matching relaxed criteria (slope + easement filters REMOVED):
+
+- Size: 0.15–0.50 acres
+- Flood: Avoid 100-year if possible; 500-year OK if noted in notes
+- Slope/easements: DO NOT filter out — include all otherwise viable lots. Put detailed notes from iMAPS/flood maps on slope %, easements, stream buffers, utilities visible.
+- Street: Prefer off main/busy; note if on collector or quiet residential
+- Bonus: walkable to park or amenities
+
+Use:
+- Wake County Real Estate Search + iMAPS deep per parcel for flood/slope/easements
+- Zillow/Redfin/LandSearch for listings in target ZIPs
+- Wake foreclosures
+- Public delinquent lists
+
+Enrich owner phones via truepeoplesearch.com.
+
+In notes: "X acres | ZIP Y | flood: [100yr/500yr/none] | slope: [gentle/moderate/steep or % if known] | easements: [none noted / utility / stream buffer] | street type | buy-box match | relaxed: no slope/easement hard filter"
+
+Return ONLY clean JS array with exact fields. Include marginals with full flags in notes. Do not skip based on slope/easement alone.
+
+[
+  {
+    id: number,
+    address: string,
+    county: "Wake County",
+    state: "north-carolina",
+    city: string,
+    zip: string,
+    acres: number,
+    price: number,
+    status: "identified",
+    date: "2026-06-24",
+    notes: string,
+    source: string
+  }
+]

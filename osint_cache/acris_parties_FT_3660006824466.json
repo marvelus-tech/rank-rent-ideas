@@ -1,0 +1,68 @@
+[
+  {
+    "document_id": "FT_3660006824466",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "GLASGOW, GLENFORD",
+    "address_1": "686  E 45TH ST",
+    "country": "US",
+    "city": "BKLYN",
+    "state": "NY",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3660006824466",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "GLASGOW, EVELYN",
+    "address_1": "686  E 45TH ST",
+    "country": "US",
+    "city": "BKLYN",
+    "state": "NY",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3660006824466",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "AMERIQUEST MORTGAGECOMPANY",
+    "address_1": "1100  TOWN AND COUNTRY RD",
+    "country": "US",
+    "city": "ORANGE",
+    "state": "CA",
+    "good_through_date": "2026-05-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3660006824466",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "AMERIQUEST MORTGAGECOMPANY",
+    "address_1": "1100  TOWN AND COUNTRY RD",
+    "country": "US",
+    "city": "ORANGE",
+    "state": "CA",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3660006824466",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "GLASGOW, GLENFORD",
+    "address_1": "686  E 45TH ST",
+    "country": "US",
+    "city": "BKLYN",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_3660006824466",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "GLASGOW, EVELYN",
+    "address_1": "686  E 45TH ST",
+    "country": "US",
+    "city": "BKLYN",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

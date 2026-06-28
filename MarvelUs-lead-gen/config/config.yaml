@@ -1,0 +1,150 @@
+serpapi:
+  api_key: "YOUR_SERPAPI_API_KEY"
+  google_domain: "google.com"
+  hl: "en"
+
+browser:
+  engine: brave  # Use Brave Browser (not Chrome)
+  headless: true
+  slow_mo: 2000
+  max_results_per_search: 30
+  search_delay_seconds: 5
+
+discovery:
+  # Phase 3: Full-service bias categories
+  # Prioritized for businesses that typically need multiple services (AI Voice + SEO/Web + Reputation + Booking)
+  # Top tier: high call volume + poor digital maturity common
+  categories:
+    - med spa
+    - beauty clinic
+    - skin clinic
+    - plumbers
+    - electricians
+    - hvac
+    - roofers
+    - dental clinic
+    - chiropractic
+    - physiotherapists
+    - lawyers
+    - accountants
+    - cleaning services
+    - pest control
+    - locksmiths
+    - builders
+    - landscapers
+  locations:
+    # Melbourne only (for now)
+    - "Melbourne, VIC, Australia"
+  max_results_per_query: 20
+  full_service_bias: true  # Phase 3: prefer categories that produce multi-opportunity leads
+
+scoring:
+  weights:
+    no_chatbot: 30
+    no_click_to_call: 25
+    no_booking: 20
+    low_tech_sophistication: 15
+    high_rating_and_reviews: 10
+  thresholds:
+    high_rating: 4.4
+    high_reviews: 80
+
+# Phase 1: SEO signals (full-service upgrade)
+seo:
+  enabled: true
+  weights:
+    title: 25
+    meta_description: 25
+    schema: 15
+    headings: 15
+    alt_text: 5
+    viewport: 5
+    canonical: 5
+    onpage_relevance: 5
+  min_health_for_opportunity: 40  # below this = strong SEO fit opportunity
+
+# Feature flag for gradual rollout
+features:
+  enable_full_seo_scoring: true
+  enable_multi_dimensional_scoring: true  # Phase 2 - ENABLED
+
+multi_scoring:
+  weights:
+    ai_voice: 30
+    web_seo: 25
+    reputation: 20
+    booking: 15
+    contact_completeness: 10
+  thresholds:
+    high: 75
+    medium: 50
+    multi_opportunity_min: 65
+    min_dimensions_for_multi: 2
+
+
+pipeline:
+  default_followup_days: 3
+  second_followup_days: 7
+  pipeline_stages:
+    - cold
+    - contacted
+    - interested
+    - proposal
+    - closed
+
+# Phase 7: Auto-outreach generation
+outreach:
+  enabled: true
+  generate_on_new_leads: true
+  include_in_daily_report: true
+  templates:
+    # Templates are personalized using recommended_primary_service and is_multi_opportunity
+    sms:
+      full_stack: |
+        Hi {name_short},
+
+        Quick one — I help {category} businesses in {location} get more bookings with a 24/7 AI receptionist that answers, qualifies and books automatically.
+
+        We also fix weak websites/SEO and handle reputation.
+
+        Open to a 10-min chat this week?
+
+        [Your Name] Marvelus
+      ai_voice: |
+        Hi {name_short},
+
+        I help {category} in {location} stop missing calls with a natural-sounding AI receptionist that books clients 24/7.
+
+        Open to a quick 10-min look?
+
+        [Your Name] Marvelus
+    email_subject:
+      full_stack: "More bookings + better website for {name} in {location}"
+      ai_voice: "AI receptionist for {category} in {location} (24/7 booking)"
+    email_body:
+      full_stack: |
+        Hi {name},
+
+        I came across {name} while looking at strong {category} businesses in {location}.
+
+        A lot of places like yours are losing enquiries because calls go unanswered after hours and the website/SEO isn't converting well.
+
+        We’ve built a simple system that combines AI voice receptionist + website optimization + reputation management.
+
+        Would you be open to a short 10-15 min call this week?
+
+        Best,
+        [Your Name]
+        Marvelus
+
+limits:
+  daily_lead_limit: 3  # Live end-to-end flight - small batch to ensure completion
+
+storage:
+  leads_db: "data/processed/leads_db.json"
+  leads_csv: "data/processed/leads_master.csv"
+  leads_json: "data/processed/leads_master.json"
+  daily_delta_csv: "data/reports/daily_delta.csv"
+  interactions_csv: "data/processed/interactions.csv"
+  daily_report_dir: "data/reports"
+  dashboard_html: "output/dashboard.html"

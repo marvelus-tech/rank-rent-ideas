@@ -1,0 +1,73 @@
+========================================
+Daily Lead Gen — 2026-05-30
+Category: cleaning
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: cleaning
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - Clean House Melbourne: https://cleanhousemelbourne.com.au/?utm_source=google&utm_medium=organic&utm_campaign=google+my+business
+  - CLEANING MELBOURNE SERVICES PTY LTD: http://cleaningmelbourneservices.com.au/
+  - Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne: https://boostcleaningmelbourne.com.au/?utm_source=gmb_google&utm_medium=organic&utm_campaign=gmb
+  - Calibre Cleaning Melbourne: https://www.calibrecleaning.com.au/house-cleaning/melbourne/?utm_source=GMB_Melb
+  - Yes Cleaning - Commercial and Office Cleaning Melbourne: http://yescleaning.com.au/?utm_source=GBP&utm_medium=organic&utm_campaign=office
+  - Simply Spotless Melbourne: https://www.simplyspotless.com.au/cleaning-services-melbourne/?utm_source=GMB
+  - Fantastic Cleaners: https://fantasticcleaners.com.au/melbourne/?ot=4&utm_source=google&utm_medium=organic&utm_campaign=gmb-website-melbourne
+  - VCare’s End of lease cleaning Melbourne - Bond cleaning Melbourne | Vacate cleaning Melbourne: https://vcarecleaning.com.au/
+  - Spiffy Clean - Commercial and Office Cleaning Services Melbourne: https://www.spiffyclean.com.au/commercial-cleaning-melbourne/
+  - Inner City Maids: https://innercitymaids.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: Clean House Melbourne...
+  [2/10] Enriching: CLEANING MELBOURNE SERVICES PTY LTD...
+  [3/10] Enriching: Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne...
+  [4/10] Enriching: Calibre Cleaning Melbourne...
+  [5/10] Enriching: Yes Cleaning - Commercial and Office Cleaning Melbourne...
+  [6/10] Enriching: Simply Spotless Melbourne...
+  [7/10] Enriching: Fantastic Cleaners...
+  [8/10] Enriching: VCare’s End of lease cleaning Melbourne - Bond cleaning Melbourne | Vacate cleaning Melbourne...
+  [9/10] Enriching: Spiffy Clean - Commercial and Office Cleaning Services Melbourne...
+  [10/10] Enriching: Inner City Maids...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 Clean House Melbourne: score=100, opportunities=['seo_optimization', 'click_to_call', 'online_booking', 'reputation_management', 'ai_chatbot']
+  🔥 CLEANING MELBOURNE SERVICES PTY LTD: score=100, opportunities=['seo_optimization', 'click_to_call', 'online_booking', 'reputation_management', 'ai_chatbot']
+  🔥 Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne: score=100, opportunities=['seo_optimization', 'click_to_call', 'online_booking', 'reputation_management', 'ai_chatbot']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 71 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_cleaning_2026-05-30.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================

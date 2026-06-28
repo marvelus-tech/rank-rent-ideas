@@ -1,0 +1,208 @@
+=== 2026-06-13T10:44:38Z leadgen daily ===
+========================================
+Daily Lead Gen — 2026-06-13
+Category: cleaning
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: cleaning
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - CLEANING MELBOURNE SERVICES PTY LTD: http://cleaningmelbourneservices.com.au/
+  - Clean House Melbourne: https://cleanhousemelbourne.com.au/?utm_source=google&utm_medium=organic&utm_campaign=google+my+business
+  - Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne: https://boostcleaningmelbourne.com.au/?utm_source=gmb_google&utm_medium=organic&utm_campaign=gmb
+  - Calibre Cleaning Melbourne: https://www.calibrecleaning.com.au/house-cleaning/melbourne/?utm_source=GMB_Melb
+  - Yes Cleaning - Commercial and Office Cleaning Melbourne: http://yescleaning.com.au/?utm_source=GBP&utm_medium=organic&utm_campaign=office
+  - Spiffy Clean - Commercial and Office Cleaning Services Melbourne: https://www.spiffyclean.com.au/commercial-cleaning-melbourne/
+  - Inner City Maids: https://innercitymaids.com.au/
+  - VCare’s End of lease cleaning Melbourne - Bond cleaning Melbourne | Vacate cleaning Melbourne: https://vcarecleaning.com.au/
+  - Whistle Clean Australia | Office Cleaning Melbourne | Commercial Cleaning Melbourne: https://whistlecleanaustralia.com.au/?utm_medium=organic&utm_source=gmb
+  - Clean Group - Commercial Cleaning and Office Cleaning Melbourne: https://commercialcleaning.au/melbourne/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: CLEANING MELBOURNE SERVICES PTY LTD...
+  [2/10] Enriching: Clean House Melbourne...
+  [3/10] Enriching: Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne...
+  [4/10] Enriching: Calibre Cleaning Melbourne...
+  [5/10] Enriching: Yes Cleaning - Commercial and Office Cleaning Melbourne...
+  [6/10] Enriching: Spiffy Clean - Commercial and Office Cleaning Services Melbourne...
+  [7/10] Enriching: Inner City Maids...
+  [8/10] Enriching: VCare’s End of lease cleaning Melbourne - Bond cleaning Melbourne | Vacate cleaning Melbourne...
+  [9/10] Enriching: Whistle Clean Australia | Office Cleaning Melbourne | Commercial Cleaning Melbourne...
+  [10/10] Enriching: Clean Group - Commercial Cleaning and Office Cleaning Melbourne...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 CLEANING MELBOURNE SERVICES PTY LTD: score=100, opportunities=['ai_chatbot', 'online_booking', 'click_to_call', 'seo_optimization', 'reputation_management']
+  🔥 Clean House Melbourne: score=100, opportunities=['ai_chatbot', 'online_booking', 'click_to_call', 'seo_optimization', 'reputation_management']
+  🔥 Boost Bond Cleaning Melbourne - End of lease cleaning Melbourne | Vacate cleaners Melbourne: score=100, opportunities=['ai_chatbot', 'online_booking', 'click_to_call', 'seo_optimization', 'reputation_management']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 114 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_cleaning_2026-06-13.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+=== done ===
+=== 2026-06-13T23:00:00Z leadgen daily ===
+========================================
+Daily Lead Gen — 2026-06-14
+Category: plumbers
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: plumbers
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Traceback (most recent call last):
+  File "<string>", line 7, in <module>
+    leads = browser_search_with_retry(scraper, 'plumbers', 'Melbourne, Australia', max_retries=2)
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/browser_scraper.py", line 281, in browser_search_with_retry
+    return scraper.search_businesses(category=category, location=location)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/browser_scraper.py", line 60, in search_businesses
+    self._navigate_and_search(page, query)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/src/browser_scraper.py", line 71, in _navigate_and_search
+    page.goto("https://www.google.com/maps", wait_until="domcontentloaded", timeout=60000)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/sync_api/_generated.py", line 9362, in goto
+    self._sync(
+    ~~~~~~~~~~^
+        self._impl_obj.goto(
+        ^^^^^^^^^^^^^^^^^^^^
+            url=url, timeout=timeout, waitUntil=wait_until, referer=referer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+    )
+    ^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_frame.py", line 153, in goto
+    await self._channel.send(
+        "goto", self._navigation_timeout, locals_to_params(locals())
+    )
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "/Users/oktos/.openclaw/workspace/leadgen/.venv/lib/python3.14/site-packages/playwright/_impl/_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.google.com/maps
+Call log:
+  - navigating to "https://www.google.com/maps", waiting until "domcontentloaded"
+
+=== 2026-06-14T23:00:00Z leadgen daily ===
+========================================
+Daily Lead Gen — 2026-06-15
+Category: electricians
+========================================
+========================================
+Browser Pipeline + Contact Enrichment
+Category: electricians
+Location: Melbourne, Australia
+Limit: 10
+========================================
+
+[Step 1] Browser scraping Google Maps...
+Found 10 leads
+  - DMACK Electrix Group Pty Ltd | Electrician Frankston: http://dmackelectrix.com.au/
+  - Taskforce - Electrical, Gas and Smoke Alarm Safety Checks: https://www.taskforce.com.au/
+  - Millerwatts Electricians: https://www.millerwatts.com.au/
+  - Melbourne General Electrical Services: https://www.melbelectricalservices.com.au/
+  - Melbourne Wide Electrical & Plumbing: https://www.melbournewide.com.au/
+  - Near Me Electrical: https://www.nearmeelectrical.com.au/
+  - Allan Electrics Melbourne: https://allanelectricsmelbourne.com/
+  - SBH Electrical Melbourne: https://sbhelectrical.com.au/
+  - Eastern Melbourne Electricians: https://www.easternmelbourneelectricians.com/
+  - All Electrics Melbourne: https://allelectrics.com.au/
+Saved raw leads to data/processed/browser_raw.json
+
+[Step 2] Enriching contacts from websites...
+Enriching 10 leads...
+  [1/10] Enriching: DMACK Electrix Group Pty Ltd | Electrician Frankston...
+  [2/10] Enriching: Taskforce - Electrical, Gas and Smoke Alarm Safety Checks...
+  [3/10] Enriching: Millerwatts Electricians...
+  [4/10] Enriching: Melbourne General Electrical Services...
+  [5/10] Enriching: Melbourne Wide Electrical & Plumbing...
+  [6/10] Enriching: Near Me Electrical...
+  [7/10] Enriching: Allan Electrics Melbourne...
+  [8/10] Enriching: SBH Electrical Melbourne...
+  [9/10] Enriching: Eastern Melbourne Electricians...
+  [10/10] Enriching: All Electrics Melbourne...
+Saved enriched leads to: data/processed/browser_enriched.json
+
+[Step 3] Intelligence scoring...
+Priority breakdown:
+  🔥 Hot:   10
+  🌡️ Warm:  0
+  ❄️ Cold:  0
+  🔥 DMACK Electrix Group Pty Ltd | Electrician Frankston: score=100, opportunities=['click_to_call', 'reputation_management', 'ai_chatbot', 'online_booking', 'seo_optimization']
+  🔥 Taskforce - Electrical, Gas and Smoke Alarm Safety Checks: score=100, opportunities=['click_to_call', 'reputation_management', 'ai_chatbot', 'online_booking', 'seo_optimization']
+  🔥 Millerwatts Electricians: score=100, opportunities=['click_to_call', 'reputation_management', 'ai_chatbot', 'online_booking', 'seo_optimization']
+Saved scored leads to data/processed/browser_scored.json
+
+[Step 4] Generating outreach CSVs...
+All leads:     10 → data/reports/outreach_ready.csv
+Hot leads:     10 → data/reports/hot_leads.csv
+Warm leads:    0 → data/reports/warm_leads.csv
+
+========================================
+✅ Pipeline complete!
+Files:
+  data/processed/browser_raw.json       — raw Maps data
+  data/processed/browser_enriched.json  — with emails/socials
+  data/processed/browser_scored.json    — with intelligence scores
+  data/reports/outreach_ready.csv       — ALL leads
+  data/reports/hot_leads.csv            — 🔥 HOT leads only
+  data/reports/warm_leads.csv           — 🌡️ WARM leads only
+========================================
+
+[Obsidian Sync] Copying leads to vault...
+Master deduplicated: 121 unique leads
+
+========================================
+✅ Daily lead gen complete!
+Obsidian: /Users/oktos/Obsidian/Penelopi/Leads/By-Category/hot_electricians_2026-06-15.csv
+Master:   /Users/oktos/Obsidian/Penelopi/Leads/Master/hot_leads_master.csv
+========================================
+=== done ===

@@ -1,0 +1,50 @@
+[
+  {
+    "document_id": "FT_2030000685603",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "CHEMICAL BANK",
+    "address_1": "633  THIRD AVE.",
+    "country": "US",
+    "city": "NY",
+    "state": "NY",
+    "zip": "10017",
+    "good_through_date": "2026-03-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_2030000685603",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "ADAMS, JOSIE R",
+    "address_1": "1238  TINTON AVE.",
+    "country": "US",
+    "city": "BX",
+    "state": "NY",
+    "zip": "00000",
+    "good_through_date": "2026-03-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_2030000685603",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "ADAMS, JOSIE R.",
+    "address_1": "1238  TINTON AVE.",
+    "country": "US",
+    "city": "BX",
+    "state": "NY",
+    "zip": "00000",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_2030000685603",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "CHEMICAL BANK",
+    "address_1": "633  THIRD AVE.",
+    "country": "US",
+    "city": "NY",
+    "state": "NY",
+    "zip": "10017",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "run_date": "2026-06-24",
+  "prompt": "nc-wake-buybox-2026-06-24.txt",
+  "target_zips": ["27607", "27604", "27502"],
+  "criteria": {
+    "acres": "0.18-0.33",
+    "prices": {"27607": "<550k", "27604": "350-500k", "27502": "~400k"},
+    "filters": ["no_flood", "minimal_slope", "no_easements", "off_main_streets"]
+  },
+  "sources_checked": ["wake.gov_realestate", "wake_foreclosures", "imaps", "zillow_land_27604", "zillow_land_27607", "zillow_land_27502", "redfin", "landsearch"],
+  "builders_contacted": ["Loyd Builders (919-387-1455)", "Fuller Land & Development (919-417-0057)"],
+  "results": [],
+  "notes": "No lots found that strictly match all buy-box criteria on public sources as of run. Zillow/Redfin show limited small-lot inventory in target ZIPs under price caps. Wake foreclosures currently list none matching small vacant lots in 27604/27607/27502. Dashboard retains prior seeded placeholders.",
+  "status": "no_strict_matches"
+}

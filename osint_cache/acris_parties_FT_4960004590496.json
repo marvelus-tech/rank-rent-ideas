@@ -1,0 +1,46 @@
+[
+  {
+    "document_id": "FT_4960004590496",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "SHABAZZ, DECCA",
+    "address_1": "151-8 9 135TH AVENUE",
+    "country": "US",
+    "city": "JAMAICA",
+    "state": "NY",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4960004590496",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "CHEMICAL BANK",
+    "address_1": "300  JERICHO QUADRANGLE",
+    "country": "US",
+    "city": "JERICHO",
+    "state": "NY",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4960004590496",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "CHEMICAL BANK",
+    "address_1": "300  JERICHO QUADRANGLE",
+    "country": "US",
+    "city": "JERICHO",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4960004590496",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "SHABAZZ, DECCA",
+    "address_1": "151-8 9 135TH AVENUE",
+    "country": "US",
+    "city": "JAMAICA",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "document_id": "FT_4070004590507",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "CITY OF NEW YORK",
+    "address_1": "100  GOLD STREET",
+    "country": "US",
+    "city": "NEW YORK",
+    "state": "NY",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4070004590507",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "SHABAZZ, DACCA",
+    "address_1": "151-8 9 135TH AVENUE",
+    "country": "US",
+    "city": "QUEENS",
+    "state": "NY",
+    "good_through_date": "2026-04-30T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4070004590507",
+    "record_type": "P",
+    "party_type": "2",
+    "name": "CITY OF NEW YORK",
+    "address_1": "100  GOLD STREET",
+    "country": "US",
+    "city": "NEW YORK",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  },
+  {
+    "document_id": "FT_4070004590507",
+    "record_type": "P",
+    "party_type": "1",
+    "name": "SHABAZZ, DACCA",
+    "address_1": "151-8 9 135TH AVENUE",
+    "country": "US",
+    "city": "QUEENS",
+    "state": "NY",
+    "good_through_date": "2015-07-31T00:00:00.000"
+  }
+]
